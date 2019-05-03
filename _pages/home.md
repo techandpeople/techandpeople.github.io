@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "Tech & People Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Tech & People Lab at the University of Lisbon"
 sitemap: false
 permalink: /
 ---
