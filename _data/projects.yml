@@ -1,0 +1,46 @@
+- title: "Braile I/O"
+  area: access
+  image: hybrid.jpg
+  description: Braille-based input and output technologies designed to be used with commodity smartphones.
+  link:
+    url: https://arxiv.org/abs/1901.00149
+    display:  arxiv:1901.00149
+  highlight: 1
+
+
+- title: "Data-Driven Healthcare"
+  area: health
+  image: hybrid.jpg
+  description: Our first completely home-built STM is alive! And it has the world’s highest resonance frequency.
+  authors: I Battisti, G Verdoes, K van Oosten, KM Bastiaans, and MP Allan
+  link:
+    url: https://aip.scitation.org/doi/10.1063/1.5064442
+    display:  Rev. Sci. Instrum. 89, 123705 (2018)
+  highlight: 1
+
+- title: "Personalized Cognitive Stimulation"
+  area: health
+  image: hybrid.jpg
+  description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
+  authors: KM Bastiaans* & D Cho*, T Benschop, I Battisti, Y Huang, MS Golden, Q Dong, Y Jin, J Zaanen, MP Allan
+  link:
+    url: https://www.nature.com/articles/s41567-018-0300-z
+    display:  Nature Physics 14, 1183 (2018)
+
+- title: "Learning with Tangibles"
+  area: access
+  image: hybrid.jpg
+  description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
+  authors: KM Bastiaans* & D Cho*, T Benschop, I Battisti, Y Huang, MS Golden, Q Dong, Y Jin, J Zaanen, MP Allan
+  link:
+    url: https://www.nature.com/articles/s41567-018-0300-z
+    display:  Nature Physics 14, 1183 (2018)
+
+- title: "Auric"
+  image: hybrid.jpg
+  area: usec
+  description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
+  authors: KM Bastiaans* & D Cho*, T Benschop, I Battisti, Y Huang, MS Golden, Q Dong, Y Jin, J Zaanen, MP Allan
+  link:
+    url: https://www.nature.com/articles/s41567-018-0300-z
+    display:  Nature Physics 14, 1183 (2018)

@@ -5,12 +5,13 @@
 
 img { margin-bottom: 24px; 
      margin-top: 17px; 
-    border-radius:2%;
+    border-radius:0%;
 }
 
 
 body {
 	padding-top: 70px;
+	font-size: 16pt;
 }
 
 figcaption {
@@ -33,36 +34,18 @@ p.byline {
 }
 
 
-pubtit {
-	font-weight: bold;
-}
-
-firstp {
-}
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px; /* or 950px */
+  padding-left: 14px;
 }
 
-/* Home, News */
-#newsid p {
-	text-align: left;
-}
 
-#homeidtmp h1 {
-	text-align: center;
-}
-
-#newsid img {
-	margin-top: 6px;
-	margin-bottom: 6px;
-}
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
+#gridid img { margin: 0x 0px 0px 0; }
+#homeid img { margin: 0 0 0 0; border-radius:0%; box-shadow: 0px 0px 0px #888888 }
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 24px; }
 
@@ -70,24 +53,82 @@ firstp {
 /* Grid overrides */
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
 .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: 0px;
+	padding-right: 18px;
 }
 
 /* Grid overrides */
 .col-sm-4 {
-	padding-left: 26px;
-	padding-right: 26px;
+	padding-left: 0px;
+	padding-right: 8px;
+}
+
+.btn {
+	
+	margin: 10px;
+	background-color:white;
+	background: white;
+	box-shadow: 0px;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 0;
+}
+
+.btn:selected{
+	
+	margin: 10px;
+	background-color:black;
+	box-shadow: 0px;
+	border-width: 1px;
+	border-color: white;
+	color: white;
 }
 
 
-/* Carusel */
+/* Homepage */
 
-.carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+.title{
+	font-size: large;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	margin:0;
 }
 
+.description{
+	font-size: medium;
+	padding-top: 1px;
+	color: gray;
+	margin:0;
+}
+
+.detail{
+	font-size: small;
+	padding-top: 1px;
+	color: gray;
+	margin:0;	
+}
+
+.imgteam{
+	
+	margin-bottom: 5px;
+	margin-top: 30px;
+}
+
+.imgpub {
+	margin-top:8px;
+	padding:0;
+}
+
+.row {
+	
+	margin-left:0;
+	padding-left:0;
+}
+
+.filters{
+	
+	text-align:center;
+	margin-bottom: 10px;
+
+}

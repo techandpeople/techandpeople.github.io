@@ -1,31 +1,35 @@
-- title: "A strongly inhomogeneous superfluid in an iron-based superconductor"
-  image: SFpub.png
-  description: We succeeded in measuring the superfluid density with atomic resolution on an unconventional superconductor! In contrast to expectations for conventional superconductors, we find that the superfluid densisty is strongly inhomogeneous in FeTe0.55Se0.45.
-  authors: D Cho* & KM Bastiaans* & D Chatzopoulos*, GD Gu, MP Allan
-  link:
-    url: https://arxiv.org/abs/1901.00149
-    display:  arxiv:1901.00149
-  highlight: 1
-  news2:
+- title: Understanding the Authoring and Playthrough of Nonvisual Smartphone Tutorials
+  image: 2019_interact_risa.JPG
+  description: We sought to understand how sighted and blind people instruct other blind users to accomplish tasks on a mobile device. We also studied how those instructions enabled blind people to be successful. Results showed that a single pass of instructions was limited. A set of ways in which support can be provided is discussed.
+  authors: André Rodrigues, André Santos, Kyle Montague, Hugo Nicolau, Tiago Guerreiro
+  venue: INTERACT 2019 - 17th IFIP TC13 International Conference on Human-Computer Interaction, Paphos, Cyprus, September, 2019
+  pdf: https://tjvguerreiro.github.io/pubs/interact19-tutorials.pdf
+  area: access
 
-- title: "Definition of design guidelines, construction and performance of an ultra-stable scanning tunneling microscope for spectroscopic imaging"
-  image: DomePub.png
-  description: Our first completely home-built STM is alive! And it has the world’s highest resonance frequency.
-  authors: I Battisti, G Verdoes, K van Oosten, KM Bastiaans, and MP Allan
-  link:
-    url: https://aip.scitation.org/doi/10.1063/1.5064442
-    display:  Rev. Sci. Instrum. 89, 123705 (2018)
-  highlight: 1
-  news2:
+- title: Designing Personalized Therapy Tools For People with Dementia
+  image: 2019_w4a_scrapbook.png
+  description: We iteratively designed a web platform focused on personalized cognitive stimulation. The platform was deployed in clinical contexts for several months and iterated, being enriched with functionalities like group reminiscence, caregiver app, or biographical games. 
+  authors: Sérgio Alves, Andreia Cordeiro, Filipa Brito, Luís Carriço, Tiago Guerreiro
+  venue: W4A 2019 - 16th International Web for All Conference, San Francisco, USA, May, 2019
+  pdf: https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf
+  area: health
 
-- title: "Charge trapping and super-Poissonian noise centres in a cuprate superconductor"
-  image: Pub_BCl.png
-  description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
-  authors: KM Bastiaans* & D Cho*, T Benschop, I Battisti, Y Huang, MS Golden, Q Dong, Y Jin, J Zaanen, MP Allan
-  link:
-    url: https://www.nature.com/articles/s41567-018-0300-z
-    display:  Nature Physics 14, 1183 (2018)
-  highlight: 1
-  news1: <a href="https://aip.scitation.org/doi/10.1063/1.5043267">Instrument details in Rev. Sci. Instrum. 89, 093709 (2018)</a>
-  news2: See also <a href="http://www.quantumuniverse.nl/een-isolerende-supergeleider"> quantum universe </a> (in dutch), <a href="https://phys.org/news/2018-10-mysterious-insulating-phenomenon-superconductor.html"> Phys.org </a>, <a href="https://www.universiteitleiden.nl/en/news/2018/10/insulating-phenomenon-in-superconductor"> Leiden University news</a>, <a href="http://iop.uva.nl/content/news/2018/10/noise-helps-physicists-discover-insulating-phenomenon-in-superconductor.html"> UvA news<a>.
+- title: DataPark &#58; A Data-Driven Platform for Parkinson’s Disease Monitoring
+  image: 2019_wish_datapark.png
+  description: We developed a platform where usable reports are presented to clinicians, particuarly in the context of Parkinson's disease monitoring. The presented information originates from accelerometer sensors and subjective data collected over an Interactive Voice Response system. 
+  authors: Diogo Branco, César Mendes, Ricardo Pereira, André Rodrigues, Raquel Bouça, Kyle Montague, Joaquim Ferreira, Tiago Guerreiro
+  pdf: https://tjvguerreiro.github.io/pubs/interact19-tutorials.pdf
+  venue: WISH Symposium - Workgrounp on Interactive Systems in Healthcare, co-located with CHI'19, Glasgow, UK, May, 2019
+  area: health
+
+- title: Hybrid-Brailler &#58; Combining Physical and Gestural Interaction for Mobile Braille Input and Editing
+  image: 2018_chi_braille.jpg
+  description: We present a smartphone case with physical buttons that allow users to write Braille in the back and gesture with the thumbs on the touchscreen. This enabled the study of novel editing approachs, very limited in commodity smartphones and accessibility services.
+  authors: Daniel Trindade, André Rodrigues, Tiago Guerreiro, Hugo Nicolau
+  pdf: http://www.di.fc.ul.pt/~tjvg/amc/chi2018_hybrid_brailler.pdf
+  venue: ACM CHI 2018 - ACM Conference on Human Factors in Computing Systems, Montreal, Canada, May, 2018
+  area: access
+
+
+
 
