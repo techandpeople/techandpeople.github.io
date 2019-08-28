@@ -6,7 +6,7 @@ layout: project
 
 ###############
 # TO EDIT
-# prject title
+# project title
 title: Virtual Reality Systems and Hardware
 
 # project image
