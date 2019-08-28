@@ -31,6 +31,8 @@ incremental: false
 collections:
   projects:
     output: true
+  publications:
+    output: true
 
 # Markdown Processing
 kramdown:

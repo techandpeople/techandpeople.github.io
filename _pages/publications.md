@@ -19,25 +19,24 @@ permalink: /publications/
 </div>
 
 <div class="publications">
-
-{% for publi in site.data.publist %}
+{% for publication in site.publications %}
+    {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
 
 <div class="row {{ publi.area }}">
 
 <div class="col-sm-3">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive imgpub" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="float: left" />
 </div>
 <div class="col-sm-9">
-  <p class="title"><a href="{{ publi.link.url }}">{{ publi.title }}</a></p>
-  <p class="description">{{ publi.description }}</p>
-  <p class="detail">{{ publi.authors }}</p>
-  <p class="detail">{{ publi.venue }}</p>
+  <p class="title"><a href="{{ publication.pdf }}">{{ publication.title }}</a></p>
+  <p class="description">{{ publication.description }}</p>
+  <p class="detail">{{ publication.authors }}</p>
+  <p class="detail">{{ publication.venue }}</p>
  </div>
 
 </div>
 
 {% endfor %}
-
 </div>
 
 </div>
