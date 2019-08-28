@@ -16,7 +16,6 @@ We are an interdisciplinary Human-Computer Interaction research lab at [LASIGE](
 <button type="button" class="btn btn-default filter" id="access">Accessible Computing</button>
 <button type="button" class="btn btn-default filter" id="health">Pervasive Healthcare</button>
 <button type="button" class="btn btn-default filter" id="usec">Usable Privacy</button>
-
 </div>
 
 <div class="projects">

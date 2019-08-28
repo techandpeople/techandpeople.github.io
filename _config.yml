@@ -7,6 +7,7 @@
 
 # Site settings
 title: Tech & People Lab
+name: Tech & People Lab
 email: tjvg@di.fc.ul.pt
 description: > # this means to ignore newlines until "baseurl:"
   The #Tech&PeopleLab is an HCI research lab at LASIGE, Faculdade de Ciências, Universidade de Lisboa, led by Tiago Guerreiro.
