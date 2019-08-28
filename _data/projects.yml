@@ -1,4 +1,5 @@
 - title: "Braile I/O"
+  link_friendly_name: "brailleio"
   area: access
   image: hybrid.jpg
   description: Braille-based input and output technologies designed to be used with commodity smartphones.
@@ -6,7 +7,6 @@
     url: https://arxiv.org/abs/1901.00149
     display:  arxiv:1901.00149
   highlight: 1
-
 
 - title: "Data-Driven Healthcare"
   area: health
