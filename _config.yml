@@ -28,7 +28,9 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+collections:
+  projects:
+    output: true
 
 # Markdown Processing
 kramdown:

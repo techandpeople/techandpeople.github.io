@@ -20,16 +20,21 @@ We are an interdisciplinary Human-Computer Interaction research lab at [LASIGE](
 </div>
 
 <div class="projects">
-{% for project in site.data.projects %}
+{% for project in site.projects %}
+    {% if project.link %}
+        {% assign proj_url = project.link %}
+    {% else %}
+        {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
+    {% endif %}
 
 <div class="col-sm-4 {{ project.area }}">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image }}" width="100%" class="img-responsive" style="float: left" />
+  <a href="{{ proj_url }}">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="float: left" /></a>
   <p class="title">{{ project.title }}</p>
   <p class="description">{{ project.description }}</p>
 </div>
 
 {% endfor %}
 </div>
-
 </div>
 

@@ -1,10 +1,10 @@
 ---
 ---
-    
+
 @import "bootstrap";
 
-img { margin-bottom: 24px; 
-     margin-top: 17px; 
+img { margin-bottom: 24px;
+     margin-top: 17px;
     border-radius:0%;
 }
 
@@ -19,8 +19,6 @@ figcaption {
     margin-top: -20px;
     margin-bottom: 20px;
 }
-
-
 
 /* Top navigation bar */
 
@@ -64,7 +62,7 @@ p.byline {
 }
 
 .btn {
-	
+
 	margin: 10px;
 	background-color:white;
 	background: white;
@@ -75,7 +73,7 @@ p.byline {
 }
 
 .btn:selected{
-	
+
 	margin: 10px;
 	background-color:black;
 	box-shadow: 0px;
@@ -110,7 +108,7 @@ p.byline {
 }
 
 .imgteam{
-	
+
 	margin-bottom: 5px;
 	margin-top: 30px;
 }
@@ -121,14 +119,25 @@ p.byline {
 }
 
 .row {
-	
+
 	margin-left:0;
 	padding-left:0;
 }
 
 .filters{
-	
 	text-align:center;
 	margin-bottom: 10px;
+}
 
+.panel {
+  margin-top: 22px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
+
+.project-people{
+	list-style-type: none;
+	padding-left: 0%;
 }
