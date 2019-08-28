@@ -5,18 +5,16 @@
 
   <body>
 
-    <div class="wrapper-container">
-      {% include header.html %}
-
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
+    {% include header.html %}
+    <div id="wrap">
+      <div id="main" class="container-fluid clear-top">
+        <div class="row">
           {{ content }}
         </div>
       </div>
-
-      {% include footer.html %}
     </div>
-
-  </body>
-
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+</body>
 </html>
