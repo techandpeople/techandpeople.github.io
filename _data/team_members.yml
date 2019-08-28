@@ -7,9 +7,21 @@ tjvg:
     webpage: "https://tjvguerreiro.github.io"
     photo: tjvg.png
     info: "Assistant Professor, Group Leader"
+    scholar: "link_to_scholar"
+    mail: "tjvg@di.fc.ul.pt"
+
+afpr:
+    name: "André Rodrigues"
+    webpage: "https://andrefprodrigues.github.io"
+    photo: arbs.jpg
+    info: "Hired Researcher"
+    scholar: "link_to_scholar"
+    mail: "afrodrigues@fc.ul.pt"
 
 arbs:
     name: "André Santos"
-    webpage: "https://tjvguerreiro.github.io"
+    webpage: "https://arbsantos.github.io"
     photo: arbs.jpg
     info: "Hired Researcher"
+    scholar: "link_to_scholar"
+    mail: "arbsantos@fc.ul.pt"
