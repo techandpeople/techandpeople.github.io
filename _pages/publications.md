@@ -22,7 +22,7 @@ permalink: /publications/
 {% for publication in site.publications %}
     {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
 
-<div class="row {{ publi.area }}">
+<div class="row {{ publication.area }}">
 
 <div class="col-sm-3">
   <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="float: left" />
