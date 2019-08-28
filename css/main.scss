@@ -139,7 +139,7 @@ p.byline {
 
 .panel {
   margin-bottom: 0;
-  margin-top: 22px;
+  margin-top: 0;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -147,6 +147,7 @@ p.byline {
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
 .panel-footer{
+	padding: 0;
 	border-top: 1px solid #eee;
 	background-color: #fff;
 }
@@ -173,7 +174,7 @@ p.byline {
   margin-top: -150px; /* negative value of footer height */
   height: 150px;
   clear:both;
-  padding-top:20px;
+  padding-top: 15px;
 }
 
 #wrap {
@@ -185,10 +186,3 @@ p.byline {
   padding-bottom:150px; /* this needs to be bigger than footer height*/
 }
 
-.footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 150px;
-  clear:both;
-  padding-top:20px;
-}
