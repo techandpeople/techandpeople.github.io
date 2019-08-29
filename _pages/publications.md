@@ -21,11 +21,10 @@ permalink: /publications/
 <div class="publications">
 {% for publication in site.publications %}
     {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
-
+<div class="card">
 <div class="row {{ publication.area }}">
-
 <div class="col-sm-3">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="margin-top:0; margin-bottom:0; float: left" />
 </div>
 <div class="col-sm-9">
   <p class="title"><a href="{{ publication.pdf }}">{{ publication.title }}</a></p>
@@ -33,7 +32,7 @@ permalink: /publications/
   <p class="detail">{{ publication.authors }}</p>
   <p class="detail">{{ publication.venue }}</p>
  </div>
-
+</div>
 </div>
 
 {% endfor %}

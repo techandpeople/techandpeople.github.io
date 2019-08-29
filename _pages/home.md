@@ -27,10 +27,14 @@ We are an interdisciplinary Human-Computer Interaction research lab at [LASIGE](
     {% endif %}
 
 <div class="col-sm-4 {{ project.area }}">
-  <a href="{{ proj_url }}">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="float: left" /></a>
-  <p class="title">{{ project.title }}</p>
-  <p class="description">{{ project.description }}</p>
+<div class="card">
+<a href="{{ proj_url }}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="float: left" /></a>
+<div class="card-body">
+<p class="title">{{ project.title }}</p>
+<p class="description">{{ project.description }}</p>
+</div>
+</div>
 </div>
 
 {% endfor %}

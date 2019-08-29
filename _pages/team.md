@@ -16,14 +16,16 @@ permalink: /team/
 {% for member in site.data.team_members.members %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="float: left" />
-  <p class="title">{{ person.name }}</p>
-  <p class="detail">{{ person.info }}</p>
-  <p class="detail">[<a href="mailto:person.email">web</a>] - [<a href="">scholar</a>] - [<a href="mailto:person.email">e-mail</a>]</p>
+<div class="card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="margin-top: 0; float: left" />
+<div class="card-body">
+<p class="title">{{ person.name }}</p>
+<p class="detail">{{ person.info }}</p>
+<p class="detail">[<a href="mailto:{{ person.webpage }}">web</a>] - [<a href="{{ person.scholar }}">scholar</a>] - [<a href="mailto:{{ person.mail }}">e-mail</a>]</p>
 </div>
-
+</div>
+</div>
 {% endfor %}
-
 </div>
 
 </div>
