@@ -21,7 +21,7 @@ permalink: /team/
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
 <p class="detail">{{ person.info }}</p>
-<p class="detail">[<a href="mailto:{{ person.webpage }}">web</a>] - [<a href="{{ person.scholar }}">scholar</a>] - [<a href="mailto:{{ person.mail }}">e-mail</a>]</p>
+<p class="detail">[<a href="{{ person.webpage }}">web</a>] - [<a href="{{ person.scholar }}">scholar</a>] - [<a href="mailto:{{ person.mail }}">e-mail</a>]</p>
 </div>
 </div>
 </div>
