@@ -25,3 +25,11 @@ arbs:
     info: "Hired Researcher"
     scholar: "link_to_scholar"
     mail: "arbsantos@fc.ul.pt"
+
+djrb:
+    name: "Diogo Branco"
+    webpage: "https://toadd.github.io"
+    photo: djrb.jpg
+    info: "Hired Researcher"
+    scholar: "link_to_scholar"
+    mail: "djbranco@fc.ul.pt"
