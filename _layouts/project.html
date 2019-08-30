@@ -15,4 +15,25 @@ layout: default
 <div class="row">
 {{ content }}
 </div>
+<div class="row">
+<h2> Publications </h2>
+<ul>
+{% assign my_array = page.id | split: "/" %}
+{% assign proj_code = my_array.last %}
+{% for publication in site.publications %}
 
+{% if publication.project %}
+{% if proj_code == publication.project %}
+<li>
+<p>
+<strong><a href="{{publication.pdf}}">{{publication.title}}</a></strong><br/>
+{{publication.authors}}<br/>
+{{publication.venue}}
+</p>
+</li>
+{% endif %}
+{% endif %}
+
+{% endfor %}
+</ul>
+</div>

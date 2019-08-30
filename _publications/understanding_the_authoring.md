@@ -31,6 +31,8 @@ pdf: https://tjvguerreiro.github.io/pubs/interact19-tutorials.pdf
 
 venue: INTERACT 2019 - 17th IFIP TC13 International Conference on Human-Computer Interaction, Paphos, Cyprus, September, 2019
 
+project: smartphone_accessibility
+
 # area for filter purpose
 area: access
 ###############
