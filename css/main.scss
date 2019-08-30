@@ -44,7 +44,7 @@ p.byline {
 
 
 /* Team & Publications */
-#gridid img { margin: 0x 0px 0px 0; }
+#gridid img { margin: 0px 0px 0px 0px; }
 #homeid img { margin: 0 0 0 0; border-radius:0%; box-shadow: 0px 0px 0px #888888 }
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 24px; }
@@ -157,6 +157,11 @@ p.byline {
 	padding-left: 0%;
 }
 
+.project-people-thumb{
+	list-style-type: none;
+	padding-left: 15px;
+}
+
 .footer {
   position: relative;
   margin-top: -150px; /* negative value of footer height */
@@ -184,15 +189,74 @@ p.byline {
 }
 
 .card-body {
-  padding: 2px 16px;
+  padding: 0 16px 16px 16px;
 }
 
 .card-team-member{
-	height: 300px;
+	min-height: 30vh;
 }
 
-.team-links{
-	margin-bottom: 15px;
-	position: absolute;
-	bottom: 0;
+.card-publication{
+	min-height: 20vh;
 }
+
+@media (min-width: 768px ) {
+
+	.card-project{
+		min-height: 40vh;
+		max-height: 40vh
+	}
+
+	.team-links {
+    position: absolute;
+		bottom: 0;
+		margin-bottom: 15px
+	}
+
+	.card-publication-venue {
+    position: absolute;
+		bottom: 0;
+		margin-bottom: 15px
+	}
+
+	.card-project-footer{
+		display: contents;
+    position: absolute;
+		bottom: 0;
+		margin-bottom: 15px;
+	}
+
+	.publication-imgage{
+		max-width: 250px;
+		overflow: hidden;
+	}
+
+	.project-people-thumb{
+		position: absolute;
+		bottom: 0;
+		display: flex;
+		margin-bottom: 20px;
+		padding-left: 0px;
+	}
+
+	.row-thumb{
+		display: flex; align-items: center;
+	}
+}
+
+@media (max-width: 767px ) {
+	.col-sm-3{
+		padding-right: 15px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}
+

@@ -1,0 +1,21 @@
+<ul class="project-people-thumb">
+{% for uname in include.people %}
+<li>
+{% if site.data.team_members[uname] %}
+{% assign person = site.data.team_members[uname] %}
+{% assign name = person.display_name %}
+{% if person.photo %}
+<a class="person" href="{{person.webpage}}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="32" height="32" class="img-responsive imgteam" style="margin: 4px 8px 0px 0px; float: left" />
+</a>
+{% else %}
+<a class="person" href="{{person.webpage}}">
+{{uname}}
+</a>
+{% endif %}
+{% else %}
+<div>{{uname}}</div>
+{% endif %}
+</li>
+{% endfor %}
+</ul>
