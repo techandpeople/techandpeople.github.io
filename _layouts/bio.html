@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% if page.notitle != true %}
+<div class="row">
+<div class="col-md-4">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ page.photo }}" class="img-responsive imgteam" style="width:15vw; height:100%; float: left" />
+</div>
+<div class="col-md-8">
+<h1>{{page.name}}</h1>
+<h3>{{page.info}}</h3>
+{{ content }}
+</div>
+</div>
+<div class="row" style="margin-top:32px; border-top: 1px solid rgb(44, 44, 44)">
+PUBLICATIONS GO HERE
+</div>
+{% endif %}

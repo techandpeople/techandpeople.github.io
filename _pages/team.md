@@ -16,17 +16,18 @@ permalink: /team/
 {% for member in site.data.team_members.members %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
-<div class="card card-team-member">
-<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="margin-top: 0; float: left" />
+<div id="{{member}}" class="card card-team-member">
+<a href="{{ site.url }}{{ site.baseurl }}/team/{{member}}.html">
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="margin-top: 0; float: left" /></a>
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
 <p class="detail">{{ person.info }}</p>
 <p class="detail team-links">
 {% for link in person.links %}
 {% if link.name == 'email' %}
-[<a href="mailto:{{link.url}}">{{link.name}}</a>]
+[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
 {% else %}
-[<a href="{{link.url}}">{{link.name}}</a>]
+[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
 {%endif%}
 {% endfor %}
 </p>
@@ -35,5 +36,4 @@ permalink: /team/
 </div>
 {% endfor %}
 </div>
-
 </div>

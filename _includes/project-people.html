@@ -5,8 +5,8 @@
         {% assign person = site.data.team_members[uname] %}
         {% assign name = person.display_name %}
         {% if person.photo %}
-        <a class="person" href="{{person.webpage}}">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="64" height="64" class="img-responsive imgteam" style="margin: 10px; float: left" />
+        <a class="person" href="{{person.links[0].url}}" target="_blank">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="64" height="64" class="img-responsive imgteam" style="margin: 10px 20px 10px 0px;; float: left" />
         </a>
         {% else %}
         <a class="person" href="{{person.webpage}}">
