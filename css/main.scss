@@ -170,7 +170,6 @@ p.byline {
 }
 
 #main {
-  overflow:auto;
   padding-bottom:150px; /* this needs to be bigger than footer height*/
 }
 
@@ -186,4 +185,14 @@ p.byline {
 
 .card-body {
   padding: 2px 16px;
+}
+
+.card-team-member{
+	height: 300px;
+}
+
+.team-links{
+	margin-bottom: 15px;
+	position: absolute;
+	bottom: 0;
 }

@@ -1,45 +1,66 @@
 members:
   - tjvg
+  - afpr
   - arbs
   - djrb
   - saa
 
 tjvg:
     name: "Tiago Guerreiro"
-    webpage: "https://tjvguerreiro.github.io"
     photo: tjvg.png
     info: "Assistant Professor, Group Leader"
-    scholar: "link_to_scholar"
-    mail: "tjvg@di.fc.ul.pt"
+    links:
+        - name: web
+          url: https://tjvguerreiro.github.io
+        - name: email
+          url: tjvg@di.fc.ul.pt
+        - name: schollar
+          url: https://scholar.google.com/citations?user=mo6UPuIAAAAJ
 
 afpr:
     name: "André Rodrigues"
-    webpage: "https://andrefprodrigues.github.io"
-    photo: arbs.jpg
-    info: "Hired Researcher"
-    scholar: "link_to_scholar"
-    mail: "afrodrigues@fc.ul.pt"
+    photo: afpr.jpg
+    info: "PhD Student"
+    links:
+        - name: web
+          url: https://andrefprodrigues.github.io
+        - name: email
+          url: afrodrigues@fc.ul.pt
+        - name: schollar
+          url: https://scholar.google.com/citations?user=zZd_sZYAAAAJ
 
 arbs:
     name: "André Santos"
-    webpage: "https://arbsantos.github.io"
     photo: arbs.jpg
     info: "Hired Researcher"
-    scholar: "link_to_scholar"
-    mail: "arbsantos@fc.ul.pt"
+    links:
+        - name: web
+          url: https://arbsantos.github.io
+        - name: email
+          url: arbsantos@fc.ul.pt
+        - name: schollar
+          url: https://scholar.google.com/citations?user=R65EmPMAAAAJ
+        - name: twitter
+          url: https://twitter.com/lemit93
 
 djrb:
     name: "Diogo Branco"
-    webpage: "https://web.lasige.di.fc.ul.pt/~dbranco/"
     photo: djrb.jpg
     info: "PhD Student"
-    scholar: "link_to_scholar"
-    mail: "djbranco@fc.ul.pt"
-    
+    links:
+        - name: web
+          url: https://web.lasige.di.fc.ul.pt/~dbranco/
+        - name: email
+          url: djbranco@fc.ul.pt
+
 saa:
     name: "Sérgio Alves"
-    webpage: "https://openlab.ncl.ac.uk/people/sergio-alves/"
     photo: saa.jpg
     info: "PhD Student"
-    scholar: "https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ"
-    mail: "sfalves@fc.ul.pt"
+    links:
+        - name: web
+          url: https://openlab.ncl.ac.uk/people/sergio-alves/
+        - name: email
+          url: sfalves@fc.ul.pt
+        - name: schollar
+          url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
