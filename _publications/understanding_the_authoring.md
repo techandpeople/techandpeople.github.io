@@ -14,7 +14,7 @@ image:
   name: 2019_interact_risa.JPG
   alt-text: "risa" # provide a description for the image #a11y
 
-# short description of the project
+# short description of the publication
 description: We sought to understand how sighted and blind people instruct other blind users to accomplish tasks on a mobile device. We also studied how those instructions enabled blind people to be successful. Results showed that a single pass of instructions was limited. A set of ways in which support can be provided is discussed.
 
 # nickname of the person set in data/team_members.yml
@@ -40,7 +40,6 @@ area: access
 ###############
 # actual page
 ---
-We sought to understand how sighted and blind people instruct other blind users to accomplish tasks on a mobile device. We also studied how those instructions enabled blind people to be successful. Results showed that a single pass of instructions was limited. A set of ways in which support can be provided is discussed.
 
 ## Abstract
 Mobile device users are required to constantly learn to use

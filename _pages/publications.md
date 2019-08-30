@@ -25,7 +25,7 @@ permalink: /publications/
 <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
 </div>
 <div class="card-body" style="padding-left: 0px; padding-right: 0px; padding-bottom:0">
-<div class="col-sm-9">
+<div class="col-sm-12">
 <p class="title" style="padding-top: 0;"><a href="{{ publication.pdf }}">{{ publication.title }}</a></p>
 <p class="description" style="margin-bottom: 10px;">{{ publication.description }}</p>
 <p class="detail">{{ publication.authors }}</p>

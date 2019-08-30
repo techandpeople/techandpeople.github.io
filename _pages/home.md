@@ -8,7 +8,7 @@ permalink: /
 
 <div class="container-fluid">
 
-We are an interdisciplinary Human-Computer Interaction research lab at [LASIGE](http://www.lasige.di.fc.ul.pt), [Faculdade de Ciências](http://ciencias.ulisboa.pt) da [Universidade de Lisboa](http://www.ulisboa.pt). We design, build, and evaluate interactive technologies that address high value social issues such as accessible computing, pervasive healthcare, and usable privacy.
+We are an interdisciplinary Human-Computer Interaction research lab at <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>, <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>[Faculdade de Ciências](http://ciencias.ulisboa.pt) da [Universidade de Lisboa](http://www.ulisboa.pt). We design, build, and evaluate interactive technologies that address high value social issues such as accessible computing, pervasive healthcare, and usable privacy.
 
 <div class="filters">
 
@@ -27,17 +27,25 @@ We are an interdisciplinary Human-Computer Interaction research lab at [LASIGE](
     {% endif %}
 
 <div class="col-sm-4 {{ project.area }}">
-<div class="card card-project {{ project.area }}">
+<div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
 <a href="{{ proj_url }}">
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
 <div class="card-body {{ project.area }}">
-<p class="title">{{ project.title }}</p>
-<p class="description">{{ project.description }}</p>
-{% if project.people %}
+<p class="title" style="overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.title }}</a></p>
+<p class="description" style="overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 6;
+   -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.description }}</a></p>
+<!-- {% if project.people %}
 <div class="card-project-footer {{ project.area }}">
 {% include project-people-thumbnail.html people=project.people %}
 </div>
-{% endif %}
+{% endif %} -->
 </div>
 
 </div>
@@ -46,4 +54,17 @@ We are an interdisciplinary Human-Computer Interaction research lab at [LASIGE](
 {% endfor %}
 </div>
 </div>
-
+<script>
+document.onclick = function(e) {   //when the document body is clicked
+    if (window.event) {
+        e = event.srcElement;           //assign the element clicked to e (IE 6-8)
+    }
+    else {
+        e = e.target;                   //assign the element clicked to e
+    }
+    if (e.className && e.className.indexOf('card') != -1) {
+        //if the element has a class name, and that is 'someclass' then...
+        window.open(e.id,"_self");
+    }
+}
+</script>

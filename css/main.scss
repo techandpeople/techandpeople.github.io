@@ -90,7 +90,6 @@ p.byline {
 	border-bottom-width: 0;
 }
 
-
 /* Homepage */
 
 .title{
@@ -175,7 +174,9 @@ p.byline {
 }
 
 #main {
-  padding-bottom:150px; /* this needs to be bigger than footer height*/
+	padding-bottom:150px; /* this needs to be bigger than footer height*/
+	padding-left:0;
+	padding-right:0;  
 }
 
 .card {
@@ -253,7 +254,6 @@ p.byline {
 		padding-left: 0px;
 		padding-right: 15px;
 	}
-
 	.project-people-thumb{
 		padding-left: 0px;
 		min-height: 20px;
