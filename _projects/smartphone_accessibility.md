@@ -15,8 +15,9 @@ image:
   alt-text: "Braille I/O" # provide a description for the image #a11y
 
 # short description of the project
-description: Best project ever!
-summary: ...Summary place older...
+description: "Virtual reality (VR) video applications couple complex camera systems and head-mounted devices with computational photography algorithms to generate immersive, panoramic video.
+Rendering 3D-360◦ VR video from a camera rig is computation-intensive and typically performed offline.
+Moreover, efficiently managing the resulting VR videos for low-bandwidth viewing is challenging."
 
 # nickname of the person set in data/team_members.yml
 people:
@@ -33,10 +34,6 @@ area: access
 ###############
 # actual page
 ---
-Virtual reality (VR) video applications couple complex camera systems and head-mounted devices with computational photography algorithms to generate immersive, panoramic video.
-Rendering 3D-360◦ VR video from a camera rig is computation-intensive and typically performed offline.
-Moreover, efficiently managing the resulting VR videos for low-bandwidth viewing is challenging.
-
 ## LightDB
 We are designing a database management system, LightDB, to efficiently ingest, store, and deliver VR content at scale.
 LightDB targets both live and prerecorded light field and 360◦ VR videos.
