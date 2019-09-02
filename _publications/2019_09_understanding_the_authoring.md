@@ -11,7 +11,7 @@ title: Understanding the Authoring and Playthrough of Nonvisual Smartphone Tutor
 
 # project image
 image:
-  name: 2019_interact_risa.JPG
+  name: 2019_interact_risa.jpg
   alt-text: "risa" # provide a description for the image #a11y
 
 # short description of the publication
@@ -31,7 +31,8 @@ pdf: https://tjvguerreiro.github.io/pubs/interact19-tutorials.pdf
 
 venue: INTERACT 2019 - 17th IFIP TC13 International Conference on Human-Computer Interaction, Paphos, Cyprus, September, 2019
 
-project: smartphone_accessibility
+projects:
+  - smartphone_accessibility
 
 # area for filter purpose
 area: access

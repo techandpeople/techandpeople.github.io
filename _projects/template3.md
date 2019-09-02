@@ -7,7 +7,7 @@ layout: project
 ###############
 # TO EDIT
 # project title
-title: Template
+title: Template3
 
 # project image
 image:

@@ -8,7 +8,6 @@ permalink: /publications/
 <style>
   p {margin : 0;}
 </style>
-<div class="container-fluid">
 # Publications
 <div class="filters">
 <button type="button" class="btn btn-default filterPub" id="all">All</button>
@@ -17,7 +16,7 @@ permalink: /publications/
 <button type="button" class="btn btn-default filterPub" id="usec">Usable Privacy</button>
 </div>
 <div class="publications">
-{% for publication in site.publications %}
+{% for publication in site.publications reversed %}
 {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
 <div class="card {{ publication.area }}" style="padding: 15px">
 <div class="row row-thumb" style="margin-bottom: 0; ">
@@ -29,11 +28,10 @@ permalink: /publications/
 <p class="title" style="padding-top: 0;"><a href="{{ publication.pdf }}">{{ publication.title }}</a></p>
 <p class="description" style="margin-bottom: 10px;">{{ publication.description }}</p>
 <p class="detail">{{ publication.authors }}</p>
-<p class="detail" style="margin-bottom: 10px;">{{ publication.venue }}</p>
+<p class="detail">{{ publication.venue }}</p>
 </div>
 </div>
 </div>
 </div>
 {% endfor %}
-</div>
 </div>

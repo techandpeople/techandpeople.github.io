@@ -38,7 +38,6 @@ p.byline {
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px; /* or 950px */
-  padding-left: 14px;
 }
 
 
@@ -126,9 +125,8 @@ p.byline {
 }
 
 .row {
-
-	margin-left:0;
-	padding-left:0;
+	margin:0;
+	padding:0;
 }
 
 .filters{
@@ -175,8 +173,6 @@ p.byline {
 
 #main {
 	padding-bottom:150px; /* this needs to be bigger than footer height*/
-	padding-left:0;
-	padding-right:0;  
 }
 
 .card {
@@ -203,6 +199,22 @@ p.byline {
 
 @media (min-width: 768px ) {
 
+	#main {
+		padding-left:0;
+		padding-right:0;
+	}
+
+	#gridid {
+		padding-right:0;
+	}
+
+	.navbar-default .navbar-nav > li > a{
+		padding-right: 0px;
+		padding-left: 30px;
+	}
+	.navbar-brand{
+		padding-left: 0px;
+	}
 	.card-project{
 		min-height: 40vh;
 		max-height: 40vh
@@ -246,8 +258,19 @@ p.byline {
 }
 
 @media (max-width: 767px ) {
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
 	.col-sm-3{
-		padding-right: 15px;
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
 	}
 	.col-sm-9{
 		padding-top: 15px;

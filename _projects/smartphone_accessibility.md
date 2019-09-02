@@ -15,14 +15,12 @@ image:
   alt-text: "Braille I/O" # provide a description for the image #a11y
 
 # short description of the project
-description: "Virtual reality (VR) video applications couple complex camera systems and head-mounted devices with computational photography algorithms to generate immersive, panoramic video.
-Rendering 3D-360◦ VR video from a camera rig is computation-intensive and typically performed offline.
-Moreover, efficiently managing the resulting VR videos for low-bandwidth viewing is challenging."
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Ut ornare lectus sit amet est placerat in egestas erat. Lectus quam id leo in vitae turpis. Commodo elit at imperdiet dui. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Ipsum suspendisse ultrices gravida dictum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. At augue eget arcu dictum varius duis at consectetur. Scelerisque purus semper eget duis at tellus at. Viverra vitae congue eu consequat ac."
 
 # nickname of the person set in data/team_members.yml
 people:
-  - arbs
   - afpr
+  - arbs
 
 # project code
 code: smartphone_accessibility
@@ -34,16 +32,13 @@ area: access
 ###############
 # actual page
 ---
-## LightDB
-We are designing a database management system, LightDB, to efficiently ingest, store, and deliver VR content at scale.
-LightDB targets both live and prerecorded light field and 360◦ VR videos.
-Content delivered through LightDB requires up to 60% less bandwidth than existing methods and scales to many concurrent connections.
+## Section 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Ut ornare lectus sit amet est placerat in egestas erat. Lectus quam id leo in vitae turpis. Commodo elit at imperdiet dui. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Ipsum suspendisse ultrices gravida dictum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. At augue eget arcu dictum varius duis at consectetur. Scelerisque purus semper eget duis at tellus at. Viverra vitae congue eu consequat ac.
 
-## Hardware-Friendly Bilateral Solving
-We have designed a new algorithm, the hardware-friendly bilateral solver, that enables real-time 3D-360◦ VR video rendering.
-Our algorithm is easily parallelized, achieving a 4x speedup on CPU and 32x speedup on GPU over a baseline CPU implementation.
-We also designed an FPGA-based hardware accelerator that utilizes reduced-precision computation and the parallelism inherent in our algorithm to achieve further speedups over our CPU and GPU implementations while consuming an order of magnitude less power.
-The FPGA design's power efficiency enables practical real-time VR video processing at the camera rig or in the cloud.
+## Section 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus mauris ultrices eros in. Ultrices tincidunt arcu non sodales neque sodales. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Ultricies lacus sed turpis tincidunt id. Auctor eu augue ut lectus arcu. In aliquam sem fringilla ut morbi. Ultrices neque ornare aenean euismod elementum nisi. Est pellentesque elit ullamcorper dignissim. Orci dapibus ultrices in iaculis nunc sed. Nibh praesent tristique magna sit amet purus gravida. Arcu vitae elementum curabitur vitae nunc sed. Et odio pellentesque diam volutpat commodo. In arcu cursus euismod quis viverra.
+
+Quam elementum pulvinar etiam non quam. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Mauris rhoncus aenean vel elit scelerisque mauris. Euismod lacinia at quis risus sed. In nulla posuere sollicitudin aliquam ultrices sagittis. Varius duis at consectetur lorem donec massa sapien faucibus et. Dignissim convallis aenean et tortor at. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Tincidunt augue interdum velit euismod in. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Ut ornare lectus sit amet est placerat in egestas erat. In mollis nunc sed id semper risus in hendrerit gravida. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Vitae justo eget magna fermentum iaculis eu non diam. Enim praesent elementum facilisis leo vel fringilla est. Massa massa ultricies mi quis hendrerit dolor magna. Arcu ac tortor dignissim convallis aenean et tortor.
 
 
 

@@ -7,12 +7,12 @@ layout: project
 ###############
 # TO EDIT
 # project title
-title: Template
+title: Braille I/O
 
 # project image
 image:
   name: hybrid.jpg
-  alt-text: "alternative text for the image" # provide a description for the image #a11y
+  alt-text: "Brille I/O" # provide a description for the image #a11y
 
 # short description of the project
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Ut ornare lectus sit amet est placerat in egestas erat. Lectus quam id leo in vitae turpis. Commodo elit at imperdiet dui. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Ipsum suspendisse ultrices gravida dictum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. At augue eget arcu dictum varius duis at consectetur. Scelerisque purus semper eget duis at tellus at. Viverra vitae congue eu consequat ac."
@@ -20,13 +20,12 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 # nickname of the person set in data/team_members.yml
 people:
   - tjvg
-  - arbs
 
 # project code
-code: template
+code: brailleio
 
 # area for filter purpose
-area: health
+area: access
 ###############
 
 ###############

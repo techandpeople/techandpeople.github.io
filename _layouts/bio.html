@@ -2,18 +2,53 @@
 layout: default
 ---
 
-{% if page.notitle != true %}
 <div class="row">
 <div class="col-md-4">
     <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ page.photo }}" class="img-responsive imgteam" style="width:15vw; height:100%; float: left" />
 </div>
 <div class="col-md-8">
-<h1>{{page.name}}</h1>
+<h1>{{page.title}}</h1>
 <h3>{{page.info}}</h3>
 {{ content }}
 </div>
 </div>
-<div class="row" style="margin-top:32px; border-top: 1px solid rgb(44, 44, 44)">
-PUBLICATIONS GO HERE
+<div class="row" style="margin-top:32px; border-top: 1px solid rgb(164, 164, 164)">
+<h2>My projects</h2>
+</div>
+<div class="projects row">
+{% assign my_array = page.id | split: "/" %}
+{% assign my_code = my_array.last %}
+{% for project in site.projects limit:3 %}
+{% assign currentItem = project.people | where: "", my_code %}
+{% if currentItem contains my_code %}
+{% if project.link %}
+{% assign proj_url = project.link %}
+{% else %}
+{% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
+{% endif %}
+<div class="col-sm-4 {{ project.area }}">
+<div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
+<a href="{{ proj_url }}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<div class="card-body {{ project.area }}">
+<p class="title" style="overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.title }}</a></p>
+<p class="description" style="overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 6;
+-webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.description }}</a></p>
+<!-- {% if project.people %}
+<div class="card-project-footer {{ project.area }}">
+{% include project-people-thumbnail.html people=project.people %}
+</div>
+{% endif %} -->
+</div>
+</div>
 </div>
 {% endif %}
+{% endfor %}
+</div>

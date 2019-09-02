@@ -6,9 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<div class="container-fluid">
-
-We are an interdisciplinary Human-Computer Interaction research lab at <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>, <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>[Faculdade de Ciências](http://ciencias.ulisboa.pt) da [Universidade de Lisboa](http://www.ulisboa.pt). We design, build, and evaluate interactive technologies that address high value social issues such as accessible computing, pervasive healthcare, and usable privacy.
+We are an interdisciplinary Human-Computer Interaction research lab at <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>, [Faculdade de Ciências](http://ciencias.ulisboa.pt) da [Universidade de Lisboa](http://www.ulisboa.pt). We design, build, and evaluate interactive technologies that address high value social issues such as accessible computing, pervasive healthcare, and usable privacy.
 
 <div class="filters">
 
@@ -52,7 +50,6 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 </div>
 
 {% endfor %}
-</div>
 </div>
 <script>
 document.onclick = function(e) {   //when the document body is clicked
