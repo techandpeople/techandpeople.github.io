@@ -13,9 +13,7 @@ layout: default
 </div>
 </div>
 <div class="row" style="margin-top:32px; border-top: 1px solid rgb(164, 164, 164)">
-<h2>My projects</h2>
-</div>
-<div class="projects row">
+<div class="projects">
 {% assign my_array = page.id | split: "/" %}
 {% assign my_code = my_array.last %}
 {% for project in site.projects limit:3 %}
