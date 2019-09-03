@@ -40,7 +40,9 @@ p.byline {
   max-width: 1000px; /* or 950px */
 }
 
-
+#bio-photo{
+	width: 512px;
+}
 
 /* Team & Publications */
 #gridid img { margin: 0px 0px 0px 0px; }
@@ -214,10 +216,6 @@ p.byline {
 
 	#project-image {
 		height: 200px;
-	}
-
-	#bio-photo{
-		width: 512px;
 	}
 
 	.filters > p{
