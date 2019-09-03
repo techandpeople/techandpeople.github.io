@@ -1,3 +1,4 @@
+---
 ###############
 # DO NOT EDIT
 layout: bio
@@ -19,7 +20,7 @@ links:
         - name: twitter
           url: https://twitter.com/diogobranco94
 
-
+---
 I have completed my BSc in 2016 and my MSc in 2018, both on Informatics Engineering.
 During my second year on Masters I have worked with data-driven healthcare for capturing and showing with rich visualization Parkinson's patients fluctuations throught the day.
 During that time I had my first contact with research, I have build DataPark, a platform with the focus on rich visualization of data collected in free-living.
