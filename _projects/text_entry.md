@@ -12,7 +12,7 @@ title: "Accessible Text-Entry"
 
 # project image
 image:
- name: wirttingassets15.jpg
+ name: writtingassets15.jpg
  alt-text: "A keyboard scheme with dots representing each of the collected touch points. Each key as dots from a different color. There is a concentration of dots on the most used keys (e.g. a, s and space)" # provide a short description for the image #a11y
 
 # short description of the project
