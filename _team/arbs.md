@@ -3,6 +3,10 @@
 # DO NOT EDIT
 layout: bio
 ###############
+
+###############
+# TO EDIT
+
 title: "André Santos"
 photo: arbs.jpg
 info: "Hired Researcher"

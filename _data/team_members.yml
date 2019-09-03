@@ -1,9 +1,10 @@
 members:
   - tjvg
   - afpr
-  - arbs
   - djrb
   - saa
+  - arbs
+  - lvfa
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -68,3 +69,13 @@ saa:
           url: sfalves@fc.ul.pt
         - name: schollar
           url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
+
+lvfa:
+    name: "Lúcia Abreu"
+    photo: lvfa.jpg
+    info: "MsC Student"
+    links:
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/lucia-abreu/
+        - name: email
+          url: fc50702@alunos.fc.ul.pt
