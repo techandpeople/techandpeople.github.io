@@ -190,14 +190,18 @@ p.byline {
 }
 
 .card-team-member{
-	min-height: 30vh;
+	min-height: 315px;
 }
 
 .card-publication{
-	min-height: 20vh;
+	min-height: 215px;
 }
 
 @media (min-width: 768px ) {
+
+	p{
+		text-align: justify;
+	}
 
 	#main {
 		padding-left:0;
@@ -208,6 +212,10 @@ p.byline {
 		padding-right:0;
 	}
 
+	#project-image {
+		height: 200px;
+	}
+
 	.navbar-default .navbar-nav > li > a{
 		padding-right: 0px;
 		padding-left: 30px;
@@ -216,8 +224,8 @@ p.byline {
 		padding-left: 0px;
 	}
 	.card-project{
-		min-height: 40vh;
-		max-height: 40vh
+		min-height: 415px;
+		max-height: 415px;
 	}
 
 	.team-links {
