@@ -40,11 +40,11 @@ Mobile devices are fundamental tools for inclusion and independence. Yet, there 
 We conducted multiple studies to characterize the smartphone challenges blind people face and found people often require synchronous, co-located assistance from family, peers, friends, and even strangers to overcome the different barriers they face. However, help is not always available, especially when we consider the disparity in each barrier, individual support network and current location. 
 
 ## Human-Powered
-We investigated if and how in-context human-powered solutions can be leveraged to improve current smartphone accessibility and ease of use. Building on a comprehensive knowledge of the smartphone challenges faced and coping mechanisms employed by blind people, we explored how human-powered assistive technologies can facilitate use. 
+We investigated if and how in-context human-powered solutions can be leveraged to improve current smartphone accessibility and ease of use. Building on a comprehensive knowledge of the smartphone challenges faced and coping mechanisms employed by blind people, we explored how human-powered assistive technologies can facilitate use. We developed and explored, question and answer services, in-context tutorials, and task assistants. 
 
 
 We envision a paradigm shift where interactions, and contributions by knowledgeable users can assist others beyond what app and OS provide. Thus, establishing a support network where there was none, enabling the creation of services, and tools that tackle accessibility challenges, informed by usage data. 
 
-## Other approaches
-we investigated the benefits and shortcomings of a personalizable, static and consistent interface (PSI) on mobile devices for non-visual access, alongside its acceptance by blind people (novice and expert users).
+## Accessibility Layers
+We investigated the benefits and shortcomings of a personalizable, static and consistent interface (PSI) on mobile devices for non-visual access, alongside its acceptance by blind people (novice and expert users).
 
