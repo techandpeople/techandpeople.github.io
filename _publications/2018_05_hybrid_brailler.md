@@ -17,21 +17,17 @@ image:
 # short description of the project
 description: We present a smartphone case with physical buttons that allow users to write Braille in the back and gesture with the thumbs on the touchscreen. This enabled the study of novel editing approachs, very limited in commodity smartphones and accessibility services.
 
-# nickname of the person set in data/team_members.yml
-# authors:
-#   - dt
-#   - afpr
-#   - tjvg
-#   - hn
+# authors
 authors: Daniel Trindade, André Rodrigues, Tiago Guerreiro, Hugo Nicolau
+
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/chi2018_hybrid_brailler.pdf
 
 venue: ACM CHI 2018 - ACM Conference on Human Factors in Computing Systems, Montreal, Canada, May, 2018
 
 projects:
-  - smartphone_accessibility
   - brailleio
+
 # area for filter purpose
 area: access
 ###############
