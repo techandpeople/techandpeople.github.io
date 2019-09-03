@@ -12,8 +12,11 @@ layout: default
 {{ content }}
 </div>
 </div>
-<div class="row" style="margin-top:32px; border-top: 1px solid rgb(164, 164, 164)">
+<div id="projects-row" class="row" style="margin-top:32px; border-top: 1px solid rgb(164, 164, 164)">
 <div class="projects">
+<script>
+let count = 0;
+</script>
 {% assign my_array = page.id | split: "/" %}
 {% assign my_code = my_array.last %}
 {% for project in site.projects limit:3 %}
@@ -24,6 +27,9 @@ layout: default
 {% else %}
 {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
 {% endif %}
+<script>
+count++;
+</script>
 <div class="col-sm-4 {{ project.area }}">
 <div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
 <a href="{{ proj_url }}">
@@ -39,14 +45,15 @@ text-overflow: ellipsis;
 display: -webkit-box;
 -webkit-line-clamp: 6;
 -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.description }}</a></p>
-<!-- {% if project.people %}
-<div class="card-project-footer {{ project.area }}">
-{% include project-people-thumbnail.html people=project.people %}
-</div>
-{% endif %} -->
 </div>
 </div>
 </div>
 {% endif %}
 {% endfor %}
+<script>
+if(count === 0){
+    $('#projects-row').css({display: 'none'});
+}
+</script>
+</div>
 </div>
