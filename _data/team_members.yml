@@ -52,6 +52,10 @@ djrb:
           url: https://web.lasige.di.fc.ul.pt/~dbranco/
         - name: email
           url: djbranco@fc.ul.pt
+        - name: schollar
+          url: https://scholar.google.pt/citations?user=cFuxl7EAAAAJ
+        - name: twitter
+          url: https://twitter.com/diogobranco94
 
 saa:
     name: "Sérgio Alves"
