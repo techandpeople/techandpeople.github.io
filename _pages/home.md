@@ -27,7 +27,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 <div class="col-sm-4 {{ project.area }}">
 <div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
 <a href="{{ proj_url }}">
-<img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
 <div class="card-body {{ project.area }}">
 <p class="title" style="overflow: hidden;
    text-overflow: ellipsis;
