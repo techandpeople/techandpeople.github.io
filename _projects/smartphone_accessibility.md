@@ -11,16 +11,17 @@ title: Smartphone Accessibility
 
 # project image
 image:
-  name: hybrid.jpg
-  alt-text: "Braille I/O" # provide a description for the image #a11y
+  name: 2019_interact_risa.jpg
+  alt-text: "A blind person interacting with his smarptphone using over the ear headphones" # provide a description for the image #a11y
 
 # short description of the project
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Ut ornare lectus sit amet est placerat in egestas erat. Lectus quam id leo in vitae turpis. Commodo elit at imperdiet dui. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Ipsum suspendisse ultrices gravida dictum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. At augue eget arcu dictum varius duis at consectetur. Scelerisque purus semper eget duis at tellus at. Viverra vitae congue eu consequat ac."
+description: "An in-depth characterization of the smartphone challenges blind people face; and a set of solutions that aim to improve user autonomy, and self-efficacy."
 
 # nickname of the person set in data/team_members.yml
 people:
   - afpr
   - arbs
+  - tjvg
 
 # project code
 code: smartphone_accessibility
@@ -32,13 +33,18 @@ area: access
 ###############
 # actual page
 ---
-## Section 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Ut ornare lectus sit amet est placerat in egestas erat. Lectus quam id leo in vitae turpis. Commodo elit at imperdiet dui. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Ipsum suspendisse ultrices gravida dictum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. At augue eget arcu dictum varius duis at consectetur. Scelerisque purus semper eget duis at tellus at. Viverra vitae congue eu consequat ac.
+## Motivation
+Mobile devices are fundamental tools for inclusion and independence. Yet, there are still many open research issues in smartphone accessibility for blind people. Currently, learning how to use a smartphone is non-trivial, especially when we consider that the need to learn new apps and accommodate to updates never ceases. When first transitioning from a basic feature-phone, people have to adapt to new paradigms of interaction. Where feature phones had a finite set of applications and functions, users can extend the possible functions and uses of a smartphone by installing new 3rd party applications. Moreover, the interconnectivity of these applications means that users can explore a seemingly endless set of workflows across applications. To that end, the fragmented nature of development on these devices results in users needing to create different mental models for each application. These characteristics make smartphone adoption, and at times, use, a demanding task
 
-## Section 2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus mauris ultrices eros in. Ultrices tincidunt arcu non sodales neque sodales. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Ultricies lacus sed turpis tincidunt id. Auctor eu augue ut lectus arcu. In aliquam sem fringilla ut morbi. Ultrices neque ornare aenean euismod elementum nisi. Est pellentesque elit ullamcorper dignissim. Orci dapibus ultrices in iaculis nunc sed. Nibh praesent tristique magna sit amet purus gravida. Arcu vitae elementum curabitur vitae nunc sed. Et odio pellentesque diam volutpat commodo. In arcu cursus euismod quis viverra.
+## Characterization
+We conducted multiple studies to characterize the smartphone challenges blind people face and found people often require synchronous, co-located assistance from family, peers, friends, and even strangers to overcome the different barriers they face. However, help is not always available, especially when we consider the disparity in each barrier, individual support network and current location. 
 
-Quam elementum pulvinar etiam non quam. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Mauris rhoncus aenean vel elit scelerisque mauris. Euismod lacinia at quis risus sed. In nulla posuere sollicitudin aliquam ultrices sagittis. Varius duis at consectetur lorem donec massa sapien faucibus et. Dignissim convallis aenean et tortor at. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Tincidunt augue interdum velit euismod in. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Ut ornare lectus sit amet est placerat in egestas erat. In mollis nunc sed id semper risus in hendrerit gravida. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Vitae justo eget magna fermentum iaculis eu non diam. Enim praesent elementum facilisis leo vel fringilla est. Massa massa ultricies mi quis hendrerit dolor magna. Arcu ac tortor dignissim convallis aenean et tortor.
+## Human-Powered
+We investigated if and how in-context human-powered solutions can be leveraged to improve current smartphone accessibility and ease of use. Building on a comprehensive knowledge of the smartphone challenges faced and coping mechanisms employed by blind people, we explored how human-powered assistive technologies can facilitate use. 
 
 
+We envision a paradigm shift where interactions, and contributions by knowledgeable users can assist others beyond what app and OS provide. Thus, establishing a support network where there was none, enabling the creation of services, and tools that tackle accessibility challenges, informed by usage data. 
+
+## Other approaches
+we investigated the benefits and shortcomings of a personalizable, static and consistent interface (PSI) on mobile devices for non-visual access, alongside its acceptance by blind people (novice and expert users).
 
