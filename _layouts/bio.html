@@ -4,7 +4,7 @@ layout: default
 
 <div class="row">
 <div class="col-md-4">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ page.photo }}" class="img-responsive imgteam" style="width:15vw; height:100%; float: left" />
+    <img id="bio-photo" alt="Profile photo of {{page.title}}" src="{{ site.url }}{{ site.baseurl }}/images/people/{{ page.photo }}" class="img-responsive imgteam" style="height:100%; float: left" />
 </div>
 <div class="col-md-8">
 <h1>{{page.title}}</h1>
@@ -19,7 +19,7 @@ let count = 0;
 </script>
 {% assign my_array = page.id | split: "/" %}
 {% assign my_code = my_array.last %}
-{% for project in site.projects limit:3 %}
+{% for project in site.projects %}
 {% assign currentItem = project.people | where: "", my_code %}
 {% if currentItem contains my_code %}
 {% if project.link %}
@@ -33,9 +33,9 @@ count++;
 <div class="col-sm-4 {{ project.area }}">
 <div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
 <a href="{{ proj_url }}">
-<img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
 <div class="card-body {{ project.area }}">
-<p class="title" style="overflow: hidden;
+<p class="title" style="padding-top: 8px; overflow: hidden;
 text-overflow: ellipsis;
 display: -webkit-box;
 -webkit-line-clamp: 2;
