@@ -21,7 +21,7 @@ links:
       url: https://twitter.com/lemit93
 ---
 
-I completed my BSc degree in 2015 and my MSc degree in 2017 both in Informatics Engineering and both Faculty of Science of the University of Lisbon.
+I completed my BSc degree in 2015 and my MSc degree in 2017 both in Informatics Engineering and both ate Faculty of Science of the University of Lisbon.
 During my MSc thesis I worked on an approach that superimposes a virtual overlay to all other interfaces ensuring interface consistency by re-structuring how content is accessed in every screen.
 
 I am currently a hired researcher at LASIGE.
