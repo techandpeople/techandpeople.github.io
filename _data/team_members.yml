@@ -4,8 +4,9 @@ members:
   - djrb
   - saa
   - arbs
-  - lvfa
   - lrs
+  - lvfa
+  - aapp
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -74,7 +75,7 @@ saa:
 lvfa:
     name: "Lúcia Abreu"
     photo: lvfa.jpg
-    info: "MsC Student"
+    info: "MSc Student"
     links:
         - name: linkedin
           url: https://www.linkedin.com/in/lucia-abreu/
@@ -94,3 +95,11 @@ lrs:
           url: https://scholar.google.com/citations?hl=pt-BR&user=gRoepgEAAAAJ
         - name: lattes
           url: http://lattes.cnpq.br/9324969584977927
+
+aapp:
+    name: "Angela Purice"
+    photo: aapp.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: angelapurice@gmail.com
