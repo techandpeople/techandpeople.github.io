@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: DataPark &#58; A Data-Driven Platform for Parkinson’s Disease Monitoring
+title: Designing Free-Living Reports for Parkinson’s Disease
 
 # project image
 image:
@@ -18,14 +18,10 @@ image:
 description: We developed a platform where usable reports are presented to clinicians, particuarly in the context of Parkinson's disease monitoring. The presented information originates from accelerometer sensors and subjective data collected over an Interactive Voice Response system.
 
 # nickname of the person set in data/team_members.yml
-authors: Diogo Branco, César Mendes, Ricardo Pereira, André Rodrigues, Raquel Bouça, Kyle Montague, Joaquim Ferreira, Tiago Guerreiro
+authors: Diogo Branco, Raquel Bouça, Joaquim Ferreira, Tiago Guerreiro
 # authors:
 #   - db
-#   - cm
-#   - rp
-#   - afpr
 #   - rb
-#   - km
 #   - jf
 #   - tjvg
 
