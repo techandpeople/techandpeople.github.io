@@ -7,6 +7,7 @@ members:
   - lrs
   - lvfa
   - aapp
+  - dmcg
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -103,3 +104,11 @@ aapp:
     links:
         - name: email
           url: angelapurice@gmail.com
+
+dmcg:
+    name: "David Gonçalves"
+    photo: dmcg.png
+    info: "MsC Student"
+    links:
+        - name: email
+          url: davidslycooper@hotmail.com
