@@ -11,7 +11,7 @@ title: "Mobile Web"
 
 # publication image
 image:
- name: 2019_mobileWeb.png
+ name: 2019_mobileweb.png
 
  alt-text: "10 application screens all with very different interfaces. Interfaces with grids, lists, keyboard, no interactive items, logins, tutorials and tables." # provide a short description for the image #a11y
 
