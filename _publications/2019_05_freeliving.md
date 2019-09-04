@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: Designing Free-Living Reports for Parkinson’s Disease
+title: "Designing Free-Living Reports for Parkinson’s Disease"
 
 # project image
 image:
@@ -15,17 +15,12 @@ image:
   alt-text: "datapark" # provide a description for the image #a11y
 
 # short description of the project
-description: The democratization of sensing wearable technologies opened several possibilities in the continuous
-monitoring of people in their homes. We developed a platform where usable reports are presented to clinicians, 
-particuarly in the context of Parkinson's disease monitoring. The presented information originates from accelerometer sensors.
+description: "The democratization of sensing wearable technologies opened several possibilities in the continuous
+monitoring of people in their homes. We developed a platform where usable reports are presented to clinicians,
+particuarly in the context of Parkinson's disease monitoring. The presented information originates from accelerometer sensors."
 
 # nickname of the person set in data/team_members.yml
 authors: Diogo Branco, Raquel Bouça, Joaquim Ferreira, Tiago Guerreiro
-# authors:
-#   - db
-#   - rb
-#   - jf
-#   - tjvg
 
 # link to the pdf
 pdf: https://www.researchgate.net/profile/Tiago_Guerreiro/publication/332773993_Designing_FreeLiving_Reports_for_Parkinson%27s_Disease/links/5ce1ba93299bf14d95a95e47/Designing-Free-Living-Reports-for-Parkinsons-Disease.pdf
