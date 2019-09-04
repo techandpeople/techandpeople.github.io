@@ -30,7 +30,7 @@ authors: Diogo Branco, César Mendes, Ricardo Pereira, André Rodrigues, Raquel 
 #   - tjvg
 
 # link to the pdf
-pdf: https://tjvguerreiro.github.io/pubs/interact19-tutorials.pdf
+pdf: https://tjvguerreiro.github.io/pubs/ddhp_wish.pdf
 
 venue: WISH Symposium - Workgrounp on Interactive Systems in Healthcare, co-located with CHI'19, Glasgow, UK, May, 2019
 
@@ -47,5 +47,15 @@ area: health
 We developed a platform where usable reports are presented to clinicians, particuarly in the context of Parkinson's disease monitoring. The presented information originates from accelerometer sensors and subjective data collected over an Interactive Voice Response system.
 
 ## Abstract
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Monitoring of people with Parkinson is performed in appointments and through questionnaires.
+Traditional methods are still limited and imprecise in capturing motor fluctuations, which, for example,
+jeopardizes accurate medication adjustments. There have been several efforts to develop sensors and
+digitize these assessments, in the clinic and at home. Conversely, there have been limited efforts to
+understand how clinicians deal with this gamut of information, and the opportunities and challenges of
+data-driven consultation. We present DataPark, a platform that enables subjective and objective data
+collection for Parkinson’s disease. Clinicians are able to schedule subjective assessments which are
+then presented to patients through an interactive voice response system. On the objective component,
+patients may wear an inertial sensor during physical assessments and/or during free-living periods
+(i.e. wearing a bracelet for a set of days), generating usable reports on those activities. We report a
+preliminary two-month deployment in a rehabilitation clinic of the objective assessment components,
+and a follow-up focus group on the future integration of the subjective component.
