@@ -11,8 +11,8 @@ title: Understanding the Authoring and Playthrough of Nonvisual Smartphone Tutor
 
 # project image
 image:
-  name: 2019_interact_risa.jpg
-  alt-text: "risa" # provide a description for the image #a11y
+  name: 2019_understandingTutorials.png
+  alt-text: "Table with code frequencies in the tutorials instructions. Significant differences between sighted and blind people instructions. Sigthed people with 20% of incorrect text, and high number of references to location. Blind people with high number of gesture explanations and navigation cues." # provide a description for the image #a11y
 
 # short description of the publication
 description: We sought to understand how sighted and blind people instruct other blind users to accomplish tasks on a mobile device. We also studied how those instructions enabled blind people to be successful. Results showed that a single pass of instructions was limited. A set of ways in which support can be provided is discussed.
