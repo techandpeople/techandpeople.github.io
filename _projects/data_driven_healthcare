@@ -7,15 +7,16 @@ layout: project
 ###############
 # TO EDIT
 # project title
-title: "Data-Driven Healthcare"
+title: Data-Driven Healthcare
 
 # project imageA
 image:
  name: report.jpg
- alt-text: "an example of a data driven platform" # provide a short description for the image #a11y
+ alt-text: "An example of a data driven platform" # provide a short description for the image #a11y
 
 # short description of the project
-description: "The amount of information generated in healthcare is gigantous. The use of a data-driven approach can help clinicians and patients to better understand the information."
+description: "The amount of information generated in healthcare is gigantous. The use of a data-driven 
+approach can help clinicians and patients to better understand the information."
 
 # people associated with the project
 people:
