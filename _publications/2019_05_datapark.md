@@ -34,6 +34,9 @@ pdf: https://tjvguerreiro.github.io/pubs/interact19-tutorials.pdf
 
 venue: WISH Symposium - Workgrounp on Interactive Systems in Healthcare, co-located with CHI'19, Glasgow, UK, May, 2019
 
+projects:
+  - data_driven_healthcare
+
 # area for filter purpose
 area: health
 ###############
