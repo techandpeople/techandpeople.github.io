@@ -1,5 +1,6 @@
 members:
   - tjvg
+  - acp
   - ajbn
   - afpr
   - djrb
@@ -147,3 +148,17 @@ rmnc:
   links:
       - name: email
         url: raquel.chora@hotmail.com
+
+acp:
+  name: Ana Pires
+  photo: acp.jpg
+  info: PostDoc Researcher
+  links:
+      - name: orcid
+        url: https://orcid.org/0000-0001-7747-7112
+      - name: email
+        url: acdpires@fc.ul.pt
+      - name: scholar
+        url: https://scholar.google.pt/citations?user=pd_Gb28AAAAJ&hl=pt-PT
+      - name: web lab
+        url: https://cibpsi.psico.edu.uy/es/investigacion/lineas-de-investigacion/percepci%c3%b3n-e-interacci%c3%b3n
