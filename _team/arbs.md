@@ -9,7 +9,7 @@ layout: bio
 
 title: "André Santos"
 photo: arbs.jpg
-info: "Hired Researcher"
+info: "Research Engineer"
 links:
     - name: web
       url: https://arbsantos.github.io
