@@ -22,7 +22,7 @@ tjvg:
           url: https://tjvguerreiro.github.io
         - name: email
           url: tjvg@di.fc.ul.pt
-        - name: schollar
+        - name: scholar
           url: https://scholar.google.com/citations?user=mo6UPuIAAAAJ
 
 afpr:
@@ -34,7 +34,7 @@ afpr:
           url: https://andrefprodrigues.github.io
         - name: email
           url: afrodrigues@fc.ul.pt
-        - name: schollar
+        - name: scholar
           url: https://scholar.google.com/citations?user=zZd_sZYAAAAJ
 
 arbs:
@@ -46,7 +46,7 @@ arbs:
           url: https://arbsantos.github.io
         - name: email
           url: arbsantos@fc.ul.pt
-        - name: schollar
+        - name: scholar
           url: https://scholar.google.com/citations?user=R65EmPMAAAAJ
         - name: twitter
           url: https://twitter.com/lemit93
@@ -60,7 +60,7 @@ djrb:
           url: https://web.lasige.di.fc.ul.pt/~dbranco/
         - name: email
           url: djbranco@fc.ul.pt
-        - name: schollar
+        - name: scholar
           url: https://scholar.google.pt/citations?user=cFuxl7EAAAAJ
         - name: twitter
           url: https://twitter.com/diogobranco94
@@ -74,7 +74,7 @@ saa:
           url: https://openlab.ncl.ac.uk/people/sergio-alves/
         - name: email
           url: sfalves@fc.ul.pt
-        - name: schollar
+        - name: scholar
           url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
 
 lvfa:
@@ -112,15 +112,15 @@ aapp:
 dmcg:
     name: "David Gonçalves"
     photo: dmcg.png
-    info: "MsC Student"
+    info: "MSc Student"
     links:
         - name: email
           url: davidslycooper@hotmail.com
 
 ajbn:
-    name: “Antonio Barros”
+    name: Antonio Barros
     photo: ajbn.jpg
-    info: “Postdoctoral Researcher”
+    info: PostDoc Researcher
     links:
         - name: projects
           url: https://ajbn.github.io
@@ -132,19 +132,19 @@ ajbn:
 hhss:
   name: Hugo Simão
   photo: hhss.jpg
-  info: Assistant Researcher
+  info: MSc student
   links:
       - name: linkedin
         url: https://www.linkedin.com/in/hugo-simão-639594157/
       - name: email
         url: hsimao@lasige.di.fc.ul.pt
-      - name: schollar
+      - name: scholar
         url: https://scholar.google.com/citations?user=kxhTLLsAAAAJ&hl=pt-PT
 
 rmnc:
   name: Raquel Chora
   photo: rmnc.jpg
-  info: MsC Student
+  info: MSc Student
   links:
       - name: email
         url: raquel.chora@hotmail.com
