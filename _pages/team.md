@@ -22,7 +22,7 @@ permalink: /team/
 <p class="detail">{{ person.info }}</p>
 <p class="detail team-links">
 {% for link in person.links %}
-{% if link.name == 'email' %}
+{% if link.name contains 'mail' %}
 [<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
 {% else %}
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]

@@ -1,9 +1,11 @@
 members:
   - tjvg
+  - ajbn
   - afpr
   - djrb
   - saa
   - arbs
+  - hhss
   - lrs
   - lvfa
   - aapp
@@ -112,3 +114,27 @@ dmcg:
     links:
         - name: email
           url: davidslycooper@hotmail.com
+
+ajbn:
+    name: “Antonio Barros”
+    photo: ajbn.jpg
+    info: “Postdoctoral Researcher”
+    links:
+        - name: projects
+          url: https://ajbn.github.io
+        - name: email
+          url: ajneto@fc.ul.pt
+        - name: email 2
+          url: ajbn.uepa@gmail.com
+
+hhss:
+  name: Hugo Simão
+  photo: hhss.jpg
+  info: Assistant Researcher
+  links:
+      - name: linkedin
+        url: https://www.linkedin.com/in/hugo-simão-639594157/
+      - name: email
+        url: hsimao@lasige.di.fc.ul.pt
+      - name: schollar
+        url: https://scholar.google.com/citations?user=kxhTLLsAAAAJ&hl=pt-PT
