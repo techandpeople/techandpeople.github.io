@@ -10,6 +10,7 @@ members:
   - lvfa
   - aapp
   - dmcg
+  - rmnc
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -138,3 +139,11 @@ hhss:
         url: hsimao@lasige.di.fc.ul.pt
       - name: schollar
         url: https://scholar.google.com/citations?user=kxhTLLsAAAAJ&hl=pt-PT
+
+rmnc:
+  name: Raquel Chora
+  photo: rmnc.jpg
+  info: MsC Student
+  links:
+      - name: email
+        url: raquel.chora@hotmail.com
