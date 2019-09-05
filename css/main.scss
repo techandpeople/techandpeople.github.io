@@ -179,6 +179,7 @@ p.byline {
 }
 
 .card {
+	position: relative;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
 	margin: 10px;
@@ -201,6 +202,24 @@ p.byline {
 }
 
 @media (min-width: 768px ) {
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
 
 	p{
 		text-align: justify;
@@ -272,6 +291,26 @@ p.byline {
 }
 
 @media (max-width: 767px ) {
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
 	#bio-photo{
 		width: 85px;
 		margin-right: 15px;

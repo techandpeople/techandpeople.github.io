@@ -32,7 +32,8 @@ authors: Diogo Branco, César Mendes, Ricardo Pereira, André Rodrigues, Raquel 
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/ddhp_wish.pdf
 
-venue: WISH Symposium - Workgrounp on Interactive Systems in Healthcare, co-located with CHI'19, Glasgow, UK, May, 2019
+conference-name: WISH Symposium 2019
+venue: " - Workgrounp on Interactive Systems in Healthcare, co-located with CHI'19, Glasgow, UK, May, 2019"
 
 projects:
   - data_driven_healthcare

@@ -24,6 +24,7 @@ authors: "Tiago Guerreiro, Luís Carriço, André Rodrigues"
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/mobileweb.pdf
 
+conference-name: Web Accessibility
 venue: "Chapter 38 in S. Harper & Y. Yesilada (eds.), Web Accessibility: A Foundation for Research (2nd ed.). London, England, Springer-Verlag."
 
 projects:

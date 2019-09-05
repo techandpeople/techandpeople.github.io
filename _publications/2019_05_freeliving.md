@@ -25,7 +25,8 @@ authors: Diogo Branco, Raquel Bouça, Joaquim Ferreira, Tiago Guerreiro
 # link to the pdf
 pdf: https://www.researchgate.net/profile/Tiago_Guerreiro/publication/332773993_Designing_FreeLiving_Reports_for_Parkinson%27s_Disease/links/5ce1ba93299bf14d95a95e47/Designing-Free-Living-Reports-for-Parkinsons-Disease.pdf
 
-venue: CHI 2019 - Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems, Glasgow, UK
+conference-name: CHI 2019
+venue: " - Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems, Glasgow, UK"
 
 projects:
   - data_driven_healthcare

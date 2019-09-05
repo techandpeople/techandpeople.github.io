@@ -28,7 +28,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 <div class="col-sm-4 {{ project.area }}">
 <div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
 <a href="{{ proj_url }}">
-<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/thumbnails/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
 <div class="card-body {{ project.area }}">
 <p class="title" style="overflow: hidden;
    text-overflow: ellipsis;
@@ -40,11 +40,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
    display: -webkit-box;
    -webkit-line-clamp: 6;
    -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.description }}</a></p>
-<!-- {% if project.people %}
-<div class="card-project-footer {{ project.area }}">
-{% include project-people-thumbnail.html people=project.people %}
-</div>
-{% endif %} -->
+
 </div>
 
 </div>

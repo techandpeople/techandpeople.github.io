@@ -23,11 +23,11 @@ authors: "Ana Cristina Pires, Sebastian Marichal, Fernando Gonzalez-Perilli, Ewe
 # link to the pdf
 pdf: /downloads/Piresetal2019_ATangibleMathGameforVisuallyImpairedChildren_ASSETS.pdf
 
-venue: ASSETS 2019 - ASSETS 2019 - 21th International ACM SIGACCESS Conference on Computers and Accessibility. Pittsburgh, PA, USA. October, 2019
+conference-name: ASSETS 2019
+venue: "- 21th International ACM SIGACCESS Conference on Computers and Accessibility. Pittsburgh, PA, USA. October, 2019"
 
 projects:
  - inclusive_education
-
 
 # area for filter purpose
 area: inclusive_education

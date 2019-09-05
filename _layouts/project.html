@@ -13,14 +13,13 @@ layout: default
 {% endif %}
 {% endif %}
 <div class="row">
+  <p>
+  {{page.description}}
+  </div>
+  </p>
+<div class="row">
   {% include project-image-carousel.html code=page.code %}
 </div>
-<div class="row">
-<br>
-<p>
-{{page.description}}
-</div>
-</p>
 <div class="row">
 {{ content }}
 </div>

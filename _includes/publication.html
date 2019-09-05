@@ -1,0 +1,32 @@
+<div class="card {{ publication.area }}" style="padding: 15px">
+{% if include.pub.award %}
+<img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
+{% endif %}
+<div class="row row-thumb" style="margin-bottom: 0; ">
+<div class="col-md-3" style="padding-left: 0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+</div>
+<div class="card-body" style="padding-left: 0px; padding-right: 0px; padding-bottom:0">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0;"><a href="{{ publication.pdf }}" target="_blank">{{ include.pub.title }}</a></p>
+<p class="description" style="margin-bottom: 10px;">{{ include.pub.description }}</p>
+<p class="detail">{{ include.pub.authors }}</p>
+<p class="detail"><strong>{{ include.pub.conference-name }}</strong> {{ include.pub.venue }}</p>
+{% if include.pub.award %}
+<p class="detail text-award"><strong>{{ include.pub.award }}</strong></p>
+{% endif %}
+{% if include.pub.external-links %}
+<p class="detail pub-links">
+{% for link in include.pub.external-links %}
+{% if link.name contains 'mail' %}
+[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+{% else %}
+[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+{%endif%}
+{% endfor %}
+</p>
+{% endif %}
+</div>
+</div>
+</div>
+</div>
