@@ -28,7 +28,7 @@ people:
 code: personalized_digital_interventions
 
 # area for filter purpose
-area: personalized_digital_interventions
+area: health
 ###############
 
 ###############
