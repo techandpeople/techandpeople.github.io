@@ -14,6 +14,8 @@ permalink: /publications/
 <button type="button" class="btn btn-default filterPub" id="access">Accessible Computing</button>
 <button type="button" class="btn btn-default filterPub" id="health">Pervasive Healthcare</button>
 <button type="button" class="btn btn-default filterPub" id="usec">Usable Privacy</button>
+<button type="button" class="btn btn-default filterPub" id="inclusive_education">Inclusive Education</button>
+<button type="button" class="btn btn-default filterPub" id="personalized_digital_interventions">Personalized Digital Interventions</button>
 </div>
 <div class="publications">
 {% for publication in site.publications reversed %}
@@ -25,7 +27,7 @@ permalink: /publications/
 </div>
 <div class="card-body" style="padding-left: 0px; padding-right: 0px; padding-bottom:0">
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0;"><a href="{{ publication.pdf }}">{{ publication.title }}</a></p>
+<p class="title" style="padding-top: 0;"><a href="{{ publication.pdf }}" target="_blank">{{ publication.title }}</a></p>
 <p class="description" style="margin-bottom: 10px;">{{ publication.description }}</p>
 <p class="detail">{{ publication.authors }}</p>
 <p class="detail">{{ publication.venue }}</p>

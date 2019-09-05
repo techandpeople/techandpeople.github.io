@@ -24,5 +24,5 @@ links:
 
 ---
 
-I am a cognitive psychologist with experience in working in multidisciplinary Human-Computer Interaction (HCI). Currently, I am a PostDoc Researcher in LASIGE, Faculty of Science, University of Lisboa. In our projects, we emphasize participatory design, user-centered design and the use of multimodal interactive systems. Our aim is to provide cognitive and educational tools to foster the mathematical ability and computational thinking of younger children- sighted and visually impaired children. We create multisensory environments combining tangible interaction with digital auditory feedback, which also enable blind children to take benefits from both real and virtual worlds.
+I am a cognitive psychologist with experience in multidisciplinary Human-Computer Interaction (HCI). Currently, I am a PostDoc Researcher in LASIGE, Faculty of Science, University of Lisboa. In our projects, we emphasize participatory design, user-centered design and the use of multimodal interactive systems. Our aim is to provide cognitive and educational tools to foster the mathematical ability and computational thinking of younger children- sighted and visually impaired children. We create multisensory environments combining tangible interaction with digital auditory feedback, which also enable blind children to take benefits from both real and virtual worlds.
 
