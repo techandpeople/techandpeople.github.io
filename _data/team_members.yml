@@ -14,6 +14,7 @@ members:
   - dmcg
   - rmnc
   - gdcc
+  - vml
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -182,3 +183,11 @@ amgmt:
         url: ateles@lasige.di.fc.ul.pt
       - name: twitter
         url: https://twitter.com/f1zbo
+
+vml:
+  name: Vitor Lobo
+  photo: vml.png
+  info: MSc Student
+  links:
+      - name: email
+        url: vitormarqueslobo@gmail.com
