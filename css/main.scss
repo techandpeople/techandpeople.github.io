@@ -207,7 +207,7 @@ p.byline {
 	margin-bottom: 15px
 }
 
-@media (min-width: 768px ) {
+@media (min-width: 900px ) {
 
 	.team-carousel-image{
 		width:auto;
@@ -297,7 +297,11 @@ p.byline {
 	}
 }
 
-@media (min-width: 500px ) and (max-width: 767px ) {
+@media (min-width: 500px ) and (max-width: 768px ) {
+
+	#project-image {
+		height: 175px;
+	}
 
 	.img-award{
 		position: absolute;
@@ -319,8 +323,14 @@ p.byline {
 	}
 
 	#bio-photo{
-		width: 85px;
-		margin-right: 15px;
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.card-project{
+		min-height: 400px;
+		max-height: 415px;
 	}
 
 	.col-sm-12,
@@ -380,8 +390,9 @@ p.byline {
 	}
 
 	#bio-photo{
-		width: 85px;
-		margin-right: 15px;
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.col-sm-12,
@@ -441,8 +452,9 @@ p.byline {
 	}
 
 	#bio-photo{
-		width: 85px;
-		margin-right: 15px;
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.col-sm-12,
@@ -502,8 +514,9 @@ p.byline {
 	}
 
 	#bio-photo{
-		width: 85px;
-		margin-right: 15px;
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.col-sm-12,
@@ -569,8 +582,9 @@ p.byline {
 	}
 
 	#bio-photo{
-		width: 85px;
-		margin-right: 15px;
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.col-sm-12,

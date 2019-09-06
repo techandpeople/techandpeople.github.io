@@ -13,6 +13,8 @@ info: "PhD student"
 links:
    - name: web
      url: https://andrefprodrigues.github.io/
+   - name: email
+     url: afrodrigues@fc.ul.pt
    - name: scholar
      url: https://scholar.google.pt/citations?user=zZd_sZYAAAAJ&hl=en
 
