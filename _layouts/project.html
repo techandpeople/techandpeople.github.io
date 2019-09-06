@@ -29,13 +29,10 @@ count = 0;
 </script>
 <h2 id="pubs"> Publications </h2>
 <ul>
-{% assign my_array = page.id | split: "/" %}
-{% assign proj_code = my_array.last %}
-
 {% for publication in site.publications reversed %}
 {% if publication.projects %}
-{% assign currentItem = publication.projects | where: "", proj_code %}
-{% if currentItem contains proj_code %}
+{% assign currentItem = publication.projects | where: "", page.code %}
+{% if currentItem contains page.code %}
 <script>
 count++;
 </script>
