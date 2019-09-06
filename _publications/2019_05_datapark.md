@@ -11,7 +11,7 @@ title: DataPark &#58; A Data-Driven Platform for Parkinson’s Disease Monitorin
 
 # project image
 image:
-  name: 2019_wish_datapark.png
+  name: datapark.png
   alt-text: "datapark" # provide a description for the image #a11y
 
 # short description of the project
