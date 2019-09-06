@@ -23,8 +23,10 @@ authors: "João Guerreiro, André Rodrigues, Kyle Montague, Tiago Guerreiro, Hug
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/spatialtouch/tablets_chi2015.pdf
 
-conference-name: CHI 2015
-venue: "- ACM Conference on Human Factors in Computing Systems, Seoul, South Korea, April, 2015"
+
+conference-name: CHI
+venue: "ACM Conference on Human Factors in Computing Systems, Seoul, South Korea, April, 2015"
+year: 2015
 
 projects:
  - text_entry

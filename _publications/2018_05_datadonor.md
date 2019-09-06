@@ -24,8 +24,9 @@ authors: "André Rodrigues, Kyle Montague, Tiago Guerreiro"
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/chi18_data_donors.pdf
 
-conference-name: CHI 2018
-venue: " Late Breaking Work - Extended Abstracts of the ACM Conference on Human Factors in Computing Systems, Montreal, Canada, May, 2018"
+conference-name: CHI
+venue: "Late Breaking Work - Extended Abstracts of the ACM Conference on Human Factors in Computing Systems, Montreal, Canada, May, 2018"
+year: 2018
 
 projects:
  - smartphone_accessibility

@@ -23,9 +23,9 @@ authors: "Hugo Nicolau, Kyle Montague, Tiago Guerreiro,  André Rodrigues Vicki 
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/taccess_crc.pdf
 
-conference-name: TACCESS 2015
+conference-name: TACCESS
 venue: "ACM Transactions on Accessible Computing (TACCESS) - Special Issue (Part 2) of Papers from ASSETS 2015"
-
+year: 2017
 projects:
  - text_entry
 

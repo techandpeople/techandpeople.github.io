@@ -24,8 +24,9 @@ authors: "Hugo Nicolau, Kyle Montague, André Rodrigues, Tiago Guerreiro, Vicki 
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/tbb/text-entry.pdf
 
-conference-name: ASSETS 2015
-venue: "ASSETS 2015 - 17th International ACM SIGACCESS Conference on Computers and Accessibility. Lisboa, Portugal, October, 2015"
+conference-name: ASSETS
+venue: "17th International ACM SIGACCESS Conference on Computers and Accessibility. Lisboa, Portugal, October, 2015"
+year: 2015
 
 projects:
  - text_entry

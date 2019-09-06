@@ -23,8 +23,9 @@ authors: Daniel Trindade, André Rodrigues, Tiago Guerreiro, Hugo Nicolau
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/chi2018_hybrid_brailler.pdf
 
-conference-name: CHI 2018
-venue: " - ACM Conference on Human Factors in Computing Systems, Montreal, Canada, May, 2018"
+conference-name: CHI
+venue: "ACM Conference on Human Factors in Computing Systems, Montreal, Canada, May, 2018"
+year: 2018
 
 projects:
   - brailleio

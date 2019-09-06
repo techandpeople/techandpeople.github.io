@@ -24,7 +24,8 @@ authors: "Ana Cristina Pires, Fernando González Perilli, Ewelina Bakała, Bruno
 pdf: https://www.frontiersin.org/articles/10.3389/feduc.2019.00081/abstract
 
 conference-name: Frontiers in Education
-venue: " - Educational Psychology, 2019"
+venue: "Educational Psychology, 2019"
+year: 2019
 
 projects:
  - inclusive_education

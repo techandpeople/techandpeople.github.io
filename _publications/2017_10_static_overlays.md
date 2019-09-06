@@ -23,8 +23,9 @@ authors: André Rodrigues, André Santos, Kyle Montague, Tiago Guerreiro
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/sp100rodrigues.pdf
 
-conference-name: ASSETS 2017
-venue: " - 19th International ACM SIGACCESS Conference on Computers and Accessibility. Baltimore, Maryland, USA, October, 2017"
+conference-name: ASSETS
+venue: "19th International ACM SIGACCESS Conference on Computers and Accessibility. Baltimore, Maryland, USA, October, 2017"
+year: 2017
 
 projects:
   - smartphone_accessibility

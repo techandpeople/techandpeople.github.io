@@ -23,8 +23,9 @@ authors: "Sérgio Alves, Andreia Cordeiro, Filipa Brito, Luís Carriço, Tiago G
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf
 
-conference-name: CHI 2018
-venue: "CHI 2018 - Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, Montreal QC, Canada"
+conference-name: CHI
+venue: "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, Montreal QC, Canada"
+year: 2018
 
 projects:
   - cognitive_stimulation

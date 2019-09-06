@@ -23,8 +23,9 @@ authors: "Sérgio Alves, Andreia Cordeiro, Filipa Brito, Luís Carriço, Tiago G
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf
 
-conference-name: W4A 2019
-venue: " - 16th International Web for All Conference, San Francisco, USA, May, 2019"
+conference-name: W4A
+venue: "16th International Web for All Conference, San Francisco, USA, May, 2019"
+year: 2019
 
 projects:
   - cognitive_stimulation

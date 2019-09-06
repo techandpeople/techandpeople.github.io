@@ -26,6 +26,7 @@ pdf: https://tjvguerreiro.github.io/pubs/mobileweb.pdf
 
 conference-name: Web Accessibility
 venue: "Chapter 38 in S. Harper & Y. Yesilada (eds.), Web Accessibility: A Foundation for Research (2nd ed.). London, England, Springer-Verlag."
+year: 2019
 
 projects:
  - smartphone_accessibility

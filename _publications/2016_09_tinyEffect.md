@@ -23,8 +23,9 @@ authors: "André Rodrigues, Hugo Nicolau, Kyle Montague, Luís Carriço, Tiago G
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/tiny_mhci.pdf
 
-conference-name: MobileHCI 2016
-venue: "MobileHCI '16 Proceedings of the 18th International Conference on  Human-Computer Interaction with Mobile Devices and Services, Pages 47-52, Florence, Italy — September 06 - 09, 2016"
+conference-name: MobileHCI
+venue: "'16 Proceedings of the 18th International Conference on  Human-Computer Interaction with Mobile Devices and Services, Pages 47-52, Florence, Italy — September 06 - 09, 2016"
+year: 2016
 
 projects:
  - text_entry
