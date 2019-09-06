@@ -9,11 +9,11 @@ permalink: /
 We are an interdisciplinary Human-Computer Interaction research lab at <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>, <a href="http://ciencias.ulisboa.pt" target="_blank">Faculdade de Ciências</a> da <a href="http://www.ulisboa.pt" target="_blank">Universidade de Lisboa</a>. We design, build, and evaluate interactive technologies that address high value social issues such as accessible computing, pervasive healthcare, and usable privacy.
 
 <div class="filters">
-<button type="button" class="btn btn-default filter" id="all">All</button>
-<button type="button" class="btn btn-default filter" id="access">Accessible Computing</button>
-<button type="button" class="btn btn-default filter" id="health">Pervasive Healthcare</button>
-<button type="button" class="btn btn-default filter" id="usec">Usable Privacy</button>
-<button type="button" class="btn btn-default filter" id="inclusive_education">Inclusive Education</button>
+<button type="button" class="btn btn-default filterBtn filter selected" id="all">All</button>
+<button type="button" class="btn btn-default filterBtn filter" id="access">Accessible Computing</button>
+<button type="button" class="btn btn-default filterBtn filter" id="health">Pervasive Healthcare</button>
+<button type="button" class="btn btn-default filterBtn filter" id="usec">Usable Privacy</button>
+<button type="button" class="btn btn-default filterBtn filter" id="inclusive_education">Inclusive Education</button>
 </div>
 
 <div class="projects">

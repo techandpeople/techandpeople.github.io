@@ -206,6 +206,23 @@ p.byline {
 	bottom: 0;
 	margin-bottom: 15px
 }
+.btn:focus {
+	border-color: black;
+	color: black;
+	background-color: white;
+
+}
+
+.filterBtn{
+	border-width: 0px;
+}
+
+.filterBtn:focus{
+	outline: 0;
+}
+.filterBtn.selected{
+	border-bottom-width: 1px;
+}
 
 @media (min-width: 900px ) {
 
