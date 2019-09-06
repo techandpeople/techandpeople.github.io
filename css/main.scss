@@ -56,7 +56,7 @@ p.byline {
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
 .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 	padding-left: 0px;
-	padding-right: 18px;
+	padding-right: 15px;
 }
 
 /* Grid overrides */
@@ -201,6 +201,12 @@ p.byline {
 	min-height: 215px;
 }
 
+.team-links {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px
+}
+
 @media (min-width: 768px ) {
 
 	.team-carousel-image{
@@ -260,12 +266,6 @@ p.byline {
 		max-height: 415px;
 	}
 
-	.team-links {
-    position: absolute;
-		bottom: 0;
-		margin-bottom: 15px
-	}
-
 	.card-publication-venue {
     position: absolute;
 		bottom: 0;
@@ -297,9 +297,7 @@ p.byline {
 	}
 }
 
-@media (max-width: 767px ) {
-
-	
+@media (min-width: 500px ) and (max-width: 767px ) {
 
 	.img-award{
 		position: absolute;
@@ -350,3 +348,252 @@ p.byline {
 	}
 }
 
+@media (min-width: 400px ) and (max-width: 450px ) {
+
+	#people-row{
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	.card-team-member{
+		min-height: 300px;
+		max-width: 170px;
+	}
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
+	#bio-photo{
+		width: 85px;
+		margin-right: 15px;
+	}
+
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}
+
+@media (min-width: 361px ) and (max-width: 375px ) {
+
+	#people-row{
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	.card-team-member{
+		min-height: 320px;
+		max-width: 150px;
+	}
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
+	#bio-photo{
+		width: 85px;
+		margin-right: 15px;
+	}
+
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}
+
+@media (min-width: 321px ) and (max-width: 360px ) {
+
+	#people-row{
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	.card-team-member{
+		min-height: 295px;
+		max-width: 145px;
+	}
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
+	#bio-photo{
+		width: 85px;
+		margin-right: 15px;
+	}
+
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}
+
+@media (max-width: 320px ) {
+
+	#people-row{
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.navbar-brand{
+		padding:0px;
+		padding-top:15px;
+		padding-left:8px;
+	}
+	.navbar-toggle{
+		margin-right: 8px;
+	}
+	.card-team-member{
+		min-height: 380px;
+	}
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
+	#bio-photo{
+		width: 85px;
+		margin-right: 15px;
+	}
+
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}

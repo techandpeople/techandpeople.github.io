@@ -12,7 +12,7 @@ permalink: /team/
  <a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
 </strong></a>
 </div>
-<div class="row">
+<div id="people-row" class="row">
 {% for member in site.data.team_members.members %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
