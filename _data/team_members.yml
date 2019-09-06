@@ -15,6 +15,7 @@ members:
   - rmnc
   - gdcc
   - vml
+  - lmr
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -191,3 +192,11 @@ vml:
   links:
       - name: email
         url: vitormarqueslobo@gmail.com
+
+lmr:
+  name: Laura Rosado
+  photo: lmr.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: laurafcul@gmail.com
