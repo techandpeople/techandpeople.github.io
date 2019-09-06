@@ -6,12 +6,14 @@ members:
   - djrb
   - saa
   - arbs
+  - amgmt
   - hhss
   - lrs
   - lvfa
   - aapp
   - dmcg
   - rmnc
+  - gdcc
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -162,3 +164,21 @@ acp:
         url: https://scholar.google.pt/citations?user=pd_Gb28AAAAJ&hl=pt-PT
       - name: web lab
         url: https://cibpsi.psico.edu.uy/es/investigacion/lineas-de-investigacion/percepci%c3%b3n-e-interacci%c3%b3n
+
+gdcc:
+  name: Gonçalo Cardoso
+  photo: gdcc.jpg
+  info: MSc Student
+  links:
+      - name: email
+        url: goncalodcardoso95@gmail.com
+
+amgmt:
+  name: Álvaro	Teles
+  photo: amgmt.jpg
+  info: MSc Student
+  links:
+      - name: email
+        url: ateles@lasige.di.fc.ul.pt
+      - name: twitter
+        url: https://twitter.com/f1zbo

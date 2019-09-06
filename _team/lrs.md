@@ -9,7 +9,7 @@ layout: bio
 code: lrs
 title: "Laíza Ribeiro Silva"
 photo: lrs.jpg
-info: "MSc Student"
+info: MSc Student
 links:
   - name: linkedin
     url: https://www.linkedin.com/in/la%C3%ADza-ribeiro-silva-1b5b60185/

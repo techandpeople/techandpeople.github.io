@@ -5,7 +5,7 @@ layout: bio
 ###############
 title: "Lúcia Abreu"
 photo: lvfa.jpg
-info: "MsC Student"
+info: MSc Student
 links:
     - name: linkedin
       url: https://www.linkedin.com/in/lucia-abreu/

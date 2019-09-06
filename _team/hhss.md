@@ -9,7 +9,7 @@ layout: bio
 code: hhss
 title: Hugo Simão
 photo: hhss.jpg
-info: Assistant Researcher
+info: MSc Student
 links:
     - name: email
       url: hsimao@lasige.di.fc.ul.pt

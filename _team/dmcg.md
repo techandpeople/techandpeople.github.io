@@ -9,7 +9,7 @@ layout: bio
 code: dmcg
 title: "David Gonçalves"
 photo: dmcg.png
-info: "MsC Student"
+info: MSc Student
 links:
    - name: email
      url: davidslycooper@hotmail.com

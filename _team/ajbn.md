@@ -8,7 +8,7 @@ layout: bio
 # TO EDIT
 title: Antonio Barros
 photo: ajbn.jpg
-info: Postdoctoral Researcher
+info: PostDoc Researcher
 links:
   - name: email
     url: ajneto@fc.ul.pt

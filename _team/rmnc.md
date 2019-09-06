@@ -11,7 +11,7 @@ layout: bio
 code: rmnc
 title: Raquel Chora
 photo: rmnc.jpg
-info: MsC Student
+info: MSc Student
 links:
    - name: email
      url: raquel.chora@hotmail.com

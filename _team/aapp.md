@@ -8,7 +8,7 @@ layout: bio
 code: aapp
 title: "Angela Purice"
 photo: aapp.jpg
-info: "MsC Student"
+info: MSc Student
 links:
   - name: email
     url: angelapurice@gmail.com
