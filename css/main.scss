@@ -25,6 +25,10 @@ figcaption {
 
 /* Top navigation bar */
 
+p{
+	text-align: justify;
+}
+
 p.byline {
 	text-align: center;
 	font-size: 18px;
@@ -33,6 +37,9 @@ p.byline {
 	margin-bottom: 48px;
 }
 
+p.title {
+	text-align: left;
+}
 
 .container-fluid {
   margin-right: auto;
@@ -41,8 +48,10 @@ p.byline {
 }
 
 #bio-photo{
-	width: 512px;
+	width: 256px;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Team & Publications */
@@ -137,6 +146,10 @@ p.byline {
 	margin-bottom: 10px;
 }
 
+.filters > p{
+	text-align: center
+}
+
 .panel {
   margin-bottom: 0;
   margin-top: 0;
@@ -202,9 +215,11 @@ p.byline {
 }
 
 .team-links {
+	text-align: left;
 	position: absolute;
 	bottom: 0;
-	margin-bottom: 15px
+	margin-bottom: 15px;
+	margin-right: 16px;
 }
 .btn:focus {
 	border-color: black;
@@ -224,7 +239,11 @@ p.byline {
 	border-bottom-width: 1px;
 }
 
-@media (min-width: 900px ) {
+#project-image {
+	height: 200px;
+}
+
+@media (min-width: 1024px ) {
 
 	.team-carousel-image{
 		width:auto;
@@ -251,10 +270,6 @@ p.byline {
 		margin-top: 15px;
 	}
 
-	p{
-		text-align: justify;
-	}
-
 	#main {
 		padding-left:0;
 		padding-right:0;
@@ -264,13 +279,6 @@ p.byline {
 		padding-right:0;
 	}
 
-	#project-image {
-		height: 200px;
-	}
-
-	.filters > p{
-		text-align: center
-	}
 	.navbar-default .navbar-nav > li > a{
 		padding-right: 0px;
 		padding-left: 30px;
@@ -314,10 +322,10 @@ p.byline {
 	}
 }
 
-@media (min-width: 500px ) and (max-width: 768px ) {
+@media (min-width: 769px ) and (max-width: 1023px ) {
 
 	#project-image {
-		height: 175px;
+		height: 200px;
 	}
 
 	.img-award{
@@ -346,7 +354,7 @@ p.byline {
 	}
 
 	.card-project{
-		min-height: 400px;
+		min-height: 415px;
 		max-height: 415px;
 	}
 
@@ -375,7 +383,82 @@ p.byline {
 	}
 }
 
-@media (min-width: 400px ) and (max-width: 450px ) {
+@media (min-width: 500px ) and (max-width: 768px ) {
+	#people-row{
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	#project-image {
+		height: 175px;
+	}
+
+	.card-team-member{
+		min-height: 300px;
+		max-width: 170px;
+	}
+
+	.col-sm-3{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
+
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
+	#bio-photo{
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.card-project{
+		min-height: 415px;
+		max-height: 415px;
+	}
+
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}
+
+@media (min-width: 400px ) and (max-width: 499px ) {
 
 	#people-row{
 		display:flex;
@@ -386,7 +469,75 @@ p.byline {
 		min-height: 300px;
 		max-width: 170px;
 	}
+	.col-sm-3{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-award{
+		position: absolute;
+		right: 0;
+		top:0;
+		height: 40px;
+		width: 40px;
+		z-index: 100;
+	}
 
+	.text-award{
+		float: right;
+		margin-top: 15px;
+	}
+
+	.pub-links{
+		float: left;
+		margin-top: 15px;
+	}
+
+	#bio-photo{
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.col-sm-12,
+	.col-sm-4{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.col-md-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-3{
+		padding-right: 0px;
+	}
+	.col-sm-9{
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.project-people-thumb{
+		padding-left: 0px;
+		min-height: 20px;
+	}
+}
+
+@media (min-width: 362px ) and (max-width: 399px ) {
+
+	#people-row{
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	.card-team-member{
+		min-height: 320px;
+		max-width: 150px;
+	}
+	.col-sm-3{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.img-award{
 		position: absolute;
 		right: 0;
@@ -448,7 +599,10 @@ p.byline {
 		min-height: 320px;
 		max-width: 150px;
 	}
-
+	.col-sm-3{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.img-award{
 		position: absolute;
 		right: 0;
@@ -499,7 +653,7 @@ p.byline {
 	}
 }
 
-@media (min-width: 321px ) and (max-width: 360px ) {
+@media (min-width: 336px ) and (max-width: 360px ) {
 
 	#people-row{
 		display:flex;
@@ -510,7 +664,10 @@ p.byline {
 		min-height: 295px;
 		max-width: 145px;
 	}
-
+	.col-sm-3{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.img-award{
 		position: absolute;
 		right: 0;
@@ -561,7 +718,7 @@ p.byline {
 	}
 }
 
-@media (max-width: 320px ) {
+@media (max-width: 335px ) {
 
 	#people-row{
 		display:flex;
@@ -578,7 +735,10 @@ p.byline {
 	.card-team-member{
 		min-height: 380px;
 	}
-
+	.col-sm-3{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.img-award{
 		position: absolute;
 		right: 0;
