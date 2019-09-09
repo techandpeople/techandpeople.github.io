@@ -2,6 +2,7 @@ members:
   - tjvg
   - acp
   - ajbn
+  - ddmm
   - afpr
   - djrb
   - saa
@@ -16,6 +17,8 @@ members:
   - gdcc
   - vml
   - lmr
+  - gmg
+  - alba
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -200,3 +203,33 @@ lmr:
   links:
     - name: email
       url: laurafcul@gmail.com
+
+ddmm:
+  name: Diogo Marques
+  photo: dmarques.jpg
+  info: PhD Student
+  links:
+      - name: web
+        url: http://diogomarques.net
+      - name: email
+        url: dmarques@di.fc.ul.pt
+
+gmg:
+  name: Guilherme Guimarães
+  photo: gmg.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: guiguimaraes@live.com.pt
+
+alba:
+    name: Ana Albuquerque
+    photo: alba.png
+    info: BSc Student
+    links:
+      - name: linkedin
+        url: http://linkedin.com/in/ana-albuquerque-a23008189
+      - name: email
+        url: fc53512@alunos.fc.ul.pt
+      - name: twitter
+        url: https://twitter.com/mnjfan_
