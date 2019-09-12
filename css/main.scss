@@ -114,14 +114,14 @@ p.title {
 .description{
 	font-size: medium;
 	padding-top: 1px;
-	color: gray;
+	color: rgb(80, 80, 80);
 	margin:0;
 }
 
 .detail{
 	font-size: small;
 	padding-top: 1px;
-	color: gray;
+	color: rgb(100, 100, 100);
 	margin:0;
 }
 
@@ -203,7 +203,7 @@ p.title {
 }
 
 .card-body {
-  padding: 0 16px 16px 16px;
+  padding: 0 16px 0px 16px;
 }
 
 .card-team-member{
@@ -241,6 +241,20 @@ p.title {
 
 #project-image {
 	height: 200px;
+}
+
+.carousel-caption-text{
+	color: #fff;
+}
+
+.carousel-caption{
+	background-color: rgba(0,0,0,0.5);
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 45px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 @media (min-width: 1024px ) {
@@ -328,6 +342,15 @@ p.title {
 		height: 200px;
 	}
 
+	.card > .row > .col-md-3{
+		width: 100%
+	}
+
+	.publications{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	.img-award{
 		position: absolute;
 		right: 0;
@@ -381,6 +404,7 @@ p.title {
 		padding-left: 0px;
 		min-height: 20px;
 	}
+
 }
 
 @media (min-width: 500px ) and (max-width: 768px ) {
@@ -456,6 +480,13 @@ p.title {
 		padding-left: 0px;
 		min-height: 20px;
 	}
+	.carousel-caption{
+		background-color: rgba(0,0,0,0.5);
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding-bottom: 45px;
+	}
 }
 
 @media (min-width: 400px ) and (max-width: 499px ) {
@@ -520,6 +551,24 @@ p.title {
 	.project-people-thumb{
 		padding-left: 0px;
 		min-height: 20px;
+	}
+	.carousel-inner{
+		overflow: visible;
+	}
+	.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 2px;
+		bottom: -60px; //must be equals
+		min-height: 60px;
+	}
+	.carousel-caption-text{
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 
@@ -586,6 +635,25 @@ p.title {
 		padding-left: 0px;
 		min-height: 20px;
 	}
+
+	.carousel-inner{
+		overflow: visible;
+	}
+	.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 2px;
+		bottom: -60px; //must be equals
+		min-height: 60px;
+	}
+	.carousel-caption-text{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 @media (min-width: 361px ) and (max-width: 375px ) {
@@ -651,6 +719,25 @@ p.title {
 		padding-left: 0px;
 		min-height: 20px;
 	}
+
+	.carousel-inner{
+		overflow: visible;
+	}
+	.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 2px;
+		bottom: -60px; //must be equals
+		min-height: 60px;
+	}
+	.carousel-caption-text{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 @media (min-width: 336px ) and (max-width: 360px ) {
@@ -715,6 +802,24 @@ p.title {
 	.project-people-thumb{
 		padding-left: 0px;
 		min-height: 20px;
+	}
+	.carousel-inner{
+		overflow: visible;
+	}
+	.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 2px;
+		bottom: -60px; //must be equals
+		min-height: 60px;
+	}
+	.carousel-caption-text{
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 
@@ -786,5 +891,96 @@ p.title {
 	.project-people-thumb{
 		padding-left: 0px;
 		min-height: 20px;
+	}
+	.carousel-inner{
+		overflow: visible;
+	}
+	.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 2px;
+		bottom: -60px; //must be equals
+		min-height: 60px;
+	}
+	.carousel-caption-text{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 970px ) and (max-width: 1023px ) {
+	.publications > .card{
+		max-width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-publication{
+		min-height: 300px;
+		max-height: 300px;
+	}
+	.card > .row {
+		height: 100%;
+	}
+	
+	.publications > .card > .row > .col-sm-12{
+		margin-top: 10px;
+	}
+
+	.publications > .card > .row > .col-sm-12 > .description{
+		min-height: 180px;
+	}
+
+	.publications > .card > .row > .col-sm-12 > .title{
+		min-height: 55px;
+	}
+}
+
+@media (min-width: 870px ) and (max-width: 969px ) {
+	.publications > .card{
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-publication{
+		min-height: 250px;
+		max-height: 250px;
+	}
+	.card > .row {
+		height: 100%;
+	}
+
+	.publications > .card > .row > .col-sm-12 > .description{
+		min-height: 180px;
+	}
+
+	.publications > .card > .row > .col-sm-12 > .title{
+		min-height: 55px;
+	}
+}
+
+@media (min-width: 770px ) and (max-width: 869px ) {
+	.publications > .card{
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-publication{
+		min-height: 200px;
+		max-height: 200px;
+	}
+	.card > .row {
+		height: 100%;
+	}
+
+	.publications > .card > .row > .col-sm-12 > .description{
+		min-height: 200px;
+	}
+
+	.publications > .card > .row > .col-sm-12 > .title{
+		min-height: 55px;
 	}
 }

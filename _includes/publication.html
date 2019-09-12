@@ -4,11 +4,11 @@
 {% endif %}
 <div class="row row-thumb" style="margin-bottom: 0; ">
 <div class="col-md-3" style="padding-left: 0;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
 </div>
-<div class="card-body" style="padding-left: 0px; padding-right: 0px; padding-bottom:0">
+<!-- <div class="card-body" style="padding-left: 0; padding-right: 0;"> -->
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0;"><a href="{{ publication.pdf }}" target="_blank">{{ include.pub.title }}</a></p>
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" target="_blank">{{ include.pub.title }}</a></p>
 <p class="description" style="margin-bottom: 10px;">{{ include.pub.description }}</p>
 <p class="detail">{{ include.pub.authors }}</p>
 <p class="detail"><strong>{{ include.pub.conference-name }}</strong>&nbsp;<strong>{{ include.pub.year }}</strong>&nbsp;&#8209;&nbsp;{{ include.pub.venue }}</p>
@@ -27,6 +27,6 @@
 </p>
 {% endif %}
 </div>
-</div>
+<!-- </div> -->
 </div>
 </div>
