@@ -15,7 +15,7 @@ image:
   alt-text: "static overlays" # provide a description for the image #a11y
 
 # short description of the publication
-description: We present an approach that superimposes a virtual overlay to all other interfaces ensuring interface consistency by re-structuring how content is accessed in every screen. To explore the approach, we split the screen, dedicating half to a configurable set of static options mimicking always available physical buttons regardless of context; while the other enables the standard content navigation gestures with the ability to re-order content and apply filters.
+description: We present an approach that superimposes a virtual overlay to all other interfaces ensuring interface consistency by re-structuring how content is accessed in every screen. The screen is splitted in two, dedicating half to a configurable set of static options regardless of context; while the other enables the standard content navigation gestures with the ability to re-order content and apply filters.
 
 # nickname of the person set in data/team_members.yml
 authors: André Rodrigues, André Santos, Kyle Montague, Tiago Guerreiro

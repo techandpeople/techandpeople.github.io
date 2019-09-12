@@ -51,28 +51,49 @@ permalink: /team/
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-  <div class="item active">
-  <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c1.jpg" alt="Reception for new masters students">
-  </div>
-  <div class="item">
-  <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c2.jpg" alt="Group dinner">
-  </div>
-  <div class="item">
-  <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c3.jpg" alt="Diogo Marques presenting at CHI 2019">
-  </div>
-  <div class="item">
-  <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c4.jpg" alt="Diogo Branco presenting his poster at CHI 2019">
-  </div>
-  <div class="item">
-  <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c5.jpg" alt="Good bye dinner for Laíza">
-  </div>
-  <div class="item">
-  <img class="team-carousel-image img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c6.jpg" alt="Presentation by Diogo Marques at a lab meeting">
-  </div>
-  <div class="item">
-  <img style="width:auto; max-height: 600px; margin-left:auto; margin-right:auto;" class="img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c7.jpg" alt="Tiago Guerreiro presenting at ASSETS 2018">
-  </div>
+<div class="carousel-inner">
+<div class="item active">
+<img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c1.jpg" alt="Reception for new masters students">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Reception for new masters students</h3>
+</div>
+</div>
+<div class="item">
+<img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c2.jpg" alt="Group dinner">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Group dinner</h3>
+</div>
+</div>
+<div class="item">
+<img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c3.jpg" alt="Diogo Marques presenting at CHI 2019">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Diogo Marques presenting at CHI 2019</h3>
+</div>
+</div>
+<div class="item">
+<img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c4.jpg" alt="Diogo Branco presenting his poster at CHI 2019">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Diogo Branco presenting his poster at CHI 2019</h3>
+</div>
+</div>
+<div class="item">
+<img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c5.jpg" alt="Good bye dinner for Laíza">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Good bye dinner for Laíza</h3>
+</div>
+</div>
+<div class="item">
+<img class="team-carousel-image img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c6.jpg" alt="Presentation by Diogo Marques at a lab meeting">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Presentation by Diogo Marques at a lab meeting</h3>
+</div>
+</div>
+<div class="item">
+<img style="width:auto; max-height: 600px; margin-left:auto; margin-right:auto;" class="img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c7.jpg" alt="Tiago Guerreiro presenting at ASSETS 2018">
+<div class="carousel-caption">
+<h3 class="carousel-caption-text">Tiago Guerreiro presenting at ASSETS 2018</h3>
+</div>
+</div>
 </div>
 
   <!-- Left and right controls -->

@@ -7,7 +7,7 @@ layout: bio
 ###############
 # TO EDIT
 title: Antonio Barros
-photo: ajbn.jpg
+photo: ajbn2.jpg
 info: PostDoc Researcher
 links:
   - name: email
