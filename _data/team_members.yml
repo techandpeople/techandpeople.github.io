@@ -18,7 +18,6 @@ members:
   - vml
   - lmr
   - gmg
-  - alba
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -221,15 +220,3 @@ gmg:
   links:
     - name: email
       url: guiguimaraes@live.com.pt
-
-alba:
-    name: Ana Albuquerque
-    photo: alba.png
-    info: BSc Student
-    links:
-      - name: linkedin
-        url: http://linkedin.com/in/ana-albuquerque-a23008189
-      - name: email
-        url: fc53512@alunos.fc.ul.pt
-      - name: twitter
-        url: https://twitter.com/mnjfan_
