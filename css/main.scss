@@ -292,10 +292,17 @@ p.title {
 	#gridid {
 		padding-right:0;
 	}
-
 	.navbar-default .navbar-nav > li > a{
 		padding-right: 0px;
-		padding-left: 30px;
+		padding-left: 0px;
+	}
+	.navbar-default .navbar-nav > li{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.navbar-default .navbar-nav > li:last-child{
+		padding-right: 0px;
+		padding-left: 15px;
 	}
 	.navbar-brand{
 		padding-left: 0px;
