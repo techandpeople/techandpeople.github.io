@@ -15,7 +15,7 @@ image:
  alt-text: "2 years old children" # provide a short description for the image #a11y
 
 # short description of the project
-description: "We seek to tailor and personalize digital interventions to increase users motivation and adherence to the interventions. To this end, we think is crucial to gather a deep understanding of the intervention, context of use, benefits and difficulties associated and to accede to the mental models (goals, needs, motivations, etc) of the users."
+description: "We seek to tailor and personalize digital interventions to increase users motivation and adherence to the interventions. To this end, is crucial to gather a deep understanding of the intervention, context of use, benefits and difficulties associated and to accede to the mental models (goals, needs, motivations, etc) of the users."
 
 # people associated with the project
 people:
