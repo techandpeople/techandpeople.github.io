@@ -21,7 +21,7 @@ description: "iCETA, an inclusive interactive system for math learning, designed
 authors: "Ana Cristina Pires, Sebastian Marichal, Fernando Gonzalez-Perilli, Ewelina Bakala, Bruno Fleischer, Gustavo Sansone, Tiago Guerreiro"
 
 # link to the pdf
-pdf: /downloads/Piresetal2019_ATangibleMathGameforVisuallyImpairedChildren_ASSETS.pdf
+pdf: https://tjvguerreiro.github.io/pubs/Piresetal2019_A%20Tangible%20Math%20Game%20for%20Visually%20Impaired%20Children_ASSETS.pdf
 
 conference-name: ASSETS
 venue: "21th International ACM SIGACCESS Conference on Computers and Accessibility. Pittsburgh, PA, USA. October, 2019"
