@@ -15,7 +15,7 @@ image:
  alt-text: "2 years old children" # provide a short description for the image #a11y
 
 # short description of the project
-description: "Through a set of participatory design sessions with dietists, psychologists and parents we seek to design a brief mobile web-based intervention directed  to parents of 2-to-6 year-old children"
+description: "We seek to tailor and personalize digital interventions to increase users� motivation and adherence to the interventions. To this end, we think is crucial to gather a deep understanding of the intervention, context of use, benefits and difficulties associated and to accede to the mental models (goals, needs, motivations, etc) of the users."
 
 # people associated with the project
 people:

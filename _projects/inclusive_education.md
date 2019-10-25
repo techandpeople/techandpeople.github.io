@@ -15,7 +15,7 @@ image:
  alt-text: "Two visually impaired children programming a robot using tangible blocks." # provide a short description for the image #a11y
 
 # short description of the project
-description: "Learning to program is common in primary schools and kindergartens but current approaches are highly visual and not accessible to blind children.  We seek to understand together with IT and special needs educators, what are the qualities of current approaches and which ones are missing to adapt and design tangible and spatial inclusive robot-based programming environments."
+description: "We aim to develop technological solutions to enable an inclusive education for children with mixed abilities. We have mainly developed enhanced tangible objects for the acquisition of abstract concepts, such as mathematics or computational thinking.  Besides the benefit of decreasing cognitive load and reinforcing understanding, manipulatives also support collaboration, making children more prone to divide, explore and share supporting cooperative actions."
 
 # people associated with the project
 people:
