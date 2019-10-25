@@ -12,7 +12,7 @@ title: "Personalized Digital Interventions"
 # project image
 image:
  name: doris.jpg
- alt-text: "2 years old children" # provide a short description for the image #a11y
+ alt-text: "Photo taken to a 2 years-old girl who is smiling and pointing to the camera." # provide a short description for the image #a11y
 
 # short description of the project
 description: "We seek to tailor and personalize digital interventions to increase users motivation and adherence to the interventions. To this end, is crucial to gather a deep understanding of the intervention, context of use, benefits and difficulties associated and to accede to the mental models (goals, needs, motivations, etc) of the users."

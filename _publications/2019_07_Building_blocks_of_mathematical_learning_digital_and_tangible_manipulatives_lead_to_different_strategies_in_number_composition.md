@@ -12,7 +12,7 @@ title: "Building blocks of mathematical learning: digital and tangible manipulat
 # publication image
 image:
  name: foto6094.jpg
- alt-text: "Children playing with CETA during their classroom" # provide a short description for the image #a11y
+ alt-text: "Photo taken during mathematics training with CETA system using tangibles. In this photo we observe an entire first grade classroom with 22 young children, playing with the blocks using our system CETA. Each child has a headphone, a tablet located on the table and the blocks to solve the additive composition tasks." # provide a short description for the image #a11y
 
 # short description of the publication
 description: "It is indispensable that objects may be grasped, lifted and explored or would it be enough to interact with virtual manipulatives? And specifically, how the objects’ affordances (i.e., the possibility to grasp physical objects or drag virtual ones) will shape and constrain children’s composing strategies."
