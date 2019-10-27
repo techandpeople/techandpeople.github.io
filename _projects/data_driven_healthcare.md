@@ -37,11 +37,11 @@ When building tools for clinicians to use we have to understand that they have a
 We also consider the patient as a fundamental part of our research. So, we develop specific tools considering their point of view. 
 In both clinicians and patients, the visualization and how the information is shown is one of our concerns. 
 ## Detection of Objective Measures
-Our aim is to be detect objective measures related directly or indirectly with symptoms. For now, we detect patient’s movement throughout the day, physical activity, sleep, and clinical assessments related measures. 
+We aim to detect objective measures related directly or indirectly with symptoms. For now, we detect patient’s movement throughout the day, physical activity, sleep, and clinical assessments related measures. 
 We are exploring new ways for activity recognition and specific symptoms detection like FoG (Freeze of Gait).
 ## Datapark
-Datapark is a web platform available for clinicians that allow them to have access to detailed reports (that can be printed and delivered to patients) of both clinical assessments and when patients are on their daily life. Patients wear an accelerometer device on their wrist or trunk and then we process and analyze the data producing the reports. All the platform is interactive and clinicians can be build their own reports, by choosing the charts and measures that can be part of it. 
-Another branch of Datapark is the ability for clinicians to build questionnaires and send them directly to patients throughout a application or directly by calling them at the scheduled time (for that part we use our own IVR – Interactive Voice Response  system). 
+Datapark is a web platform available for clinicians that allow them to have access to detailed reports (that can be printed and delivered to patients) of both clinical assessments and when patients are on their daily life. Patients wear an accelerometer device on their wrist or trunk and then we process and analyze the data producing the reports. All the platform is interactive. Clinicians can build their reports, by choosing the charts and measures that can be part of it. 
+Another branch of Datapark is the ability for clinicians to build questionnaires and send them directly to patients throughout an application or directly by calling them at the scheduled time (for that part we use our IVR – Interactive Voice Response  system). 
 ## AXLE
 TO DO 
 
