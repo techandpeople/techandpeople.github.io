@@ -15,7 +15,7 @@ image:
  alt-text:  "Patient performing a jigsaw puzzle."  # provide a short description for the image #a11y
 
 # short description of the project
-description: "As life expectancy increases, the number of age related impairments and risk of chronic disease within the older population are also expected to rise. Dementia affects not only the person with the disease but also loved ones, and formal or informal caregivers. Therefore there has been an effort from our team to improve the quality of life of these stakeholders."
+description: "We explore how biographical information can improve cognitive stimulation and design interactive platforms to support people with dementia, clinicians, and families."
 
 # people associated with the project
 people:
