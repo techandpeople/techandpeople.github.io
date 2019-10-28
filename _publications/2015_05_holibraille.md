@@ -11,7 +11,7 @@ title: "HoliBraille: multipoint vibrotactile feedback on mobile devices"
 
 # publication image
 image:
- name: 2015_05_holibraille.png
+ name: 2015_05_hollibraille.png
 
  alt-text: "HoliBraille, a smartphone case with six multi-point vibrotactile output. (a) Representation of ‘f’ using the Braille code: dots 1, 2, and 4. (b) The system outputs character ‘f’ through direct and localized feedback on the user’s fingers. (c) The system consists of six vibrotactile motors attached to springs and a 3D-printed case. The springs mold to users’ hands and dampen vibrations through the device, preventing propagation between fingers and allowing better stimuli discrimination." #a11y
 
