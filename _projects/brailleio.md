@@ -33,7 +33,7 @@ area: access
 # actual page
 ---
 ## Braille on Mobile Devices
-The lack of tactile and kinesthetic feedback on a touchscreen results in a slow typing process. Braille input enables fast nonvisual entry speeds on mobile touchscreen devices.
+In our work we have explored how to integrate Braille input and output mechanisms for smartphones. The lack of tactile and kinesthetic feedback on a touchscreen results in a slow typing process. Braille input has enabled faster nonvisual entry speeds on mobile touchscreen devices.
 
-Overall, since the advent of touchscreen mobile devices, numerous input methods have been proposed for blind people. Braille chording approaches have been particularly effective in improving typing speed at the cost of accuracy. In our work we have explored how to integrate Braille input and output mechanisms for smartphones. Furthermore, we continue to explore how to improve input accuracy through adapting suggestion and corrections mechanisms to the nuances of chord base input.
+Overall, since the advent of touchscreen mobile devices, numerous input methods have been proposed for blind people. Braille chording approaches have been particularly effective in improving typing speed at the cost of accuracy. Furthermore, we continue to explore how to improve input accuracy, adapting suggestions, edit and corrections mechanisms to the nuances of chord base input.
 
