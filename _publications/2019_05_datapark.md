@@ -11,8 +11,8 @@ title: DataPark &#58; A Data-Driven Platform for Parkinson’s Disease Monitorin
 
 # project image
 image:
-  name: s2sblurred.png
-  alt-text: "datapark" # provide a description for the image #a11y
+  name: s2sblurred.jpg
+  alt-text: "An example of a clinicial assessment, sit to stand exercise" # provide a description for the image #a11y
 
 # short description of the project
 description: We developed a platform where usable reports are presented to clinicians, particuarly in the context of Parkinson's disease monitoring. The presented information originates from accelerometer sensors and subjective data collected over an Interactive Voice Response system.
