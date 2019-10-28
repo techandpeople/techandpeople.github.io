@@ -20,6 +20,7 @@ description: "Different games require different skills from players. Embracing t
 
 # people associated with the project
 people:
+ - dmcg
  - afpr
  - tjvg
 
