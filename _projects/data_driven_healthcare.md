@@ -11,8 +11,8 @@ title: Data-Driven Healthcare
 
 # project imageA
 image:
- name: report.jpg
- alt-text: "An example of a data driven platform" # provide a short description for the image #a11y
+ name: mainParkinsonBlurred.jpg
+ alt-text: "Clinical Assessemnt using Datapark" # provide a short description for the image #a11y
 
 # short description of the project
 description: "Our goal is to increase and improve the information clinicians and patients have access. We explore and develop mechanisms for collecting, processing, and analyzing the data. We also have a huge concern on how the information is presented."
@@ -21,6 +21,7 @@ description: "Our goal is to increase and improve the information clinicians and
 people:
  - djrb
  - tjvg
+ - saa
 
 # project code
 code: data_driven_healthcare
