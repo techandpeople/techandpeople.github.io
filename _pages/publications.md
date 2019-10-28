@@ -17,6 +17,9 @@ permalink: /publications/
 <button type="button" class="btn btn-default filterBtn filterPub filterYear" id="2017">2017</button>
 <button type="button" class="btn btn-default filterBtn filterPub filterYear" id="2016">2016</button>
 <button type="button" class="btn btn-default filterBtn filterPub filterYear" id="2015">2015</button>
+<button type="button" class="btn btn-default filterBtn filterPub filterYear" id="2014">2014</button>
+<button type="button" class="btn btn-default filterBtn filterPub filterYear" id="2013">2013</button>
+<button type="button" class="btn btn-default filterBtn filterPub filterYear" id="2011">2011</button>
 </div>
 </div>
 <div class="row">
