@@ -26,6 +26,7 @@ pdf: https://arxiv.org/pdf/1909.09078.pdf
 
 venue: "arXiv preprint arXiv:1909.09078."
 year: 2019
+conference-name: pre-print
 
 projects:
  - smartphone_accessibility
