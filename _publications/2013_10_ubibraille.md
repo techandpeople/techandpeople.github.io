@@ -20,7 +20,7 @@ image:
 authors: "Hugo Nicolau, João Guerreiro, Tiago Guerreiro and Luis Carríço"
 
 # link to the pdf
-pdf: http://delivery.acm.org/10.1145/2520000/2513437/a23-nicolau.pdf?ip=188.37.150.134&id=2513437&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EFCB6F3EC3ABB7EF6&__acm__=1572262204_b8e7f01c9f13a77608985c7b524fa71c
+pdf: http://www.di.fc.ul.pt/~tjvg/amc/ubibraille/assets13.pdf
 
 venue: "In Proceedings of the 15th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '13). ACM, New York, NY, USA, , Article 23 , 8 pages."
 year: 2013
