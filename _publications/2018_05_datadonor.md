@@ -30,6 +30,7 @@ year: 2018
 
 projects:
  - smartphone_accessibility
+ - inclusive_gaming
 
 # area for filter purpose
 area: access
