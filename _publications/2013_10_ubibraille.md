@@ -1,0 +1,34 @@
+---
+###############
+# DO NOT EDIT
+layout: publication
+###############
+
+###############
+# TO EDIT
+# pub title
+title: "UbiBraille: designing and evaluating a vibrotactile Braille-reading device"
+
+# publication image
+image:
+ name: 2013_10_ubibraille.png
+
+ alt-text: "The UbiBraille prototype consists of six rings augmented with vibrotactile capabilities. The rings are worn on the index, middle, and ring fingers of both hands."
+ description: "UbiBraille consists of six vibrotactile actuators that are used to code a Braille cell and communicate single characters. The device is able to simultaneously actuate the users’ index, middle, and ring fingers of both hands, providing fast and mnemonic output. We conducted two user studies on UbiBraille to assess both character and word reading performance. Character recognition rates ranged from 54% to 100% and were highly character- and user-dependent."
+ 
+# authors of the publication
+authors: "Hugo Nicolau, João Guerreiro, Tiago Guerreiro and Luis Carríço"
+
+# link to the pdf
+pdf: http://delivery.acm.org/10.1145/2520000/2513437/a23-nicolau.pdf?ip=188.37.150.134&id=2513437&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EFCB6F3EC3ABB7EF6&__acm__=1572262204_b8e7f01c9f13a77608985c7b524fa71c
+
+venue: "In Proceedings of the 15th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '13). ACM, New York, NY, USA, , Article 23 , 8 pages."
+year: 2013
+conference-name: ASSETS
+projects:
+ - brailleio
+
+# area for filter purpose
+area: access
+###############
+---
