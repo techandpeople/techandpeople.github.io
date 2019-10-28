@@ -14,7 +14,8 @@ image:
  name: 2013_10_ubibraille.png
 
  alt-text: "The UbiBraille prototype consists of six rings augmented with vibrotactile capabilities. The rings are worn on the index, middle, and ring fingers of both hands."
- description: "UbiBraille consists of six vibrotactile actuators that are used to code a Braille cell and communicate single characters. The device is able to simultaneously actuate the users’ index, middle, and ring fingers of both hands, providing fast and mnemonic output. We conducted two user studies on UbiBraille to assess both character and word reading performance. Character recognition rates ranged from 54% to 100% and were highly character- and user-dependent."
+
+description: "UbiBraille consists of six vibrotactile actuators that are used to code a Braille cell and communicate single characters. The device is able to simultaneously actuate the users’ index, middle, and ring fingers of both hands, providing fast and mnemonic output. We conducted two user studies on UbiBraille to assess both character and word reading performance. Character recognition rates ranged from 54% to 100% and were highly character- and user-dependent."
  
 # authors of the publication
 authors: "Hugo Nicolau, João Guerreiro, Tiago Guerreiro and Luis Carríço"

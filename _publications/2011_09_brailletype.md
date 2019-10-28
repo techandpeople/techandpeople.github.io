@@ -14,7 +14,8 @@ image:
  name: 2011_09_brailletype.png
 
  alt-text: "BrailleType main screen on the left (visual representation of the six target zones was added for illustration). Middle screen shows the letter ‘r’ marked and ready to be accepted. The image on the right shows a user writing the letter ‘r’ with BrailleType."
- description: "We present BrailleType, a single-touch text-entry system for touch screen devices. BrailleType allows the blind user to enter text as if he was writing Braille using the traditional 6-dot matrix code. We performed a user study with fifteen blind subjects, to assess this method’s performance against Apple’s VoiceOver approach. BrailleType although slower, was significantly easier and less error prone" 
+
+description: "We present BrailleType, a single-touch text-entry system for touch screen devices. BrailleType allows the blind user to enter text as if he was writing Braille using the traditional 6-dot matrix code. We performed a user study with fifteen blind subjects, to assess this method’s performance against Apple’s VoiceOver approach. BrailleType although slower, was significantly easier and less error prone" 
 # authors of the publication
 authors: "João Oliveira, Tiago Guerreiro, Hugo Nicolau, Joaquim Jorge, and Daniel Gonçalves"
 
