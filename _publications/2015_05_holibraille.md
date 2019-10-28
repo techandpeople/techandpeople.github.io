@@ -13,7 +13,7 @@ title: "HoliBraille: multipoint vibrotactile feedback on mobile devices"
 image:
  name: 2015_05_holibraille.png
 
- alt-text: "A user with a row of RFID Card in front of him, while holding one close to the RFID reader.." # provide a short description for the image #a11y
+ alt-text: "HoliBraille, a smartphone case with six multi-point vibrotactile output. (a) Representation of ‘f’ using the Braille code: dots 1, 2, and 4. (b) The system outputs character ‘f’ through direct and localized feedback on the user’s fingers. (c) The system consists of six vibrotactile motors attached to springs and a 3D-printed case. The springs mold to users’ hands and dampen vibrations through the device, preventing propagation between fingers and allowing better stimuli discrimination." #a11y
 
 description: "HoliBraille is a system capable of localized vibrotactile feedback that can be combined with the input capabilities of mobile devices. We used a custom-made case and off-the-shelf vibrotactile actuators combined with dampening materials. The solution can be attached to mainstream touchscreen devices enabling direct feedback on users’ fingers. In this paper, we contribute the following: 1) some application scenarios that can benefit from HoliBraille; 2) the design and technical description of the proposed device; and 3) an evaluation of HoliBraille on a foundational task for future Braille-related applications, i.e. character discrimination.# short description of the publication"
 # authors of the publication
