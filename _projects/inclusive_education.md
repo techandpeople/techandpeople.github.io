@@ -11,7 +11,7 @@ title: Inclusive education
 
 # project image
 image:
- name: workshop_crianças_robot.png
+ name: workshop_crianças_robot.jpg
  alt-text: "Photo taken from the Workshop with children. Two visually impaired children perform a goal-directed programming activity using a map located on the table. The activity consists of moving the robot to reach the duck. The map is made of 4 EVA foam tiles with two different colors. The child on the right is concentrated in arranging the blocks while the children at the left are touching the duck after the robot reached the duck. This child is smiling and has much of his body on the table." # provide a short description for the image #a11y
 
 # short description of the project
