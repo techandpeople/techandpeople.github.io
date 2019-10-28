@@ -25,6 +25,7 @@ authors: "André Rodrigues, Hugo Nicolau, Kyle Montague, João Guerreiro and Tia
 pdf: https://arxiv.org/pdf/1909.09078.pdf
 
 venue: "arXiv preprint arXiv:1909.09078."
+year: 2019
 
 projects:
  - smartphone_accessibility
