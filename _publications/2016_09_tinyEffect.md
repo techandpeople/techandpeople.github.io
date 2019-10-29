@@ -30,6 +30,8 @@ year: 2016
 projects:
  - text_entry
 
+award: Honourable mention
+
 # area for filter purpose
 area: access
 ###############
