@@ -8,7 +8,7 @@ permalink: /team/
 
 <div class="row">
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **! If you want to know more about us see the**
+ **We are  looking for new PhD students, Postdocs, and Master students to join the team! (contact** [Tiago Guerreiro](mailto:tjvg@di.fc.ul.pt) **) If you want to know more about us see the**
  <a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
 </strong></a>
 </div>
