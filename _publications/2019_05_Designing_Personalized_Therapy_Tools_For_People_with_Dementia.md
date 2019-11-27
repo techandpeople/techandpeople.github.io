@@ -27,6 +27,8 @@ conference-name: W4A
 venue: "16th International Web for All Conference, San Francisco, USA, May, 2019"
 year: 2019
 
+award: Best Technical Paper Nominee
+
 projects:
   - cognitive_stimulation
 
