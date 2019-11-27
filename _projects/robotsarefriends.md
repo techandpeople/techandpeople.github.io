@@ -39,10 +39,7 @@ In our work we always start by engaging with local communities, including them i
 One example is our work with different dementia professionals, informal and formal caregivers, and people with dementia themselves. 
 In it, we have explored how an autonomous robot (Maty) can be leveraged to engage in dialogue with a person with dementia and how to promote conversations with their families.
 
-In another project, we are currently exploring how a carrier robot can break the physical barrier between rooms in a care facility.
-Often, institutionalized seniors stay in the living rooms where they usually are. We enable older people program the carrier robot actions through small nestable pieces, the robot then moves and carries out its actions in a connected room with other older adults.
-Users can record voice messages, send cookies/candies and play music, and were able to view reactions via webcams. The goal with this project is to stimulate group interaction between physicaly seperate groups of older adults. 
-  
+Natural human-interaction is an intrinsic behavior in people through life and becomes fundamental to decrease social isolation and the lack of communication in older ages. This last scenario can often be found among many elderly institutionalized, where frequently a lethargic mood reigns. We explore the interaction among senior people through a robot as a messenger. Furthermore, we enable older people to set action sequences they want the robot to perform to the other group. Through the robot as a message mediator, we took the first step as a communication bridge between the elderly. The robot demonstrated to be a beneficial strategy for bringing people together, getting in touch with people who had not previously spoken or as a useful tool the extend the action of people with motor impairments .
 
 ## Robots & Accessibility
 Robots in accessibility have been limitedly explored outside the domain of supporting orientation and mobility. We have started to explored how robots can be leverage to promote inclusion and indepence. 
