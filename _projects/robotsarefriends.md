@@ -51,7 +51,7 @@ Robots in accessibility have been limitedly explored outside the domain of suppo
 In a first work, we contributed to the area of human-robot interaction and accessibility by bringing new insights on the 
 collaboration between people and robots. Particularly, 1) we provided knowledge on the acceptance, perceived usefulness, foreseen scenarios, 
 and concerns regarding the inclusion of robots in blind people daily lives; and 2) 
-we inspected the collaboration betweena robot (Baxter)and blind participants in an assembly task, paying particular attention to the effect of two 
+we inspected the collaboration betweena robot (Baxter) and blind participants in an assembly task, paying particular attention to the effect of two 
 different forms of collaboration in participant’s success on the task and on the engagement with the robot.
 
 
