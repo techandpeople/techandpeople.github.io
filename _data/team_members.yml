@@ -18,6 +18,7 @@ members:
   - vml
   - lmr
   - gmg
+  - gus
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -220,3 +221,13 @@ gmg:
   links:
     - name: email
       url: guiguimaraes@live.com.pt
+
+gus:
+  name: Gustavo Fonseca
+  photo: gus.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: g.s.fonseca32@gmail.com
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/gustavo-fonseca94/
