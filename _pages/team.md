@@ -6,11 +6,15 @@ sitemap: false
 permalink: /team/
 ---
 
-<div class="row">
-
- **We are  looking for new PhD students, Postdocs, and Master students to join the team! (contact** [Tiago Guerreiro](mailto:tjvg@di.fc.ul.pt) **) If you want to know more about us see the**
- <a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
+<div class="row" style="margin-bottom: 0">
+<p style="text-align: center; padding-top: 50px">
+<strong>We are  looking for new PhD students, Postdocs, and Master students to join the team!</strong>  (reach [Us](mailto:tjvg@di.fc.ul.pt)) 
+</p>
+<p style="text-align: center; padding-bottom: 50px">
+ If you want to know more about us see the<a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
 </strong></a>
+</p>
+
 </div>
 <div id="people-row" class="row">
 {% for member in site.data.team_members.members %}
