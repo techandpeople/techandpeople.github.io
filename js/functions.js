@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+    const present = new Date().getFullYear();
+    const older = present-5;
+
+    $('#filterByYear').append('<button type="button" class="btn btn-default filterBtn filterPub filterYear selected" id="all">All</button>');
+    for(let year = present; year > older; year--){
+        $('#filterByYear').append('<button type="button" class="btn btn-default filterBtn filterPub filterYear" id="'+year+'">'+year+'</button>');
+    }
+    $('#filterByYear').append('<button type="button" class="btn btn-default filterBtn filterPub filterYear" id="older">OLDER</button>');
+
     var filter_applied = "";
     $('.filter').click(function(e){
         e.preventDefault();
@@ -55,7 +65,19 @@ $(document).ready(function(){
 
         if ((area_filter_applied != "" || year_filter_applied != "") && filter != "all"){
             if(year_filter_applied != ""){
-                $('.publications>div:not([class*="' + year_filter_applied + '"])').hide().removeClass('visible');
+                let stringSelector = '.publications>div';
+                if(year_filter_applied === 'older'){
+                    for(let index = present; index > older; index--){
+                        if(index === present)
+                            stringSelector = stringSelector + '[class*="' + index + '"]'
+                        else
+                            stringSelector = stringSelector + ',[class*="' + index + '"]'
+                    }
+                }else{
+                    stringSelector = stringSelector + ':not([class*="' + year_filter_applied + '"])'
+                }
+                console.log(stringSelector);
+                $(stringSelector).hide().removeClass('visible');
                 $("#"+year_filter_applied).addClass("selected");
             }
             if(area_filter_applied != ""){
@@ -68,7 +90,5 @@ $(document).ready(function(){
             area_filter_applied = "";
             $("#all").addClass("selected");
         }
-
-
     });
 })
