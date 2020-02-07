@@ -21,4 +21,4 @@ I'm a PhD candidate and HCI researcher, specializing in usable security and priv
 
 I also regularly work on HCI methodology, and other HCI application areas, like accessibility.
 
-I'm advised by [Luis Carrico](https://ciencias.ulisboa.pt/en/perfil/lmcarrico) and [Tiago Guerreiro](https://tjvguerreiro.github.io/).
+I'm advised by [Luis Carriço](https://ciencias.ulisboa.pt/en/perfil/lmcarrico) and [Tiago Guerreiro](https://tjvguerreiro.github.io/).
