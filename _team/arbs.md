@@ -18,7 +18,7 @@ links:
     - name: schollar
       url: https://scholar.google.com/citations?user=R65EmPMAAAAJ
     - name: twitter
-      url: https://twitter.com/lemit93
+      url: https://twitter.com/arbsantos93
 ---
 
 I completed my BSc degree in 2015 and my MSc degree in 2017 both in Informatics Engineering and both ate Faculty of Science of the University of Lisbon.
