@@ -26,4 +26,4 @@ Católica de São Paulo in 2015, received a master degree in Computer
 Science from Federal University of Pernambuco in 1995, and a bachelor
 degree in Computer Science from Federal Universiy from Pará in 1988.
 His main research interest is in assistive (learning) technology
-prototyping with "hobbiyst" robotics.
+prototyping with "hobbyist" robotics.
