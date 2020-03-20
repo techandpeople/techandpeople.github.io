@@ -21,7 +21,7 @@ description: "In this paper we Introduce the initial development process of Scra
 authors: "Sérgio Alves, Andreia Cordeiro, Filipa Brito, Luís Carriço, Tiago Guerreiro"
 
 # link to the pdf
-pdf: https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf
+pdf: https://tjvguerreiro.github.io/pubs/chi18_crc_scrapbookv1.pdf
 
 conference-name: CHI
 venue: "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, Montreal QC, Canada"
