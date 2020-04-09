@@ -15,7 +15,7 @@ image:
   alt-text: "Hybrid-Brailler prototype (a) PCB components. (b) 3D-printed case attached to a mobile device with three rows of three buttons that are on the back of the device." # provide a description for the image #a11y
 
 # short description of the project
-description: "BrIn Braille I/O we have focused on bringing Braille back to the forefront of the digital era with novel techniques and a exploration of haptics to enable text input on mobile devices."
+description: "Haptics and mobile devices! In Braille I/O we have focused on bringing Braille back to the forefront of the digital era with novel techniques and a exploration of haptics to enable text input on mobile devices."
 
 # nickname of the person set in data/team_members.yml
 people:
