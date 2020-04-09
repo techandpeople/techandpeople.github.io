@@ -16,7 +16,7 @@ image:
  alt-text: "A screenshot of the assistive play donor application. On the top side it shows a screenshot of fruit ninja with two traces, of two different swipes. Below a list of options to annotate which actions those traces correspond to. Finally, in the last third of the image, a timeline is shown with the limits of each gestured identified by the app." # provide a short description for the image #a11y
 
 # short description of the project
-description: "Different games already require different skills from players. Embracing this paradigm, we are exploring how to design inclusive games that thrive on mixed abilities."
+description: "Embracing mixed-ability gaming! By acknowledging that different games already require different skills from players we are exploring how games can be designed to leverage this asymmetry based on abilities."
 
 # people associated with the project
 people:
