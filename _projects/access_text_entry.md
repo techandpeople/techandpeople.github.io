@@ -16,7 +16,7 @@ image:
  alt-text: "A keyboard scheme with dots representing each of the collected touch points. Each key as dots from a different color. There is a concentration of dots on the most used keys (e.g. a, s and space)" # provide a short description for the image #a11y
 
 # short description of the project
-description: "Understanding, and developing novel solutions for text-entry on touchscreens for people with visual impairments."
+description: "For over 10 years we have investigated nonvisual text input on touchscreens. We have characterized in dept users’ behaviors and contributed with novel interfaces and interaction techniques."
 
 # people associated with the project
 people:
