@@ -15,7 +15,7 @@ image:
   alt-text: "A blind person interacting with his smarptphone using over the ear headphones" # provide a description for the image #a11y
 
 # short description of the project
-description: "An in-depth characterization of the smartphone challenges blind people face; and a set of solutions that aim to improve user autonomy, and self-efficacy."
+description: "From the adoption process to expert discussions online, we have characterized the mobile device challenges that blind people overcome. By levering knowledgeable volunteers, we have developed and explored, Q&A, in-context tutorials, and task assistants whose data is derived from end-users’ contributions."
 
 # nickname of the person set in data/team_members.yml
 people:
