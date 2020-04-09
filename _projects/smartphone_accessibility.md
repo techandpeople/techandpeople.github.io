@@ -15,7 +15,7 @@ image:
   alt-text: "A blind person interacting with his smarptphone using over the ear headphones" # provide a description for the image #a11y
 
 # short description of the project
-description: "From adoption to expert discussions online, we have characterized the challenges that blind people overcome. We have explored how to provide effective self-contained smartphone assistance with the ultimate goal of promoting self-efficacy."
+description: "From newcomers to experts, we have characterized the challenges that blind people overcome. We explored how to provide effective self-contained smartphone assistance with the ultimate goal of promoting self-efficacy."
 
 # nickname of the person set in data/team_members.yml
 people:
