@@ -19,7 +19,7 @@ description: "Through an anonymity-preserving survey experiment, we quantify the
 
 
 # authors of the publication
-authors: Diogo Marques, Ildar Muslukhov, Tiago Guerreiro, Konstantin Beznosov, and Luís Carriço
+authors: Diogo Marques, Ildar Muslukhov, Tiago Guerreiro, Konstantin Beznosov, Luis Carriço
 
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/snooping.pdf
