@@ -1,15 +1,13 @@
 members:
   - tjvg
   - acp
-  - ajbn
-  - ddmm
   - afpr
+  - ddmm
   - djrb
   - saa
   - arbs
   - amgmt
   - hhss
-  - lrs
   - lvfa
   - aapp
   - dmcg
@@ -19,6 +17,8 @@ members:
   - lmr
   - gmg
   - gus
+  - ajbn
+  - lrs
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -35,7 +35,7 @@ tjvg:
 afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
-    info: "PhD Student"
+    info: "PostDoc Researcher"
     links:
         - name: web
           url: https://andrefprodrigues.github.io
@@ -97,7 +97,7 @@ lvfa:
 lrs:
     name: "Laíza Silva"
     photo: lrs.jpg
-    info: "MSc Student"
+    info: "Visiting Student (2019)"
     links:
         - name: linkedin
           url: https://www.linkedin.com/in/la%C3%ADza-ribeiro-silva-1b5b60185/
@@ -127,7 +127,7 @@ dmcg:
 ajbn:
     name: Antonio Barros
     photo: ajbn2.jpg
-    info: PostDoc Researcher
+    info: Visiting PostDoc (2019)
     links:
         - name: projects
           url: https://ajbn.github.io
@@ -207,7 +207,7 @@ lmr:
 ddmm:
   name: Diogo Marques
   photo: dmarques.jpg
-  info: PhD Student
+  info: PhD Student (first job at Google Munich)
   links:
       - name: web
         url: http://diogomarques.net
