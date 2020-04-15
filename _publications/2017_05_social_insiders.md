@@ -23,3 +23,14 @@ authors: Wali Usmani, Diogo Marques, Ivan Beschastnikh, Konstantin Beznosov, Tia
 
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/inconspicuous/social-insider-chi17.pdf
+
+venue: "In the ACM Conference on Human Factors in Computing Systems, Denver, Colorado, USA, May"
+year: 2017
+conference-name: CHI
+
+projects:
+ - unauthorized_access_to_smartphones
+
+# area for filter purpose
+area: usec
+---
