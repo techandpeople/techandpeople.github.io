@@ -11,7 +11,7 @@ title: "Characterizing Social Insider Attacks on Facebook"
 
 # publication image
 image:
- name: chi2017_snooping.jpg
+ name: chi2017_snoping.jpg
  alt-text: "A hacker with a black hoody, with a facebook page on the background" # provide a short description for the image #a11y
 
 # short description of the publication
