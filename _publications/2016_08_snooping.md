@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: "Snooping on Mobile Phones Prevalence and Trends"
+title: "Snooping on Mobile Phones: Prevalence and Trends"
 
 # publication image
 image:
