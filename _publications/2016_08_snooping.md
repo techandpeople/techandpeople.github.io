@@ -17,6 +17,7 @@ image:
 # short description of the publication
 description: "Through an anonymity-preserving survey experiment, we quantify the pervasiveness of snooping attacks, defined as looking through someone else’s phone without their permission. We estimated the 1-year prevalence to be 31% in an online participant pool. Weighted to the U.S. population, the data indicates that 1 in 5 adults snooped on at least one other person’s phone, just in the year before the survey was conducted."
 
+award: Distinguished paper award
 
 # authors of the publication
 authors: "Diogo Marques, Ildar Muslukhov, Tiago Guerreiro, Konstantin Beznosov, Luís Carriço"
