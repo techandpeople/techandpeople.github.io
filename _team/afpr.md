@@ -20,5 +20,5 @@ links:
 
 ---
 
-André Rodrigues received his M.S. degree in Computer Science from Faculdade de Ciências, Universidade de Lisboa, in 2014. He is currently a PhD student at LASIGE, Universidade de Lisboa with the topic Human-Powered Smartphone Assistance for Blind People. His PhD research has been focused on mobile accessibility working closely with visually impaired people. Throughout his PhD he has been involved in multiple projects, developing mobile services, applications and platforms for a variety of contexts and user groups (e.g parkinson's patients, homeless people).
+I received my PhD with distinction and honour in 2020 with the topic Human-Powered Smartphone Assistance for Blind People. The last six years have been dedicated to developing and evaluating mobile services, applications and platforms for a variety of contexts and user groups (e.g. people with visual and/or motor impairments, people experiencing homelessness). I am an HCI researcher with a particular interest in how tecnhology can and is leveregered in accessibility, health and gaming.
 
