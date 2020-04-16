@@ -24,6 +24,7 @@ authors: Hugo Simão, Ana Cristina Pires, David Gonçalves, Tiago Guerreiro
 # link to the pdf
 pdf: ../downloads/Carry_Pigeon_HRI_2020.pdf
 
+award: Best paper award
 
 conference-name: HRI
 venue: "Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (HRI '20 Companion)"
