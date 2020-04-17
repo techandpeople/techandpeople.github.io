@@ -22,7 +22,7 @@ authors: "Hugo Nicolau, André Rodrigues, André Santos, Tiago Guerreiro, Kyle M
 
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/assets19_sos.pdf
-
+doi: https://dl.acm.org/doi/10.1145/3308561.3353786
 award: Best Paper Nominee
 
 venue: "In The 21st International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '19). ACM, New York, NY, USA, 249-261."

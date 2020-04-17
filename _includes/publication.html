@@ -6,7 +6,6 @@
 <div class="col-md-3" style="padding-left: 0;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
 </div>
-<!-- <div class="card-body" style="padding-left: 0; padding-right: 0;"> -->
 <div class="col-sm-12">
 <p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" target="_blank">{{ include.pub.title }}</a></p>
 <p class="description" style="margin-bottom: 10px;">{{ include.pub.description }}</p>
@@ -15,8 +14,13 @@
 {% if include.pub.award %}
 <p class="detail text-award"><strong>{{ include.pub.award }}</strong></p>
 {% endif %}
-{% if include.pub.external-links %}
+
 <p class="detail pub-links">
+[<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
+{% if include.pub.doi %}
+[<a href="{{ publication.doi }}" target="_blank">DOI</a>]
+{% endif %}
+{% if include.pub.external-links %}
 {% for link in include.pub.external-links %}
 {% if link.name contains 'mail' %}
 [<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
@@ -24,9 +28,8 @@
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
 {%endif%}
 {% endfor %}
-</p>
 {% endif %}
+</p>
 </div>
-<!-- </div> -->
 </div>
 </div>

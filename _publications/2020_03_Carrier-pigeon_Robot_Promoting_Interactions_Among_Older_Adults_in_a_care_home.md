@@ -17,6 +17,11 @@ image:
 # short description of the publication
 description: "With this research topic, we explore a robot as a communication vehicle for older adults in care homes. We extend older people's actions and increase their communication through a robot traveling across the institution. This robot is programmable by older people using 3D printed, tangible blocks with default actions to build sequences. This way, people are in charge of the approach and interaction to perform with other people inside the institution. Besides the improvement in communication for the general people institutionalized, the technique showed to be promising for people with mobility impairments to extend their action range."
 
+external-links:
+  - name: DOI
+    url: https://dl.acm.org/doi/10.1145/3371382.3378361
+  - name: Video
+    url: https://www.youtube.com/watch?v=Zq4druvrvug
 
 # authors of the publication
 authors: Hugo Simão, Ana Cristina Pires, David Gonçalves, Tiago Guerreiro
