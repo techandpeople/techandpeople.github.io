@@ -11,7 +11,7 @@ title: "Exploring Accessible Programming with Educators and Visually Impaired Ch
 
 # publication image
 image:
- name: fig1.jpg
+ name: 2020_idc_programming.jpg
  alt-text: "Two children with visual impairments, one attaching a forward and play pieces, and the other feeling the robot and the target object, that walked through a foam path." # provide a short description for the image #a11y
 
 # short description of the publication
