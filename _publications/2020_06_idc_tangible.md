@@ -24,7 +24,7 @@ authors: Ana Cristina Pires, Filipa Rocha, António Barros, Hugo Simão, Hugo Ni
 # pdf: 
 
 conference-name: IDC
-venue: "ACM Interaction Design with Children"
+venue: "ACM Interaction Design and Children"
 year: 2020
 
 projects:
