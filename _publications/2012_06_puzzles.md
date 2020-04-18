@@ -29,7 +29,7 @@ year: 2012
 conference-name: MOBACC
 
 projects:
- - smartphone_accessibility
+ - inclusive_gaming
 
 # area for filter purpose
 area: access
