@@ -10,8 +10,8 @@ layout: publication
 title: "Gait kinematic parameters in Parkinson’s disease: a systematic review"
 
 # publication image
-#image:
-# name: 
+image:
+ name: 2020_jpd.jpg
 
 # alt-text: "" # provide a short description for the image #a11y
 
