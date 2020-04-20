@@ -18,4 +18,4 @@ links:
 
 ---
 
-I completed my BSc degree in 2018 and I’m currently starting my MSc thesis on using tangibles to help blind children in learn programming concepts.
+I completed my BSc degree in 2018 and I’m currently doing my MSc thesis on using commodity tangibles to help blind children to learn programming concepts.
