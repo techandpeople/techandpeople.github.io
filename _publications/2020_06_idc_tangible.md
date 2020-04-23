@@ -21,7 +21,7 @@ description: "We report on a focus group with IT and special needs educators, wh
 authors: Ana Cristina Pires, Filipa Rocha, António Barros, Hugo Simão, Hugo Nicolau, Tiago Guerreiro
 
 # link to the pdf
- pdf: ../downloads/2020_idc_accessibleprogramming.pdf
+pdf: ../downloads/2020_idc_accessibleprogramming.pdf
 
 conference-name: IDC
 venue: "ACM Interaction Design and Children"
