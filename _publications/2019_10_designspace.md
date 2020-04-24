@@ -19,6 +19,12 @@ description: "Word completion interfaces are ubiquitously available in mobile vi
  # authors of the publication
 authors: "Hugo Nicolau, André Rodrigues, André Santos, Tiago Guerreiro, Kyle Montague, João Guerreiro"
 
+# people associated with the publication
+people:
+ - afpr
+ - arbs
+ - tjvg
+
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/assets19_sos.pdf
 award: Best Paper Nominee
