@@ -1,0 +1,43 @@
+<div class="card {{ publication.area }} year-{{ include.pub.year }}" style="padding: 15px">
+{% if include.pub.award %}
+<img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
+{% endif %}
+<div class="row row-thumb" style="margin-bottom: 0; ">
+<div class="col-md-3" style="padding-left: 0;">
+{% if include.pub.image %}
+<p style="margin:0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+{% else %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/publications/publication.png" alt="generic image of a publication" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+{% endif %}
+</p>
+</div>
+<div class="col-sm-12">
+{% if include.pub.pdf %}
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" target="_blank">{{ include.pub.title }}</a></p>
+{% else %}
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ include.pub.title }}</p>
+{% endif %}
+<p class="detail">{{ include.pub.authors }}</p>
+<p class="detail"><strong>{{ include.pub.conference-name }}</strong>&nbsp;<strong>{{ include.pub.year }}</strong>&nbsp;&#8209;&nbsp;{{ include.pub.venue }}</p>
+{% if include.pub.award %}
+<p class="detail text-award"><strong>{{ include.pub.award }}</strong></p>
+{% endif %}
+
+<p class="detail pub-links">
+{% if include.pub.pdf %}
+[<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
+{% endif %}
+{% if include.pub.external-links %}
+{% for link in include.pub.external-links %}
+{% if link.name contains 'mail' %}
+[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+{% else %}
+[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+{%endif%}
+{% endfor %}
+{% endif %}
+</p>
+</div>
+</div>
+</div>
