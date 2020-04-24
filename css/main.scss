@@ -225,6 +225,10 @@ p.title {
 	margin-right: 15px;
 }
 
+.publications > .card {
+	padding: 15px;
+}
+
 .btn:focus {
 	border-color: black;
 	color: black;
@@ -258,6 +262,11 @@ p.title {
 	padding-bottom: 45px;
 	margin-left: 3px;
 	margin-right: 3px;
+}
+
+.footer-nav-links{
+  padding: 20px;
+  font-size: smaller;
 }
 
 @media (min-width: 1024px ) {
@@ -417,6 +426,12 @@ p.title {
 }
 
 @media (min-width: 500px ) and (max-width: 768px ) {
+
+	.publications > .card {
+		padding: 50px;
+		margin: 35px;
+	}
+
 	#people-row{
 		display:flex;
 		flex-wrap: wrap;
@@ -499,6 +514,11 @@ p.title {
 }
 
 @media (min-width: 400px ) and (max-width: 499px ) {
+
+	.footer-nav-links{
+		padding: 5px;
+		font-size: smaller;
+	}
 
 	#people-row{
 		display:flex;
@@ -587,6 +607,11 @@ p.title {
 
 @media (min-width: 362px ) and (max-width: 399px ) {
 
+	.footer-nav-links{
+		padding: 5px;
+		font-size: smaller;
+	}
+
 	#people-row{
 		display:flex;
 		flex-wrap: wrap;
@@ -670,6 +695,10 @@ p.title {
 }
 
 @media (min-width: 361px ) and (max-width: 375px ) {
+	.footer-nav-links{
+		padding: 5px;
+		font-size: smaller;
+	}
 
 	#people-row{
 		display:flex;
@@ -755,6 +784,11 @@ p.title {
 
 @media (min-width: 336px ) and (max-width: 360px ) {
 
+	.footer-nav-links{
+		padding: 5px;
+		font-size: smaller;
+	}
+
 	#people-row{
 		display:flex;
 		flex-wrap: wrap;
@@ -837,6 +871,11 @@ p.title {
 }
 
 @media (max-width: 335px ) {
+
+	.footer-nav-links{
+		padding: 5px;
+		font-size: smaller;
+	}
 
 	#people-row{
 		display:flex;
@@ -938,7 +977,6 @@ p.title {
 	.card > .row {
 		height: 100%;
 	}
-	
 	.publications > .card > .row > .col-sm-12{
 		margin-top: 10px;
 	}
