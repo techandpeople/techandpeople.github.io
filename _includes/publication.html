@@ -1,6 +1,8 @@
-<div class="card {{ publication.area }} year-{{ include.pub.year }}" style="padding: 15px">
 {% if include.pub.award %}
+<div class="card {{ publication.area }} year-{{ include.pub.year }} award" style="padding: 15px">
 <img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
+{% else %}
+<div class="card {{ publication.area }} year-{{ include.pub.year }}" style="padding: 15px">
 {% endif %}
 <div class="row row-thumb" style="margin-bottom: 0; ">
 <div class="col-md-3" style="padding-left: 0;">
