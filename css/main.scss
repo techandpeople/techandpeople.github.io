@@ -352,6 +352,10 @@ p.title {
 	.row-thumb{
 		display: flex; align-items: center;
 	}
+
+	.row-thumb-home{
+		display: flex;
+	}
 }
 
 @media (min-width: 769px ) and (max-width: 1023px ) {

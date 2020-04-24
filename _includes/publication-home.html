@@ -1,11 +1,11 @@
-<div class="card {{ publication.area }} year-{{ include.pub.year }}" style="padding: 15px">
+<div class="card {{ publication.area }} year-{{ include.pub.year }}" style="padding: 10px 15px 15px 15px;">
 {% if include.pub.award %}
 <img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
 {% endif %}
-<div class="row row-thumb" style="margin-bottom: 0; ">
+<div class="row row-thumb-home" style="margin-bottom: 0; ">
 <div class="col-md-3" style="padding-left: 0;">
 {% if include.pub.image %}
-<p style="margin:0;">
+<p style="margin:0; padding-top: 5px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/publications/publication.png" alt="generic image of a publication" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
