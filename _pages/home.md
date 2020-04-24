@@ -12,8 +12,56 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 <a class="twitter-timeline" data-tweet-limit="3" data-width="1000" data-chrome="noscrollbar nofooter noborders" href="https://twitter.com/TechPeopleLab">Tweets by Tech&People Lab @ ULisboa</a>
 </p>
 
-<h1 class='timeline-Header-title' style="padding-left: 10px; padding-bottom: 20px;">Research highlights</h1>
+<h1 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Recent publications</h1>
+<div class="publications">
+{% assign reversed_pubs = site.publications | reverse %}
 
+{% for publication in reversed_pubs limit:3 %}
+<div class="col-sm-4" style="margin-bottom: 40px">
+<div id="{{ site.base }}{{ publication.pdf }}" class="card card-project" style="	cursor: pointer;">
+<a href="{{ publication.pdf }}">
+<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<div class="card-body">
+<p class="title" style="overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" style="color:inherit; text-decoration: none;">{{ publication.title }}</a></p>
+<p class="description" style="overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" style="color:inherit; text-decoration: none;">{{ publication.description }}</a></p>
+
+</div>
+</div>
+</div>
+
+{% endfor %}
+</div>
+
+<h1 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Recent publications - 2</h1>
+<div class="publications">
+{% assign reversed_pubs = site.publications | reverse %}
+
+{% for publication in reversed_pubs limit:3 %}
+<div class="col-sm-4" style="margin-bottom: 40px">
+<div id="{{ site.base }}{{ publication.pdf }}" class="card card-publication-home" style="	cursor: pointer;">
+<a href="{{ publication.pdf }}">
+<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<div class="card-body">
+<p class="title" style="overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" style="color:inherit; text-decoration: none;">{{ publication.title }}</a></p>
+</div>
+</div>
+</div>
+
+{% endfor %}
+</div>
+
+<h1 class='timeline-Header-title' style="padding-left: 10px; padding-bottom: 20px; padding-top: 20px;">Research highlights</h1>
 <div class="filters">
 <button type="button" class="btn btn-default filterBtn filter selected" id="all">All</button>
 <button type="button" class="btn btn-default filterBtn filter" id="access">Accessible Computing</button>

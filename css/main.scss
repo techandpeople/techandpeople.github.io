@@ -212,6 +212,11 @@ p.title {
 	min-height: 215px;
 }
 
+.card-publication-home{
+	min-height: 310px;
+	max-height: 310px;
+}
+
 .team-links {
 	text-align: left;
 	position: absolute;
@@ -515,6 +520,10 @@ p.title {
 		height: 40px;
 		width: 40px;
 		z-index: 100;
+	}
+	.card-publication-home{
+		min-height: 280px;
+		max-height: 310px;
 	}
 
 	.text-award{
