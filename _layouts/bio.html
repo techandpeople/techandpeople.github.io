@@ -23,7 +23,75 @@ layout: default
 {{ content }}
 </div>
 </div>
-<div id="projects-row" class="row" style="margin-top:32px; border-top: 1px solid rgb(164, 164, 164)">
+<div id="publications-row" class="row" style="margin-top:32px; border-top: 1px solid rgb(164, 164, 164)">
+<h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Publications</h3>
+<div class="publications">
+<script>
+let pubCount = 0;
+</script>
+{% assign my_array = page.id | split: "/" %}
+{% assign my_code = my_array.last %}
+{% for publication in site.publications %}
+{% assign currentItem = publication.people | where: "", my_code %}
+{% if currentItem contains my_code %}
+<script>
+pubCount++;
+</script>
+<div class="card {{ publication.area }} year-{{ publication.year }}" style="padding: 15px">
+{% if publication.award %}
+<img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
+{% endif %}
+<div class="row row-thumb" style="margin-bottom: 0; ">
+<div class="col-md-3" style="padding-left: 0;">
+{% if publication.image %}
+<p style="margin:0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+{% else %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/publications/publication.png" alt="generic image of a publication" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+{% endif %}
+</p>
+</div>
+<div class="col-sm-12">
+{% if publication.pdf %}
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" target="_blank">{{ publication.title }}</a></p>
+{% else %}
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ publication.title }}</p>
+{% endif %}
+<p class="detail">{{ publication.authors }}</p>
+<p class="detail"><strong>{{ publication.conference-name }}</strong>&nbsp;<strong>{{ publication.year }}</strong>&nbsp;&#8209;&nbsp;{{ publication.venue }}</p>
+{% if publication.award %}
+<p class="detail text-award"><strong>{{ publication.award }}</strong></p>
+{% endif %}
+
+<p class="detail pub-links">
+{% if publication.pdf %}
+[<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
+{% endif %}
+{% if publication.external-links %}
+{% for link in publication.external-links %}
+{% if link.name contains 'mail' %}
+[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+{% else %}
+[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+{%endif%}
+{% endfor %}
+{% endif %}
+</p>
+</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+<script>
+if(pubCount === 0){
+    $('#publications-row').css({display: 'none'});
+}
+</script>
+</div>
+</div>
+<h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Projects</h3>
+
+<div id="projects-row" class="row">
 <div class="projects">
 <script>
 let count = 0;

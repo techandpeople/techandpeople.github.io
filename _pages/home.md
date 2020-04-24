@@ -12,8 +12,18 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 <a class="twitter-timeline" data-tweet-limit="3" data-width="1000" data-chrome="noscrollbar nofooter noborders" href="https://twitter.com/TechPeopleLab">Tweets by Tech&People Lab @ ULisboa</a>
 </p>
 
-<h1 class='timeline-Header-title' style="padding-left: 10px; padding-bottom: 20px;">Research highlights</h1>
+<h1 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Recent publications  <span style="font-size: 0.5em;"><a href="{{ site.url }}{{ site.baseurl }}/publications">see all</a></span></h1>
 
+<div class="publications">
+{% assign reversed_pubs = site.publications | reverse %}
+
+{% for publication in reversed_pubs limit: 3 %}
+  {% include publication-home.html pub=publication %}
+{% endfor %}
+
+</div>
+
+<h1 class='timeline-Header-title' style="padding-left: 10px; padding-bottom: 20px; padding-top: 20px;">Research highlights</h1>
 <div class="filters">
 <button type="button" class="btn btn-default filterBtn filter selected" id="all">All</button>
 <button type="button" class="btn btn-default filterBtn filter" id="access">Accessible Computing</button>

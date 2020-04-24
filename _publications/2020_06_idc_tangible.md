@@ -20,6 +20,13 @@ description: "We report on a focus group with IT and special needs educators, wh
 # authors of the publication
 authors: Ana Cristina Pires, Filipa Rocha, António Barros, Hugo Simão, Hugo Nicolau, Tiago Guerreiro
 
+# people associated with the publication
+people:
+ - acp
+ - ajbn
+ - hhss
+ - tjvg
+
 # link to the pdf
 pdf: ../downloads/2020_idc_accessibleprogramming.pdf
 

@@ -27,6 +27,7 @@ permalink: /publications/
 <button type="button" class="btn btn-default filterBtn filterPub" id="health">Pervasive Healthcare</button>
 <button type="button" class="btn btn-default filterBtn filterPub" id="usec">Usable Privacy</button>
 <button type="button" class="btn btn-default filterBtn filterPub" id="inclusive_education">Inclusive Education</button>
+<button type="button" class="btn btn-default filterBtn filterPub" id="award">Awards &#127941;</button>
 </div>
 </div>
 <div class="publications">
