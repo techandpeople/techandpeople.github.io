@@ -217,6 +217,17 @@ p.title {
 	max-height: 310px;
 }
 
+.card-home{
+	position: relative;
+	transition: 0.3s;
+	margin: 10px;
+	box-shadow: none;
+}
+
+.card-home:hover {
+	box-shadow: none;
+}
+
 .team-links {
 	text-align: left;
 	position: absolute;
