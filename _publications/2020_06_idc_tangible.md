@@ -28,7 +28,7 @@ venue: "ACM Interaction Design and Children"
 year: 2020
 
 projects:
-  - robotsarefriends
+  - inclusive_education
 
 # area for filter purpose
 area: inclusive_education
