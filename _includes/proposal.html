@@ -1,6 +1,6 @@
-<div class="card" style="padding-top: 5px;">
-<div class="row row-thumb" >
-<div class="col-md-3" >
+<div class="card" style="padding: 15px">
+<div class="row row-thumb" style="margin-bottom: 0;">
+<div class="col-md-3" style="padding-left: 0;">
 {% if include.prp.image %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/{{ include.prp.image.name }}" alt="{{include.prp.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
 {% else %}
@@ -8,11 +8,20 @@
 {% endif %}
 </div>
 <div class="col-sm-12">
-{{ include.prp.title }}
-<p class="title" >Motivation</p>
-<p class="description" style="margin-bottom: 10px;">{{ include.prp.motivation }}</p>
-<p class="title" >What you will do</p>
-<p class="description" style="margin-bottom: 10px;">{{ include.prp.work }}</p>
+<p style="font-weight: bold; padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ include.prp.title }}</p>
+<p class="title" style="font-weight: normal;">Motivation</p>
+<p class="description" style="margin-bottom: 10px; padding-left: 5px;">{{ include.prp.motivation }}</p>
+<p class="title" style="font-weight: normal;">What you will do</p>
+<p class="description" style="margin-bottom: 10px; padding-left: 5px;">{{ include.prp.work }}</p>
+{% if include.prp.people %}
+<p class="title" style="font-weight: normal;">Advisors</p>
+<p class="description" style="margin-bottom: 10px; padding-left: 5px;">
+{% for ppl in include.prp.people %}
+{% assign person = site.data.team_members[ppl] %}
+<a href="{{ site.url }}{{ site.baseurl }}/team/{{ppl}}.html">{{person.name}}</a><br>
+{% endfor %}
+</p>
+{% endif %}
 {% if include.prp.external-links %}
 {% for link in include.prp.external-links %}
 {% if link.name contains 'mail' %}

@@ -7,7 +7,7 @@ layout: proposal
 ###############
 # TO EDIT
 # pub title
-title: "Asymmetric Roles in Intergenerational Games [Tiago, David]"
+title: "Asymmetric Roles in Intergenerational Games"
 
 # publication image
 image:
@@ -22,6 +22,7 @@ work: "In this thesis you will be challenged to investigate games designed for i
 # people associated with the publication
 people:
  - tjvg
+ - afpr
  - dmcg
 
 ###

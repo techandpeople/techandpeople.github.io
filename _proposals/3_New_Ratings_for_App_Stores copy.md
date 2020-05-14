@@ -7,7 +7,7 @@ layout: proposal
 ###############
 # TO EDIT
 # pub title
-title: "Playing by Proxy [Tiago, David]"
+title: "Playing by Proxy"
 
 # publication image
 image:
@@ -22,7 +22,8 @@ work: "In this thesis you will be challenged to investigate what new metrics can
 # people associated with the publication
 people:
  - tjvg
- - dmcg
+ - afpr
+ - arbs
 
 ###
 ---
