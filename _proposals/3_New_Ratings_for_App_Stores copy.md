@@ -7,7 +7,7 @@ layout: proposal
 ###############
 # TO EDIT
 # pub title
-title: "Playing by Proxy"
+title: "New Ratings for App Stores "
 
 # publication image
 image:

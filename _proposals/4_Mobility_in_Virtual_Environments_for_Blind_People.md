@@ -21,6 +21,7 @@ motivation: "Virtual reality is an emerging technology that is slowly becoming a
 work: "In this thesis you will be challenged to design, develop, and evaluate novel navigation techniques in VR for blind people. You will conduct user studies early on to engage participants in co-design sessions ensuring user engagement and representation. This work will conclude with a user study evaluating the developed set of navigation techniques."
 
 people:
+ - jjgg
  - afpr
 
 ###
