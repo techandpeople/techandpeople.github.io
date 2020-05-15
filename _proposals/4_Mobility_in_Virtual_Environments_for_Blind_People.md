@@ -7,7 +7,7 @@ layout: proposal
 ###############
 # TO EDIT
 # pub title
-title: "Mobility in Virtual Environments for Blind People"
+title: "Virtual Reality for Blind People"
 
 # publication image
 image:
