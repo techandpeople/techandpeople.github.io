@@ -22,9 +22,9 @@ description: "We summarize and critically appraise the characteristics of techno
 authors: "Raquel Bouça-Machado, Constança Jalles, Daniela Guerreiro, Filipa Pona-Ferreira, Diogo Branco, Tiago Guerreiro, Ricardo Matias, Joaquim J. Ferreira"
 
 # link to the pdf
-# pdf:
+pdf: ../downloads/gait_pd.pdf
 
-venue: "Journal of Parkinson's Disease (To Appear)"
+venue: "Journal of Parkinson's Disease"
 year: 2020
 conference-name: JPD
 
