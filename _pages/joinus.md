@@ -32,7 +32,7 @@ Diogo Marques studied the phenomenon of <a href="https://tjvguerreiro.github.io/
 </p>
 <div>
 <br>
-<iframe src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true" style="width: 50vw; height: 460px; position: relative; display: block; margin-left: auto; margin-right: auto;">
+<iframe src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true" style="width: 35vw; height: 380px; position: relative; display: block; margin-left: auto; margin-right: auto;">
 </iframe>
 <br>
 </div>
