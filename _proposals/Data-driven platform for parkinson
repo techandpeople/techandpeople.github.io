@@ -1,0 +1,27 @@
+---
+###############
+# DO NOT EDIT
+layout: proposal
+###############
+
+###############
+# TO EDIT
+# pub title
+title: "Data-driven platform for Parkinson"
+
+# publication image
+image:
+ name: publication.png
+ alt-text: "" # provide a short description for the image #a11y
+
+# short description of the publication
+motivation: "Parkinson Disease affects a lot of, mainly the elderly, people worldwide. Clinicians only have contact with patients twice a year in short duration appointments. To understand what happens with patients in their daily lives, clinicians resort to diaries and short conversations. It is difficult for the patients to recall all the fluctuations that may have happened during that period of time. On the other hand, clinicians would benefit from having more information about patients’ daily life. The use of smartphones device or accelerometer bracelets for activity monitoring are increasing. However, there is the need for clinicians to easily understand what was captured between appointments. Patients also need some kind of feedback if something relevant happened during that period."
+
+work: "In this thesis you will be challenged to design, develop and evaluate a tool for data-driven healthcare. You will build a platform composed of a web app and a mobile application, to help clinicians to understand the data being collected. Adding to this, you will have to develop a specific design for patients to visualize the data."
+
+people:
+ - tjvg
+ - djrb
+
+###
+---
