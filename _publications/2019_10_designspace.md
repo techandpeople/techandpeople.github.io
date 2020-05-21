@@ -29,9 +29,9 @@ conference-name: ASSETS
 projects:
  - text_entry
 
- external-links:
-  - name: DOI
-    url: https://dl.acm.org/doi/10.1145/3371382.3378361
+external-links:
+ - name: DOI
+   url: https://dl.acm.org/doi/10.1145/3371382.3378361
  
 # people associated with the publication
 people:
