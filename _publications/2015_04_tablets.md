@@ -30,7 +30,14 @@ year: 2015
 
 projects:
  - text_entry
- 
+
+external-links:
+ - name: DOI
+   url: https://dl.acm.org/doi/10.1145/2702123.2702373
+ - name: Video
+   url: https://www.youtube.com/watch?v=q2AfjMdCnoc
+
+
 # people associated with the publication
 people:
   - afpr

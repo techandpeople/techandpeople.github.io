@@ -27,6 +27,13 @@ year: 2015
 conference-name: W4A
 projects:
  - brailleio
+
+
+external-links:
+ - name: DOI
+   url: https://dl.acm.org/doi/10.1145/2745555.2746643
+ - name: Slides
+   url: https://www.slideshare.net/hnicolau/w4a2015-48484638
  
  # people associated with the publication
 people:
