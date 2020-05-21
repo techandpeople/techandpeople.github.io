@@ -28,7 +28,7 @@ external-links:
  - name: DOI
    url: https://dl.acm.org/doi/10.1145/2049536.2049569
  - name: Slides
- 	 url: https://www.slideshare.net/tjvguerreiro/blind-people-and-mobile-touchbased-textentry-acknowledging-the-need-for-different-flavors-assets-2011
+   url: https://www.slideshare.net/tjvguerreiro/blind-people-and-mobile-touchbased-textentry-acknowledging-the-need-for-different-flavors-assets-2011
  - name: Video (BrailleType)
    url: https://www.youtube.com/watch?v=p9JMtC3SMhA
  - name: Video (NavTouch)
