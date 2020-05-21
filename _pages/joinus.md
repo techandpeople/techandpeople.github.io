@@ -75,6 +75,8 @@ Parkinson's Disease poster" class="img-proposal-vertical img-responsive">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/acp.html">Ana Pires</a></strong> is a Postdoc scholar at Tech&People. She is a psychologist working on Human-Computer Interaction, with  a particular focus on inclusive education. In her work, she explores how tangible interfaces improve how children learn, for example, mathematical or computational thinking concepts. In the group, she has been working with Tiago and master students to develop solutions for <a href="https://techandpeople.github.io/downloads/2020_idc_accessibleprogramming.pdf" target="_blank">accessible programming</a>, among many other projects.
 </p>
 <br>
+<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/POSTER_ANAP_ASSETS_2019-1.jpg" alt="Tangible math game for visually impaired children poster" class="img-proposal-vertical img-responsive">
+<br>
 # Frequently Asked Questions
 <br>
 <p class="card" style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
