@@ -78,6 +78,7 @@ function resizeTwitterIframe(){
       if(sectionTitle.length){
           for (i = 0; i < sectionTitle.length; i++) {
             sectionTitle[i].style.fontWeight = "400";
+            sectionTitle[i].style.color = "#333333";
           }
       }
       const lis = e.contentDocument.getElementsByClassName('timeline-TweetList-tweet');
