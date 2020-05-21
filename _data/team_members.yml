@@ -30,6 +30,7 @@ friends:
   - mjf
   - konstantin
   - bestchai
+  - ccbb
 
 alumni:
   - ajbn
@@ -347,3 +348,12 @@ mjf:
   links:
     - name: web
       url: https://webpages.ciencias.ulisboa.pt/~mjfonseca/
+
+ccbb:
+  name: Manuel Fonseca
+  photo: ccbb.png
+  info: Fundação Raquel e Martin Sain
+  redirect: http://www.fundacao-sain.org.pt
+  links:
+    - name: web
+      url: http://www.fundacao-sain.org.pt
