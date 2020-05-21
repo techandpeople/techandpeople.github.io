@@ -31,6 +31,11 @@ year: 2018
 projects:
  - smartphone_accessibility
  - inclusive_gaming
+ 
+# people associated with the publication
+people:
+  - afpr
+  - tjvg
 
 # area for filter purpose
 area: access

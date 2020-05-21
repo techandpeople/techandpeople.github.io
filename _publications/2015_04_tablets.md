@@ -30,6 +30,12 @@ year: 2015
 
 projects:
  - text_entry
+ 
+# people associated with the publication
+people:
+  - afpr
+  - jjgg
+  - tjvg
 
 # area for filter purpose
 area: access
