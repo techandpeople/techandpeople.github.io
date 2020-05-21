@@ -24,6 +24,17 @@ authors: "Raquel Bouça-Machado, Constança Jalles, Daniela Guerreiro, Filipa Po
 # link to the pdf
 pdf: ../downloads/gait_pd.pdf
 
+external-links:
+ - name: DOI
+   url: https://doi.org/10.3233/jpd-201969
+ 
+ # people associated with the publication
+people:
+  - djrb
+  - tjvg
+
+
+
 venue: "Journal of Parkinson's Disease"
 year: 2020
 conference-name: JPD

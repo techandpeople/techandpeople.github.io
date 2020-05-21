@@ -23,6 +23,11 @@ authors: "Sérgio Alves, Andreia Cordeiro, Filipa Brito, Luís Carriço, Tiago G
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/chi18_crc_scrapbookv1.pdf
 
+ # people associated with the publication
+people:
+  - saa
+  - tjvg
+
 conference-name: CHI
 venue: "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, Montreal QC, Canada"
 year: 2018

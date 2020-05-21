@@ -25,6 +25,11 @@ authors: "Diogo Marques, Ildar Muslukhov, Tiago Guerreiro, Konstantin Beznosov, 
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/snooping.pdf
 
+ # people associated with the publication
+people:
+  - ddmm
+  - tjvg
+
 venue: "In the Twelfth Symposium on Usable Privacy and Security, USA, June, 2016"
 year: 2016
 conference-name: SOUPS

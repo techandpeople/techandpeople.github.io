@@ -23,6 +23,12 @@ authors: Ana Cristina Pires, Filipa Rocha, António Barros, Hugo Simão, Hugo Ni
 # link to the pdf
 pdf: ../downloads/2020_idc_accessibleprogramming.pdf
 
+ # people associated with the publication
+people:
+  - tjvg
+  - acp
+  - hhss
+
 conference-name: IDC
 venue: "ACM Interaction Design and Children"
 year: 2020
