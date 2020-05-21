@@ -24,7 +24,7 @@ layout: default
 </div>
 </div>
 <div id="publications-row" class="row" style="margin-top:32px;">
-<h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Recent publications</h3>
+<h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Publications</h3>
 <div class="publications">
 <script>
 let pubCount = 0;
@@ -32,13 +32,19 @@ let pubCount = 0;
 {% assign my_array = page.id | split: "/" %}
 {% assign my_code = my_array.last %}
 {% assign reversed_pubs = site.publications | reverse %}
-{% for publication in reversed_pubs limit: 5 %}
+{% assign count = 0 %}
+{% for publication in reversed_pubs %}
 {% assign currentItem = publication.people | where: "", my_code %}
 {% if currentItem contains my_code %}
+{% assign count = count | plus: 1 %}
 <script>
 pubCount++;
 </script>
+{% if count > 5 %}
+<div class="hide-me card-home card {{ publication.area }} year-{{ publication.year }}" style="padding: 0px 0px 0px 10px; display: none;">
+{% else %}
 <div class="card-home card {{ publication.area }} year-{{ publication.year }}" style="padding: 0px 0px 0px 10px;">
+{% endif %}
 {% if publication.award %}
 <img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
 {% endif %}
@@ -81,7 +87,9 @@ if(pubCount === 0){
 </script>
 </div>
 </div>
-
+<div style="text-align: right; margin-top: 25px; margin-right: 15px;">
+<a id="pub-see-more" style="cursor: pointer;">see more...</a>
+</div>
 <div id="projects-row" class="row">
 <h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Projects</h3>
 <div class="projects">
@@ -124,6 +132,27 @@ display: -webkit-box;
 <script>
 if(count === 0){
     $('#projects-row').css({display: 'none'});
+}
+document.getElementById("pub-see-more").addEventListener("click", toggleDisplay);
+function toggleDisplay() {
+    const metadata = document.getElementsByClassName('hide-me');
+      if(metadata.length){
+        let display = true;
+        if(document.getElementById("pub-see-more").innerText == 'see more...'){
+            display = true;
+            document.getElementById("pub-see-more").innerText = "see less..."
+        }else{
+            display = false;
+            document.getElementById("pub-see-more").innerText = "see more..."
+        }
+          for (i = 0; i < metadata.length; i++) {
+            if(display)
+                metadata[i].style.display = 'block';
+            else
+                metadata[i].style.display = 'none';
+
+          }
+      }
 }
 </script>
 </div>
