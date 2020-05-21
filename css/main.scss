@@ -280,6 +280,18 @@ p.title {
   font-size: smaller;
 }
 
+.img-proposal{
+	width: 35vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+}
+
+.img-proposal-vertical{
+	width: 25vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+}
+
+#trevor{
+	width: 35vw; height: 380px; position: relative; display: block; margin-left: auto; margin-right: auto;
+}
+
 @media (min-width: 1024px ) {
 
 	.team-carousel-image{
@@ -530,6 +542,18 @@ p.title {
 
 @media (min-width: 400px ) and (max-width: 499px ) {
 
+	.img-proposal-vertical{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	.img-proposal{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	#trevor{
+		width: 85vw; height: 197px; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
 	.footer-nav-links{
 		padding: 5px;
 		font-size: smaller;
@@ -622,6 +646,17 @@ p.title {
 
 @media (min-width: 362px ) and (max-width: 399px ) {
 
+	.img-proposal-vertical{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+	.img-proposal{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	#trevor{
+		width: 85vw; height: 197px; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
 	.footer-nav-links{
 		padding: 5px;
 		font-size: smaller;
@@ -710,6 +745,19 @@ p.title {
 }
 
 @media (min-width: 361px ) and (max-width: 375px ) {
+
+	.img-proposal-vertical{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	.img-proposal{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	#trevor{
+		width: 85vw; height: 197px; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
 	.footer-nav-links{
 		padding: 5px;
 		font-size: smaller;
@@ -799,6 +847,17 @@ p.title {
 
 @media (min-width: 336px ) and (max-width: 360px ) {
 
+	.img-proposal-vertical{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+	.img-proposal{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	#trevor{
+		width: 85vw; height: 197px; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
 	.footer-nav-links{
 		padding: 5px;
 		font-size: smaller;
@@ -886,6 +945,17 @@ p.title {
 }
 
 @media (max-width: 335px ) {
+
+	.img-proposal-vertical{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+	.img-proposal{
+		width: 85vw; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
+
+	#trevor{
+		width: 85vw; height: 197px; position: relative; display: block; margin-left: auto; margin-right: auto;
+	}
 
 	.footer-nav-links{
 		padding: 5px;

@@ -36,6 +36,8 @@ collections:
     output: true
   team:
     output: true
+  proposals:
+    output: true
 
 # Markdown Processing
 kramdown:

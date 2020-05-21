@@ -1,0 +1,28 @@
+---
+###############
+# DO NOT EDIT
+layout: proposal
+###############
+
+###############
+# TO EDIT
+# pub title
+title: "Daily life activity recognition "
+
+# publication image
+image:
+ name: activityrecognition.png
+ alt-text: "Left picture shows to old people writting. Right picture shows an old man brushing his teeths" # provide a short description for the image #a11y
+
+# short description of the publication
+motivation: "Parkinson disease affects a lot of people, mainly the elderly, worldwide.Clinicians would benefit from having more information about patients’ daily life. Appointments only occurs twice a year, generally, so the potential for details about disease states being lost is relevant. Activities of daily life can help in capturing details about the disease stage and give clues about possible future problems. Adding to this, capturing thin details about each activity can give more clues about patients’ state of disease. "
+
+work: "You will explore methods for collecting data in real environments to build a dataset for exploring activity recognition. After that, you will develop algorithms, using machine learning techniques, to automatically detect daily life activities.
+"
+
+people:
+ - tjvg
+ - djrb
+
+###
+---

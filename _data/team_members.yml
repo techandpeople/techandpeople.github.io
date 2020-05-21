@@ -231,3 +231,13 @@ gus:
       url: g.s.fonseca32@gmail.com
     - name: LinkedIn
       url: https://www.linkedin.com/in/gustavo-fonseca94/
+
+jjgg:
+  name: João Guerreiro
+  redirect: http://joaoguerreiro.net/
+  links:
+    - name: web
+      url: http://joaoguerreiro.net/
+    - name: email
+      url: jpguerreiro@fc.ul.pt
+
