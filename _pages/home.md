@@ -74,6 +74,12 @@ function resizeTwitterIframe(){
   const nodes = document.querySelectorAll('iframe.twitter-timeline');
   nodes.forEach(function(e,i,a){
     if(vw > 1023){
+      const sectionTitle = e.contentDocument.getElementsByClassName('timeline-Header-title');
+      if(sectionTitle.length){
+          for (i = 0; i < sectionTitle.length; i++) {
+            sectionTitle[i].style.fontWeight = "400";
+          }
+      }
       const lis = e.contentDocument.getElementsByClassName('timeline-TweetList-tweet');
       if(lis.length){
           for (i = 0; i < lis.length; i++) {
