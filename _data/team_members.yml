@@ -25,6 +25,9 @@ friends:
   - lmcarrico
   - cad
   - cpesquita
+  - jpvg
+  - smc
+  - mjf
   - konstantin
   - bestchai
 
@@ -244,14 +247,14 @@ gus:
     - name: LinkedIn
       url: https://www.linkedin.com/in/gustavo-fonseca94/
 
-jjgg:
+jpvg:
   name: João Guerreiro
+  photo: jpvg.jpg
   redirect: http://joaoguerreiro.net/
+  info: Lasige, ULisboa
   links:
     - name: web
       url: http://joaoguerreiro.net/
-    - name: email
-      url: jpguerreiro@fc.ul.pt
 
 kkmm:
   name: Kyle Montague
@@ -265,7 +268,7 @@ kkmm:
 hhnn:
   name: Hugo Nicolau
   photo: hhnn.jpg
-  info: INESC-ID, Lisbon University
+  info: INESC-ID, ULisboa
   redirect: http://web.tecnico.ulisboa.pt/hugo.nicolau/
   links:
     - name: web
@@ -275,7 +278,7 @@ hhnn:
 jjff:
   name: Joaquim Ferreira
   photo: jjff.png
-  info: Centro Neurológico Sénior, Torres Vedras
+  info: Instituto de Medicina Molecular, ULisboa
   redirect: https://imm.medicina.ulisboa.pt/investigation/laboratories/joaquim-ferreira-lab/#intro
   links:
     - name: web
@@ -285,7 +288,7 @@ jjff:
 lmcarrico:
   name: Luís Carriço
   photo: lmcarrico.jpeg
-  info: Lasige, Lisbon University
+  info: Lasige, ULisboa
   redirect: https://ciencias.ulisboa.pt/en/perfil/lmcarrico
   links:
     - name: web
@@ -294,7 +297,7 @@ lmcarrico:
 cad:
   name: Carlos Duarte
   photo: cad.jpeg
-  info: Lasige, Lisbon University
+  info: Lasige, ULisboa
   redirect: http://www.di.fc.ul.pt/~cad/
   links:
     - name: web
@@ -303,7 +306,7 @@ cad:
 cpesquita:
   name: Cátia Pesquita
   photo: cpesquita.jpeg
-  info: Lasige, Lisbon University
+  info: Lasige, ULisboa
   redirect: http://www.di.fc.ul.pt/~catiapesquita/
   links:
     - name: web
@@ -326,3 +329,21 @@ konstantin:
   links:
     - name: web
       url: https://www.cs.ubc.ca/~bestchai/
+
+smc:
+  name: Sara Madeira
+  photo: smc.jpeg
+  info: Lasige, ULisboa
+  redirect: https://ciencias.ulisboa.pt/en/perfil/sacmadeira
+  links:
+    - name: web
+      url: https://ciencias.ulisboa.pt/en/perfil/sacmadeira
+
+mjf:
+  name: Manuel Fonseca
+  photo: mjf.jpg
+  info: Lasige, ULisboa
+  redirect: https://webpages.ciencias.ulisboa.pt/~mjfonseca/
+  links:
+    - name: web
+      url: https://webpages.ciencias.ulisboa.pt/~mjfonseca/
