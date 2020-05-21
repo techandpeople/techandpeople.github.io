@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: "Human-Powered Smartphone Assistance for Blind People."
+title: "Human-Powered Smartphone Assistance for Blind People"
 
 # publication image
 image:
@@ -22,7 +22,7 @@ description: "We investigated if and how in-context human-powered solutions can 
 authors: "André Rodrigues"
 
 # link to the pdf
-pdf: https://github.com/techandpeople/techandpeople.github.io/blob/master/downloads/php_thesis_andre.pdf
+pdf: ../downloads/php_thesis_andre.pdf
 
 conference-name: PhD Thesis
 venue: "Advisors: Tiago Guerreiro, Kyle Montague"
