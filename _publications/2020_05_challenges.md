@@ -30,6 +30,12 @@ conference-name: IJHCI
 
 projects:
  - smartphone_accessibility
+ 
+# people associated with the publication
+people:
+  - afpr
+  - arbs
+  - tjvg
 
 # area for filter purpose
 area: access
