@@ -252,7 +252,7 @@ jpvg:
   name: João Guerreiro
   photo: jpvg.jpg
   redirect: http://joaoguerreiro.net/
-  info: Lasige, ULisboa
+  info: LASIGE, ULisboa
   links:
     - name: web
       url: http://joaoguerreiro.net/
@@ -289,7 +289,7 @@ jjff:
 lmcarrico:
   name: Luís Carriço
   photo: lmcarrico.jpeg
-  info: Lasige, ULisboa
+  info: LASIGE, ULisboa
   redirect: https://ciencias.ulisboa.pt/en/perfil/lmcarrico
   links:
     - name: web
@@ -298,7 +298,7 @@ lmcarrico:
 cad:
   name: Carlos Duarte
   photo: cad.jpeg
-  info: Lasige, ULisboa
+  info: LASIGE, ULisboa
   redirect: http://www.di.fc.ul.pt/~cad/
   links:
     - name: web
@@ -307,7 +307,7 @@ cad:
 cpesquita:
   name: Cátia Pesquita
   photo: cpesquita.jpeg
-  info: Lasige, ULisboa
+  info: LASIGE, ULisboa
   redirect: http://www.di.fc.ul.pt/~catiapesquita/
   links:
     - name: web
@@ -334,7 +334,7 @@ konstantin:
 smc:
   name: Sara Madeira
   photo: smc.jpeg
-  info: Lasige, ULisboa
+  info: LASIGE, ULisboa
   redirect: https://ciencias.ulisboa.pt/en/perfil/sacmadeira
   links:
     - name: web
@@ -343,7 +343,7 @@ smc:
 mjf:
   name: Manuel Fonseca
   photo: mjf.jpg
-  info: Lasige, ULisboa
+  info: LASIGE, ULisboa
   redirect: https://webpages.ciencias.ulisboa.pt/~mjfonseca/
   links:
     - name: web
