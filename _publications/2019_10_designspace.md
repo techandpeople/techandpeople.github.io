@@ -32,6 +32,12 @@ year: 2019
 conference-name: ASSETS
 projects:
  - text_entry
+ 
+# people associated with the publication
+people:
+ - afpr
+ - arbs
+ - tjvg
 
 # area for filter purpose
 area: access
