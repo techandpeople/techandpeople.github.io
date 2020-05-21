@@ -36,7 +36,7 @@ Below, you can find the master thesis <a href="{{ site.url }}{{ site.baseurl }}/
 </p>
 <br>
 <div>
-<iframe src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true" style="width: 35vw; height: 380px; position: relative; display: block; margin-left: auto; margin-right: auto;">
+<iframe id="trevor" src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true">
 </iframe>
 </div>
 <br id="web">
@@ -44,32 +44,32 @@ Below, you can find the master thesis <a href="{{ site.url }}{{ site.baseurl }}/
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/saa.html">Sérgio Alves</a></strong> performed his master thesis in 2017 when he developed <a href="https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf" target="_blank">Scrapbook</a>, a web platform to enable agile biographic reminiscence therapy, which was used for more than a year in national clinical institutions and care homes (that he presented at the WebForAll conference in San Francisco). Before starting his PhD, he was hired as an engineer in the group to maintain and improve Scrapbook, and was then hired by the Openlab (UK) to maintain the collaboration with Tech&People. He is now researching citizen-led experimentation of user interfaces (advised by Tiago Guerreiro and co-advised by Kyle Montague, Openlab, UK).
 </p>
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/scrapbook.png" alt="scrapbook poster" class="img-proposal">
+<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/scrapbook.png" alt="scrapbook poster" class="img-proposal ">
 <br id="mobile">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/afpr.html">André Rodrigues</a></strong> performed his master thesis in 2014 working on system-wide assistive technologies. In this work, besides a <a href="http://www.di.fc.ul.pt/~tjvg/amc/spatialtouch/tablets_chi2015.pdf" target="_blank">novel tablet two-handed text-entry method for blind people</a>, he was able to provide a mobile phone access solution to Miguel, a tetraplegic blind young man. He presented his MSc work at BCS HCI in Southport, UK and at CHI (the best international conference in Human-Computer Interaction), in South Korea. After that, he pursued his PhD (LASIGE’s and DI’s Best PhD Student Award 2 times in a row), focusing on human-powered solutions for smartphone accessibility. From his many contributions, we outline TinyBlackBox, a Android mobile logger for user studies that enabled a <a href="http://www.di.fc.ul.pt/~tjvg/amc/tbb/adoption.pdf" target="_blank">longitudinal study with blind people</a>, and has been integrated in the popular AWARE framework. During his PhD, he spent 3 months at Newcastle University, where we collaborated in the development of an IVR health system that is now being explored in a variety of contexts. He is now a PosDoc scholar in the group focusing on accessibility, gaming, and virtual reality.
 </p>
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/tbb.png" alt="tiny black box poster" class="img-proposal">
+<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/tbb.png" alt="tiny black box poster" class="img-proposal img-responsive">
 <br id="wearable">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/djrb.html">Diogo Branco</a></strong> performed his master thesis in 2018 where he focused on extracting metrics from wrist-worn accelerometers and designing usable free-living reports for neurologists and patients with Parkinson’s Disease. The platform has been used since then for a period over 18 months (and going). He presented the outcomes of his MSc at <a href="https://www.researchgate.net/publication/332773993_Designing_Free-Living_Reports_for_Parkinson's_Disease" target="_blank">CHI 2019</a> in Glasgow, and started his PhD in 2019. His work enabled ongoing service contracts with pharmaceuticals and the usage of wearable sensors in clinical trials.
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/posterLBWV2-1.jpg" alt="Designing Free-Living Reports for
-Parkinson's Disease poster" class="img-proposal-vertical">
+Parkinson's Disease poster" class="img-proposal-vertical img-responsive">
 <br id="robotic">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/hhss.html">Hugo Simão</a></strong> is an industrial designer doing his master thesis on robots to support people with dementia. In this process, he designed and developed MATY, a multisensorial robot that is able to project images, emit fragrances, sounds, and walk around autonomously. He published his preliminary work at CHI 2019, in Glasgow, and other parallel projects on robots for older adults (e.g., Carrier-pigeon robot at HRI 2020). Hugo is starting his PhD in the group in the next semester, and was accepted for a 6-month internship at Carnegie Mellon University (postponed due to Coronavirus).
 </p>
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/2019_10_Maty.jpg" alt="Playing With Others poster" class="img-proposal">
+<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/2019_10_Maty.jpg" alt="Playing With Others poster" class="img-proposal img-responsive">
 <br id="gaming">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/dmcg.html">David Gonçalves</a></strong> is a current master student (started in September 2019) in the group working on asymmetric roles in mixed-ability gaming. Until now, he performed formative studies with blind gamers (and gaming partners), trying to understand their current gaming practices, and has developed his first mixed-ability game using Unity. He submitted his first full paper to an international conference (under review), and joined Tiago in a visit to Facebook Research London, where they were invited to present their work at the Facebook first Research Seminar Series.
 </p>
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/PlayingWithOthers_poster-1.jpg" alt="Playing With Others poster" class="img-proposal-vertical">
+<img src="{{ site.url }}{{ site.baseurl }}/images/proposals/PlayingWithOthers_poster-1.jpg" alt="Playing With Others poster" class="img-proposal-vertical img-responsive">
 <br id="tangible">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/acp.html">Ana Pires</a></strong> is a Postdoc scholar at Tech&People. She is a psychologist working on Human-Computer Interaction, with  a particular focus on inclusive education. In her work, she explores how tangible interfaces improve how children learn, for example, mathematical or computational thinking concepts. In the group, she has been working with Tiago and master students to develop solutions for <a href="https://techandpeople.github.io/downloads/2020_idc_accessibleprogramming.pdf" target="_blank">accessible programming</a>, among many other projects.
