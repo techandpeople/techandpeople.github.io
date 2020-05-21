@@ -10,63 +10,67 @@ permalink: /joinus/
 </style>
 # Join us
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-The <strong><a href="{{ site.url }}{{ site.baseurl }}/">Tech&People</a></strong> group is always on the lookout for enthusiastic candidate members with multidisciplinary backgrounds. In our work, we embed ourselves in the contexts we are designing for (formative studies), we design and build web, mobile, wearable, robotic, gaming, and tangible interactive systems, and we evaluate them with target users. If you join our group it is likely that you will work closely with end-users, collaborate with a multidisciplinary team (engineers, designers, data scientists, psychologists, clinicians), build novel and impactful interactive systems, eventually publish and present your work internationally, and see your project being used in real-life contexts.
+The <strong><a href="{{ site.url }}{{ site.baseurl }}/">Tech&People</a></strong> group is always on the lookout for enthusiastic candidate members with multidisciplinary backgrounds. In our work, we embed ourselves in the contexts we are designing for (formative studies<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#studies">1</a></sup>), we design and build web<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#web">2</a></sup>, mobile<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#mobile">3</a></sup>, wearable<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#wearable">4</a></sup>, robotic<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#robotic">5</a></sup>, gaming<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#gaming">6</a></sup>, and tangible<sup><a href="{{ site.url }}{{ site.baseurl }}/joinus/#tangible">7</a></sup> interactive systems, and we evaluate them with target users. If you join our group it is likely that you will work closely with end-users, collaborate with a multidisciplinary team (engineers, designers, data scientists, psychologists, clinicians), build novel and impactful interactive systems, eventually publish and present your work internationally, and see your project being used in real-life contexts.
 </p>
 <p style="margin: 20px; padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0; background-color: #343a40; color: white;">
 <strong>Note about COVID-19:</strong><br><br>
 The pandemic is taking a toll in everyone’s lives. At Tech&People, we regularly engage with end-users, some of them more fragile. This has obviously impacted the way we do our research. Currently, our evaluations and formative sessions with end-users are performed remotely and we have adapted all our workflows to be done remotely as well, to the extent possible. The group has regular online events (weekly project meetings, reading clubs), and an ongoing virtual laboratory using Discord. Independently of the confinement status, working remotely will always be a choice for those that prefer to do so (with continuous involvement in our virtual communication channels).
 </p>
 <br>
-# Proposals
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+Below, you can find the master thesis <a href="{{ site.url }}{{ site.baseurl }}/joinus/#proposals">proposals</a>  that the group is offering for the year 2020/2021. Also, we present a set of <a href="{{ site.url }}{{ site.baseurl }}/joinus/#stories">stories</a> of what members of the group did in their masters or are doing now, with the goal to provide some background to the proposals and an overall view of the opportunities you can find at <a href="{{ site.url }}{{ site.baseurl }}/">Tech&People</a>. Lastly, you can find a set of Frequently Asked Questions. If you want to know more, get in touch by <a href="mailto:tjvg@di.fc.ul.pt">e-mail</a>, follow us in <a href="https://twitter.com/TechPeopleLab" target="_blank">Twitter</a>, or check our <a href="{{ site.url }}{{ site.baseurl }}/publications/">publications</a>.
+</p>
+<br id="proposals">
+# MSc Proposals 2020/2021
 <br>
 <div class="proposals">
 {% for proposal in site.proposals %}
   {% include proposal.html prp=proposal %}
 {% endfor %}
 </div>
-<br>
+<br id="stories">
 # STORIES
-<br>
+<br id="studies">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/ddmm.html">Diogo Marques</a></strong> studied the phenomenon of <a href="https://tjvguerreiro.github.io/pubs/vulnerability_chi19.pdf" target="_blank">social insider attacks to personal mobile devices</a>, resorting to <a href="http://www.di.fc.ul.pt/~tjvg/amc/snooping.pdf" target="_blank">anonymity-preserving large-scale online studies</a>, in his PhD. His work won awards at the most reputable usable security conference, and attracted intense media attention, with a highlight to a <a href="https://midr-project.github.io/press/2019-08-20-media_attention_to_our_usable_privacy_research.html" target="_blank">DailyShow sketch (from minute 3:05)</a>. During his PhD, he spent 4 months at IBM Research NY, doing an internship. He is now a user researcher at Google Munich.
 </p>
-<div>
 <br>
+<div>
 <iframe src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true" style="width: 35vw; height: 380px; position: relative; display: block; margin-left: auto; margin-right: auto;">
 </iframe>
-<br>
 </div>
+<br id="web">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/saa.html">Sérgio Alves</a></strong> performed his master thesis in 2017 when he developed <a href="https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf" target="_blank">Scrapbook</a>, a web platform to enable agile biographic reminiscence therapy, which was used for more than a year in national clinical institutions and care homes (that he presented at the WebForAll conference in San Francisco). Before starting his PhD, he was hired as an engineer in the group to maintain and improve Scrapbook, and was then hired by the Openlab (UK) to maintain the collaboration with Tech&People. He is now researching citizen-led experimentation of user interfaces (advised by Tiago Guerreiro and co-advised by Kyle Montague, Openlab, UK).
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/scrapbook.png" alt="scrapbook poster" class="img-proposal">
-<br>
+<br id="mobile">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/afpr.html">André Rodrigues</a></strong> performed his master thesis in 2014 working on system-wide assistive technologies. In this work, besides a <a href="http://www.di.fc.ul.pt/~tjvg/amc/spatialtouch/tablets_chi2015.pdf" target="_blank">novel tablet two-handed text-entry method for blind people</a>, he was able to provide a mobile phone access solution to Miguel, a tetraplegic blind young man. He presented his MSc work at BCS HCI in Southport, UK and at CHI (the best international conference in Human-Computer Interaction), in South Korea. After that, he pursued his PhD (LASIGE’s and DI’s Best PhD Student Award 2 times in a row), focusing on human-powered solutions for smartphone accessibility. From his many contributions, we outline TinyBlackBox, a Android mobile logger for user studies that enabled a <a href="http://www.di.fc.ul.pt/~tjvg/amc/tbb/adoption.pdf" target="_blank">longitudinal study with blind people</a>, and has been integrated in the popular AWARE framework. During his PhD, he spent 3 months at Newcastle University, where we collaborated in the development of an IVR health system that is now being explored in a variety of contexts. He is now a PosDoc scholar in the group focusing on accessibility, gaming, and virtual reality.
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/tbb.png" alt="tiny black box poster" class="img-proposal">
-<br>
+<br id="wearable">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-<strong><a href="{{ site.url }}{{ site.baseurl }}/team/djrb.html">Diogo Branco</a></strong> performed his master thesis in 2018 where he focused on extracting metrics from wrist-worn accelerometers and designing usable free-living reports for neurologists and patients with Parkinson’s Disease. The platform has been used since then for a period over 18 months (and going). He presented the outcomes of his MSc at <a href="http://www.di.fc.ul.pt/~tjvg/amc/tbb/adoption.pdf" target="_blank">CHI 2019</a> in Glasgow, and started his PhD in 2019. His work enabled ongoing service contracts with pharmaceuticals and the usage of wearable sensors in clinical trials.
+<strong><a href="{{ site.url }}{{ site.baseurl }}/team/djrb.html">Diogo Branco</a></strong> performed his master thesis in 2018 where he focused on extracting metrics from wrist-worn accelerometers and designing usable free-living reports for neurologists and patients with Parkinson’s Disease. The platform has been used since then for a period over 18 months (and going). He presented the outcomes of his MSc at <a href="https://www.researchgate.net/publication/332773993_Designing_Free-Living_Reports_for_Parkinson's_Disease" target="_blank">CHI 2019</a> in Glasgow, and started his PhD in 2019. His work enabled ongoing service contracts with pharmaceuticals and the usage of wearable sensors in clinical trials.
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/posterLBWV2-1.jpg" alt="Designing Free-Living Reports for
 Parkinson's Disease poster" class="img-proposal-vertical">
-<br>
+<br id="robotic">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/hhss.html">Hugo Simão</a></strong> is an industrial designer doing his master thesis on robots to support people with dementia. In this process, he designed and developed MATY, a multisensorial robot that is able to project images, emit fragrances, sounds, and walk around autonomously. He published his preliminary work at CHI 2019, in Glasgow, and other parallel projects on robots for older adults (e.g., Carrier-pigeon robot at HRI 2020). Hugo is starting his PhD in the group in the next semester, and was accepted for a 6-month internship at Carnegie Mellon University (postponed due to Coronavirus).
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/2019_10_Maty.jpg" alt="Playing With Others poster" class="img-proposal">
-<br>
+<br id="gaming">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/dmcg.html">David Gonçalves</a></strong> is a current master student (started in September 2019) in the group working on asymmetric roles in mixed-ability gaming. Until now, he performed formative studies with blind gamers (and gaming partners), trying to understand their current gaming practices, and has developed his first mixed-ability game using Unity. He submitted his first full paper to an international conference (under review), and joined Tiago in a visit to Facebook Research London, where they were invited to present their work at the Facebook first Research Seminar Series.
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/PlayingWithOthers_poster-1.jpg" alt="Playing With Others poster" class="img-proposal-vertical">
-<br>
+<br id="tangible">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/acp.html">Ana Pires</a></strong> is a Postdoc scholar at Tech&People. She is a psychologist working on Human-Computer Interaction, with  a particular focus on inclusive education. In her work, she explores how tangible interfaces improve how children learn, for example, mathematical or computational thinking concepts. In the group, she has been working with Tiago and master students to develop solutions for <a href="https://techandpeople.github.io/downloads/2020_idc_accessibleprogramming.pdf" target="_blank">accessible programming</a>, among many other projects.
 </p>
