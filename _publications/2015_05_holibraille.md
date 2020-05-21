@@ -27,6 +27,11 @@ year: 2015
 conference-name: W4A
 projects:
  - brailleio
+ 
+ # people associated with the publication
+people:
+  - afpr
+  - tjvg
 
 # area for filter purpose
 area: access
