@@ -23,6 +23,15 @@ authors: "Ana Cristina Pires, Sebastian Marichal, Fernando Gonzalez-Perilli, Ewe
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/Piresetal2019_A%20Tangible%20Math%20Game%20for%20Visually%20Impaired%20Children_ASSETS.pdf
 
+external-links:
+  - name: DOI
+    url: https://dl.acm.org/doi/10.1145/3308561.3354596
+
+ # people associated with the publication
+people:
+  - acp
+  - tjvg
+
 conference-name: ASSETS
 venue: "21th International ACM SIGACCESS Conference on Computers and Accessibility. Pittsburgh, PA, USA. October, 2019"
 year: 2019

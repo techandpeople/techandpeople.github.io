@@ -24,6 +24,10 @@ authors: "Jaime Carvalho, Luís Duarte, Tiago Guerreiro, Luís Carriço"
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/puzzles/mobacc_puzzles_review.pdf
 
+# people associated with the publication
+people:
+ - tjvg
+
 venue: "Mobile Accessibility Workshop at MobileHCI 2012"
 year: 2012
 conference-name: MOBACC

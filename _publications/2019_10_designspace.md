@@ -19,25 +19,25 @@ description: "Word completion interfaces are ubiquitously available in mobile vi
  # authors of the publication
 authors: "Hugo Nicolau, André Rodrigues, André Santos, Tiago Guerreiro, Kyle Montague, João Guerreiro"
 
-# people associated with the publication
-people:
- - afpr
- - arbs
- - tjvg
-
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/assets19_sos.pdf
 award: Best Paper Nominee
-
-external-links:
-  - name: DOI
-    url: https://dl.acm.org/doi/10.1145/3371382.3378361
 
 venue: "In The 21st International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '19). ACM, New York, NY, USA, 249-261."
 year: 2019
 conference-name: ASSETS
 projects:
  - text_entry
+
+external-links:
+ - name: DOI
+   url: https://dl.acm.org/doi/10.1145/3371382.3378361
+ 
+# people associated with the publication
+people:
+ - afpr
+ - arbs
+ - tjvg
 
 # area for filter purpose
 area: access

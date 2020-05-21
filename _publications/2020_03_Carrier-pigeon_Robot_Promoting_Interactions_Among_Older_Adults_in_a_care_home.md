@@ -23,6 +23,12 @@ external-links:
   - name: Video
     url: https://www.youtube.com/watch?v=Zq4druvrvug
 
+ # people associated with the publication
+people:
+  - acp
+  - tjvg
+  - hhss
+
 # authors of the publication
 authors: Hugo Simão, Ana Cristina Pires, David Gonçalves, Tiago Guerreiro
 

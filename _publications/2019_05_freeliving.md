@@ -32,6 +32,11 @@ year: 2019
 projects:
   - data_driven_healthcare
 
+ # people associated with the publication
+people:
+  - djrb
+  - tjvg
+
 # area for filter purpose
 area: health
 ###############

@@ -110,13 +110,13 @@ permalink: /team/
 <div class="item active">
 <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c1.jpg" alt="Reception for new masters students">
 <div class="carousel-caption">
-<h3 class="carousel-caption-text">Reception for new masters students</h3>
+<h3 class="carousel-caption-text">Reception for new masters students in 2019</h3>
 </div>
 </div>
 <div class="item">
 <img class="img-responsive imgpub team-carousel-image" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c2.jpg" alt="Group dinner">
 <div class="carousel-caption">
-<h3 class="carousel-caption-text">Group dinner</h3>
+<h3 class="carousel-caption-text">Dinner and drinks at CHI 2019, in Glasgow</h3>
 </div>
 </div>
 <div class="item">
@@ -146,7 +146,7 @@ permalink: /team/
 <div class="item">
 <img style="width:auto; max-height: 600px; margin-left:auto; margin-right:auto;" class="img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/team-carousel/c7.jpg" alt="Tiago Guerreiro presenting at ASSETS 2018">
 <div class="carousel-caption">
-<h3 class="carousel-caption-text">Tiago Guerreiro presenting at ASSETS 2018</h3>
+<h3 class="carousel-caption-text">Tiago Guerreiro presenting at ASSETS 2018, Galway, Ireland</h3>
 </div>
 </div>
 </div>

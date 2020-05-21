@@ -31,6 +31,15 @@ year: 2015
 projects:
  - smartphone_accessibility
 
+external-links:
+ - name: DOI
+   url: https://dl.acm.org/doi/10.1145/2700648.2809842
+ 
+# people associated with the publication
+people:
+  - afpr
+  - tjvg
+  
 # area for filter purpose
 area: access
 ###############

@@ -22,6 +22,19 @@ authors: "João Oliveira, Tiago Guerreiro, Hugo Nicolau, Joaquim Jorge, and Dani
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/phd/files/brailletype_interact11.pdf
 
+external-links:
+ - name: DOI
+   url: https://link.springer.com/chapter/10.1007/978-3-642-23774-4_10
+ - name: Slides
+   url: https://www.slideshare.net/hnicolau/brailletype-unleashing-braille-over-touch-screen-mobile-phones
+ - name: Video
+   url: https://www.youtube.com/watch?v=p9JMtC3SMhA
+
+ 
+# people associated with the publication
+people:
+ - tjvg
+
 venue: "INTERACT 2011: Human-Computer Interaction – INTERACT 2011 pp 100-107"
 year: 2011
 conference-name: INTERACT

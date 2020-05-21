@@ -29,6 +29,12 @@ year: 2018
 
 projects:
   - brailleio
+  
+# people associated with the publication
+people:
+  - afpr
+  - arbs
+  - tjvg
 
 # area for filter purpose
 area: access
