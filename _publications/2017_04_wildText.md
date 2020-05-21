@@ -28,6 +28,11 @@ venue: "ACM Transactions on Accessible Computing (TACCESS) - Special Issue (Part
 year: 2017
 projects:
  - text_entry
+ 
+# people associated with the publication
+people:
+  - afpr
+  - tjvg
 
 # area for filter purpose
 area: access
