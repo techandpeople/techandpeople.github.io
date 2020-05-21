@@ -29,7 +29,10 @@ external-links:
     url: https://dl.acm.org/doi/10.1145/2049536.2049569
   - name: Slides
   	url: https://www.slideshare.net/tjvguerreiro/blind-people-and-mobile-touchbased-textentry-acknowledging-the-need-for-different-flavors-assets-2011
-  - 
+  - name: Video (BrailleType)
+    url: https://www.youtube.com/watch?v=p9JMtC3SMhA
+  - name: Video (NavTouch)
+    url: https://www.youtube.com/watch?v=1tOzbkEsklQ
 
 venue: "In The 13th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '11). ACM, New York, NY, USA, 179-186."
 year: 2011

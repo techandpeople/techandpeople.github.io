@@ -23,6 +23,17 @@ authors: "Hugo Nicolau, João Guerreiro, Tiago Guerreiro and Luis Carríço"
 # link to the pdf
 pdf: http://www.di.fc.ul.pt/~tjvg/amc/ubibraille/assets13.pdf
 
+external-links:
+ - name: DOI
+   url: https://dl.acm.org/doi/10.1145/2513383.2513437
+ - name: Slides
+   url: https://www.slideshare.net/hnicolau/ubibraille-designing-and-evaluating-a-vibrotactile-braillereading-device-27499548
+
+ 
+# people associated with the publication
+people:
+ - tjvg
+
 venue: "In Proceedings of the 15th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '13). ACM, New York, NY, USA, , Article 23 , 8 pages."
 year: 2013
 conference-name: ASSETS
