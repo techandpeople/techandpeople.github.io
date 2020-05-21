@@ -16,8 +16,59 @@ permalink: /team/
 </p>
 
 </div>
+# People
 <div id="people-row" class="row">
 {% for member in site.data.team_members.members %}
+{% assign person = site.data.team_members[member] %}
+<div class="col-sm-3">
+<div id="{{member}}" class="card card-team-member">
+<a href="{{ site.url }}{{ site.baseurl }}/team/{{member}}.html">
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="margin-top: 0; float: left" /></a>
+<div class="card-body">
+<p class="title">{{ person.name }}</p>
+<p class="detail">{{ person.info }}</p>
+<p class="detail team-links">
+{% for link in person.links %}
+{% if link.name contains 'mail' %}
+[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+{% else %}
+[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+{%endif%}
+{% endfor %}
+</p>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+# Friends of Tech&People
+<div id="people-row" class="row">
+{% for member in site.data.team_members.friends %}
+{% assign person = site.data.team_members[member] %}
+<div class="col-sm-3">
+<div id="{{member}}" class="card card-team-member">
+<a href="{{ site.url }}{{ site.baseurl }}/team/{{member}}.html">
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="margin-top: 0; float: left" /></a>
+<div class="card-body">
+<p class="title">{{ person.name }}</p>
+<p class="detail">{{ person.info }}</p>
+<p class="detail team-links">
+{% for link in person.links %}
+{% if link.name contains 'mail' %}
+[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+{% else %}
+[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+{%endif%}
+{% endfor %}
+</p>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+# Alumni
+<div id="people-row" class="row">
+{% for member in site.data.team_members.alumni %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
 <div id="{{member}}" class="card card-team-member">

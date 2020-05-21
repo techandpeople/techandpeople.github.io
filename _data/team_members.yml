@@ -17,6 +17,12 @@ members:
   - lmr
   - gmg
   - gus
+
+friends:
+  - kkmm
+  - hhnn
+
+alumni:
   - ajbn
   - lrs
 
@@ -241,3 +247,22 @@ jjgg:
     - name: email
       url: jpguerreiro@fc.ul.pt
 
+kkmm:
+  name: Kyle Montague
+  photo: kkmm.jpg
+  redirect: https://www.kylemontague.co.uk
+  links:
+    - name: web
+      url: https://www.kylemontague.co.uk
+    - name: email
+      url: kyle.montague@ncl.ac.uk
+
+hhnn:
+  name: Hugo Nicolau
+  photo: hhnn.jpg
+  redirect: http://web.tecnico.ulisboa.pt/hugo.nicolau/
+  links:
+    - name: web
+      url: http://web.tecnico.ulisboa.pt/hugo.nicolau/
+    - name: email
+      url: hman@inesc-id.pt
