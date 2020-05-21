@@ -27,7 +27,7 @@ external-links:
   - name: DOI
     url: https://dl.acm.org/doi/10.1145/2817721.2817743
   - name: Dataset
-  	url: https://www.dropbox.com/sh/03kc3og0nfxthe5/AAAlTWYhBq6pqbnTVqAwEYx1a?dl=0
+    url: https://www.dropbox.com/sh/03kc3og0nfxthe5/AAAlTWYhBq6pqbnTVqAwEYx1a?dl=0
 
 venue: "ACM International Conference on Interactive Tabletops and Surfaces, Madeira, Portugal, November, 2015"
 year: 2015
