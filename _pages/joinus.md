@@ -36,7 +36,7 @@ Below, you can find the master thesis <a href="{{ site.url }}{{ site.baseurl }}/
 </p>
 <br>
 <div>
-<iframe id="trevor" src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true">
+<iframe class="video" src="//media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:a8e1f53b-821a-4ec0-bae7-527572d1c998"  frameborder="0" allowfullscreen="true">
 </iframe>
 </div>
 <br id="web">
@@ -70,6 +70,11 @@ Parkinson's Disease poster" class="img-proposal-vertical img-responsive">
 </p>
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/proposals/PlayingWithOthers_poster-1.jpg" alt="Playing With Others poster" class="img-proposal-vertical img-responsive">
+<br><br>
+<video class="video" controls>
+  <source src="{{ site.url }}{{ site.baseurl }}/images/proposals/rescueup_demo.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
 <br id="tangible">
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong><a href="{{ site.url }}{{ site.baseurl }}/team/acp.html">Ana Pires</a></strong> is a Postdoc scholar at Tech&People. She is a psychologist working on Human-Computer Interaction, with  a particular focus on inclusive education. In her work, she explores how tangible interfaces improve how children learn, for example, mathematical or computational thinking concepts. In the group, she has been working with Tiago and master students to develop solutions for <a href="https://techandpeople.github.io/downloads/2020_idc_accessibleprogramming.pdf" target="_blank">accessible programming</a>, among many other projects.

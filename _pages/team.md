@@ -14,10 +14,16 @@ permalink: /team/
  If you want to know more about us see the<a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
 </strong></a>
 </p>
-
+<div class="filters">
+<a href="{{ site.url }}{{ site.baseurl }}/team/#people-row"><button type="button" class="btn btn-default filterBtn">Team</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/team/#friends-row"><button type="button" class="btn btn-default filterBtn">Friends of Tech&People</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/team/#alumni-row"><button type="button" class="btn btn-default filterBtn">Alumni</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/team/#memorabilia"><button type="button" class="btn btn-default filterBtn">Memorabilia</button></a>
 </div>
+</div>
+<br id="people-row">
 # People
-<div id="people-row" class="row">
+<div class="row people-row">
 {% for member in site.data.team_members.members %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
@@ -41,8 +47,9 @@ permalink: /team/
 </div>
 {% endfor %}
 </div>
+<br id="friends-row">
 # Friends of Tech&People
-<div id="people-row" class="row">
+<div class="row people-row">
 {% for member in site.data.team_members.friends %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
@@ -66,8 +73,9 @@ permalink: /team/
 </div>
 {% endfor %}
 </div>
+<br id="alumni-row">
 # Alumni
-<div id="people-row" class="row">
+<div class="row people-row">
 {% for member in site.data.team_members.alumni %}
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
@@ -91,6 +99,7 @@ permalink: /team/
 </div>
 {% endfor %}
 </div>
+<br id="memorabilia">
 # Memorabilia
 <div class="row">
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
