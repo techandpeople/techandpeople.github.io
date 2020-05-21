@@ -21,6 +21,12 @@ members:
 friends:
   - kkmm
   - hhnn
+  - jjff
+  - lmcarrico
+  - cad
+  - cpesquita
+  - konstantin
+  - bestchai
 
 alumni:
   - ajbn
@@ -250,19 +256,73 @@ jjgg:
 kkmm:
   name: Kyle Montague
   photo: kkmm.jpg
+  info: Openlab, Newcastle University
   redirect: https://www.kylemontague.co.uk
   links:
     - name: web
       url: https://www.kylemontague.co.uk
-    - name: email
-      url: kyle.montague@ncl.ac.uk
 
 hhnn:
   name: Hugo Nicolau
   photo: hhnn.jpg
+  info: INESC-ID, Lisbon University
   redirect: http://web.tecnico.ulisboa.pt/hugo.nicolau/
   links:
     - name: web
       url: http://web.tecnico.ulisboa.pt/hugo.nicolau/
-    - name: email
-      url: hman@inesc-id.pt
+
+
+jjff:
+  name: Joaquim Ferreira
+  photo: jjff.png
+  info: Centro Neurológico Sénior, Torres Vedras
+  redirect: https://imm.medicina.ulisboa.pt/investigation/laboratories/joaquim-ferreira-lab/#intro
+  links:
+    - name: web
+      url: https://imm.medicina.ulisboa.pt/investigation/laboratories/joaquim-ferreira-lab/#intro
+
+
+lmcarrico:
+  name: Luís Carriço
+  photo: lmcarrico.jpeg
+  info: Lasige, Lisbon University
+  redirect: https://ciencias.ulisboa.pt/en/perfil/lmcarrico
+  links:
+    - name: web
+      url: https://ciencias.ulisboa.pt/en/perfil/lmcarrico
+
+cad:
+  name: Carlos Duarte
+  photo: cad.jpeg
+  info: Lasige, Lisbon University
+  redirect: http://www.di.fc.ul.pt/~cad/
+  links:
+    - name: web
+      url: http://www.di.fc.ul.pt/~cad/
+
+cpesquita:
+  name: Cátia Pesquita
+  photo: cpesquita.jpeg
+  info: Lasige, Lisbon University
+  redirect: http://www.di.fc.ul.pt/~catiapesquita/
+  links:
+    - name: web
+      url: http://www.di.fc.ul.pt/~catiapesquita/
+
+bestchai:
+  name: Ivan Beschastnikh
+  photo: bestchai.jpg
+  info: University of British Columbia
+  redirect: https://www.cs.ubc.ca/~bestchai/
+  links:
+    - name: web
+      url: https://www.cs.ubc.ca/~bestchai/
+
+konstantin:
+  name: Konstantin Beznosov
+  photo: konstantin.png
+  info: University of British Columbia
+  redirect: https://www.cs.ubc.ca/~bestchai/
+  links:
+    - name: web
+      url: https://www.cs.ubc.ca/~bestchai/
