@@ -29,6 +29,11 @@ year: 2016
 
 projects:
  - text_entry
+ 
+# people associated with the publication
+people:
+  - afpr
+  - tjvg
 
 award: Honorable mention
 
