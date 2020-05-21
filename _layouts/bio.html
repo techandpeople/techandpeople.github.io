@@ -31,26 +31,17 @@ let pubCount = 0;
 </script>
 {% assign my_array = page.id | split: "/" %}
 {% assign my_code = my_array.last %}
-{% for publication in site.publications %}
+{% for publication in site.publications reversed %}
 {% assign currentItem = publication.people | where: "", my_code %}
 {% if currentItem contains my_code %}
 <script>
 pubCount++;
 </script>
-<div class="card {{ publication.area }} year-{{ publication.year }}" style="padding: 15px">
+<div class="card-home card {{ publication.area }} year-{{ publication.year }}" style="padding: 0px 0px 0px 10px;">
 {% if publication.award %}
 <img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
 {% endif %}
-<div class="row row-thumb" style="margin-bottom: 0; ">
-<div class="col-md-3" style="padding-left: 0;">
-{% if publication.image %}
-<p style="margin:0;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
-{% else %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/publications/publication.png" alt="generic image of a publication" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
-{% endif %}
-</p>
-</div>
+<div class="row row-thumb-home" style="margin-bottom: 0; ">
 <div class="col-sm-12">
 {% if publication.pdf %}
 <p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" target="_blank">{{ publication.title }}</a></p>
