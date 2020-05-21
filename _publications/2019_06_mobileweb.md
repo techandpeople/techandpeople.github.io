@@ -30,6 +30,11 @@ year: 2019
 
 projects:
  - smartphone_accessibility
+ 
+# people associated with the publication
+people:
+  - afpr
+  - tjvg
 
 # area for filter purpose
 area: access
