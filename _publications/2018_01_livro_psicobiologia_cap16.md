@@ -24,6 +24,10 @@ authors: Alejandro Maiche, Ana Cristina Pires, Fernando Gonzalez, Lorena Chanes 
 # link to the pdf
 pdf: https://www.medicapanamericana.com/libro/psicobiologia-incluye-acceso-a-eva-entorno-virtual-de-aprendizaje
 
+ # people associated with the publication
+people:
+  - saa
+  - tjvg
 
 conference-name: EMP
 venue: "Editorial Médica Panamericana"

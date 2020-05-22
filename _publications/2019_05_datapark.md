@@ -29,6 +29,12 @@ authors: Diogo Branco, César Mendes, Ricardo Pereira, André Rodrigues, Raquel 
 #   - jf
 #   - tjvg
 
+ # people associated with the publication
+people:
+  - djrb
+  - tjvg
+  - afpr
+
 # link to the pdf
 pdf: https://tjvguerreiro.github.io/pubs/ddhp_wish.pdf
 
