@@ -11,7 +11,7 @@ title: "Teaching Orientation and Mobility Skills to Children with Vision Impairm
 
 # publication image
 image:
- name: orientation.jpg
+ name: orientation_robots.jpg
  alt-text: "Picture of Botmap, a system with a tabletop display showing a US map with Ozobots (small robots) on top" # provide a short description for the image #a11y
 
 # short description of the publication
