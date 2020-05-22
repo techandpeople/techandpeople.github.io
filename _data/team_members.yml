@@ -30,6 +30,9 @@ friends:
   - mjf
   - konstantin
   - bestchai
+  - ewe
+  - seba
+  - fgp
 
 alumni:
   - ajbn
@@ -356,3 +359,30 @@ ccbb:
   links:
     - name: web
       url: http://www.fundacao-sain.org.pt
+
+seba:
+  name: Sebastian Marichal
+  photo: seba.jpeg
+  info: GTI, Universitat Pompeu Fabra
+  redirect: https://producciocientifica-proves.upf.edu/CawDOS/jsf/seleccionPersonalEstamento/seleccionPersonal.jsf
+  links:
+    - name: web
+      url: https://producciocientifica-proves.upf.edu/CawDOS/jsf/seleccionPersonalEstamento/seleccionPersonal.jsf
+
+ewe:
+  name: Ewelina Bakala
+  photo: ewe.png
+  info: MediaLab, UDELAR
+  redirect: https://www.fing.edu.uy/grupos/medialab/
+  links:
+    - name: web
+      url: https://www.fing.edu.uy/grupos/medialab/
+
+fgp:
+  name: Fernando Perilli
+  photo: fgp.jpeg
+  info: CIBPsi, UDELAR
+  redirect: https://cibpsi.psico.edu.uy/en/users/fernandogonzalez#profile-main
+  links:
+    - name: web
+      url: https://cibpsi.psico.edu.uy/en/users/fernandogonzalez#profile-main
