@@ -31,26 +31,21 @@ let pubCount = 0;
 </script>
 {% assign my_array = page.id | split: "/" %}
 {% assign my_code = my_array.last %}
-{% for publication in site.publications %}
+{% assign reversed_pubs = site.publications | reverse %}
+{% assign count = 0 %}
+{% for publication in reversed_pubs %}
 {% assign currentItem = publication.people | where: "", my_code %}
 {% if currentItem contains my_code %}
+{% assign count = count | plus: 1 %}
 <script>
 pubCount++;
 </script>
-<div class="card {{ publication.area }} year-{{ publication.year }}" style="padding: 15px">
-{% if publication.award %}
-<img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
-{% endif %}
-<div class="row row-thumb" style="margin-bottom: 0; ">
-<div class="col-md-3" style="padding-left: 0;">
-{% if publication.image %}
-<p style="margin:0;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publication.image.name }}" alt="{{publication.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+{% if count > 5 %}
+<div class="hide-me card-home card {{ publication.area }} year-{{ publication.year }}" style="padding: 0px 0px 0px 10px; display: none;">
 {% else %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/publications/publication.png" alt="generic image of a publication" class="img-publication img-responsive imgpub" style="margin:auto; min-width: 200px; vertical-align: middle;" />
+<div class="card-home card {{ publication.area }} year-{{ publication.year }}" style="padding: 0px 0px 0px 10px;">
 {% endif %}
-</p>
-</div>
+<div class="row row-thumb-home" style="margin-bottom: 0; ">
 <div class="col-sm-12">
 {% if publication.pdf %}
 <p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="{{ publication.pdf }}" target="_blank">{{ publication.title }}</a></p>
@@ -59,10 +54,6 @@ pubCount++;
 {% endif %}
 <p class="detail">{{ publication.authors }}</p>
 <p class="detail"><strong>{{ publication.conference-name }}</strong>&nbsp;<strong>{{ publication.year }}</strong>&nbsp;&#8209;&nbsp;{{ publication.venue }}</p>
-{% if publication.award %}
-<p class="detail text-award"><strong>{{ publication.award }}</strong></p>
-{% endif %}
-
 <p class="detail pub-links">
 {% if publication.pdf %}
 [<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
@@ -75,6 +66,9 @@ pubCount++;
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
 {%endif%}
 {% endfor %}
+{% if publication.award %}
+ &#127941; {{ publication.award }}
+{% endif %}
 {% endif %}
 </p>
 </div>
@@ -89,7 +83,9 @@ if(pubCount === 0){
 </script>
 </div>
 </div>
-
+<div style="text-align: right; margin-top: 25px; margin-right: 15px;">
+<a id="pub-see-more" style="cursor: pointer;">see more...</a>
+</div>
 <div id="projects-row" class="row">
 <h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Projects</h3>
 <div class="projects">
@@ -132,6 +128,27 @@ display: -webkit-box;
 <script>
 if(count === 0){
     $('#projects-row').css({display: 'none'});
+}
+document.getElementById("pub-see-more").addEventListener("click", toggleDisplay);
+function toggleDisplay() {
+    const metadata = document.getElementsByClassName('hide-me');
+      if(metadata.length){
+        let display = true;
+        if(document.getElementById("pub-see-more").innerText == 'see more...'){
+            display = true;
+            document.getElementById("pub-see-more").innerText = "see less..."
+        }else{
+            display = false;
+            document.getElementById("pub-see-more").innerText = "see more..."
+        }
+          for (i = 0; i < metadata.length; i++) {
+            if(display)
+                metadata[i].style.display = 'block';
+            else
+                metadata[i].style.display = 'none';
+
+          }
+      }
 }
 </script>
 </div>
