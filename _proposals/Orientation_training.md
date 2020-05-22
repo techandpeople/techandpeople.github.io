@@ -28,7 +28,7 @@ You will conduct user studies early on to engage O&M specialists and blind child
 
 # people associated with the publication
 people:
- - jjgg
+ - jpvg
  - acp
 
 ###
