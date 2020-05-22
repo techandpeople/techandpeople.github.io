@@ -7,7 +7,7 @@ layout: proposal
 ###############
 # TO EDIT
 # pub title
-title: "Data-driven platform for Parkinson"
+title: "Data-driven platform for Parkinson's Disease"
 
 # publication image
 image:
@@ -15,9 +15,9 @@ image:
  alt-text: "An example of a data visualization platform called Datapark" # provide a short description for the image #a11y
 
 # short description of the publication
-motivation: "Parkinson Disease affects a lot of, mainly the elderly, people worldwide. Clinicians only have contact with patients twice a year in short duration appointments. To understand what happens with patients in their daily lives, clinicians resort to diaries and short conversations. It is difficult for the patients to recall all the fluctuations that may have happened during that period of time. On the other hand, clinicians would benefit from having more information about patients’ daily life. The use of smartphones device or accelerometer bracelets for activity monitoring are increasing. However, there is the need for clinicians to easily understand what was captured between appointments. Patients also need some kind of feedback if something relevant happened during that period."
+motivation: "Parkinson's Disease affects a lot of people worldwide. Clinicians have infrequent contat with patients in short duration appointments. To understand what happens with patients in their daily lives, clinicians resort to diaries and short conversations. It is difficult for the patients to recall all the fluctuations that may have happened during that period of time. On the other hand, clinicians would benefit from having more information about patients’ daily life. The use of smartphone devices or inertial bracelets for activity monitoring is increasing. However, there is the need for clinicians to easily understand what was captured between appointments. Patients also need some kind of feedback if something relevant happened during that period."
 
-work: "In this thesis you will be challenged to design, develop and evaluate a tool for data-driven healthcare. You will build a mobile application, to collect data in a clinical and free-living environment and extract relevant clinical metrics (physical activity, gait, Freeze of gait, tremor) You will explore how to obtain data from mobile devices, resorting to home and clinical assessments and free-living data collection.  Finally, you will have to develop a design centered on the patients to allow a simple interaction with the platform and easy access to data."
+work: "In this thesis you will be challenged to design, develop and evaluate a tool for data-driven healthcare. You will build a mobile application, to collect data in a clinical and free-living environment and extract relevant clinical metrics (physical activity, gait, freezing of gait, tremor). You will explore how to obtain data from mobile devices, resorting to home and clinical assessments and free-living data collection. Finally, you will develop a platform centered on the patients to allow for simple visualizations and interactions with the data collected."
 
 people:
  - tjvg

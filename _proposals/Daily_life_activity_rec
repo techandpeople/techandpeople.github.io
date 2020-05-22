@@ -12,12 +12,12 @@ title: "Daily life activity recognition "
 # publication image
 image:
  name: activityrecognition.png
- alt-text: "Left picture shows to old people writting. Right picture shows an old man brushing his teeths" # provide a short description for the image #a11y
+ alt-text: "Left picture shows two older adults writting. Right picture shows an older adult brushing his teeth" # provide a short description for the image #a11y
 
 # short description of the publication
-motivation: "Parkinson disease affects a lot of people, mainly the elderly, worldwide.Clinicians would benefit from having more information about patients’ daily life. Appointments only occurs twice a year, generally, so the potential for details about disease states being lost is relevant. Activities of daily life can help in capturing details about the disease stage and give clues about possible future problems. Adding to this, capturing thin details about each activity can give more clues about patients’ state of disease. "
+motivation: "Parkinson's Disease affects a lot of people, mainly the elderly, worldwide.Clinicians would benefit from having more information about patients’ daily life. Appointments are not frequent, generally, and there is limited awareness of the fluctuations happening thoughout the days, weeks, and months. Activities of daily life can help in capturing details about the disease stage and give clues about possible future problems. Adding to this, capturing thin details about each activity can give more clues about the patients' disease states."
 
-work: "You will explore methods for collecting data in real environments to build a dataset for exploring activity recognition. After that, you will develop algorithms, using machine learning techniques, to automatically detect daily life activities.
+work: "You will explore methods for collecting data in real environments towards building a dataset of activities of daily living for people with PD. After that, you will work towards, first, automatically recognizing those activities, and second, infer fluctuations from daily inertial sensing of those activities.
 "
 
 people:
