@@ -22,7 +22,7 @@ work: "You will design, develop, and evaluate an inclusive robot for educational
 
 # people associated with the publication
 people:
- - jjgg
+ - jpvg
  - acp
 
 ###
