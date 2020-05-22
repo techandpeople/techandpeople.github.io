@@ -1,7 +1,4 @@
 <div class="card-home card {{ publication.area }} year-{{ include.pub.year }}" style="padding: 0px 0px 0px 10px;">
-{% if include.pub.award %}
-<img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
-{% endif %}
 <div class="row row-thumb-home" style="margin-bottom: 0; ">
 <div class="col-sm-12">
 {% if include.pub.pdf %}
@@ -11,10 +8,6 @@
 {% endif %}
 <p class="detail">{{ include.pub.authors }}</p>
 <p class="detail"><strong>{{ include.pub.conference-name }}</strong>&nbsp;<strong>{{ include.pub.year }}</strong>&nbsp;&#8209;&nbsp;{{ include.pub.venue }}</p>
-{% if include.pub.award %}
-<p class="detail text-award"><strong>{{ include.pub.award }}</strong></p>
-{% endif %}
-
 <p class="detail pub-links">
 {% if include.pub.pdf %}
 [<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
@@ -27,6 +20,9 @@
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
 {%endif%}
 {% endfor %}
+{% if publication.award %}
+ &#127941; {{ publication.award }}
+{% endif %}
 {% endif %}
 </p>
 </div>

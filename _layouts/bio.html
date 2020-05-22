@@ -45,9 +45,6 @@ pubCount++;
 {% else %}
 <div class="card-home card {{ publication.area }} year-{{ publication.year }}" style="padding: 0px 0px 0px 10px;">
 {% endif %}
-{% if publication.award %}
-<img class="img-award" src="{{ site.url }}{{ site.baseurl }}/images/award.png" alt="{publication.award}" >
-{% endif %}
 <div class="row row-thumb-home" style="margin-bottom: 0; ">
 <div class="col-sm-12">
 {% if publication.pdf %}
@@ -57,10 +54,6 @@ pubCount++;
 {% endif %}
 <p class="detail">{{ publication.authors }}</p>
 <p class="detail"><strong>{{ publication.conference-name }}</strong>&nbsp;<strong>{{ publication.year }}</strong>&nbsp;&#8209;&nbsp;{{ publication.venue }}</p>
-{% if publication.award %}
-<p class="detail text-award"><strong>{{ publication.award }}</strong></p>
-{% endif %}
-
 <p class="detail pub-links">
 {% if publication.pdf %}
 [<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
@@ -73,6 +66,9 @@ pubCount++;
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
 {%endif%}
 {% endfor %}
+{% if publication.award %}
+ &#127941; {{ publication.award }}
+{% endif %}
 {% endif %}
 </p>
 </div>
