@@ -22,7 +22,7 @@ Then, you will design, develop, and evaluate a technological solution that suppo
 
 # people associated with the publication
 people:
- - jjgg
+ - jpvg
  - tjvg
 
 ###
