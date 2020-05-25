@@ -21,7 +21,6 @@ description: "We aim to develop technological solutions to enable an inclusive e
 people:
  - acp
  - ajbn
- - afpr
  - tjvg
  - hhss
 #hugo nicolau, filipa rocha
