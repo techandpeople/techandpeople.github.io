@@ -76,16 +76,19 @@ pubCount++;
 </div>
 {% endif %}
 {% endfor %}
-<script>
-if(pubCount === 0){
-    $('#publications-row').css({display: 'none'});
-}
-</script>
 </div>
 </div>
-<div style="text-align: right; margin-top: 25px; margin-right: 15px;">
+<div id="seemore" style="text-align: right; margin-top: 25px; margin-right: 15px;">
 <a id="pub-see-more" style="cursor: pointer;">see more...</a>
 </div>
+<script>
+if(pubCount === 0){
+$('#publications-row').css({display: 'none'});
+}
+if(pubCount <= 5){
+$('#seemore').css({display: 'none'});
+}
+</script>
 <div id="projects-row" class="row">
 <h3 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Projects</h3>
 <div class="projects">
