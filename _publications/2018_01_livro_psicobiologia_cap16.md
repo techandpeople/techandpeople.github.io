@@ -26,8 +26,7 @@ pdf: https://www.medicapanamericana.com/libro/psicobiologia-incluye-acceso-a-eva
 
  # people associated with the publication
 people:
-  - saa
-  - tjvg
+  - acp
 
 conference-name: EMP
 venue: "Editorial Médica Panamericana"
