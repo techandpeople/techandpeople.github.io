@@ -26,6 +26,7 @@ friends:
   - cad
   - cpesquita
   - jpvg
+  - jjff
   - smc
   - mjf
   - konstantin
@@ -281,7 +282,7 @@ hhnn:
 jjff:
   name: Joaquim Ferreira
   photo: jjff.png
-  info: Instituto de Medicina Molecular, ULisboa
+  info: Faculdade de Medicina, ULisboa
   redirect: https://imm.medicina.ulisboa.pt/investigation/laboratories/joaquim-ferreira-lab/#intro
   links:
     - name: web
