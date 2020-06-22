@@ -34,7 +34,6 @@ projects:
 # people associated with the publication
 people:
   - afpr
-  - arbs
   - tjvg
 
 # area for filter purpose
