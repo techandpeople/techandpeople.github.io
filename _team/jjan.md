@@ -17,5 +17,6 @@ links:
 
 ---
 
-I am currently a BsC student of Informatics Engineering at Faculty of the University of Lisbon. During High School, I have been in small internships in the Electronics field, which sparked my interest in technological investigation.
+I am currently a BsC student of Informatics Engineering at Faculty of Science of the University of Lisbon.
+During High School, I have been in small internships in the Electronics field, which sparked my interest in technological investigation.
 The area I have particular interest is human-computer interaction.
