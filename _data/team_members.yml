@@ -387,3 +387,11 @@ fgp:
   links:
     - name: web
       url: https://cibpsi.psico.edu.uy/en/users/fernandogonzalez#profile-main
+
+jjan:
+  name: João Janeiro
+  photo: jjan.png
+  info: Undergraduate Student
+  links:
+      - name: email
+        url: jjaneiro1990@gmail.com
