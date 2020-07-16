@@ -17,6 +17,7 @@ members:
   - lmr
   - gmg
   - gus
+  - pgp
   - jjan
 
 friends:
@@ -396,3 +397,11 @@ jjan:
   links:
       - name: email
         url: jjaneiro1990@gmail.com
+
+pgp:
+  name: Pedro Pais
+  photo: pgp.jpg
+  info: MSc Student at Universidade Nova de Lisboa
+  links:
+      - name: email
+        url: pg.pais@campus.fct.unl.pt
