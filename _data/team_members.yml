@@ -18,6 +18,7 @@ members:
   - gmg
   - gus
   - pgp
+  - prusso
   - jjan
 
 friends:
@@ -405,3 +406,11 @@ pgp:
   links:
       - name: email
         url: pg.pais@campus.fct.unl.pt
+
+pmmr:
+  name: Pedro Russo
+  photo: pmmr.jpg
+  info: MSc Student
+  links:
+      - name: email
+        url: pedrommrusso@gmail.com
