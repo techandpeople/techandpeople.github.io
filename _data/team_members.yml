@@ -19,6 +19,8 @@ members:
   - gus
   - pgp
   - pmmr
+  - mviana
+  - smeira
   - jjan
 
 friends:
@@ -414,3 +416,19 @@ pmmr:
   links:
       - name: email
         url: pedrommrusso@gmail.com
+
+mviana:
+  name: Martim Viana
+  photo: mviana.jpg
+  info: MSc Student
+  links:
+      - name: email
+        url: fc55099@alunos.fc.ul.pt
+
+smeira:
+  name: Salvador Meira
+  photo: smeira.png
+  info: MSc Student
+  links:
+      - name: email
+        url: salvador-3255@hotmail.com

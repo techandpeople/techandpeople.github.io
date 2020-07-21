@@ -6,6 +6,7 @@ layout: bio
 
 ###############
 # TO EDIT
+code: pmmr
 title: Pedro Russo
 photo: pmmr.jpg
 info: MSc Student
