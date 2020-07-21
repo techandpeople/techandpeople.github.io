@@ -6,6 +6,7 @@ layout: bio
 
 ###############
 # TO EDIT
+code: pgp
 title: Pedro Pais
 photo: pgp.jpg
 info: MSc Student at Universidade Nova de Lisboa
