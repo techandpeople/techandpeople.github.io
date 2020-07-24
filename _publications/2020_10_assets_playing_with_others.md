@@ -21,7 +21,7 @@ description: "We share multiplayer gaming experiences of people with visual impa
 authors: David Gonçalves, André Rodrigues, Tiago Guerreiro
 
 # link to the pdf
-#pdf: ../downloads/2020_idc_accessibleprogramming.pdf
+pdf: ../downloads/assets20a-sub2080-cam-i26.pdf
 
  # people associated with the publication
 people:
