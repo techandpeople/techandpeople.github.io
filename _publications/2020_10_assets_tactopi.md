@@ -15,7 +15,7 @@ image:
  alt-text: "a playful environment designed from the ground up to be rich in both its story (a nautical game) and its mechanics (e.g., a physical robot-boat controlled with a 3D printed wheel), tailored to promote computational thinking" # provide a short description for the image #a11y
 
 # short description of the publication
-description: "we present TACTOPI, a playful environment designed from the ground up to be rich in both its story (a nautical game) and its mechanics (e.g., a physical robot-boat controlled with a 3D printed wheel), tailored to promote computational thinking at different levels (4 to 8 years old). This poster intends to provoke discussion and motivate accessibility researchers that are interested in computational thinking to make playfulness a priority."
+description: "We present TACTOPI, a playful environment designed from the ground up to be rich in both its story (a nautical game) and its mechanics (e.g., a physical robot-boat controlled with a 3D printed wheel), tailored to promote computational thinking at different levels (4 to 8 years old). This poster intends to provoke discussion and motivate accessibility researchers that are interested in computational thinking to make playfulness a priority."
 
 # authors of the publication
 authors: Lúcia Abreu, Ana C. Pires, Tiago Guerreiro
