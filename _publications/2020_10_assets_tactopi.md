@@ -21,7 +21,7 @@ description: "We present TACTOPI, a playful environment designed from the ground
 authors: Lúcia Abreu, Ana C. Pires, Tiago Guerreiro
 
 # link to the pdf
-#pdf: ../downloads/assets20a-sub2080-cam-i26.pdf
+pdf: ../downloads/tactopi_assets20.pdf
 
  # people associated with the publication
 people:
