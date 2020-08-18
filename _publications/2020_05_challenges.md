@@ -24,7 +24,7 @@ authors: "André Rodrigues, Hugo Nicolau, Kyle Montague, João Guerreiro and Tia
 # link to the pdf
 pdf: https://arxiv.org/pdf/1909.09078.pdf
 
-venue: "International Journal of Human Computer Interaction (To Appear, Pre-print available)"
+venue: "International Journal of Human Computer Interaction"
 year: 2020
 conference-name: IJHCI
 
