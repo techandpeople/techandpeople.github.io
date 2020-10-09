@@ -21,6 +21,7 @@ members:
   - pmmr
   - mviana
   - smeira
+  - mpmoteiro
   - jjan
 
 friends:
@@ -432,3 +433,13 @@ smeira:
   links:
       - name: email
         url: salvador-3255@hotmail.com
+
+mpmoteiro:
+  name: Margarida Móteiro
+  photo: mpmoteiro.jpeg
+  info: MSc Student
+  links:
+      - name: email
+        url: margaridapmoteiro@gmail.com
+      - name: linkedin
+        url: https://www.linkedin.com/in/margarida-móteiro-20084216a
