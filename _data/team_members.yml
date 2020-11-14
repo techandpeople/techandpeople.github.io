@@ -11,7 +11,6 @@ members:
   - lvfa
   - aapp
   - dmcg
-  - rmnc
   - gdcc
   - vml
   - lmr
@@ -44,6 +43,7 @@ friends:
 alumni:
   - ajbn
   - lrs
+  - gus
 
 tjvg:
     name: "Tiago Guerreiro"
@@ -164,7 +164,7 @@ ajbn:
 hhss:
   name: Hugo Simão
   photo: hhss.jpg
-  info: MSc student
+  info: MSc student, Product Design
   links:
       - name: linkedin
         url: https://www.linkedin.com/in/hugo-simão-639594157/
@@ -184,7 +184,7 @@ rmnc:
 acp:
   name: Ana Pires
   photo: acp.jpg
-  info: PostDoc Researcher
+  info: PostDoc Researcher, Cognitive Psychology
   links:
       - name: orcid
         url: https://orcid.org/0000-0001-7747-7112
@@ -437,7 +437,7 @@ smeira:
 mpmoteiro:
   name: Margarida Móteiro
   photo: mpmoteiro.jpeg
-  info: MSc Student
+  info: MSc Student, Biomedical Engineering 
   links:
       - name: email
         url: margaridapmoteiro@gmail.com
