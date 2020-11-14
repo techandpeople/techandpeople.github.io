@@ -20,6 +20,8 @@ description: "We share multiplayer gaming experiences of people with visual impa
 # authors of the publication
 authors: David Gonçalves, André Rodrigues, Tiago Guerreiro
 
+award: Best Paper Nominee
+
 # link to the pdf
 pdf: ../downloads/assets20a-sub2080-cam-i26.pdf
 
