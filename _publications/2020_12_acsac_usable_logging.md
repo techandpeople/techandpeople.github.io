@@ -36,6 +36,6 @@ projects:
   - unauthorized_access_to_smartphones
 
 # area for filter purpose
-area: usabl_privacy
+area: usable_privacy
 ###
 ---
