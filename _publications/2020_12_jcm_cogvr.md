@@ -21,7 +21,11 @@ description: "We investigated the feasibility and rehabilitation potential of a 
 authors: Filipa Ferreira-Brito, Sérgio Alves, Osvaldo Santos, Tiago Guerreiro, Cátia Caneiras, Luís Carriço, Ana Verdelho
 
 # link to the pdf
-#pdf: ../downloads/2020_usable_logging_acsac.pdf
+pdf: https://www.mdpi.com/2077-0383/9/12/3821/pdf
+
+external-links:
+  - name: HTML
+    url: https://www.mdpi.com/2077-0383/9/12/3821/htm
 
  # people associated with the publication
 people:
