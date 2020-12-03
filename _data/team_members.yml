@@ -20,6 +20,7 @@ members:
   - mviana
   - smeira
   - mpmoteiro
+  - leonin
   - jjan
 
 friends:
@@ -436,9 +437,17 @@ smeira:
 mpmoteiro:
   name: Margarida Móteiro
   photo: mpmoteiro.jpeg
-  info: MSc Student, Biomedical Engineering 
+  info: MSc Student, Biomedical Engineering
   links:
       - name: email
         url: margaridapmoteiro@gmail.com
       - name: linkedin
         url: https://www.linkedin.com/in/margarida-móteiro-20084216a
+
+leonin:
+  name: Leon Ingelse
+  photo: leonin.jpg
+  info: MSc Student
+  links:
+      - name: email
+        url: leoningelse@gmail.com
