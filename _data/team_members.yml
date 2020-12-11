@@ -48,7 +48,7 @@ alumni:
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
-    info: "Assistant Professor, Group Leader"
+    info: "Assistant Professor, <br /> Group Leader"
     links:
         - name: web
           url: https://tjvguerreiro.github.io
