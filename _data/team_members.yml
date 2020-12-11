@@ -404,7 +404,7 @@ jjan:
 pgp:
   name: Pedro Pais
   photo: pgp.jpg
-  info: MSc Student at Universidade Nova de Lisboa
+  info: MSc Student
   links:
       - name: email
         url: pg.pais@campus.fct.unl.pt
