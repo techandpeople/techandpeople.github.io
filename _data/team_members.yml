@@ -2,18 +2,16 @@ members:
   - tjvg
   - acp
   - afpr
-  - ddmm
   - djrb
+  - dmcg
+  - hhss
   - saa
   - arbs
-  - amgmt
-  - hhss
+#  - amgmt
   - lvfa
   - aapp
-  - dmcg
   - gdcc
   - vml
-  - lmr
   - gmg
   - pgp
   - pmmr
@@ -42,13 +40,14 @@ friends:
 
 alumni:
   - ajbn
+  - ddmm
   - lrs
   - gus
 
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
-    info: "Assistant Professor, <br /> Group Leader"
+    info: "Assistant Professor"
     links:
         - name: web
           url: https://tjvguerreiro.github.io
@@ -122,7 +121,7 @@ lvfa:
 lrs:
     name: "Laíza Silva"
     photo: lrs.jpg
-    info: "Visiting Student (2019)"
+    info: "Visiting Student (MSc, 2019)"
     links:
         - name: linkedin
           url: https://www.linkedin.com/in/la%C3%ADza-ribeiro-silva-1b5b60185/
@@ -144,7 +143,7 @@ aapp:
 dmcg:
     name: "David Gonçalves"
     photo: dmcg.png
-    info: "MSc Student"
+    info: "PhD Student"
     links:
         - name: email
           url: davidslycooper@hotmail.com
@@ -164,7 +163,7 @@ ajbn:
 hhss:
   name: Hugo Simão
   photo: hhss.jpg
-  info: MSc student, Product Design
+  info: PhD student
   links:
       - name: linkedin
         url: https://www.linkedin.com/in/hugo-simão-639594157/
@@ -184,7 +183,7 @@ rmnc:
 acp:
   name: Ana Pires
   photo: acp.jpg
-  info: PostDoc Researcher, Cognitive Psychology
+  info: PostDoc Researcher
   links:
       - name: orcid
         url: https://orcid.org/0000-0001-7747-7112
@@ -232,7 +231,7 @@ lmr:
 ddmm:
   name: Diogo Marques
   photo: dmarques.jpg
-  info: PhD Student (first job at Google Munich)
+  info: PhD Student (1st job at Google)
   links:
       - name: web
         url: http://diogomarques.net
@@ -250,7 +249,7 @@ gmg:
 gus:
   name: Gustavo Fonseca
   photo: gus.jpg
-  info: MSc Student
+  info: MSc Scholar (2020)
   links:
     - name: email
       url: g.s.fonseca32@gmail.com
@@ -269,7 +268,7 @@ jpvg:
 kkmm:
   name: Kyle Montague
   photo: kkmm.jpg
-  info: Openlab, Newcastle University
+  info: NorthLab, Northumbria University
   redirect: https://www.kylemontague.co.uk
   links:
     - name: web
@@ -278,7 +277,7 @@ kkmm:
 hhnn:
   name: Hugo Nicolau
   photo: hhnn.jpg
-  info: INESC-ID, ULisboa
+  info: ITI, ULisboa
   redirect: http://web.tecnico.ulisboa.pt/hugo.nicolau/
   links:
     - name: web
@@ -437,7 +436,7 @@ smeira:
 mpmoteiro:
   name: Margarida Móteiro
   photo: mpmoteiro.jpeg
-  info: MSc Student, Biomedical Engineering
+  info: MSc Student
   links:
       - name: email
         url: margaridapmoteiro@gmail.com
@@ -447,7 +446,7 @@ mpmoteiro:
 leonin:
   name: Leon Ingelse
   photo: leonin.jpg
-  info: MSc Student
+  info: MSc Fellow
   links:
       - name: email
         url: leoningelse@gmail.com
