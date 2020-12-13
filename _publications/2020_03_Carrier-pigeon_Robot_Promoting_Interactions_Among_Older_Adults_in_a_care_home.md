@@ -27,6 +27,7 @@ external-links:
 people:
   - acp
   - tjvg
+  - dmcg
   - hhss
 
 # authors of the publication
