@@ -6,6 +6,7 @@ members:
   - dmcg
   - hhss
   - saa
+  - fsr
   - arbs
 #  - amgmt
   - lvfa
@@ -450,3 +451,12 @@ leonin:
   links:
       - name: email
         url: leoningelse@gmail.com
+
+
+fsr:
+  name: Filipa Rocha
+  photo: fsr.jpg
+  info: PhD Student
+  links:
+      - name: email
+        url: filipamsrocha@gmail.com
