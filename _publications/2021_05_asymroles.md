@@ -21,7 +21,7 @@ description: "We explore ability-based asymmetric roles as a design approach to 
 authors: "David Gonçalves, André Rodrigues, Mike Richardson, Alexandra de Sousa, Michael Proulx, Tiago Guerreiro"
 
 # link to the pdf
-# pdf: https://tjvguerreiro.github.io/pubs/vulnerability_chi19.pdf
+pdf: https://arxiv.org/pdf/2101.05703.pdf
 
  # people associated with the publication
 people:
