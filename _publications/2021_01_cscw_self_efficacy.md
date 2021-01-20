@@ -21,7 +21,7 @@ description: "We contribute with a human-powered nonvisual task assistant for sm
 authors: "André Rodrigues, André Santos, Kyle Montague, Tiago Guerreiro"
 
 # link to the pdf
-# pdf: 
+pdf: https://arxiv.org/pdf/2101.07630.pdf 
 
  # people associated with the publication
 people:
