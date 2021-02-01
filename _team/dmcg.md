@@ -15,4 +15,8 @@ links:
      url: davidslycooper@hotmail.com
 ---
 
-BSc degree in Graphic Design completed in 2018 at ESAD Caldas da Rainha. Currently attending the MsC in Informatics in Faculty of Science of the University of Lisbon - working on my thesis, whose motivation is to explore the use of asymmetric roles in mixed-ability gaming.
+I've finished my BSc in Graphic Design. During three years, I developed several printed, physical and digital graphic artifacts, acquiring knowledge on the different technical, material and human conditions when solving a design problem - in particular, editorial design, information design, illustration, branding, and packaging.
+
+Driven by an ambition to create software and, more specifically, video games, I enrolled in a MSc in Informatics, which I completed at the end of 2020. My MSc dissertation focused on designing games for groups with mixed visual abilities, leveraging the design of asymmetric ability-based roles. Working closely with people with visual impairments, I developed games that offered the opportunity for friends and family to share a moment of conviviality, not readily available elsewhere. 
+
+I started my PhD in 2021, inspired by the social relevance of digital play, and potential to open doors to a more inclusive society.
