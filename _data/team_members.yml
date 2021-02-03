@@ -38,6 +38,7 @@ friends:
   - ewe
   - seba
   - fgp
+  - nis
 
 alumni:
   - ajbn
@@ -452,7 +453,6 @@ leonin:
       - name: email
         url: leoningelse@gmail.com
 
-
 fsr:
   name: Filipa Rocha
   photo: fsr.jpg
@@ -460,3 +460,12 @@ fsr:
   links:
       - name: email
         url: filipamsrocha@gmail.com
+
+nis:
+  name: Norberto Sousa
+  photo: nis.jpg
+  info: comAcesso.pt™ - Acessibilidade Web e Digital
+  redirect: https://comacesso.pt/
+  links:
+    - name: web
+      url: https://comacesso.pt/
