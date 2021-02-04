@@ -476,5 +476,6 @@ jc:
   photo: jc.png
   info: INESC-ID, Researcher
   redirect: http://www.joanacfcampos.com/
+  links:
     - name: web
       url: http://www.joanacfcampos.com/

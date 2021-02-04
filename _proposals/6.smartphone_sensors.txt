@@ -21,6 +21,6 @@ work: "Our goal is to use data from the crowd (other people who walked the same 
 # people associated with the publication
 people:
  - jpvg
- - Joana Campos
+ - jc
 
 ###
