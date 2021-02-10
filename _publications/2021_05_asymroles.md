@@ -24,8 +24,6 @@ authors: "David Gonçalves, André Rodrigues, Mike Richardson, Alexandra de Sous
 pdf: https://arxiv.org/pdf/2101.05703.pdf
 
 external-links:
-  - name: DOI
-    url: https://doi.org/10.1145/3411764.3445494
   - name: Video
     url: https://www.youtube.com/watch?v=NEpWiGsLVpU
 
