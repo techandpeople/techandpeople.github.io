@@ -25,6 +25,10 @@ award: Best Paper Nominee
 # link to the pdf
 pdf: ../downloads/assets20a-sub2080-cam-i26.pdf
 
+external-links:
+  - name: Presentation Video
+    url: https://www.youtube.com/watch?v=fGqf6sBF4eE&feature=youtu.be
+
  # people associated with the publication
 people:
   - tjvg
