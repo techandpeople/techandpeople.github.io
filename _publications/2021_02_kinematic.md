@@ -16,7 +16,7 @@ title: "Kinematic and clinical outcomes to evaluate the efficacy of a multidisci
 # alt-text: "" # provide a short description for the image #a11y
 
 # short description of the publication
-description: "we aimed to identify which kinematic and clinical outcomes better predict functional mobility changes when PD patients are submitted to a specialized multidisciplinary program."
+description: "We aimed to identify which kinematic and clinical outcomes better predict functional mobility changes when PD patients are submitted to a specialized multidisciplinary program."
 
 # authors of the publication
 authors: "Raquel Bouça-Machado, Diogo Branco, Gustavo Fonseca, Raquel Fernandes, Daisy Abreu, Tiago Guerreiro, Joaquim J Ferreira, Daniela Guerreiro, Verónica Caniça, Francisco Queimado, Pedro Nunes, Alexandra Saúde, Laura Antunes, Joana Alves, Beatriz Santos, Inês Lousada, Maria A Patriarca, Patrícia Costa, Raquel Nunes, Susana Dias"
