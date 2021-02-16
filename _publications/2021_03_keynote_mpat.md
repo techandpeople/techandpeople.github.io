@@ -23,9 +23,9 @@ authors: "Tiago Guerreiro"
 # link to the pdf
 pdf: downloads/keynote_mpat.pdf
 
-#external-links:
-#  - name: Video
-#    url: https://www.youtube.com/watch?v=NEpWiGsLVpU
+external-links:
+  - name: Event
+    url: https://ewserver.di.unimi.it/mpat/
 
  # people associated with the publication
 people:
