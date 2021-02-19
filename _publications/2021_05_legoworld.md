@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: "LEGOWorld Repurposing Commodity Tools and Technologies to Create an Accessible and Customizable Programming Environment"
+title: "LEGOWorld: Repurposing Commodity Tools and Technologies to Create an Accessible and Customizable Programming Environment"
 
 # publication image
 image:
