@@ -23,9 +23,9 @@ authors: "Gonçalo Cardoso, Ana Pires, Lúcia Abreu, Filipa Rocha, Tiago Guerrei
 # link to the pdf
 # pdf: https://arxiv.org/pdf/2101.05703.pdf
 
-# external-links:
-#  - name: Video
-#    url: https://www.youtube.com/watch?v=NEpWiGsLVpU
+ external-links:
+  - name: DOI
+    url: https://doi.org/10.1145/3411763.3451710
 
  # people associated with the publication
 people:
