@@ -21,7 +21,7 @@ description: "We explore how commodity objects and technologies can be repurpose
 authors: "Gonçalo Cardoso, Ana Pires, Lúcia Abreu, Filipa Rocha, Tiago Guerreiro"
 
 # link to the pdf
-pdf: "./downloads/lego_chi21.pdf"
+pdf: "../downloads/lego_chi21.pdf"
 
 external-links:
   - name: DOI
