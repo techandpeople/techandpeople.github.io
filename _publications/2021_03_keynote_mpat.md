@@ -21,7 +21,7 @@ description: "This talk builds on more than 14 years of deep engagements and in-
 authors: "Tiago Guerreiro"
 
 # link to the pdf
-pdf: downloads/mpat_keynote.pdf
+pdf: ../downloads/mpat_keynote.pdf
 
 external-links:
   - name: Event
