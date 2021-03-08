@@ -10,9 +10,7 @@ members:
   - arbs
 #  - amgmt
   - lvfa
-  - aapp
   - vml
-  - gmg
   - pgp
   - pmmr
   - mviana
@@ -46,6 +44,8 @@ alumni:
   - lrs
   - gus
   - gdcc
+  - aapp
+  - dmg
 
 tjvg:
     name: "Tiago Guerreiro"
