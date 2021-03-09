@@ -465,7 +465,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #team {
-    /*background: #f9f9f9;*/
+    background: #f9f9f9;
   }
 
   .team-thumb {
@@ -548,7 +548,7 @@ http://www.templatemo.com/tm-515-eatery
 
   #menu {
     padding-bottom: 0;
-    background: #f9f9f9;
+    
   }
 
   #menu .container {
@@ -701,7 +701,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #contact{
-    background: #f9f9f9;
+    /*background: #f9f9f9;*/
   }
 
   #contact .section-title {
