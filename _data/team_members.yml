@@ -50,7 +50,7 @@ alumni:
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
-    info: "Assistant Professor"
+    info: "Assistant Professor, Group Leader"
     links:
         - name: web
           url: https://tjvguerreiro.github.io
@@ -62,7 +62,7 @@ tjvg:
 afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
-    info: "PostDoc Researcher"
+    info: "PostDoc Researcher, Inclusive Gaming Lead"
     links:
         - name: web
           url: https://andrefprodrigues.github.io
@@ -186,7 +186,7 @@ rmnc:
 acp:
   name: Ana Pires
   photo: acp.jpg
-  info: PostDoc Researcher
+  info: PostDoc Researcher, Inclusive Education Lead
   links:
       - name: orcid
         url: https://orcid.org/0000-0001-7747-7112
