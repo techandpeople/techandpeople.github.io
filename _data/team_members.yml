@@ -8,6 +8,7 @@ members:
   - saa
   - fsr
   - arbs
+  - jchong
 #  - amgmt
   - lvfa
   - vml
@@ -116,20 +117,20 @@ lvfa:
     photo: lvfa.jpg
     info: "MSc Student"
     links:
-        - name: linkedin
-          url: https://www.linkedin.com/in/lucia-abreu/
         - name: email
           url: fc50702@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/lucia-abreu/
 
 lrs:
     name: "Laíza Silva"
     photo: lrs.jpg
     info: "Visiting Student (MSc, 2019)"
     links:
-        - name: linkedin
-          url: https://www.linkedin.com/in/la%C3%ADza-ribeiro-silva-1b5b60185/
         - name: email
           url: lrsilva@fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/la%C3%ADza-ribeiro-silva-1b5b60185/
         - name: scholar
           url: https://scholar.google.com/citations?hl=pt-BR&user=gRoepgEAAAAJ
         - name: lattes
@@ -168,10 +169,10 @@ hhss:
   photo: hhss.jpg
   info: PhD student
   links:
-      - name: linkedin
-        url: https://www.linkedin.com/in/hugo-simão-639594157/
       - name: email
         url: hsimao@lasige.di.fc.ul.pt
+      - name: linkedin
+        url: https://www.linkedin.com/in/hugo-simão-639594157/
       - name: scholar
         url: https://scholar.google.com/citations?user=kxhTLLsAAAAJ&hl=pt-PT
 
@@ -479,3 +480,13 @@ jc:
   links:
     - name: web
       url: http://www.joanacfcampos.com/
+
+jchong:
+  name: Joana Chong
+  photo: jchong.jpg
+  info: Research Engineer
+  links:
+    - name: email
+      url: joanitachong@gmail.com
+    - name: linkedin
+      url: https://www.linkedin.com/in/joanachong/
