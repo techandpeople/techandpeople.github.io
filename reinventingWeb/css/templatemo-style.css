@@ -20,6 +20,14 @@ http://www.templatemo.com/tm-515-eatery
     margin:0;
   }
 
+  .fb-like{
+    margin-top: 25px;
+  }
+
+  .fb-like iframe {
+    width: 200px !important;
+  }
+
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
