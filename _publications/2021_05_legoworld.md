@@ -27,7 +27,7 @@ external-links:
   - name: DOI
     url: https://doi.org/10.1145/3411763.3451710
   - name: Poster
-    url: ../downloads/LEGOWorld_poster.pdf
+    url: "../downloads/LEGOWorld_poster.pdf"
 
  # people associated with the publication
 people:
