@@ -22,7 +22,7 @@ description: "We aimed to identify which kinematic and clinical outcomes better 
 authors: "Raquel Bouça-Machado, Diogo Branco, Gustavo Fonseca, Raquel Fernandes, Daisy Abreu, Tiago Guerreiro, Joaquim J Ferreira, Daniela Guerreiro, Verónica Caniça, Francisco Queimado, Pedro Nunes, Alexandra Saúde, Laura Antunes, Joana Alves, Beatriz Santos, Inês Lousada, Maria A Patriarca, Patrícia Costa, Raquel Nunes, Susana Dias"
 
 # link to the pdf
-#pdf: ../downloads/gait_pd.pdf
+pdf: https://www.frontiersin.org/articles/10.3389/fneur.2021.637620/full
 
 external-links:
  - name: Publisher
