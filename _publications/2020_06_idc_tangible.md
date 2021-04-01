@@ -28,6 +28,7 @@ people:
   - tjvg
   - acp
   - hhss
+  - fsr
 
 conference-name: IDC
 venue: "ACM Interaction Design and Children"
