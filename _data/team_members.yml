@@ -17,6 +17,7 @@ members:
   - mviana
   - smeira
   - mpmoteiro
+  - dbarros
   - leonin
   - jjan
 
@@ -490,3 +491,13 @@ jchong:
       url: joanitachong@gmail.com
     - name: linkedin
       url: https://www.linkedin.com/in/joanachong/
+
+dbarros:
+  name: Daniel Barros
+  photo: dbarros.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc55957@alunos.fc.ul.pt
+    - name: linkedin
+      url: https://pt.linkedin.com/in/danielbarros86
