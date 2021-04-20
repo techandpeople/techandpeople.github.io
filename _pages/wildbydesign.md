@@ -37,5 +37,4 @@ permalink: /wildbydesign/
 </div>
 </div>
 </div>
-{% endfor %}
 </div>
