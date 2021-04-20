@@ -16,7 +16,7 @@ permalink: /wildbydesign/
 
 
 
-<h1 name="cfp">Submit a paper</h1>
+<h1 name="submission">Submit a paper</h1>
 
 
 
@@ -33,8 +33,8 @@ permalink: /wildbydesign/
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
 <p class="detail">{{ person.institution }}</p>
+</div>
+</div>
+</div>
 {% endfor %}
-</div>
-</div>
-</div>
 </div>
