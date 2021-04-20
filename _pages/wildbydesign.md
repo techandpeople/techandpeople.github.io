@@ -9,9 +9,6 @@ permalink: /wildbydesign/
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 We are an interdisciplinary Human-Computer Interaction research lab at <a href="http://www.lasige.di.fc.ul.pt" target="_blank">LASIGE</a>, <a href="http://ciencias.ulisboa.pt" target="_blank">Faculdade de Ciências</a> da <a href="http://www.ulisboa.pt" target="_blank">Universidade de Lisboa</a>. We design, build, and evaluate interactive technologies that address high value social issues such as accessible computing, pervasive healthcare, and usable privacy.
 </p>
-<p id="twitterContainer" style="display: none; margin-left: auto; margin-right: auto;">
-<a class="twitter-timeline" data-tweet-limit="3" data-width="1000" data-chrome="noscrollbar nofooter noborders" href="https://twitter.com/TechPeopleLab">Tweets by Tech&People Lab @ ULisboa</a>
-</p>
 
 <h1 class='timeline-Header-title publications' style="padding-left: 10px; padding-bottom: 20px;">Recent publications  <span style="font-size: 0.5em;"><a href="{{ site.url }}{{ site.baseurl }}/publications">see all</a></span></h1>
 
