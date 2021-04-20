@@ -1,27 +1,30 @@
 ---
-title: "Wild By Design at UbiComp 2021"
+title: "Wild By Design at UbiComp 2021 (online)"
 layout: external
-excerpt: "Workshop on "
+excerpt: "Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments"
 sitemap: false
 permalink: /wildbydesign/
 ---
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-There is a growing focus on monitoring health in uncontrolled (aka \textit{in-the-wild}) settings. This is partially due to the limitations of occasional formal assessments, and to the increasing availability of off-the-shelf sensing devices and applications. This change of paradigm promises fine-grained monitoring of chronic and neuro-degenerative diseases, early prediction of health conditions, accessible self-management, and the enablement of more effective personalised interventions. 
+<h1>Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments</h1>
 
+<h2>Full day workshop at UbiComp, September 25 or 26</h2>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+There is a growing focus on monitoring health in uncontrolled (aka in-the-wild) settings. This is partially due to the limitations of occasional formal assessments, and to the increasing availability of off-the-shelf sensing devices and applications. This change of paradigm promises fine-grained monitoring of chronic and neuro-degenerative diseases, early prediction of health conditions, accessible self-management, and the enablement of more effective personalised interventions. </p>
+
+<p style="padding-left:20px; padding-right:20px; padding-bottom: 25px; margin-bottom:0 ">
 Despite this potential, there are still limited examples of ubiquitous health technologies used in practice for long periods of time. The majority of ubiquitous health technologies, although targeted at uncontrolled in-the-wild settings, are still mostly tested in the laboratory. Activity trackers are one successful example of a technology that became mainstream. However, it also faces problems with abandonment and adoption and misalignment with user requirements and goals. Although the need for longitudinal in-the-wild studies has been established, the challenges of engaging and sustaining participation has only been surfaced. Awareness and knowledge of this and other challenges for in-the-wild health monitoring is still very limited. 
-
-In this workshop, we will discuss the challenges of "real life" health monitoring technology deployments, and shift the dialogue from a focus on technical feasibility to real-world feasibility and relevance, namely regarding inclusion, end-user acceptance, robustness, and sustainability of solutions. Particularly, we will use case studies and examples of deployments and tools as a basis for discussion of challenging environments, and itemize barriers, requirements, and solutions for the future of ubiquitous health monitoring.
 </p>
 
 
-<h1 name="cfp">Call For Papers</h1>
+<h1 id="cfp">Call For Papers</h1>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in \textit{in-the-wild} deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
+The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in in-the-wild deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
 </p>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+<p style="padding-left:20px; padding-right:20px; padding-bottom: 25px; margin-bottom:0 ">
 To answer these example questions and others, we hope to bring together the ubiquitous computing, sensor development, machine learning, digital health, clinical, HCI and accessibility communities. Through this workshop, participants will be able to share real-life deployment experiences, tools, challenges, and discuss designs and technology goals for future research.
 </p>
 
@@ -55,17 +58,16 @@ To answer these example questions and others, we hope to bring together the ubiq
 </ul>
 
 
-<h1 name="submission">Submissions</h1>
+<h1 id="submission">Submissions</h1>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-We invite submissions of case studies, position papers or provocations, and demonstrations that  describe ubiquitous health monitoring deployments, tools, and/or challenging environments. Submissions should use the ACM sigconf template\footnote{https://www.acm.org/publications/proceedings-template} and have a maximum of 4 pages.
+We invite submissions of case studies, position papers or provocations, and demonstrations that  describe ubiquitous health monitoring deployments, tools, and/or challenging environments. Submissions should use the <a href="https://www.acm.org/publications/proceedings-template">ACM sigconf template</a> and have a maximum of 4 pages.
 </p>
 
-<p>Submit your paper at: TBA</p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submit your paper at: TBA</p>
 
 
-<h1 name="organizers">Organizers</h1>
-
+<h1 id="organizers">Organizers</h1>
 
 <div class="row people-row">
 {% for member in site.data.team_members.wildbydesign %}
@@ -82,3 +84,6 @@ We invite submissions of case studies, position papers or provocations, and demo
 </div>
 {% endfor %}
 </div>
+
+
+<h1 id="program">TBA</h1>
