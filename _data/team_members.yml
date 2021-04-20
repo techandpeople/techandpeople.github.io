@@ -58,6 +58,7 @@ tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
     info: "Assistant Professor, Group Leader"
+    institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
     links:
         - name: web
           url: https://tjvguerreiro.github.io
@@ -70,6 +71,7 @@ afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
     info: "PostDoc Researcher, Inclusive Gaming Lead"
+    institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
     links:
         - name: web
           url: https://andrefprodrigues.github.io
@@ -96,6 +98,7 @@ djrb:
     name: "Diogo Branco"
     photo: djrb.jpg
     info: "PhD Student"
+    institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
     links:
         - name: web
           url: https://web.lasige.di.fc.ul.pt/~dbranco/

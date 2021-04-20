@@ -1,5 +1,5 @@
 ---
-title: "Wilb By Design at UbiComp 2021"
+title: "Wild By Design at UbiComp 2021"
 layout: external
 excerpt: "Workshop on "
 sitemap: false
