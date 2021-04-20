@@ -81,6 +81,7 @@ afpr:
     photo: afpr.jpg
     info: "PostDoc Researcher, Inclusive Gaming Lead"
     institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
+    url: https://techandpeople.github.io/team/afpr.html
     links:
         - name: web
           url: https://andrefprodrigues.github.io
@@ -107,6 +108,7 @@ djrb:
     name: "Diogo Branco"
     photo: djrb.jpg
     info: "PhD Student"
+    url: https://web.lasige.di.fc.ul.pt/~dbranco/
     institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
     links:
         - name: web
@@ -292,6 +294,8 @@ kkmm:
   photo: kkmm.jpg
   info: NorthLab, Northumbria University
   redirect: https://www.kylemontague.co.uk
+  institution: Northumbria University
+  url: https://www.kylemontague.co.uk
   links:
     - name: web
       url: https://www.kylemontague.co.uk
