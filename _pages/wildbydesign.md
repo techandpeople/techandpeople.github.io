@@ -8,7 +8,7 @@ permalink: /wildbydesign/
 
 <h1>Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments</h1>
 
-<h3>At UbiComp, September 25th or 26th, Online</h3>
+<h3>At <a href="https://www.ubicomp.org/ubicomp2021/">UbiComp</a>, September 25th or 26th, Online</h3>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 There is a growing focus on monitoring health in uncontrolled (aka in-the-wild) settings. This is partially due to the limitations of occasional formal assessments, and to the increasing availability of off-the-shelf sensing devices and applications. This change of paradigm promises fine-grained monitoring of chronic and neuro-degenerative diseases, early prediction of health conditions, accessible self-management, and the enablement of more effective personalised interventions. </p>
