@@ -51,14 +51,23 @@ alumni:
 
 wildbydesign:
   - djrb
+  - patrick
+  - deldin
+  - afsaneh
+  - hristijan
   - tjvg
+  - roisin
+  - kkmm
+  - alisha
   - afpr
+  - julio
 
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
     info: "Assistant Professor, Group Leader"
     institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
+    url: https://tjvguerreiro.github.io
     links:
         - name: web
           url: https://tjvguerreiro.github.io
@@ -509,3 +518,46 @@ dbarros:
       url: fc55957@alunos.fc.ul.pt
     - name: linkedin
       url: https://pt.linkedin.com/in/danielbarros86
+
+
+patrick:
+    name: "Patrick Carrington"
+    photo: patrick.jpg
+    institution: "Carnegie Mellon University"
+    url: https://www.patrickcarrington.com/
+
+deldin:
+    name: "Silvia Del Din"
+    photo: silvia.png
+    institution: "Newcastle University"
+    url: https://www.ncl.ac.uk/caru/staff/profile/silviadel-din.html#background   
+
+afsaneh:
+    name: "Afsaneh Doryab"
+    photo: afsaneh.JPG
+    institution: "University of Virginia"
+    url: https://sites.google.com/view/afsanehdoryab
+
+hristijan:
+    name: "Hristijan Gjoreski"
+    photo: hristijan.jpg
+    institution: "Ss. Cyril and Methodius University"
+    url: https://dis.ijs.si/hristijan/ 
+
+roisin:
+    name: "Roisin McNaney"
+    photo: roisin.png
+    institution: "Monash University"
+    url: https://research.monash.edu/en/persons/roisin-mcnaney
+
+alisha:
+    name: "Alisha Pradhan"
+    photo: alisha.png
+    institution: "University of Maryland"
+    url: https://www.alishapradhan.net/home
+
+julio:
+    name: "Julio Vega"
+    photo: julio.jpg
+    institution: "University of Pittsburgh"
+    url: https://juliovega.info/
