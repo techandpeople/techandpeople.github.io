@@ -17,17 +17,17 @@ In this workshop, we will discuss the challenges of "real life" health monitorin
 
 <h1 name="cfp">Call For Papers</h1>
 
-<p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in \textit{in-the-wild} deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
 </p>
 
-<p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 To answer these example questions and others, we hope to bring together the ubiquitous computing, sensor development, machine learning, digital health, clinical, HCI and accessibility communities. Through this workshop, participants will be able to share real-life deployment experiences, tools, challenges, and discuss designs and technology goals for future research.
 </p>
 
 <h2>Topics</h2>
 
-<p>Topics for the workshop include:
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Topics for the workshop include:</p>
 
 <ul>
     <li>Longitudinal deployments and studies</li>
@@ -57,9 +57,11 @@ To answer these example questions and others, we hope to bring together the ubiq
 
 <h1 name="submission">Submissions</h1>
 
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 We invite submissions of case studies, position papers or provocations, and demonstrations that  describe ubiquitous health monitoring deployments, tools, and/or challenging environments. Submissions should use the ACM sigconf template\footnote{https://www.acm.org/publications/proceedings-template} and have a maximum of 4 pages.
+</p>
 
-Submit your paper at: TBA
+<p>Submit your paper at: TBA</p>
 
 
 <h1 name="organizers">Organizers</h1>
