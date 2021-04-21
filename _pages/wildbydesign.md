@@ -10,6 +10,41 @@ permalink: /wildbydesign/
 
 <h3>At <a href="https://www.ubicomp.org/ubicomp2021/">UbiComp</a>, September 25th or 26th, Online</h3>
 
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" role="button" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous slide</span>
+  </a>
+  <a class="right carousel-control" role="button" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next slide</span>
+  </a>
+</div>
+
+<script>
+let count = 0;
+</script>
+{% for img in site.data.wild.highlights %}
+{% assign highlight = site.data.wild[img] %}
+<script>
+$(".carousel-indicators").append('<li data-target="#myCarousel" data-slide-to="'+ (count++) +'"></li>');
+$(".carousel-inner").append('<div class="item"><img style="width:auto; max-height: 400px; margin-left:auto; margin-right:auto;" class="img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/wild/{{highlight.photo}}" alt="{{highlight.alt}}"></div>')
+$(".carousel-indicators > li:first").addClass("active");
+$(".carousel-inner > div:first").addClass("active");
+</script>
+{% endfor %}
+
+
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 There is a growing focus on monitoring health in uncontrolled (aka in-the-wild) settings. This is partially due to the limitations of occasional formal assessments, and to the increasing availability of off-the-shelf sensing devices and applications. This change of paradigm promises fine-grained monitoring of chronic and neuro-degenerative diseases, early prediction of health conditions, accessible self-management, and the enablement of more effective personalised interventions. </p>
 
