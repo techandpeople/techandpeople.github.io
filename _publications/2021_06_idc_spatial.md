@@ -21,7 +21,7 @@ description: "We present ACCembly, an accessible block-based environment that en
 authors: "Filipa Rocha, Ana Pires, Isabel Neto, Hugo Nicolau, Tiago Guerreiro"
 
 # link to the pdf
-# pdf: "../downloads/lego_chi21.pdf"
+pdf: "../downloads/idc2021.pdf"
 
 # external-links:
 #  - name: DOI
