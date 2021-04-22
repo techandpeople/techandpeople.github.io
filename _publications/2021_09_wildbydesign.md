@@ -23,7 +23,7 @@ authors: "Diogo Branco, Patrick Carrington, Silvia Del Din, Afsaneh Doryab, Hris
 # link to the pdf
 pdf: "../downloads/wildbydesign.pdf"
 
-# external-links:
+external-links:
 #  - name: DOI
 #    url: https://doi.org/10.1145/3411763.3451710
   - name: website
