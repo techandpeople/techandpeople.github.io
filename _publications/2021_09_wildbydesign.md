@@ -21,13 +21,13 @@ description: "In this workshop, we will focus on the challenges of real world he
 authors: "Diogo Branco, Patrick Carrington, Silvia Del Din, Afsaneh Doryab, Hristijan Gjoreski, Tiago Guerreiro, Roisin McNaney, Kyle Montague, Alisha Pradhan, André Rodrigues, Julio Vega "
 
 # link to the pdf
-# pdf: "../downloads/lego_chi21.pdf"
+pdf: "../downloads/wildbydesign.pdf"
 
 # external-links:
 #  - name: DOI
 #    url: https://doi.org/10.1145/3411763.3451710
-#  - name: Poster
-#    url: "../downloads/LEGOWorld_poster.pdf"
+  - name: website
+    url: "./wildbydesign/"
 
  # people associated with the publication
 people:
