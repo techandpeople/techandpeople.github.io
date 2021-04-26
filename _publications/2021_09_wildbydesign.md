@@ -10,9 +10,9 @@ layout: publication
 title: "Wild by Design: Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments"
 
 # publication image
-#image:
-# name: new.png
-# alt-text: "Three pictures demonstrating families' interaction with the system. Left: Two children are around the setup. The visually impaired child confirms with his sighted sibling to where the robot is facing. Middle: Child crawls on the map searching for the robot. Right: Parent and child facing the setup. Parent is asking questions to engage child in play." # provide a short description for the image #a11y
+image:
+ name: wild.JPG
+ alt-text: "Real-world environment: a walk in the countryside with a lot of mud and a cloudy sky" # provide a short description for the image #a11y
 
 # short description of the publication
 description: "In this workshop, we will focus on the challenges of real world health monitoring deployments to produce forward-looking insights that can shape the way researchers and practitioners think about health monitoring, in platforms and systems that account for the complex environments where they are bound to be used."
