@@ -55,7 +55,7 @@ Despite this potential, there are still limited examples of ubiquitous health te
 
 <h1 id="cfp">Call For Papers</h1>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "><a href="https://docs.google.com/document/d/1KfC8B-dKLdyTOZOu-LQfvcyeNHqCfre1Yt5AogmEyVk/edit?usp=sharing">Share the CfP</a></p>
+
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in in-the-wild deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
@@ -64,6 +64,8 @@ The main goal of this workshop is to bridge cross-disciplinary relationships bet
 <p style="padding-left:20px; padding-right:20px; padding-bottom: 25px; margin-bottom:0 ">
 To answer these example questions and others, we hope to bring together the ubiquitous computing, sensor development, machine learning, digital health, clinical, HCI and accessibility communities. Through this workshop, participants will be able to share real-life deployment experiences, tools, challenges, and discuss designs and technology goals for future research.
 </p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "><a href="https://docs.google.com/document/d/1KfC8B-dKLdyTOZOu-LQfvcyeNHqCfre1Yt5AogmEyVk/edit?usp=sharing">Share the CfP</a></p>
 
 <h2>Topics</h2>
 
