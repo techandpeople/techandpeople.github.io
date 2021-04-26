@@ -1,6 +1,16 @@
 highlights:
   - tbb
+  - wild
+  - refugees
 
 tbb:
     photo: tbb.jpg
     alt: "a user sitting in a park benchh using his mobile device under the shadow of a tree"
+
+wild:
+    photo: wild.JPG
+    alt: "A walk in the countryside with a lot of mud and a cloudy sky"
+
+refugees:
+    photo: refugees.png
+    alt: "A refugee camp in Lebanon and a health smartphone app overlayed"
