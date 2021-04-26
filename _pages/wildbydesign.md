@@ -55,6 +55,8 @@ Despite this potential, there are still limited examples of ubiquitous health te
 
 <h1 id="cfp">Call For Papers</h1>
 
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "><a href="https://docs.google.com/document/d/1KfC8B-dKLdyTOZOu-LQfvcyeNHqCfre1Yt5AogmEyVk/edit?usp=sharing">Share the CfP</a></p>
+
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in in-the-wild deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
 </p>
@@ -123,7 +125,20 @@ We invite submissions of case studies, position papers or provocations, and demo
 
 <h1 id="program">Program</h1>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">TBA</p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+Activities of the workshop will start before Ubicomp. We will ask authors to create 5 minute presentations of their submissions, and make them available in a workshop Discord channel (together with the paper and possible links - e.g., in the case of platforms and tools). In there, we will launch discussions on each submission, enabling Q&A long before the workshop. Based on interest, we will create short cross-disciplinary working groups, that will carry on discussions, identify challenges, and ideas and best practices.</p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+During the day of the workshop, we will dedicate time to discuss individual contributions, but focus most time on summary of group discussions. These groups will focus on creating design fictions of challenging environments informed by the submissions. We are planning the usage of Miro boards as a way to support and document the group activities. After each discussion period, groups will report to everyone. A live document with challenges and best practices will serve as a report and shared output from this town hall activity.
+</p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+After the workshop, we plan to continue editing the live document, and make it available openly as a white paper. Submissions to the workshop, that are in scope, will be invited to submit extended versions to special issues of MDPI Sensors (on Passive Sensing for Health) and ACM TACCESS (on Inclusive Health Monitoring). Also, we plan to engage participants in the organization of the next Wild by Design edition.
+</p>
+
+<h2>Workshop Schedule</h2>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "> Details TBA</p>
 
 <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 <script src="{{ "/js/bootstrap-accessibility.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
