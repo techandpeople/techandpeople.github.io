@@ -125,6 +125,9 @@ We invite submissions of case studies, position papers or provocations, and demo
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">TBA</p>
 
-<footer class="footer">
-     {% include footer.html %}
-</footer>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+<script src="{{ "/js/bootstrap-accessibility.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/functions.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/anchor_offset.js"></script>
