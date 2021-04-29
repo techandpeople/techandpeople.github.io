@@ -43,6 +43,17 @@ nav li a:hover {
   background-color: rgb(28, 46, 66);
 }
 
+.site-footer{
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+  background-color: #343a40;
+}
+.site-footer > div{
+  padding: 3em;
+  color: #ffffff;
+}
 
 .float-right {
   float: right;
@@ -123,6 +134,7 @@ nav li a:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin-bottom: 1em;
 }
 
 .card-column{
@@ -289,6 +301,7 @@ nav li a:hover {
   flex-direction: column;
   box-sizing: border-box;
   overflow-x: auto;
+  margin: 0 10em 2em 10em;
 }
 
 table{
@@ -329,6 +342,13 @@ th{
   height: 4em;
 }
 
+.sub-header-cell{
+  border-top-color: inherit;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(0,0,0,.12);
+}
+
 .header-cell-numeric{
   text-align: right;
 }
@@ -357,4 +377,22 @@ th{
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: rgba(0,0,0,.12);
+}
+
+.card-fullscreen{
+  background-color: #017bc3;
+  color: #ffffff;
+}
+
+textarea{
+  resize: none;
+  height: 6em;
+  width: 25em;
+  padding: 6px 12px;
+  font-size: 1em;
+  line-height: 1.5em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1em 0em 1em 0em;
 }
