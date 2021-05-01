@@ -21,7 +21,7 @@ description: "We present stories of research articulation, of researchers as art
 authors: "Rua M. Williams, Kathryn Ringland, Amelia Gibson, Mahender Mandala, Arne Maibaum, Tiago Guerreiro"
 
 # link to the pdf
-pdf: "https://dl.acm.org/doi/pdf/10.1145/3458453f"
+pdf: "https://dl.acm.org/doi/pdf/10.1145/3458453"
 
 external-links:
   - name: DOI
