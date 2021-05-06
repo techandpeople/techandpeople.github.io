@@ -30,7 +30,7 @@
           A privacy-aware keyboard toolkit for data collection in-the-wild
         </div>
         <div class="start-summary">
-          With our keyboard you will be able to collect everyday typing data enabling continuous and spontaneous assessments of motor skills. Try out our demo (Android 6.0+).
+          With our keyboard you will be able to collect everyday typing data enabling continuous and spontaneous assessments. Try out our Demo available at the Playstore (Android 6.0+).
         </div>
         <div class="play-store-bt">
           <img src="images/google-play-badge.png">
@@ -61,7 +61,7 @@
               </div>
               <div class="inner-card-body">
                 <div class="inner-card-sub-title">
-                  Collect text-entry data, regardless of where it is written.
+                  Continually assess users typing behaviours by analysing written text in any and all applications. Your users do not have to do anything other than installing the device. Do not worry if you are reading this and concerned about user privacy! No text or any data that would enable its reconstruction is recorded during implicit collection. All metrics are calculated locally on the device and only metrics with no textual content are sent and stored in the cloud database. Explore the over 15 different metrics WildKey is able to provide on text and touch behaviours.
                 </div>
               </div>
             </div>
@@ -97,20 +97,24 @@
                 Explicit Typing Collection
               </div>
               <div class="inner-card-body">
-                <div class="inner-card-sub-title">Send out text-entry tasks for your users to perform.</div>
+                <div class="inner-card-sub-title">Need more control over your text-entry collection? Want to collect low level touch events and raw text content? With WildKey you are able to create structured text-entry tasks for your users to either transcribe a set of sentences or respond to a set of questions you make! Schedule and send out text-entry tasks for your users to perform on the go. Collect raw text-entered and raw touch point data for your models or questions.
+                  </div>
               </div>
             </div>
           </div>
         </div>
         <div class="card-row">
-          <div class="inner-card large-inner-card">
+          <div style="width: auto" class="inner-card">
             <div class="inner-card-title">
               Questionnaires
             </div>
             <div class="inner-card-body">
-              <div class="inner-card-sub-title center-self">
-                Create and schedule questionnaires for your study participants.
+              <div class="inner-card-sub-title">
+                We know from experience the effort it takes to conduct serious in-the-wild research. To facilitate collecting and cross-reference the data you want from your studies, WildKey enables you to create questionnaires to schedule, and send out to your participants. Through the questionnaire builder, you will be able to deploy your custom questionnaires, digital scales and much more. Your participants will receive a notification and other nudges to fill-out the questionnaire deployed through our WildKey app.  We are always adding new questions types and more. Let us know if there is something you need and is missing!
               </div>
+            </div>
+          </div>
+          <div style="width: auto" class="inner-card">
               <div class="outer-card-images">
                 <div class="inner-card-images">
                   <label class="center-self">Slider scale</label>
@@ -139,7 +143,7 @@
                 Customizable tasks
               </div>
               <div class="inner-card-body">
-                <div class="inner-card-sub-title">Support to create and use custom made tasks for your study. Currently available: Alternate Finger-Tapping.</div>
+                <div style="flex-flow: wrap;" class="inner-card-sub-title">If your study requires a more personal touch with very specific tasks WildKey has got you covered. WildKey was developed to be a highly extendable toolkit supporting the creation of custom made-tasks. Currently, you can checkout the feature through the example task the Alternate Finger Tapping test <a href="https://doi.org/10.1371/journal.pone.0158852">(Lee CY et. al. )</a>.</div>
               </div>
             </div>
           </div>
@@ -164,21 +168,30 @@
     </div>
     <div class="card-body">
       <div class="card-row">
-        <div class="card-column">
-          <div class="inner-card large-inner-card">
-            <div class="inner-card-title">
-              No raw text is collected!
-            </div>
-            <div class="inner-card-body">
-              <div class="inner-card-sub-title">By default, the Implicit method the keyboard analysys and calculates all metrics locally on the keyboard before sending out only the results of the analysys (performance and behaviors metrics) to the databases.</div>
+        <div class="inner-card-body">
+          <div class="inner-card-body">
+            <div class="inner-card-sub-title">
+              Smartphones are becoming an extension of oneself and data privacy has become of the utmost importance. Text content can be one of the most private types of data users generate and approaches that seek to collect this type of information can expect to be met with resistance by some users and overall suffer from lower levels of adherence and compliance. Aware of the challenges WildKey was devised to not store any textual content outside the specific tasks it asks users to perform. WildKey analyzes all data locally on the device before it synchronizes only those calculations. You and your users get the best of both worlds, privacy and informative metrics.
             </div>
           </div>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card-column">
           <div class="inner-card large-inner-card">
             <div class="inner-card-title">
               Private mode
             </div>
             <div class="inner-card-body">
-              <div class="inner-card-sub-title">At any point users can select the lock always available when the keyboard is opened to enter the “private mode” which disables all text analytics. No data is processed or store while the user remains in private more.</div>
+              <div class="inner-card-sub-title">At any point users can select the lock always available when the keyboard is opened to enter the “private mode” which disables all text analytics. No data is processed or stored while the user remains in private mode.</div>
+            </div>
+          </div>
+          <div class="inner-card large-inner-card">
+            <div class="inner-card-title">
+              Right to be Forgotten
+            </div>
+            <div class="inner-card-body">
+              <div class="inner-card-sub-title">To facilitate GDPR compliance WildKey enables researchers to quickly download all data from a specific user, and delete it all if necessary.</div>
             </div>
           </div>
         </div>
@@ -214,7 +227,31 @@
         <div class="card-column">
           <div class="inner-card large-inner-card">
             <div class="inner-card-body">
-              <div class="inner-card-sub-title">You have the ability to schedule tasks (questionnaires, explicit typing collection and other) to a specific user or to groups. Users will receive a notification of pending tasks, have a reminder shown on the keyboard, and in addition they are also able to access it by opening the keyboard dedicated app.</div>
+              <div class="inner-card-sub-title">WildKey toolkit is bundled with React app to make it easier for you to create, manage and deploy your user studies. The React app has two key features: study management and metrics & analytics. The application is currently deployable with local hosting ensuring you are in control of your WildKey ecosystem. The app allows you to:</div>
+              <ul>
+                <li>Personalize your study tasks</li>
+                <li style="list-style-type: none; ">
+                  <ul>
+                    <li>Text-entry</li>
+                    <li>Questionnaires </li>
+                    <li>Custom-Made</li>
+                  </ul>
+                </li>
+                <li>Flexible task schedules</li>
+                <li style="list-style-type: none; ">
+                  <ul>
+                    <li>Set tasks Individually or for groups of users</li>
+                  </ul>
+                </li>
+                <li>Notify users</li>
+                <li style="list-style-type: none; ">
+                  <ul>
+                    <li>Nudge users to complete tasks through keyboard and system level notifications</li>
+                  </ul>
+                </li>
+                <li>Manage Users</li>
+                <li>Quickly access relevant study metrics through the Study Dashboard</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -498,12 +535,11 @@
               </table>
             </div>
 
-        <div class="inner-card-title">
-          Further Reading
-        </div>
-        <div class="inner-card-sub-title">
-        Check the paper's related work. Here are some direct links as well:
-        1. link paper | 2. link paper | 3. link paper | 4. link paper | 5. link paper
+        <div style="flex-flow: column; margin: 0; padding-left: 2em; padding-top: 2em;" class="inner-card-sub-title">
+        <p>For more details please check WildKey technical report [].</p>
+        <p>Further reading:<br>
+           <a href="https://doi.org/10.1145/1188816.1188819">Wobbrock et al. 2006</a> | <a href="https://doi.org/10.1145/2207676.2208338">Events et al. 2012</a> | <a href="https://doi.org/10.1145/3046785">Nicolau et al. 2017</a> | <a href="https://doi.org/10.1109/TBME.2017.2664802">T. Arroyo-Gallego et al. 2017</a> | <a href="https://doi.org/10.1109/TBME.2017.2664802">Zhang et al. 2019</a>
+        </p>
         </div>
         </div>
       </div>
@@ -521,11 +557,11 @@
       <div class="card-row">
         <div class="inner-card">
           <div class="inner-card-sub-title">
-            Text-entry metrics and fatigue
+            Exploring privacy, adherence and compliance
           </div>
-          <div style="margin-left:0;" class="inner-card-body">
-            <div style="margin-left:0;" class="inner-card-summary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula convallis lacus ut consectetur. Curabitur non eros at odio euismod efficitur vel at sapien.
+          <div style="margin-left:0; margin-right: 0;" class="inner-card-body">
+            <div style="margin-left:0; margin-right: 0;" class="inner-card-summary">
+              In this study we explore and evaluate different strategies for text-entry free-living data collection (transcriptions, compositions and implicit)  and assess their impact on privacy, adherence and compliance.
             </div>
           </div>
         </div>
@@ -533,19 +569,19 @@
           <div class="inner-card-sub-title">
             Text-entry metrics and Parkinson
           </div>
-          <div style="margin-left:0;" class="inner-card-body">
-            <div style="margin-left:0;" class="inner-card-summary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula convallis lacus ut consectetur. Curabitur non eros at odio euismod efficitur vel at sapien.
+          <div style="margin-left:0; margin-right: 0;" class="inner-card-body">
+            <div style="margin-left:0; margin-right: 0;" class="inner-card-summary">
+              We believe there is great potential to have situated assessments of motor skills which may be affected in Parkinson’s disease (PD) patients. In this work, we investigate whether text-entry metrics are promising digital end-points for patients with PD.
             </div>
           </div>
         </div>
         <div class="inner-card">
           <div class="inner-card-sub-title">
-            Exploring privacy, adherence and compliance
+            Text-entry metrics and fatigue
           </div>
-          <div style="margin-left:0;" class="inner-card-body">
-            <div style="margin-left:0;" class="inner-card-summary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula convallis lacus ut consectetur. Curabitur non eros at odio euismod efficitur vel at sapien.
+          <div style="margin-left:0; margin-right: 0;" class="inner-card-body">
+            <div style="margin-left:0; margin-right: 0;" class="inner-card-summary">
+              Together with Open Lab at Newcastle we are exploring how the different metrics and collection methods correlate with fatigue assessment scales.
             </div>
           </div>
         </div>
@@ -592,7 +628,7 @@
     </div>
     <div class="card-body">
       <div class="inner-card-sub-title">
-      The keyboard is free to use and open to all. To get access to an early access please contact us at:<a style="padding-left: 0.5em;" href="mailto:handle@domain.pt">handle@domain.pt</a>
+      The keyboard is free to use and open to all. To get access to an early access please contact us at:<a style="padding-left: 0.5em;" href="mailto:wildkeytech@gmail.com">wildkeytech@gmail.com</a>
       </div>
     </div>
   </div>
