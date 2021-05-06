@@ -42,9 +42,6 @@ $(".carousel-inner").append('<div class="item"><img style="width:auto; max-heigh
 $(".carousel-indicators > li:first").addClass("active");
 $(".carousel-inner > div:first").addClass("active");
 </script>
-
-<p style="text-align: center; font-size: 0.9rem;font-style: italic;">{{highlight.caption}}</p>
-
 {% endfor %}
 
 
