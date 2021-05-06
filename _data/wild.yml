@@ -3,14 +3,28 @@ highlights:
   - wild
   - refugees
 
+
 tbb:
     photo: tbb.jpg
     alt: "a user sitting in a park benchh using his mobile device under the shadow of a tree"
+    caption: A blind young man sat on a park using a mobile phone
 
 wild:
     photo: wild.JPG
     alt: "A walk in the countryside with a lot of mud and a cloudy sky"
+    caption: A walk in the countryside
 
 refugees:
     photo: refugees.png
     alt: "A refugee camp in Lebanon and a health smartphone app overlayed"
+    caption: Citizen radio app in Lebanon
+
+doctor:
+    photo: exam.jpg
+    alt: "A doctor examining a woman in a clinic in Mukono, Uganda"
+    caption: '<a href="https://www.flickr.com/photos/10816734@N03/7556636900">"A doctor conducts an exam"</a><span> by <a href="https://www.flickr.com/photos/10816734@N03">World Bank Photo Collection</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=1c2bb87f-45a4-49f9-ab6b-f38af742252e" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a>'
+
+fatigue:
+    photo: fatigue.jpg
+    alt: "A fatigued man riding a bus with his hands covering his face"
+    caption: '<a href="https://www.flickr.com/photos/33756516@N07/3804776610">"fatigue"</a><span> by <a href="https://www.flickr.com/photos/33756516@N07">rrrtem</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=2ba275c0-e97f-4a12-b070-512cb7da57f0" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a>'

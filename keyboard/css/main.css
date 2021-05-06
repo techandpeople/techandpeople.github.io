@@ -12,7 +12,7 @@ html *
 }
 
 nav{
-  background-color: #007dc6;
+  background-color: #237fc7;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -71,7 +71,7 @@ nav li a:hover {
 .start-background{
   display: flex;
   justify-content: center;
-  background-color: #007dc6;
+  background-color: #237fc7;
 }
 
 .start-container{
@@ -380,7 +380,7 @@ th{
 }
 
 .card-fullscreen{
-  background-color: #007dc6;
+  background-color: #237fc7;
   color: #ffffff;
 }
 
