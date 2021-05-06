@@ -38,7 +38,7 @@ let count = 0;
 {% assign highlight = site.data.wild[img] %}
 <script>
 $(".carousel-indicators").append('<li data-target="#myCarousel" data-slide-to="'+ (count++) +'"></li>');
-$(".carousel-inner").append('<div class="item"><img style="width:auto; max-height: 400px; margin-left:auto; margin-right:auto;" class="img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/wild/{{highlight.photo}}" alt="{{highlight.alt}}"></div>')
+$(".carousel-inner").append('<div class="item"><img style="width:auto; max-height: 400px; margin-left:auto; margin-right:auto;" class="img-responsive imgpub" src="{{ site.url }}{{ site.baseurl }}/images/wild/{{highlight.photo}}" alt="{{highlight.alt}}"><p style="font-size: 0.9rem;font-style: italic;">highlight.caption</p></div>')
 $(".carousel-indicators > li:first").addClass("active");
 $(".carousel-inner > div:first").addClass("active");
 </script>
