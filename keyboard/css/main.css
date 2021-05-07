@@ -72,6 +72,7 @@ nav li a:hover {
 
 .start-image{
   margin: auto;
+
 }
 
 .start-background{
@@ -123,6 +124,7 @@ nav li a:hover {
 
 .play-store-bt > img{
   max-width: 150px;
+  object-fit: scale-down;
 }
 
 .main-content{
@@ -258,7 +260,7 @@ nav li a:hover {
 }
 
 .inner-card-body {
-  margin: 1em;
+  margin: 0;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -411,8 +413,117 @@ textarea{
 
 @media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
 
+  .start-container{
+    padding: 1em;
+    flex-flow: column;
+  }
+
+  .start-content {
+    padding: 1em;
+  }
+
+  .start-image{
+    margin-bottom: 1em;
+  }
+
+  .start-title {
+    align-self: center;
+    margin-bottom: 1em;
+  }
+
+  .start-sub-title{
+    text-align: start;
+    text-justify: inter-word;
+  }
+
+  .card{
+    margin: 1em;
+  }
+
+  .card-title{
+    font-size: 2em;
+  }
+
+  .card-body{
+    margin: 0;
+  }
+
+  .questionnaires-full{
+    padding: 1em;
+  }
+
+  .inner-card-title{
+    font-size: 1.5em;
+  }
+
+  .img-large{
+    max-width: 15em;
+  }
+
+  textarea{
+    width: 15em;
+  }
+
+  .contact-us{
+    flex-flow: column;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .contact-us > a{
+    margin-top: 1em;
+    flex-flow: column;
+    align-self: center;
+  }
+
+  .technical-report{
+    margin-bottom: 0;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    font-size: 1.4em;
+    margin: 1em 0 0 0;
+  }
+
+  .further-reading > div{
+    margin: 0;
+  }
+
+  .further-reading-links{
+    padding: 1em;
+    text-align-last: center;
+  }
+
   .non-collapse{
     float: none;
+  }
+
+  .table{
+    margin: 0;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 
   .collapse{
@@ -424,7 +535,10 @@ textarea{
   }
 
   .large-inner-card {
-    width: inherit;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 }
 
@@ -473,10 +587,6 @@ textarea{
     font-size: 1.5em;
   }
 
-  .inner-card-sub-title{
-    text-align: left;
-  }
-
   .img-large{
     max-width: 15em;
   }
@@ -509,11 +619,16 @@ textarea{
 
   .further-reading{
     font-size: 1.4em;
-    margin: 0;
+    margin: 1em 0 0 0;
   }
 
   .further-reading > div{
     margin: 0;
+  }
+
+  .further-reading-links{
+    padding: 1em;
+    text-align-last: center;
   }
 
   .non-collapse{
@@ -548,8 +663,6 @@ textarea{
 
   .inner-card {
     width: inherit;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .large-inner-card {
@@ -602,10 +715,6 @@ textarea{
 
   .inner-card-title{
     font-size: 1.5em;
-  }
-
-  .inner-card-sub-title{
-    text-align: left;
   }
 
   .img-large{
@@ -735,10 +844,6 @@ textarea{
     font-size: 1.5em;
   }
 
-  .inner-card-sub-title{
-    text-align: left;
-  }
-
   .img-large{
     max-width: 15em;
   }
@@ -771,11 +876,16 @@ textarea{
 
   .further-reading{
     font-size: 1.4em;
-    margin: 0;
+    margin: 1em 0 0 0;
   }
 
   .further-reading > div{
     margin: 0;
+  }
+
+  .further-reading-links{
+    padding: 1em;
+    text-align-last: center;
   }
 
   .non-collapse{
@@ -810,8 +920,6 @@ textarea{
 
   .inner-card {
     width: inherit;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .large-inner-card {
@@ -980,5 +1088,5 @@ textarea{
     width: fill-available;
     text-align-last: center;
   }
-  
+
 }
