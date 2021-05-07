@@ -430,8 +430,116 @@ textarea{
 
 @media (min-width:320px) and (max-width: 480px ) { /* smartphones, iPhone, portrait 480x320 phones */
 
+  .start-container{
+    padding: 1em;
+    flex-flow: column;
+  }
+
+  .start-content {
+    padding: 1em;
+  }
+
+  .start-image{
+    margin-bottom: 1em;
+  }
+
+  .start-title {
+    align-self: center;
+    margin-bottom: 1em;
+  }
+
+  .start-sub-title{
+    text-align: start;
+    text-justify: inter-word;
+  }
+
+  .card{
+    margin: 1em;
+  }
+
+  .card-title{
+    font-size: 2em;
+  }
+
+  .card-body{
+    margin: 0;
+  }
+
+  .questionnaires-full{
+    padding: 1em;
+  }
+
+  .inner-card-title{
+    font-size: 1.5em;
+  }
+
+  .inner-card-sub-title{
+    text-align: left;
+  }
+
+  .img-large{
+    max-width: 15em;
+  }
+
+  textarea{
+    width: 15em;
+  }
+
+  .contact-us{
+    flex-flow: column;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .contact-us > a{
+    margin-top: 1em;
+    flex-flow: column;
+    align-self: center;
+  }
+
+  .technical-report{
+    margin-bottom: 0;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    font-size: 1.4em;
+    margin: 0;
+  }
+
+  .further-reading > div{
+    margin: 0;
+  }
+
   .non-collapse{
     float: none;
+  }
+
+  .table{
+    margin: 0;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 
   .collapse{
@@ -440,16 +548,129 @@ textarea{
 
   .inner-card {
     width: inherit;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .large-inner-card {
-    width: inherit;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 }
 @media (min-width:481px) and (max-width: 640px ){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
+  .start-container{
+    padding: 1em;
+    flex-flow: column;
+  }
+
+  .start-content {
+    padding: 1em;
+  }
+
+  .start-image{
+    margin-bottom: 1em;
+  }
+
+  .start-title {
+    align-self: center;
+    margin-bottom: 1em;
+  }
+
+  .start-sub-title{
+    text-align: start;
+    text-justify: inter-word;
+  }
+
+  .card{
+    margin: 1em;
+  }
+
+  .card-title{
+    font-size: 2em;
+  }
+
+  .card-body{
+    margin: 0;
+  }
+
+  .questionnaires-full{
+    padding: 1em;
+  }
+
+  .inner-card-title{
+    font-size: 1.5em;
+  }
+
+  .inner-card-sub-title{
+    text-align: left;
+  }
+
+  .img-large{
+    max-width: 15em;
+  }
+
+  textarea{
+    width: 15em;
+  }
+
+  .contact-us{
+    flex-flow: column;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .contact-us > a{
+    margin-top: 1em;
+    flex-flow: column;
+    align-self: center;
+  }
+
+  .technical-report{
+    margin-bottom: 0;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    font-size: 1.4em;
+    margin: 0;
+  }
+
+  .further-reading > div{
+    margin: 0;
+  }
+
   .non-collapse{
     float: none;
+  }
+
+  .table{
+    margin: 0;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 
   .collapse{
@@ -457,23 +678,130 @@ textarea{
   }
 
   .inner-card {
-    width: 325px;
-  }
-  
-  .large-inner-card {
-    width: 550px;
-  }
-  
-  .x-large-inner-card {
     width: inherit;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .large-inner-card {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 }
 @media (min-width:641px) and (max-width: 960px ){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
+  .start-container{
+    padding: 1em;
+    flex-flow: column;
+  }
+
+  .start-content {
+    padding: 1em;
+  }
+
+  .start-image{
+    margin-bottom: 1em;
+  }
+
+  .start-title {
+    align-self: center;
+    margin-bottom: 1em;
+  }
+
+  .start-sub-title{
+    text-align: start;
+    text-justify: inter-word;
+  }
+
+  .card{
+    margin: 1em;
+  }
+
+  .card-title{
+    font-size: 2em;
+  }
+
+  .card-body{
+    margin: 0;
+  }
+
+  .questionnaires-full{
+    padding: 1em;
+  }
+
+  .inner-card-title{
+    font-size: 1.5em;
+  }
+
+  .inner-card-sub-title{
+    text-align: left;
+  }
+
+  .img-large{
+    max-width: 15em;
+  }
+
+  textarea{
+    width: 20em;
+  }
+
+  .contact-us{
+    flex-flow: column;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .contact-us > a{
+    margin-top: 1em;
+    flex-flow: column;
+    align-self: center;
+  }
+
+  .technical-report{
+    margin-bottom: 0;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    font-size: 1.4em;
+    margin: 0;
+  }
+
+  .further-reading > div{
+    margin: 0;
+  }
+
   .non-collapse{
     float: none;
+  }
+
+  .table{
+    margin: 0;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .table-container div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 
   .collapse{
@@ -481,17 +809,16 @@ textarea{
   }
 
   .inner-card {
-    width: 325px;
-  }
-  
-  .large-inner-card {
-    width: 550px;
-  }
-  
-  .x-large-inner-card {
     width: inherit;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .large-inner-card {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
   }
 }
 @media (min-width:961px) and (max-width: 1024px ){ /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -517,6 +844,35 @@ textarea{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .technical-report > div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    margin: 0;
+  }
+
+  .further-reading div{
+    margin: 0;
+  }
+
+  .further-reading-links{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    text-align-last: center;
+  }
 }
 @media (min-width:1025px) and (max-width: 1281px ){ /* big landscape tablets, laptops, and desktops */
 
@@ -541,6 +897,36 @@ textarea{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .technical-report > div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    margin: 0;
+  }
+
+  .further-reading div{
+    margin: 0;
+  }
+
+  .further-reading-links{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    text-align-last: center;
+  }
+
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 
@@ -565,4 +951,34 @@ textarea{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .technical-report > div{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+  }
+
+  .technical-report-text{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .further-reading{
+    margin: 0;
+  }
+
+  .further-reading div{
+    margin: 0;
+  }
+
+  .further-reading-links{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    text-align-last: center;
+  }
+  
 }
