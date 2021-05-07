@@ -240,8 +240,8 @@ nav li a:hover {
 .inner-card-sub-title {
   display: flex;
   font-weight: 400;
-  font-size: 1.3em;
-  line-height: 1.3em;
+  font-size: 1.1em;
+  line-height: 1.5em;
   color: #424242;
   margin-bottom: 1em;
 }
@@ -409,8 +409,16 @@ textarea{
   margin: 1em 0em 1em 0em;
 }
 
+@media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+  .non-collapse{
+    float: none;
+  }
+
+  .collapse{
+    display: none;
+  }
+
   .inner-card {
     width: inherit;
   }
@@ -419,7 +427,35 @@ textarea{
     width: inherit;
   }
 }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+@media (min-width:320px) and (max-width: 480px ) { /* smartphones, iPhone, portrait 480x320 phones */
+
+  .non-collapse{
+    float: none;
+  }
+
+  .collapse{
+    display: none;
+  }
+
+  .inner-card {
+    width: inherit;
+  }
+
+  .large-inner-card {
+    width: inherit;
+  }
+}
+@media (min-width:481px) and (max-width: 640px ){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+  .non-collapse{
+    float: none;
+  }
+
+  .collapse{
+    display: none;
+  }
+
   .inner-card {
     width: 325px;
   }
@@ -434,7 +470,16 @@ textarea{
     margin-right: auto;
   }
 }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) and (max-width: 960px ){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+  .non-collapse{
+    float: none;
+  }
+
+  .collapse{
+    display: none;
+  }
+
   .inner-card {
     width: 325px;
   }
@@ -449,7 +494,16 @@ textarea{
     margin-right: auto;
   }
 }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) and (max-width: 1024px ){ /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  .non-collapse{
+    float: left;
+  }
+
+  .collapse{
+    display: flex;
+  }
+
   .inner-card {
     width: 325px;
   }
@@ -464,7 +518,16 @@ textarea{
     margin-right: auto;
   }
 }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) and (max-width: 1281px ){ /* big landscape tablets, laptops, and desktops */
+
+  .non-collapse{
+    float: left;
+  }
+
+  .collapse{
+    display: flex;
+  }
+
   .inner-card {
     width: 325px;
   }
@@ -480,6 +543,15 @@ textarea{
   }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
+
+  .non-collapse{
+    float: left;
+  }
+
+  .collapse{
+    display: flex;
+  }
+
   .inner-card {
     width: 325px;
   }
