@@ -304,6 +304,11 @@ nav li a:hover {
   align-content: center;
 }
 
+#myImageGray {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+}
+
 .table{
   background-color: var(--mdc-theme-surface, #fff);
   border-radius: 4px;
