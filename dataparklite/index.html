@@ -1,0 +1,263 @@
+<html lang="en">
+  <head>
+    <title>DataparkLite</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="float-left non-collapse">
+          <a href="/">Tech & People Lab @ ULisboa</a>
+        </li>
+        <li class="float-left non-collapse">
+          <a class="nav-title" href="#home">Datapark Lite</a>
+        </li>
+        <li class="float-right collapse"><a href="#contact">Contact</a></li>
+        <li class="float-right collapse"><a href="#reports">Reports</a></li>
+        <li class="float-right collapse">
+          <a href="#metrics">Metrics</a>
+        </li>
+        <li class="float-right collapse">
+          <a href="#data-collection">Data Collection</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-content">
+      <div class="start-background">
+        <div id="home" class="start-container">
+          <div class="start-content">
+            <div class="start-title">DataparkLite</div>
+            <div class="start-sub-title">
+              A report generator for accerolemeter data
+            </div>
+            <div class="start-summary">
+              With this tool you will be able to get a personalized report based
+              on the metrics we are using. You will give a meaning to the raw
+              data collected.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards-content">
+      <section id="data-collection">
+        <div class="card">
+          <div class="card-title">Data Collection</div>
+          <div class="card-body">
+            <div class="card-column">
+              <div class="card-row">
+                <div class="card-column">
+                  <div class="inner-card large-inner-card">
+                    <div class="inner-card-title">AX3</div>
+                    <div class="inner-card-body">
+                      <div class="inner-card-sub-title">
+                        Out data collection mechanism uses AX3, an 3-axis
+                        logging accelerometer.
+                        For futher details about the device please visit:
+                      </div>
+                      <a
+                        style="padding-left: 0.5em"
+                        target="_blank"
+                        href="https://axivity.com/product/ax3"
+                      >
+                        AX3
+                        website</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column">
+                  <div class="inner-card large-inner-card">
+                    <div class="outer-card-images">
+                      <div class="inner-card-images">
+                        <img
+                          class="card-image img-large"
+                          src="images/ax3_1.jpeg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="metrics">
+        <div class="card">
+          <div class="card-title">Metrics</div>
+          <div class="card-body">
+            <div class="card-row">
+              <div class="card-column">
+                <div class="inner-card large-inner-card">
+                  <div class="inner-card-title">Wear Time</div>
+                  <div class="inner-card-body">
+                    <div class="inner-card-sub-title">
+                      Wear time is defined as consecutive stationary episodes
+                      lasting for at least 30 minutes where acceleration
+                      magnitude has a standard deviation of more than 13.0 mg
+                      (g=9.81m/s2) (van Hees et al. 2011). Non-wear time periods
+                      are removed from subsequent analysis. Wear time of less
+                      than 75% of a day is a criterion for exclusion of that
+                      complete day from further analysis.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-row">
+              <div class="card-column">
+                <div class="inner-card large-inner-card">
+                  <div class="inner-card-title">Immobility Measures</div>
+                  <div class="inner-card-body">
+                    <div class="inner-card-sub-title">
+                        
+                        Immobility measures are captured resorting to the
+                        Estimation of Stationary Sleep segments algorithm
+                        (Borazio et al. 2014) that looks for long periods of
+                        idleness in the accelerometer signal.
+                   
+                   
+                        From this segmentation, several measures will be derived
+                        per user per day of analysis:
+                     </div>
+                      <ul>
+                        <li>Night Time Immobility Duration (NTID)</li>
+                        <li>
+                          Night Time Mobility Periods and Duration (NTMP and
+                          NTMD)
+                        </li>
+                        <li>
+                          Diurnal Immobility Periods and Duration (DIP and DID)
+                        </li>
+                      </ul>
+                      <div class="inner-card-sub-title">
+                        Additionally, other variables will be derived from the
+                        activity signal that account for the transitions and
+                        duration of moments of mobility and immobility, within
+                        and between days, particularly the following
+                        non-parametric indices of circadian rhythmicity (Jones,
+                        Hare, and Evershed 2005; Gonçalves et al. 2014):
+                      </div>
+                      <ul>
+                        <li>
+                          Intradaily variability (IV): looks at fragmentation of
+                          rhythm, by assessing the frequency and extent of
+                          transitions between rest and activity.
+                        </li>
+                        <li>
+                          Interdaily stability (IS): Indicates invariability of
+                          the 24 h rhythm between days. Requires that at least
+                          two days are eligible for analysis (see Wear time for
+                          exclusion criteria for each day).
+                        </li>
+                        <li>
+                          Relative amplitude (RA): Indicates quantity of
+                          activity, calculated from the most active 10 h period
+                          and least active 5 h period in an average 24 h
+                          pattern.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-row">
+              <div class="card-column">
+                <div class="inner-card large-inner-card">
+                  <div class="inner-card-title">Activity Measures</div>
+                  <div class="inner-card-body">
+                    <div class="inner-card-sub-title">
+                      Activity measures reflect the amount and robustness of physical activity performed by the subjects. We
+derive the following measures (O’Brien et al. 2017):
+                    </div>
+                    <ul>
+                        <li>Daily Physical Activity (DPA): mean acceleration magnitude, a measure for how much the
+device was accelerated, in 1 minute. Activity within this period will be the average of the
+activity during the self-reported day time. The daily period will be the average of all minutes
+since waking up, until going to bed, including naps;</li>
+                        <li>
+                          Nightly Physical Activity (NPA): mean acceleration magnitude, a measure for how much the
+device was accelerated, in 1 minute. Activity within this period will be the average of the
+activity during the self-reported night time. The nightly period includes wake-up periods;
+                        </li>
+                        <li>
+                         Daily Jerk (DJ): reflects how sudden movements are and is calculated as the mean of the first
+derivative of acceleration magnitude. Jerk will be averaged per minute for the self-reported
+daily period.
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reports">
+        <div class="card">
+          <div class="card-title">Reports</div>
+          <div class="card-body">
+            <div class="card-row">
+              <div class="card-column"></div>
+              <div class="card-column">
+                <div class="inner-card large-inner-card">
+                  <div class="inner-card-body">
+                    <div class="inner-card-sub-title">
+                      Below you can find an example of a report using the
+                      different metrics we collect.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inner-card large-inner-card">
+                <div class="">
+                  <div class="">
+                    <embed   type="application/pdf" height="770px" width="100%"  src="files/exampleReport.pdf#toolbar=0&zoom=68" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="contact">
+      <div class="cards-content">
+        <div class="card">
+          <div class="card-title">Available to All(Soon)</div>
+          <div class="card-body">
+            <div class="inner-card-sub-title contact-us">
+              <p>
+                DataparkLite is free to use and open to all. The tool we be
+                available here soon. If you need more details or want an early
+                access please contact us at:<a
+                  style="padding-left: 0.5em"
+                  href="mailto:dataparklite@gmail.com"
+                  >dataparklite@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>
+        The project was partially supported by FCT through LASIGE Research Unit
+        funding, ref. UIDB/00408/2020 and ref. UIDP/00408/2020.
+      </div>
+    </footer>
+  </body>
+</html>
