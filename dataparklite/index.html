@@ -18,12 +18,12 @@
           <a href="/">Tech & People Lab @ ULisboa</a>
         </li>
         <li class="float-left non-collapse">
-          <a class="nav-title" href="#home">Datapark Lite</a>
+          <a class="nav-title" href="#home">DataPark Lite</a>
         </li>
         <li class="float-right collapse"><a href="#contact">Contact</a></li>
         <li class="float-right collapse"><a href="#reports">Reports</a></li>
         <li class="float-right collapse">
-          <a href="#metrics">Metrics</a>
+          <a href="#metrics">Measures</a>
         </li>
         <li class="float-right collapse">
           <a href="#data-collection">Data Collection</a>
@@ -34,9 +34,9 @@
       <div class="start-background">
         <div id="home" class="start-container">
           <div class="start-content">
-            <div class="start-title">DataparkLite</div>
+            <div class="start-title">DataPark Lite</div>
             <div class="start-sub-title">
-              A report generator for accerolemeter data
+              Get a personalized report from a raw accelerometer data file with a selection of relevant measures of activity.
             </div>
             <div class="start-summary">
               With this tool you will be able to get a personalized report based
@@ -124,105 +124,89 @@
       </section>
       <section id="metrics">
         <div class="card">
-          <div class="card-title">Metrics Examples</div>
+          <div class="card-title">Measures</div>
           <div class="card-body">
             <div class="card-row">
               <div class="card-column">
-                <div class="inner-card large-inner-card">
-                  <div class="inner-card-title">Wear Time</div>
-                  <div class="inner-card-body">
-                    <div class="inner-card-sub-title">
-                      <p>Non-wear time periods are removed from subsequent analysis. Wear time of less
-                      than 75% of a day is a criterion for exclusion of that
-                      complete day from further analysis. </p>
-                    </div>
-                      <div class="inner-card-sub-title">
-                      For more details see &nbsp;<a href=""> van Hees et al. 2011</a>
-                           </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-row">
-              <div class="card-column">
-                <div class="inner-card large-inner-card">
-                  <div class="inner-card-title">Immobility Measures</div>
-                  <div class="inner-card-body">
-                    <div class="inner-card-sub-title">
-                        
-                        Immobility measures are captured resorting to the
-                        Estimation of Stationary Sleep segments algorithm.                   
-                        From this segmentation, several measures can be derived:
-                     </div>
-
-                      <ul>
-                        <li>Night Time Immobility Duration (NTID)</li>
-                        <li>
-                          Night Time Mobility Periods and Duration (NTMP and
-                          NTMD)
-                        </li>
-                        <li>
-                          Diurnal Immobility Periods and Duration (DIP and DID)
-                        </li>
-                      </ul>
-                      
-                  </div>
-                      <div class="inner-card-sub-title">
-                        Additionally, other variables can be derived from the
-                        activity signal:
-                      </div>
-                      <ul>
-                        <li>
-                          Intradaily variability (IV)
-                        </li>
-                        <li>
-                          Interdaily stability (IS)
-                        </li>
-                        <li>
-                          Relative amplitude (RA)
-                        </li>
-                      </ul>
-                      <div class="inner-card-sub-title">
-                      <p>For more details see:</p>
-                        <ul>
-                      <li>
-                      <a href=""> Jones,
-                        Hare, and Evershed 2005</a></li>
-                        <li> <a href=""> Gonçalves et al. 2014 </a></li> <li> <a href="">Borazio et al. 2014</a></li></ul>
-                      </div>
+                <div class="table">
+              <table>
+                <thead>
+                  <tr class="header-cell">
+                    <th class="left">Data</th>
+                    <th>References</th>
                     
-                           
-                  
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-row">
-              <div class="card-column">
-                <div class="inner-card large-inner-card">
-                  <div class="inner-card-title">Activity Measures</div>
-                  <div class="inner-card-body">
-                    <div class="inner-card-sub-title">
-                      Activity measures reflect the amount and robustness of physical activity performed by the subjects. We
-derive the following measures :
-                    </div>
-                    <ul>
-                        <li>Daily Physical Activity (DPA)</li>
-                        <li>
-                          Nightly Physical Activity (NPA)
-                        <li>
-                         Daily Jerk (DJ)
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="header-cell sub-header-cell">
+                    <th class="left">Wear Time</th>
+                    <th><a href="https://doi.org/10.1371/journal.pone.0022922" target="_blank">van Hees et al. 2011</a></th>
+                
+                  </tr>
+                  <tr class="header-cell sub-header-cell">
+                    <th class="left">Immobility</th>
+                    <th><a href="https://doi.org/10.1109/ICHI.2014.24" target="_blank">Borazio et al. 2014</a></th>
 
-                        </li>
-                      </ul>
-                      <div class="inner-card-sub-title">
-                      For more details see &nbsp;<a href=""> O’Brien et al. 2017</a>
-                           </div>
-                  </div>
-                </div>
+                 
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Night Time Immobility Duration (NTID)</td>
+                    <td class="center"></td>
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Night Time Mobility Periods and Duration (NTMP and NTMD)</td>
+                    <td class="center"></td>
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Diurnal Immobility Periods and Duration (DIP and DID)</td>
+                    <td class="center"></td>
+                  </tr>
+                  <tr class="header-cell sub-header-cell">
+                    <th class="left">Activity</th>
+                    <th><a href="https://doi.org/10.1017/s0033291716002166" target="_blank">O'Brien et al. 2017</a></th>
+
+                   
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Daily Physical Activity (DPA)</td>
+                    <td class="center"></td>
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Nightly Physical Activity (NPA)</td>
+                    <td class="center"></td>
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Daily Jerk (DJ)</td>
+                    <td class="center"></td>
+                  </tr>
+                   <tr class="header-cell sub-header-cell">
+                    <th class="left">Others</th>
+                    <th><a href="https://doi.org/10.1111/j.1399-5618.2005.00187.x" target="_blank">Jones, Hare, and Evershed 2005</a> and&nbsp;<a href="https://doi.org/10.1016/j.slsci.2014.09.013" target="_blank">Gonçalves et al. 2014</a></th>
+
+                  </tr>
+                  <tr class="table-cell">
+                    <td>Intradaily variability (IV)</td>
+                    <td class="center"></td>
+                  </tr>
+                     <tr class="table-cell">
+                    <td>Interdaily stability (IS)</td>
+                    <td class="center"></td>
+                  </tr>
+                     <tr class="table-cell">
+                    <td>Relative amplitude (RA)</td>
+                    <td class="center"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
               </div>
             </div>
-          </div>
+         
+         
+                </div>
+                </div>
+              </div>
+            
         </div>
       </section>
     
@@ -231,13 +215,13 @@ derive the following measures :
     <section id="contact">
       <div class="cards-content">
         <div class="card">
-          <div class="card-title">Available to All(Soon)</div>
+          <div class="card-title">Available Soon</div>
           <div class="card-body">
             <div class="inner-card-sub-title contact-us">
               <p>
                 DataparkLite is free to use and open to all. The tool we be
                 available here soon. If you need more details, want an early
-                access ou would like to have new metrics available please contact us at:<a
+                access or would like to have new measures available please contact us at:<a
                   style="padding-left: 0.5em"
                   href="mailto:dataparklite@gmail.com"
                   >dataparklite@gmail.com</a
