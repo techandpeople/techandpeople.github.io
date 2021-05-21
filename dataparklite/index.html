@@ -40,14 +40,45 @@
             </div>
             <div class="start-summary">
               With this tool you will be able to get a personalized report based
-              on the metrics we are using. You will give a meaning to the raw
-              data collected.
+              on the metrics we are using (or adapted with your own). Now you can give a meaning to the raw
+              data you collect.
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="cards-content">
+      <section id="reports">
+        <div class="card">
+          <div class="card-title">Reports</div>
+          <div class="card-body">
+            <div class="card-row">
+              <div class="card-column">
+                <div class="inner-card large-inner-card">
+                  <div class="inner-card-body">
+                    <div class="inner-card-sub-title">
+                      Below you can find an example of a report using the
+                      different metrics we collect.
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+  
+    
+              <div class="card-body">
+<img src="images/reportSite.jpg" 
+     width="100%" 
+      />
+                  
+          </div>
+          </div>
+        </div>
+        </div>
+      </section>
       <section id="data-collection">
         <div class="card">
           <div class="card-title">Data Collection</div>
@@ -93,7 +124,7 @@
       </section>
       <section id="metrics">
         <div class="card">
-          <div class="card-title">Metrics</div>
+          <div class="card-title">Metrics Examples</div>
           <div class="card-body">
             <div class="card-row">
               <div class="card-column">
@@ -101,14 +132,13 @@
                   <div class="inner-card-title">Wear Time</div>
                   <div class="inner-card-body">
                     <div class="inner-card-sub-title">
-                      Wear time is defined as consecutive stationary episodes
-                      lasting for at least 30 minutes where acceleration
-                      magnitude has a standard deviation of more than 13.0 mg
-                      (g=9.81m/s2) (van Hees et al. 2011). Non-wear time periods
-                      are removed from subsequent analysis. Wear time of less
+                      <p>Non-wear time periods are removed from subsequent analysis. Wear time of less
                       than 75% of a day is a criterion for exclusion of that
-                      complete day from further analysis.
+                      complete day from further analysis. </p>
                     </div>
+                      <div class="inner-card-sub-title">
+                      For more details see &nbsp;<a href=""> van Hees et al. 2011</a>
+                           </div>
                   </div>
                 </div>
               </div>
@@ -121,14 +151,10 @@
                     <div class="inner-card-sub-title">
                         
                         Immobility measures are captured resorting to the
-                        Estimation of Stationary Sleep segments algorithm
-                        (Borazio et al. 2014) that looks for long periods of
-                        idleness in the accelerometer signal.
-                   
-                   
-                        From this segmentation, several measures will be derived
-                        per user per day of analysis:
+                        Estimation of Stationary Sleep segments algorithm.                   
+                        From this segmentation, several measures can be derived:
                      </div>
+
                       <ul>
                         <li>Night Time Immobility Duration (NTID)</li>
                         <li>
@@ -139,34 +165,34 @@
                           Diurnal Immobility Periods and Duration (DIP and DID)
                         </li>
                       </ul>
+                      
+                  </div>
                       <div class="inner-card-sub-title">
-                        Additionally, other variables will be derived from the
-                        activity signal that account for the transitions and
-                        duration of moments of mobility and immobility, within
-                        and between days, particularly the following
-                        non-parametric indices of circadian rhythmicity (Jones,
-                        Hare, and Evershed 2005; Gonçalves et al. 2014):
+                        Additionally, other variables can be derived from the
+                        activity signal:
                       </div>
                       <ul>
                         <li>
-                          Intradaily variability (IV): looks at fragmentation of
-                          rhythm, by assessing the frequency and extent of
-                          transitions between rest and activity.
+                          Intradaily variability (IV)
                         </li>
                         <li>
-                          Interdaily stability (IS): Indicates invariability of
-                          the 24 h rhythm between days. Requires that at least
-                          two days are eligible for analysis (see Wear time for
-                          exclusion criteria for each day).
+                          Interdaily stability (IS)
                         </li>
                         <li>
-                          Relative amplitude (RA): Indicates quantity of
-                          activity, calculated from the most active 10 h period
-                          and least active 5 h period in an average 24 h
-                          pattern.
+                          Relative amplitude (RA)
                         </li>
                       </ul>
-                    </div>
+                      <div class="inner-card-sub-title">
+                      <p>For more details see:</p>
+                        <ul>
+                      <li>
+                      <a href=""> Jones,
+                        Hare, and Evershed 2005</a></li>
+                        <li> <a href=""> Gonçalves et al. 2014 </a></li> <li> <a href="">Borazio et al. 2014</a></li></ul>
+                      </div>
+                    
+                           
+                  
                   </div>
                 </div>
               </div>
@@ -178,24 +204,20 @@
                   <div class="inner-card-body">
                     <div class="inner-card-sub-title">
                       Activity measures reflect the amount and robustness of physical activity performed by the subjects. We
-derive the following measures (O’Brien et al. 2017):
+derive the following measures :
                     </div>
                     <ul>
-                        <li>Daily Physical Activity (DPA): mean acceleration magnitude, a measure for how much the
-device was accelerated, in 1 minute. Activity within this period will be the average of the
-activity during the self-reported day time. The daily period will be the average of all minutes
-since waking up, until going to bed, including naps;</li>
+                        <li>Daily Physical Activity (DPA)</li>
                         <li>
-                          Nightly Physical Activity (NPA): mean acceleration magnitude, a measure for how much the
-device was accelerated, in 1 minute. Activity within this period will be the average of the
-activity during the self-reported night time. The nightly period includes wake-up periods;
-                        </li>
+                          Nightly Physical Activity (NPA)
                         <li>
-                         Daily Jerk (DJ): reflects how sudden movements are and is calculated as the mean of the first
-derivative of acceleration magnitude. Jerk will be averaged per minute for the self-reported
-daily period.
+                         Daily Jerk (DJ)
+
                         </li>
                       </ul>
+                      <div class="inner-card-sub-title">
+                      For more details see &nbsp;<a href=""> O’Brien et al. 2017</a>
+                           </div>
                   </div>
                 </div>
               </div>
@@ -203,33 +225,7 @@ daily period.
           </div>
         </div>
       </section>
-      <section id="reports">
-        <div class="card">
-          <div class="card-title">Reports</div>
-          <div class="card-body">
-            <div class="card-row">
-              <div class="card-column"></div>
-              <div class="card-column">
-                <div class="inner-card large-inner-card">
-                  <div class="inner-card-body">
-                    <div class="inner-card-sub-title">
-                      Below you can find an example of a report using the
-                      different metrics we collect.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="inner-card large-inner-card">
-                <div class="">
-                  <div class="">
-                    <embed   type="application/pdf" height="770px" width="100%"  src="files/exampleReport.pdf#toolbar=0&zoom=68" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </div>
 
     <section id="contact">
@@ -240,8 +236,8 @@ daily period.
             <div class="inner-card-sub-title contact-us">
               <p>
                 DataparkLite is free to use and open to all. The tool we be
-                available here soon. If you need more details or want an early
-                access please contact us at:<a
+                available here soon. If you need more details, want an early
+                access ou would like to have new metrics available please contact us at:<a
                   style="padding-left: 0.5em"
                   href="mailto:dataparklite@gmail.com"
                   >dataparklite@gmail.com</a
