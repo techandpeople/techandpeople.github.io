@@ -31,14 +31,10 @@ friends:
   - jpvg
   - jjff
   - smc
-  - mjf
-  - konstantin
-  - bestchai
-  - ewe
-  - seba
-  - fgp
+#  - ewe
+#  - seba
+#  - fgp
   - nis
-  - jc
 
 alumni:
   - ajbn
@@ -48,6 +44,7 @@ alumni:
   - gdcc
   - aapp
   - gmg
+  - gclo
 
 wildbydesign:
   - djrb
@@ -468,6 +465,13 @@ mpmoteiro:
         url: margaridapmoteiro@gmail.com
       - name: linkedin
         url: https://www.linkedin.com/in/margarida-móteiro-20084216a
+gclo:
+  name: Gonçalo Lobo
+  photo: gclo.jpg
+  info: MSc Student
+  links:
+      - name: email
+        url: g.ferreiralobo@gmail.com
 
 leonin:
   name: Leon Ingelse
