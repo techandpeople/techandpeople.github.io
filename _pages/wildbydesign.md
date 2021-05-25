@@ -73,7 +73,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 
 <ul>
     <li>Longitudinal deployments and studies</li>
-    <li>Contextual challenges of \textit{in-the-wild} deployments</li>
+    <li>Contextual challenges of in-the-wild deployments</li>
     <li>Compliance with longitudinal studies</li>
     <li>Tools for passive and active monitoring</li>
     <li>Socio-economic and cultural factors of influence</li>
