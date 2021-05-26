@@ -55,11 +55,19 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
    display: -webkit-box;
    -webkit-line-clamp: 2;
    -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.title }}</a></p>
+{% if project.tool %}
 <p class="description" style="overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
    -webkit-line-clamp: 6;
    -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:inherit; text-decoration: none;">{{ project.description }}</a></p>
+{% else %}
+<p class="description" style="overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 6;
+   -webkit-box-orient: vertical;"><a href="{{ proj_url }}" style="color:white; text-decoration: none;">{{ project.description }}</a></p>
+{% endif %}
 
 </div>
 </div>
