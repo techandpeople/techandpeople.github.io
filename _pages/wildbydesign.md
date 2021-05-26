@@ -103,7 +103,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 We invite submissions of case studies, position papers or provocations, and demonstrations that  describe ubiquitous health monitoring deployments, tools, and/or challenging environments. Submissions should use the <a href="https://www.acm.org/publications/proceedings-template">ACM sigconf template</a> and have a maximum of 4 pages.
 </p>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submit your paper at: TBA</p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submit your paper at <a href="https://new.precisionconference.com/~sigchi/">Precision Conference</a>. Make a new submission in the SIGCHI, Ubicomp/ISWC 2021, Workshop: Designing Ubi Health Monitoring Tech Track.</p>
 
 
 <h1 id="organizers">Organizers</h1>
