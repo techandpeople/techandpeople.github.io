@@ -41,7 +41,12 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
     {% endif %}
 
 <div class="col-sm-4 {{ project.area }}">
-<div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer;">
+
+{% if project.tool %}
+<div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style="	cursor: pointer; background-color: gray;">
+{% else %}
+<div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style=" cursor: pointer;">
+{% endif %}
 <a href="{{ proj_url }}">
 <img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/thumbnails/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
 <div class="card-body {{ project.area }}">
