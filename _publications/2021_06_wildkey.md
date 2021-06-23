@@ -27,7 +27,7 @@ external-links:
   - name: arXiv
     url: https://arxiv.org/abs/2105.10223v1
   - name: website
-    url: "../keyboard/"
+    url: "../wildkey/"
 
  # people associated with the publication
 people:
