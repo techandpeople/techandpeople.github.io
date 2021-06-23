@@ -8,7 +8,7 @@ permalink: /wildbydesign/
 
 <h1>Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments</h1>
 
-<h3>At <a href="https://www.ubicomp.org/ubicomp2021/">UbiComp</a>, September 25th or 26th, Online</h3>
+<h3>At <a href="https://www.ubicomp.org/ubicomp2021/">UbiComp</a>, September 26th, Online</h3>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
@@ -93,7 +93,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 <ul>
     <li>Submission deadline: June 15th, 2021</li>
     <li>Notification: July 15th, 2021</li>
-    <li>Workshop: September 25th or 26th, 2021</li>
+    <li>Workshop: September 6th, 2021</li>
 </ul>
 
 
