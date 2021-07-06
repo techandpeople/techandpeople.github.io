@@ -18,6 +18,7 @@ members:
   - smeira
   - mpmoteiro
   - dbarros
+  - pmarques
   - leonin
   - jjan
 
@@ -528,6 +529,15 @@ dbarros:
       url: https://pt.linkedin.com/in/danielbarros86
 
 
+pmarques:
+  name: Pedro Marques
+  photo: pmarques.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: pedro.jam@hotmail.com
+
+
 patrick:
     name: "Patrick Carrington"
     photo: patrick.jpg
@@ -569,3 +579,4 @@ julio:
     photo: julio.jpg
     institution: "University of Pittsburgh"
     url: https://juliovega.info/
+
