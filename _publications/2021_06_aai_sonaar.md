@@ -21,13 +21,15 @@ description: "Our work focuses on promoting awareness to accessible social media
 authors: "Carlos Duarte, Letícia Seixas Pereira, André Santos, João Vicente, André Rodrigues, João Guerreiro, José Coelho and Tiago Guerreiro"
 
 # link to the pdf
-#pdf: "../downloads/wildbydesign.pdf"
+pdf: "https://dl.acm.org/doi/pdf/10.1145/3462741.3466644"
 
 external-links:
-#  - name: DOI
-#    url: https://doi.org/10.1145/3411763.3451710
-#  - name: website
-#    url: "../wildbydesign/"
+  - name: DOI
+    url: https://doi.org/10.1145/3462741.3466644
+  - name: Android App
+    url: "https://play.google.com/store/apps/details?id=pt.fcul.lasige.sonaar"
+  - name: Chrome Extension
+    url: "https://chrome.google.com/webstore/detail/sonaar-add-alts/fclfledfnfpilnpdhflpbpnboiohbmdl"    
 
  # people associated with the publication
 people:
@@ -36,8 +38,8 @@ people:
   - jpvg
   - arbs
 
-conference-name: AAI
-venue: "ACM WebSci’21 AI and Inclusion Workshop"
+conference-name: WebSci
+venue: "13th ACM Web Science Conference"
 year: 2021
 
 projects:
