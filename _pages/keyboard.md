@@ -1,7 +1,10 @@
 ---
-title: "Wildkey"
+title: "Tech & People Lab - Wildkey"
+layout: redirect
+excerpt: "Tech & People Lab -- Wildkey."
 sitemap: false
 permalink: /keyboard/
 redirect: /wildkey/
-layout: redirect
 ---
+
+Redirecting to new page...
