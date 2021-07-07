@@ -9,6 +9,9 @@
 </div>
 <div class="col-sm-12">
 <p style="font-weight: bold; padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ include.prp.title }}</p>
+{% if include.prp.selected %}
+<p class="title" style="font-weight: normal; color: red;">This proposal is already assigned to a specific student.</p>
+{% endif %}
 <p class="title" style="font-weight: normal;">Motivation</p>
 <p class="description" style="margin-bottom: 10px; padding-left: 5px;">{{ include.prp.motivation }}</p>
 <p class="title" style="font-weight: normal;">What you will do</p>

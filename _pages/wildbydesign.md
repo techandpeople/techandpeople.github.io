@@ -8,7 +8,7 @@ permalink: /wildbydesign/
 
 <h1>Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments</h1>
 
-<h3>At <a href="https://www.ubicomp.org/ubicomp2021/">UbiComp</a>, September 25th or 26th, Online</h3>
+<h3>At <a href="https://www.ubicomp.org/ubicomp2021/">UbiComp</a>, September 26th, Online</h3>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
@@ -73,7 +73,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 
 <ul>
     <li>Longitudinal deployments and studies</li>
-    <li>Contextual challenges of \textit{in-the-wild} deployments</li>
+    <li>Contextual challenges of in-the-wild deployments</li>
     <li>Compliance with longitudinal studies</li>
     <li>Tools for passive and active monitoring</li>
     <li>Socio-economic and cultural factors of influence</li>
@@ -93,7 +93,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 <ul>
     <li>Submission deadline: June 15th, 2021</li>
     <li>Notification: July 15th, 2021</li>
-    <li>Workshop: September 25th or 26th, 2021</li>
+    <li>Workshop: September 6th, 2021</li>
 </ul>
 
 
@@ -103,7 +103,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 We invite submissions of case studies, position papers or provocations, and demonstrations that  describe ubiquitous health monitoring deployments, tools, and/or challenging environments. Submissions should use the <a href="https://www.acm.org/publications/proceedings-template">ACM sigconf template</a> and have a maximum of 4 pages.
 </p>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submit your paper at: TBA</p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submit your paper at <a href="https://new.precisionconference.com/~sigchi/">Precision Conference</a>. Make a new submission in the SIGCHI, Ubicomp/ISWC 2021, Workshop: Designing Ubi Health Monitoring Tech Track.</p>
 
 
 <h1 id="organizers">Organizers</h1>

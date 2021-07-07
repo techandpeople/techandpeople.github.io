@@ -18,6 +18,7 @@ members:
   - smeira
   - mpmoteiro
   - dbarros
+  - pmarques
   - leonin
   - jjan
 
@@ -63,7 +64,7 @@ tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
     info: "Assistant Professor, Group Leader"
-    institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
+    institution: "LASIGE, Universidade de Lisboa"
     url: https://tjvguerreiro.github.io
     links:
         - name: web
@@ -77,7 +78,7 @@ afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
     info: "PostDoc Researcher, Inclusive Gaming Lead"
-    institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
+    institution: "LASIGE, Universidade de Lisboa"
     url: https://techandpeople.github.io/team/afpr.html
     links:
         - name: web
@@ -106,7 +107,7 @@ djrb:
     photo: djrb.jpg
     info: "PhD Student"
     url: https://web.lasige.di.fc.ul.pt/~dbranco/
-    institution: "LASIGE, Faculdade de Ciências da Universidade de Lisboa"
+    institution: "LASIGE, Universidade de Lisboa"
     links:
         - name: web
           url: https://web.lasige.di.fc.ul.pt/~dbranco/
@@ -528,6 +529,15 @@ dbarros:
       url: https://pt.linkedin.com/in/danielbarros86
 
 
+pmarques:
+  name: Pedro Marques
+  photo: pmarques.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: pedro.jam@hotmail.com
+
+
 patrick:
     name: "Patrick Carrington"
     photo: patrick.jpg
@@ -569,3 +579,4 @@ julio:
     photo: julio.jpg
     institution: "University of Pittsburgh"
     url: https://juliovega.info/
+
