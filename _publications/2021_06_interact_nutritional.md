@@ -21,7 +21,7 @@ description: "Poor eating habits are one of today’s significant menaces to pub
 authors: "Diogo Branco, Ana C. Pires, Hugo Simão, Ana Gomes, Ana Pereira, Joana Sousa, Luísa Barros, Tiago Guerreiro"
 
 # link to the pdf
-pdf: "../downloads/interact2021.pdf"
+pdf: "../downloads/interact21.pdf"
 
 # external-links:
 #  - name: DOI
