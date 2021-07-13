@@ -19,6 +19,7 @@ members:
   - mpmoteiro
   - dbarros
   - pmarques
+  - igoncalves
   - leonin
   - jjan
 
@@ -538,6 +539,15 @@ pmarques:
       url: pedro.jam@hotmail.com
 
 
+igoncalves:
+  name: Inês Gonçalves
+  photo: igoncalves.jpeg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc49493@alunos.fc.ul.pt
+
+
 patrick:
     name: "Patrick Carrington"
     photo: patrick.jpg
@@ -548,7 +558,7 @@ deldin:
     name: "Silvia Del Din"
     photo: silvia.png
     institution: "Newcastle University"
-    url: https://www.ncl.ac.uk/caru/staff/profile/silviadel-din.html#background   
+    url: https://www.ncl.ac.uk/caru/staff/profile/silviadel-din.html#background
 
 afsaneh:
     name: "Afsaneh Doryab"
