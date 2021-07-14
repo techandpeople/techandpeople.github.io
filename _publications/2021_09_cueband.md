@@ -11,7 +11,7 @@ title: "Participatory Action Research and Open Source Hardware Appropriation for
 
 # publication image
 image:
- name: cueband.jpg
+ name: pinetime.jpg
  alt-text: "A Pine Time smartwatch" # provide a short description for the image #a11y
 
 # short description of the publication
