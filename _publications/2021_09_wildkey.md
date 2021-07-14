@@ -37,8 +37,8 @@ people:
   - kkmm
   - hhnn
 
-conference-name: arXiv
-venue: "arXiv:2105.10223 [cs.HC]"
+conference-name: WildByDesign
+venue: "UbiComp/ISWC Workshop on Designing Ubiquitous Health Monitoring Technologies for Challenging Environments"
 year: 2021
 
 projects:
