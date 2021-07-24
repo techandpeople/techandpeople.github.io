@@ -18,8 +18,7 @@ title: "Suggesting text alternatives for images in social media"
 description: "We present SONAAR, a project that aims to improve the accessibility of user-generated content on social networks. Our approach is to support the authoring and consumption of accessible social media content. Our prototypes currently focus on Twitter and Facebook and are available as an Android application and as a Chrome extension."
 
 # authors of the publication
-authors: 
-Letícia Seixas Pereira, João Guerreiro, André Rodrigues, André Santos, João Vicente, José Coelho, Tiago Guerreiro, Carlos Duarte
+authors: "Letícia Seixas Pereira, João Guerreiro, André Rodrigues, André Santos, João Vicente, José Coelho, Tiago Guerreiro, Carlos Duarte"
 
  
 
@@ -30,7 +29,7 @@ external-links:
   - name: website
     url: "http://www.di.fc.ul.pt/~cad/SONAAR/"
   - name: DOI
-    url: https://dl.acm.org/doi/10.1145/3477315.3477318
+    url: "https://dl.acm.org/doi/10.1145/3477315.3477318"
 
  # people associated with the publication
 people:
@@ -39,7 +38,7 @@ people:
   - jpvg
   - cad
   - arbs
-  - ls
+
 
 conference-name: SIGACCESS
 venue: "Newsletter June Edition"
