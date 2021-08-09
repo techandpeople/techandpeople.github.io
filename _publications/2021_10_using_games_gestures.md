@@ -21,7 +21,7 @@ description: "We explore the use of games to inconspicuously train gestures. We 
 authors: Gonçalo Lobo, David Gonçalves, Pedro Pais, Tiago Guerreiro, André Rodrigues
 
 # link to the pdf
-#pdf: ../downloads/myview.pdf
+pdf: ../downloads/games_assets21.pdf
 
  # people associated with the publication
 people:
