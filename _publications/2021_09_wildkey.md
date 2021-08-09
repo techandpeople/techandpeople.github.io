@@ -21,7 +21,7 @@ description: "We present WildKey, an Android keyboard toolkit that allows for th
 authors: "André Rodrigues, André Santos, Kyle Montague, Hugo Nicolau, Tiago Guerreiro"
 
 # link to the pdf
-pdf: "https://arxiv.org/pdf/2105.10223"
+pdf: ../downloads/wildkey_ws.pdf
 
 external-links:
   - name: arXiv

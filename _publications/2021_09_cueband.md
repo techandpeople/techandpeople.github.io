@@ -21,7 +21,7 @@ description: "We present the Cue Band study, which revolves around the creation 
 authors: "Luís Carvalho, Dan Jackson, Tiago Guerreiro, Yu Guan, Kyle Montague"
 
 # link to the pdf
-#pdf: "https://arxiv.org/pdf/2105.10223"
+pdf: ../downloads/cueband.pdf
 
 external-links:
   - name: website

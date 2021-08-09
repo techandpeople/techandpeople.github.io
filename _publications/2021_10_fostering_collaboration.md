@@ -21,7 +21,7 @@ description: "We propose the design of a programming environment that leverages 
 authors: Filipa Rocha, Guilherme Guimarães, David Gonçalves, Ana Cristina Pires, Lúcia Abreu, Tiago Guerreiro
 
 # link to the pdf
-#pdf: ../downloads/myview.pdf
+pdf: ../downloads/collab_assets21.pdf
 
  # people associated with the publication
 people:
