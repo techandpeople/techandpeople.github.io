@@ -93,7 +93,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 <ul>
     <li>Submission deadline: June 15th, 2021</li>
     <li>Notification: July 15th, 2021</li>
-    <li>Workshop: September 6th, 2021</li>
+    <li>Workshop: September 26th, 2021</li>
 </ul>
 
 
