@@ -21,7 +21,7 @@ description: "Through a set of participatory design sessions with children with 
 authors: Ana Cristina Pires, Ewelina Bakala, Fernando Gonzalez-Perilli, Gustavo Sansone, Bruno Fleischer, Sebastian Marichal, Tiago Guerreiro
 
 # link to the pdf
-#pdf: ../downloads/games_assets21.pdf
+pdf: https://doi.org/10.1016/j.ijcci.2021.100382
 
  # people associated with the publication
 people:
