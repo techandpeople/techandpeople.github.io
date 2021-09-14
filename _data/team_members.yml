@@ -20,6 +20,7 @@ members:
   - dbarros
   - pmarques
   - igoncalves
+  - rnogueira
   - leonin
   - jjan
 
@@ -547,6 +548,13 @@ igoncalves:
     - name: email
       url: fc49493@alunos.fc.ul.pt
 
+rnogueira:
+  name: Rodrigo Nogueira
+  photo: rnogueira.png
+  info: MSc Student
+  links:
+    - name: email
+      url: rodrigohn0508@gmail.com
 
 patrick:
     name: "Patrick Carrington"
