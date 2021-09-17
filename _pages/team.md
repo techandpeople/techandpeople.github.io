@@ -8,7 +8,7 @@ permalink: /team/
 
 <div class="row" style="margin-bottom: 0">
 <p style="text-align: center; padding-top: 50px">
-<strong>We are  looking for new PhD students, Postdocs, and Master students to join the team!</strong>  (reach [Us](mailto:tjvg@di.fc.ul.pt)) 
+<strong>We are  looking for new PhD students, Postdocs, and Master students to join the team!</strong>  (reach [Us](mailto:tjvg@di.fc.ul.pt))
 </p>
 <p style="text-align: center; padding-bottom: 50px">
  If you want to know more about us see the<a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
@@ -39,7 +39,7 @@ permalink: /team/
 [<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
 {% else %}
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
-{%endif%}
+{% endif %}
 {% endfor %}
 </p>
 </div>
@@ -65,7 +65,7 @@ permalink: /team/
 [<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
 {% else %}
 [<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
-{%endif%}
+{% endif %}
 {% endfor %}
 </p>
 </div>

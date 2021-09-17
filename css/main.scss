@@ -288,8 +288,35 @@ p.title {
 	width: 25vw; position: relative; display: block; margin-left: auto; margin-right: auto;
 }
 
+#videos{
+	margin-bottom: 32px;
+	margin-top: 16px;
+}
+
 .video{
 	width: 35vw; height: 380px; position: relative; display: block; margin-left: auto; margin-right: auto;
+}
+
+.video-embedded{
+	display: flex;
+}
+
+.video-embedded-title{
+	font-size: 0.8em;
+	font-weight: 500;
+	line-height: 1.3;
+	margin-bottom: 0em;
+}
+
+.video-embedded-link{
+	font-size: 0.7em;
+	font-weight: 350;
+	line-height: 1.3;
+}
+
+.videos-row > div{
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 @media (min-width: 1024px ) {
