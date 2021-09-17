@@ -11,7 +11,8 @@ title: "Playing With Others: Depicting Multiplayer Experiences Of People With Vi
 
 # only used with custom source videos
 img: video_placeholder.png
-
+type: talk
+venue: ASSETS 2020
 # IMPORTANT!
 # first link always the video link
 # name: Youtube | vimeo | custom -> case sensitive

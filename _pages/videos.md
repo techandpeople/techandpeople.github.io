@@ -7,10 +7,17 @@ permalink: /videos/
 ---
 
 # Videos
+<div class="row">
+<div class="filters">
+<button type="button" class="btn btn-default filterBtn filterVid selected" id="all">All</button>
+<button type="button" class="btn btn-default filterBtn filterVid" id="talk">Talk</button>
+<button type="button" class="btn btn-default filterBtn filterVid" id="demo">Demo</button>
+<button type="button" class="btn btn-default filterBtn filterVid" id="other">Other</button>
+</div>
+</div>
+
 <div class="row people-row videos-row">
 {% for video in site.videos %}
-  <div class="col-sm-6" style="min-height: 360px;">
     {% include video.html vid=video %}
-  </div>
 {% endfor %}
 </div>

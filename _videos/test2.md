@@ -11,6 +11,8 @@ title: "Exploring Asymmetric Roles in Mixed-Ability Gaming"
 
 # only used with custom source videos
 img: video_placeholder.png
+type: demo
+venue: CHI 2021
 
 # IMPORTANT!
 # first link always the video link

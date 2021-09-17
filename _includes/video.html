@@ -1,41 +1,48 @@
 {% if include.vid.external-links[0].name contains "Youtube" %}
 {% assign id = include.vid.external-links[0].url | split: "watch?v=" %}
+<div class="col-sm-6 {{ include.vid.type }}" style="min-height: 360px;">
 <iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
-<p class="video-embedded-link">
+<div class="video-embedded-link">
+<span>{{ include.vid.venue }}</span>
+<ul style="display: inline-flex; padding: 0;">
 {% for link in include.vid.external-links %}
-{% if link.name contains "Youtube" %}
-<a style="padding-right: 0.4em;" href="{{ include.vid.external-links[0].url}}" target="_blank">{{link.name}}</a>
-{% else %}
-• <a style="padding-left: 0.5em; padding-right: 0.4em;" href="{{link.url}}" target="_blank">{{link.name}}</a>
-{% endif %}
+<li style="list-style: disc; margin-left: 1.5em;"><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% endfor %}
-  </p>
+</ul>
+</div>
+</div>
 {% endif %}
 {% if include.vid.external-links[0].name contains "vimeo" %}
 {% assign id = include.vid.external-links[0].url | split: "https://vimeo.com/" %}
+<div class="col-sm-6 {{ include.vid.type }}" style="min-height: 360px;">
 <iframe src="https://player.vimeo.com/video/{{ id[1] }}?h=deca3284a9&loop=1" width="480" height="270" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
-<p class="video-embedded-link">
+<div class="video-embedded-link">
+<span>{{ include.vid.venue }}</span>
+<ul style="display: inline-flex; padding: 0;">
 {% for link in include.vid.external-links %}
-{% if link.name contains "vimeo" %}
-<a style="padding-right: 0.4em;" href="{{ include.vid.external-links[0].url}}" target="_blank">{{link.name}}</a>
-{% else %}
-• <a style="padding-left: 0.5em; padding-right: 0.4em;" href="{{link.url}}" target="_blank">{{link.name}}</a>
-{% endif %}
+<li style="list-style: disc; margin-left: 1.5em;"><a style="padding-left: 0.5em; padding-right: 0.4em;" href="{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% endfor %}
-</p>
+</ul>
+</div>
+</div>
 {% endif %}
 {% if include.vid.external-links[0].name contains "custom" %}
+<div class="col-sm-6 {{ include.vid.type }}" style="min-height: 360px;">
 <a href="{{  include.vid.external-links[0].url }}" target="_blank"><img width="480" height="270" alt="video placeholder" src="{{ site.url }}{{ site.baseurl }}/images/videos/{{ include.vid.img }}"></a>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
-<p class="video-embedded-link">
+<div class="video-embedded-link">
+<span>{{ include.vid.venue }}</span>
+<ul style="display: inline-flex; padding: 0;">
 {% for link in include.vid.external-links %}
 {% if link.name contains "custom" %}
-<a style="padding-right: 0.4em;" href="{{ include.vid.external-links[0].url}}" target="_blank">External link</a>
+<li style="list-style: disc; margin-left: 1.5em;"><a href="{{ include.vid.external-links[0].url}}" target="_blank">External link</a></li>
 {% else %}
-• <a style="padding-left: 0.5em; padding-right: 0.4em;" href="{{link.url}}" target="_blank">{{link.name}}</a>
+<li style="list-style: disc; margin-left: 1.5em;"><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% endif %}
 {% endfor %}
-</p>
+</ul>
+</div>
+</div>
 {% endif %}

@@ -8,23 +8,25 @@
 {% endif %}
 <p class="detail">{{ include.pub.authors }}</p>
 <p class="detail"><strong>{{ include.pub.conference-name }}</strong>&nbsp;<strong>{{ include.pub.year }}</strong>&nbsp;&#8209;&nbsp;{{ include.pub.venue }}</p>
-<p class="detail pub-links">
+<div class="detail pub-links">
+<ul class="pub-links-list">
 {% if include.pub.pdf %}
-[<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
+<li><a href="{{ publication.pdf }}" target="_blank">PDF</a></li>
 {% endif %}
 {% if include.pub.external-links %}
 {% for link in include.pub.external-links %}
 {% if link.name contains 'mail' %}
-[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+<li><a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% else %}
-[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+<li><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
 {%endif%}
 {% endfor %}
 {% if publication.award %}
  &#127941; {{ publication.award }}
 {% endif %}
 {% endif %}
-</p>
+</ul>
+</div>
 </div>
 </div>
 </div>

@@ -11,6 +11,8 @@ title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 # only used with custom source videos
 img: video_placeholder.png
+type: other
+venue: Lorem ipsum
 
 # IMPORTANT!
 # first link always the video link
