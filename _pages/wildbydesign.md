@@ -200,39 +200,21 @@ The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:0
     1. Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities
     2. WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild
     3. Differentially Private Federated Learning for Anomaly Detection in eHealth Networks
-
-<li>[17:15 CEST] Panel II: People
-<ul>
-<li>Moderators: Alisha Pradhan, Patrick Carrington, Roisin McNaney</li>
-<li>Seed position papers and case studies; panel members:
-<ol>
-  <li>Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research</li>
-  <li>Participatory Action Research and Open Source Hardware Appropriation for Large Scale In-The-Wild Studies</li>
-  <li>Participants' experience and adherence in repeated measurement studies among office-based workers</li>
-</ol>
-</li>
-</ul>
-</li>
-
-<li>[17:45 CEST] (Longer) Break (breakout rooms available for longer discussions/demonstrations)</li>
-
-<li>[18:15 CEST] Panel III: Environments
-<ul>
-<li>Moderators: Silvia Del Din, Kyle Montague, Diogo Branco</li>
-<li>Seed position papers and case studies; panel members:
-<ol>
-  <li>IoT in the Wild: An expedition of discovery for remote monitoring</li>
-  <li>Challenges on Collecting Smartphone Data in Cold Environments</li>
-</ol>
-</li>
-</ul>
-</li>
-
-<li>[18:45 CEST] Group Activity: Design Fiction</li>
-<li>[19:30 CEST] Town Hall</li>
-<li>[20:00 CEST] Closing </li>
-
-</ul>
+* [17:15 CEST] Panel II: People
+  * Moderators: Alisha Pradhan, Patrick Carrington, Roisin McNaney
+  * Seed position papers and case studies; panel members:
+    1. Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research
+    2. Participatory Action Research and Open Source Hardware Appropriation for Large Scale In-The-Wild Studies
+    3. Participants' experience and adherence in repeated measurement studies among office-based workers
+* [17:45 CEST] Break (breakout rooms available for longer discussions/demonstrations)
+* [18:15 CEST] Panel III: Environments
+  * Moderators: Silvia Del Din, Kyle Montague, Diogo Branco
+  * Seed position papers and case studies; panel members:
+    1. IoT in the Wild: An expedition of discovery for remote monitoring
+    2. Challenges on Collecting Smartphone Data in Cold Environments
+* [18:45 CEST] Group Activity: Design Fiction
+* [19:30 CEST] Town Hall
+* [20:00 CEST] Closing
 
 <h1 id="cfp">Call For Papers</h1>
 
