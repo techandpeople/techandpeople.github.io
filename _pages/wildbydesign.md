@@ -191,7 +191,6 @@ conditions.</p>
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:00 EDT / 15:30-20:00 CEST / 22:30-03:00 JST/ 11:30-04:00 AEST. We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speech, a set of panels organized around provocations, and a design fiction group activity. Roughly, the schedule will be as follows:</p>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <ul>
 <li>[15:30 CEST] Welcome and Introductions</li>
 <li>[15:45 CEST] Keynote Speech and Q&A: Ann Blandford, UCL</li>
@@ -241,15 +240,8 @@ The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:0
 <li>[20:00 CEST] Closing </li>
 
 </ul>
-</p>
-
-
-
-
 
 <h1 id="cfp">Call For Papers</h1>
-
-
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in in-the-wild deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
