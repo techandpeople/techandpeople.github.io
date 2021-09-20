@@ -191,6 +191,7 @@ conditions.</p>
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:00 EDT / 15:30-20:00 CEST / 22:30-03:00 JST/ 11:30-04:00 AEST. We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speech, a set of panels organized around provocations, and a design fiction group activity. Roughly, the schedule will be as follows:</p>
 
+
 <ul>
 <li>[15:30 CEST] Welcome and Introductions</li>
 <li>[15:45 CEST] Keynote Speech and Q&A: Ann Blandford, UCL</li>
