@@ -85,31 +85,20 @@ conditions.</p>
 
 <div class="publications">
 
-    <div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
     <div class="row row-thumb-home" style="margin-bottom: 0; ">
       <div class="col-sm-12">
-
-        <p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="https://doi.org/10.1016/j.ijcci.2021.100382" target="_blank">Learning Maths with a Tangible User Interface: Lessons Learned through Participatory Design with Children with Visual Impairments and Their Educators</a></p>
-
-        <p class="detail">Ana Cristina Pires, Ewelina Bakala, Fernando Gonzalez-Perilli, Gustavo Sansone, Bruno Fleischer, Sebastian Marichal, Tiago Guerreiro</p>
-        <p class="detail"><strong>IJCCI</strong> <strong>2021</strong> ‑ International Journal of Child-Computer Interaction</p>
-        <p class="detail pub-links">
-
-[<a href="https://doi.org/10.1016/j.ijcci.2021.100382" target="_blank">PDF</a>]
-
-
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="LINK" target="_blank">TITLE</a></p>
+<p class="detail">AUTHORS</p>
+<p class="detail pub-links">
+[<a href="LINK" target="_blank">PDF</a>]
 </p>
-      </div>
-    </div>
-  </div>
-
-
-
+</div>
+</div>
 </div>
 
 
-
-
+</div>
 
 <h1 id="schedule">Schedule</h1>
 
