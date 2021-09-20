@@ -53,6 +53,62 @@ Despite this potential, there are still limited examples of ubiquitous health te
 </p>
 
 
+<h1 id="keynote">Keynote</h1>
+
+<div class="col-md-4">
+<div class="row">
+<img id="bio-photo" alt="Profile photo of Ann Blandford" src="/images/people/afpr.jpg" class="img-responsive imgteam" />
+</div>
+<div class="row" style="overflow: hidden;">
+
+
+</div>
+</div>
+<div class="col-md-8">
+<h1>Ann Blandford</h1>
+<h3>Understanding engagement with health tech when it goes wild</h3>
+<p>Ann Blandford is Professor of Human–Computer Interaction at University College London. In the
+past, she has been Director of UCL Interaction Centre (UCLIC) and of the UCL Institute of Digital
+Health. She has led many research projects on the design of safety-critical systems and of systems to
+help people manage their health. She works closely with healthcare engineers, clinicians and patients,
+exploring new approaches to applying HCI methods to practical health technology projects. Her
+current projects address a range of health and wellbeing challenges; these include helping people
+manage diabetes, sexual health and Long Covid, and supporting clinicians to diagnose eye diseases
+and perform surgery more safely. She has published widely on the design, evaluation and use of
+interactive health technologies, and on how technology can be designed to better support people’s
+needs and values, recognising that people are living complex lives and often managing complex health
+conditions.</p>
+</div>
+</div>
+
+
+
+
+<h1 id="accepted">Accepted Papers</h1>
+
+
+
+<h1 id="schedule">Schedule</h1>
+
+
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+Activities of the workshop will start before Ubicomp. We will ask authors to create 5 minute presentations of their submissions, and make them available in a workshop Discord channel (together with the paper and possible links - e.g., in the case of platforms and tools). In there, we will launch discussions on each submission, enabling Q&A long before the workshop. Based on interest, we will create short cross-disciplinary working groups, that will carry on discussions, identify challenges, and ideas and best practices.</p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+During the day of the workshop, we will dedicate time to discuss individual contributions, but focus most time on summary of group discussions. These groups will focus on creating design fictions of challenging environments informed by the submissions. We are planning the usage of Miro boards as a way to support and document the group activities. After each discussion period, groups will report to everyone. A live document with challenges and best practices will serve as a report and shared output from this town hall activity.
+</p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+After the workshop, we plan to continue editing the live document, and make it available openly as a white paper. Submissions to the workshop, that are in scope, will be invited to submit extended versions to special issues of MDPI Sensors (on Passive Sensing for Health) and ACM TACCESS (on Inclusive Health Monitoring). Also, we plan to engage participants in the organization of the next Wild by Design edition.
+</p>
+
+<h2>Workshop Schedule</h2>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "> Details TBA</p>
+
+
+
 <h1 id="cfp">Call For Papers</h1>
 
 
@@ -125,22 +181,7 @@ We invite submissions of case studies, position papers or provocations, and demo
 </div>
 
 
-<h1 id="program">Program</h1>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-Activities of the workshop will start before Ubicomp. We will ask authors to create 5 minute presentations of their submissions, and make them available in a workshop Discord channel (together with the paper and possible links - e.g., in the case of platforms and tools). In there, we will launch discussions on each submission, enabling Q&A long before the workshop. Based on interest, we will create short cross-disciplinary working groups, that will carry on discussions, identify challenges, and ideas and best practices.</p>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-During the day of the workshop, we will dedicate time to discuss individual contributions, but focus most time on summary of group discussions. These groups will focus on creating design fictions of challenging environments informed by the submissions. We are planning the usage of Miro boards as a way to support and document the group activities. After each discussion period, groups will report to everyone. A live document with challenges and best practices will serve as a report and shared output from this town hall activity.
-</p>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-After the workshop, we plan to continue editing the live document, and make it available openly as a white paper. Submissions to the workshop, that are in scope, will be invited to submit extended versions to special issues of MDPI Sensors (on Passive Sensing for Health) and ACM TACCESS (on Inclusive Health Monitoring). Also, we plan to engage participants in the organization of the next Wild by Design edition.
-</p>
-
-<h2>Workshop Schedule</h2>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "> Details TBA</p>
 
 <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 <script src="{{ "/js/bootstrap-accessibility.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
