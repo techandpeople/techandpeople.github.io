@@ -1,7 +1,7 @@
 {% if include.vid.external-links[0].name contains "Youtube" %}
 {% assign id = include.vid.external-links[0].url | split: "watch?v=" %}
-<div class="col-sm-6 {{ include.vid.type }}" style="min-height: 360px;">
-<iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="col-sm-6 {{ include.vid.type }} video-container" style="min-height: 360px;">
+<iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
 <div class="video-embedded-link">
 <span>{{ include.vid.venue }}</span>
@@ -15,8 +15,8 @@
 {% endif %}
 {% if include.vid.external-links[0].name contains "vimeo" %}
 {% assign id = include.vid.external-links[0].url | split: "https://vimeo.com/" %}
-<div class="col-sm-6 {{ include.vid.type }}" style="min-height: 360px;">
-<iframe src="https://player.vimeo.com/video/{{ id[1] }}?h=deca3284a9&loop=1" width="480" height="270" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<div class="col-sm-6 {{ include.vid.type }} video-container">
+<iframe class="video-iframe" src="https://player.vimeo.com/video/{{ id[1] }}?h=deca3284a9&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
 <div class="video-embedded-link">
 <span>{{ include.vid.venue }}</span>
@@ -29,8 +29,8 @@
 </div>
 {% endif %}
 {% if include.vid.external-links[0].name contains "custom" %}
-<div class="col-sm-6 {{ include.vid.type }}" style="min-height: 360px;">
-<a href="{{  include.vid.external-links[0].url }}" target="_blank"><img width="480" height="270" alt="video placeholder" src="{{ site.url }}{{ site.baseurl }}/images/videos/{{ include.vid.img }}"></a>
+<div class="col-sm-6 {{ include.vid.type }} video-container">
+<a href="{{  include.vid.external-links[0].url }}" target="_blank"><img class="video-iframe" alt="video placeholder" src="{{ site.url }}{{ site.baseurl }}/images/videos/{{ include.vid.img }}"></a>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
 <div class="video-embedded-link">
 <span>{{ include.vid.venue }}</span>
