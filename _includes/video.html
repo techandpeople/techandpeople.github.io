@@ -1,6 +1,6 @@
 {% if include.vid.external-links[0].name contains "Youtube" %}
 {% assign id = include.vid.external-links[0].url | split: "watch?v=" %}
-<div class="col-sm-6 {{ include.vid.type }} video-container" style="min-height: 360px;">
+<div class="col-sm-6 {{ include.vid.type }} video-container">
 <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
 <div class="video-embedded-link">
