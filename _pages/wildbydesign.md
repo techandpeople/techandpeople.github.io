@@ -192,22 +192,14 @@ conditions.</p>
 The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:00 EDT / 15:30-20:00 CEST / 22:30-03:00 JST/ 11:30-04:00 AEST. We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speech, a set of panels organized around provocations, and a design fiction group activity. Roughly, the schedule will be as follows:</p>
 
 
-<ul>
-<li>[15:30 CEST] Welcome and Introductions</li>
-<li>[15:45 CEST] Keynote Speech and Q&A: Ann Blandford, UCL</li>
-
-<li>[16:45 CEST] Panel I: Tools and Data 
-<ul>
-<li>Moderators: Julio Vega, Hristjan Gjoreski, Afsaneh Doryab</li>
-<li>Seed position papers and case studies; panel members:
-<ol>
-  <li>Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities</li>
-  <li>WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild</li>
-  <li>Differentially Private Federated Learning for Anomaly Detection in eHealth Networks</li>
-</ol>
-</li>
-</ul>
-</li>
+* [15:30 CEST] Welcome and Introductions
+* [15:45 CEST] Keynote Speech and Q&A: Ann Blandford, UCL
+* [16:45 CEST] Panel I: Tools and Data 
+  * Moderators: Julio Vega, Hristjan Gjoreski, Afsaneh Doryab
+  * Seed position papers and case studies; panel members:
+    1. Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities
+    2. WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild
+    3. Differentially Private Federated Learning for Anomaly Detection in eHealth Networks
 
 <li>[17:15 CEST] Panel II: People
 <ul>
