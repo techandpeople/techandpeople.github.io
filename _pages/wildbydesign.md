@@ -86,16 +86,102 @@ conditions.</p>
 <div class="publications">
 
 <div class="card-home card" style="padding: 0px 0px 0px 10px;">
-    <div class="row row-thumb-home" style="margin-bottom: 0; ">
-      <div class="col-sm-12">
-<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="LINK" target="_blank">TITLE</a></p>
-<p class="detail">AUTHORS</p>
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/cholakoska.pdf" target="_blank">Differentially Private Federated Learning for Anomaly Detection in eHealth Networks</a></p>
+<p class="detail">Ana Cholakoska, Bjarne Pfitzner, Hristijan Gjoreski, Valentin Rakovic, Bert Arnrich, Marija Kalendar</p>
 <p class="detail pub-links">
-[<a href="LINK" target="_blank">PDF</a>]
+[<a href="/downloads/cholakoska.pdf" target="_blank">PDF</a>]
 </p>
 </div>
 </div>
 </div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/rodrigues.pdf" target="_blank">WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild</a></p>
+<p class="detail">André Rodrigues, André Santos, Kyle Montague, Hugo Nicolau, Tiago Guerreiro</p>
+<p class="detail pub-links">
+[<a href="/downloads/rodrigues.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/lukan.pdf" target="_blank">Participants' Experience and Adherence in Repeated Measurement Studies Among Office-Based Workers</a></p>
+<p class="detail">Junoš Lukan, Larissa Bolliger, Els Clays, Oscar Mayora, Venet Osmani, Mitja Luštrek</p>
+<p class="detail pub-links">
+[<a href="/downloads/lukan.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/peltonen.pdf" target="_blank">Challenges on Collecting Smartphone Data in Cold Environments</a></p>
+<p class="detail">Ella Peltonen, Parsa Shamila</p>
+<p class="detail pub-links">
+[<a href="/downloads/peltonen.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/carvalho.pdf" target="_blank">Participatory Action Research and Open Source Hardware Appropriation for Large Scale In-The-Wild Studies</a></p>
+<p class="detail">Luís Carvalho, Dan Jackson, Tiago Guerreiro, Yu Guan, Kyle Montague</p>
+<p class="detail pub-links">
+[<a href="/downloads/carvalho.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/dovgan.pdf" target="_blank">Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities</a></p>
+<p class="detail">Erik Dovgan, Jakob Valic, Gašper Slapničar, Mitja Luštrek</p>
+<p class="detail pub-links">
+[<a href="/downloads/dovgan.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/rainey.pdf" target="_blank">Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research</a></p>
+<p class="detail">Jay Rainey, David Verweij, Colin Dodds, Johanna Graeber, Farzaneh Farhadi, Ridita Ali, Viana Zhang, Christopher Bull, Jan Smeddinck</p>
+<p class="detail pub-links">
+[<a href="/downloads/rainey.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/coulby.pdf" target="_blank">IoT in the Wild: An expedition of discovery for remote monitoring</a></p>
+<p class="detail">Graham Coulby, Adrian Clear, Oliver Jones, Alan Godfrey</p>
+<p class="detail pub-links">
+[<a href="/downloads/coulby.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+
 
 
 </div>
