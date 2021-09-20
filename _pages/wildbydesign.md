@@ -188,22 +188,62 @@ conditions.</p>
 
 <h1 id="schedule">Schedule</h1>
 
-
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:00 EDT / 15:30-20:00 CEST / 22:30-03:00 JST/ 11:30-04:00 AEST. We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speech, a set of panels organized around provocations, and a design fiction group activity. Roughly, the schedule will be as follows:</p>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-Activities of the workshop will start before Ubicomp. We will ask authors to create 5 minute presentations of their submissions, and make them available in a workshop Discord channel (together with the paper and possible links - e.g., in the case of platforms and tools). In there, we will launch discussions on each submission, enabling Q&A long before the workshop. Based on interest, we will create short cross-disciplinary working groups, that will carry on discussions, identify challenges, and ideas and best practices.</p>
+<ul>
+<li>[15:30 CEST] Welcome and Introductions</li>
+<li>[15:45 CEST] Keynote Speech and Q&A: Ann Blandford, UCL</li>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-During the day of the workshop, we will dedicate time to discuss individual contributions, but focus most time on summary of group discussions. These groups will focus on creating design fictions of challenging environments informed by the submissions. We are planning the usage of Miro boards as a way to support and document the group activities. After each discussion period, groups will report to everyone. A live document with challenges and best practices will serve as a report and shared output from this town hall activity.
+<li>[16:45 CEST] Panel I: Tools and Data 
+<ul>
+<li>Moderators: Julio Vega, Hristjan Gjoreski, Afsaneh Doryab</li>
+<li>Seed position papers and case studies; panel members:
+<ol>
+  <li>Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities</li>
+  <li>WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild</li>
+  <li>Differentially Private Federated Learning for Anomaly Detection in eHealth Networks</li>
+</ol>
+</li>
+</ul>
+</li>
+
+<li>[17:15 CEST] Panel II: People
+<ul>
+<li>Moderators: Alisha Pradhan, Patrick Carrington, Roisin McNaney</li>
+<li>Seed position papers and case studies; panel members:
+<ol>
+  <li>Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research</li>
+  <li>Participatory Action Research and Open Source Hardware Appropriation for Large Scale In-The-Wild Studies</li>
+  <li>Participants' experience and adherence in repeated measurement studies among office-based workers</li>
+</ol>
+</li>
+</ul>
+</li>
+
+<li>[17:45 CEST] (Longer) Break (breakout rooms available for longer discussions/demonstrations)</li>
+
+<li>[18:15 CEST] Panel III: Environments
+<ul>
+<li>Moderators: Silvia Del Din, Kyle Montague, Diogo Branco</li>
+<li>Seed position papers and case studies; panel members:
+<ol>
+  <li>IoT in the Wild: An expedition of discovery for remote monitoring</li>
+  <li>Challenges on Collecting Smartphone Data in Cold Environments</li>
+</ol>
+</li>
+</ul>
+</li>
+
+<li>[18:45 CEST] Group Activity: Design Fiction</li>
+<li>[19:30 CEST] Town Hall</li>
+<li>[20:00 CEST] Closing </li>
+
+</ul>
 </p>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-After the workshop, we plan to continue editing the live document, and make it available openly as a white paper. Submissions to the workshop, that are in scope, will be invited to submit extended versions to special issues of MDPI Sensors (on Passive Sensing for Health) and ACM TACCESS (on Inclusive Health Monitoring). Also, we plan to engage participants in the organization of the next Wild by Design edition.
-</p>
 
-<h2>Workshop Schedule</h2>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "> Details TBA</p>
 
 
 
