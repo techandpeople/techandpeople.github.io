@@ -57,7 +57,7 @@ Despite this potential, there are still limited examples of ubiquitous health te
 
 <div class="col-md-4">
 <div class="row">
-<img id="bio-photo" alt="Profile photo of Ann Blandford" src="/images/people/afpr.jpg" class="img-responsive imgteam" />
+<img id="bio-photo" alt="Profile photo of Ann Blandford" src="/images/people/annd_blandford.png" class="img-responsive imgteam" />
 </div>
 <div class="row" style="overflow: hidden;">
 
@@ -85,6 +85,15 @@ conditions.</p>
 
 
 <h1 id="accepted">Accepted Papers</h1>
+
+
+<div class="publications">
+
+
+
+</div>
+
+
 
 
 
