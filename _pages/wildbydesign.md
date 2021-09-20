@@ -57,7 +57,7 @@ Despite this potential, there are still limited examples of ubiquitous health te
 
 <div class="col-md-4">
 <div class="row">
-<img id="bio-photo" alt="Profile photo of Ann Blandford" src="/images/people/annd_blandford.png" class="img-responsive imgteam" />
+<img id="bio-photo" alt="Profile photo of Ann Blandford" src="/images/people/ann_blandford.png" class="img-responsive imgteam" />
 </div>
 <div class="row" style="overflow: hidden;">
 
@@ -79,15 +79,29 @@ interactive health technologies, and on how technology can be designed to better
 needs and values, recognising that people are living complex lives and often managing complex health
 conditions.</p>
 </div>
-</div>
-
-
-
 
 <h1 id="accepted">Accepted Papers</h1>
 
 
 <div class="publications">
+
+    <div class="card-home card" style="padding: 0px 0px 0px 10px;">
+    <div class="row row-thumb-home" style="margin-bottom: 0; ">
+      <div class="col-sm-12">
+
+        <p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="https://doi.org/10.1016/j.ijcci.2021.100382" target="_blank">Learning Maths with a Tangible User Interface: Lessons Learned through Participatory Design with Children with Visual Impairments and Their Educators</a></p>
+
+        <p class="detail">Ana Cristina Pires, Ewelina Bakala, Fernando Gonzalez-Perilli, Gustavo Sansone, Bruno Fleischer, Sebastian Marichal, Tiago Guerreiro</p>
+        <p class="detail"><strong>IJCCI</strong> <strong>2021</strong> ‑ International Journal of Child-Computer Interaction</p>
+        <p class="detail pub-links">
+
+[<a href="https://doi.org/10.1016/j.ijcci.2021.100382" target="_blank">PDF</a>]
+
+
+</p>
+      </div>
+    </div>
+  </div>
 
 
 
