@@ -16,7 +16,6 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 
 <div class="publications">
 {% assign reversed_pubs = site.publications | reverse %}
-  
 
 {% for publication in reversed_pubs limit: 3 %}
   {% include publication-home.html pub=publication %}
