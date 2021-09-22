@@ -17,7 +17,7 @@ permalink: /videos/
 </div>
 
 <div class="row people-row videos-row">
-{% for video in site.videos %}
+{% for video in site.videos reversed %}
     {% include video.html vid=video %}
 {% endfor %}
 </div>
