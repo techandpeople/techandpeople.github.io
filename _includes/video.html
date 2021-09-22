@@ -1,7 +1,12 @@
 {% if include.vid.external-links[0].name contains "Youtube" %}
 {% assign id = include.vid.external-links[0].url | split: "watch?v=" %}
+
 <div class="col-sm-6 {{ include.vid.type }} video-container">
+{% if include.vid.start %}
+<iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}?start={{ include.vid.start }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% else %}
 <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
 <p class="video-embedded-title">{{ include.vid.title }}</p>
 <div class="video-embedded-link">
 <span>{{ include.vid.venue }}</span>
