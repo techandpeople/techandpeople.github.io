@@ -106,10 +106,8 @@ $(document).ready(function(){
             filter_applied=filter;
         }
 
-        console.log("TCL: filter_applied", filter_applied)
-
 		if (filter_applied != "" && filter != "all"){
-			$('.videos-row div:not([class*="' + filter_applied + '"])').hide().removeClass('visible');
+			$('.videos-row div:not([class*="' + filter_applied + '"]).video-container').hide().removeClass('visible');
             $("#"+filter_applied).addClass("selected");
 		}else{
             $("#all").addClass("selected");
