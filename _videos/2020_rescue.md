@@ -7,12 +7,12 @@
 ###############
 # TO EDIT
 
-title: "Exploring Asymmetric Roles in Mixed-Ability Gaming"
+title: "Rescue: An Asymmetric Game for Mixed-Ability Play"
 
 # only used with custom source videos
 img: video_placeholder.png
 type: demo
-venue: CHI 2021
+venue: "2020"
 
 # IMPORTANT!
 # first link always the video link
@@ -23,11 +23,12 @@ venue: CHI 2021
 # make sure that the link for the vimeo is in this format
 # https://vimeo.com/<id>
 
+# only use start on youtube videos to start from X seconds into the video
+# start: 1536
+
 external-links:
   - name: Youtube
-    url: https://www.youtube.com/watch?v=JeYCoaclblM
-  - name: Presentation
-    url: https://www.youtube.com/watch?v=RDhHHHXP9YQ
+    url: https://www.youtube.com/watch?v=Sgxxgt-favA
 
 ---
 
