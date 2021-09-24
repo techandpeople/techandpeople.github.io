@@ -91,4 +91,27 @@ $(document).ready(function(){
             $("#all").addClass("selected");
         }
     });
+
+    $('.filterVid').click(function(e){
+        e.preventDefault();
+
+        var filter = $(this).attr('id');
+
+        $('.col-sm-6').show().addClass('visible');
+        $('.filterVid').removeClass("selected");
+
+        if(filter_applied === filter){
+            filter_applied="";
+        }else{
+            filter_applied=filter;
+        }
+
+		if (filter_applied != "" && filter != "all"){
+			$('.videos-row div:not([class*="' + filter_applied + '"]).video-container').hide().removeClass('visible');
+            $("#"+filter_applied).addClass("selected");
+		}else{
+            $("#all").addClass("selected");
+            filter_applied="";
+        }
+    });
 })
