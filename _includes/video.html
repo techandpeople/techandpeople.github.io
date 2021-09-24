@@ -21,7 +21,7 @@
 {% if include.vid.external-links[0].name contains "vimeo" %}
 {% assign id = include.vid.external-links[0].url | split: "https://vimeo.com/" %}
 <div class="col-sm-6 {{ include.vid.type }} video-container">
-<iframe class="video-iframe" src="https://player.vimeo.com/video/{{ id[1] }}?h=deca3284a9&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video-iframe" src="https://player.vimeo.com/video/{{ id[1] }}?h=deca3284a9&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
 <p class="video-embedded-title">{{ include.vid.title }}</p>
 <div class="video-embedded-link">
 <span>{{ include.vid.venue }}</span>
