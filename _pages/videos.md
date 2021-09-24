@@ -1,7 +1,7 @@
 ---
-title: "Tech & People Lab - Team"
+title: "Tech & People Lab - Videos"
 layout: gridlay
-excerpt: "Tech & People Lab: Team members"
+excerpt: "Tech & People Lab - Videos"
 sitemap: false
 permalink: /videos/
 ---
