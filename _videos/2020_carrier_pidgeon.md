@@ -7,13 +7,12 @@
 ###############
 # TO EDIT
 
-title: "ACCembly at Home: Accessible Spatial Programming for Children with Visual Impairments and their Families"
+title: "Carrier-pigeon Robot: Promoting Interactions Among Older Adults in a Care Home"
 
 # only used with custom source videos
 img: video_placeholder.png
-type: talk
-venue: IDC'21
-
+type: demo
+venue: HRI 2020
 # IMPORTANT!
 # first link always the video link
 # name: Youtube | vimeo | custom -> case sensitive
@@ -28,7 +27,7 @@ venue: IDC'21
 
 external-links:
   - name: Youtube
-    url: https://www.youtube.com/watch?v=MON5kC4tghU
+    url: https://www.youtube.com/watch?v=Zq4druvrvug
 
 # area for filter purpose
 area: health

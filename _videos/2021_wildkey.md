@@ -30,5 +30,7 @@ external-links:
   - name: Youtube
     url: https://www.youtube.com/watch?v=HbX5vrZyOyk
 
+# area for filter purpose
+area: health
 ---
 

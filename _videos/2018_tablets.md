@@ -7,13 +7,12 @@
 ###############
 # TO EDIT
 
-title: "ACCembly at Home: Accessible Spatial Programming for Children with Visual Impairments and their Families"
+title: "TabLETS Get Physical: Non-Visual Text Entry on Tablet Devices"
 
 # only used with custom source videos
 img: video_placeholder.png
-type: talk
-venue: IDC'21
-
+type: demo
+venue: CHI 2015
 # IMPORTANT!
 # first link always the video link
 # name: Youtube | vimeo | custom -> case sensitive
@@ -28,7 +27,9 @@ venue: IDC'21
 
 external-links:
   - name: Youtube
-    url: https://www.youtube.com/watch?v=MON5kC4tghU
+    url: https://www.youtube.com/watch?v=q2AfjMdCnoc
+  - name: paper
+    url: http://www.di.fc.ul.pt/~tjvg/amc/spatialtouch/tablets_chi2015.pdf
 
 # area for filter purpose
 area: health

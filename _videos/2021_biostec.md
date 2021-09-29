@@ -7,13 +7,12 @@
 ###############
 # TO EDIT
 
-title: "ACCembly at Home: Accessible Spatial Programming for Children with Visual Impairments and their Families"
+title: "Democratizing Data-driven Healthcare"
 
 # only used with custom source videos
 img: video_placeholder.png
 type: talk
-venue: IDC'21
-
+venue: BIOSTEC 2021
 # IMPORTANT!
 # first link always the video link
 # name: Youtube | vimeo | custom -> case sensitive
@@ -27,8 +26,8 @@ venue: IDC'21
 # start: 1536
 
 external-links:
-  - name: Youtube
-    url: https://www.youtube.com/watch?v=MON5kC4tghU
+  - name: vimeo
+    url: https://vimeo.com/519452434
 
 # area for filter purpose
 area: health
