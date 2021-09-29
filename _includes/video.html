@@ -1,7 +1,7 @@
 {% if include.vid.external-links[0].name contains "Youtube" %}
 {% assign id = include.vid.external-links[0].url | split: "watch?v=" %}
 
-<div class="col-sm-6 {{ include.vid.type }} video-container">
+<div class="col-sm-6 {{ include.vid.type }} {{ include.vid.area }} video-container">
 {% if include.vid.start %}
 <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/{{ id[1] }}?start={{ include.vid.start }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% else %}
@@ -27,7 +27,7 @@
 <span>{{ include.vid.venue }}</span>
 <ul style="display: inline-flex; padding: 0;">
 {% for link in include.vid.external-links %}
-<li style="list-style: disc; margin-left: 1.5em;"><a style="padding-left: 0.5em; padding-right: 0.4em;" href="{{link.url}}" target="_blank">{{link.name}}</a></li>
+<li style="list-style: disc; margin-left: 1.5em;"><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% endfor %}
 </ul>
 </div>
