@@ -22,7 +22,6 @@ members:
   - pmarques
   - igoncalves
   - rnogueira
-  - leonin
   - jjan
 
 friends:
@@ -49,6 +48,7 @@ alumni:
   - aapp
   - gmg
   - gclo
+  - leonin
 
 wildbydesign:
   - djrb
@@ -480,7 +480,7 @@ gclo:
 leonin:
   name: Leon Ingelse
   photo: leonin.jpg
-  info: MSc Fellow
+  info: MSc Fellow (2021)
   links:
       - name: email
         url: leoningelse@gmail.com
