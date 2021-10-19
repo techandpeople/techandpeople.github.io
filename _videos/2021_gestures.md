@@ -28,7 +28,7 @@ venue: ASSETS 2021
 
 external-links:
   - name: Youtube
-    url: https://www.youtube.com/watch?v=7SEosa1WqIA&ab
+    url: https://www.youtube.com/watch?v=7SEosa1WqIA
 
 # area for filter purpose
 area: access
