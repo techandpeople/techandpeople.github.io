@@ -22,6 +22,7 @@ members:
   - pmarques
   - igoncalves
   - rnogueira
+  - amorais
   - jjan
 
 friends:
@@ -567,6 +568,15 @@ msteixeira:
     - name: scholar
       url: https://scholar.google.com/citations?user=3NrVE-IAAAAJ&hl=en
 
+amorais:
+  name: "Ana Morais"
+  photo: amorais.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: ana.c.morais.g@gmail.com
+
+
 patrick:
     name: "Patrick Carrington"
     photo: patrick.jpg
@@ -608,4 +618,3 @@ julio:
     photo: julio.jpg
     institution: "University of Pittsburgh"
     url: https://juliovega.info/
-
