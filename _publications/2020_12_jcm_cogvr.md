@@ -38,7 +38,7 @@ venue: "Journal of Clinical Medicine"
 year: 2020
 
 projects:
-  - bio_personalized_cognitive_stimulation
+  - cognitive_stimulation
 
 # area for filter purpose
 area: health

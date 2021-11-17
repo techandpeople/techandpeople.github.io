@@ -53,9 +53,168 @@ Despite this potential, there are still limited examples of ubiquitous health te
 </p>
 
 
+<h1 id="keynote">Keynote</h1>
+
+<div class="col-md-4">
+<div class="row">
+<img id="bio-photo" alt="Profile photo of Ann Blandford" src="/images/people/ann_blandford.png" class="img-responsive imgteam" />
+</div>
+<div class="row" style="overflow: hidden;">
+
+
+</div>
+</div>
+<div class="col-md-8">
+<h1>Ann Blandford</h1>
+<h3>Understanding engagement with health tech when it goes wild</h3>
+<p>Ann Blandford is Professor of Human–Computer Interaction at University College London. In the
+past, she has been Director of UCL Interaction Centre (UCLIC) and of the UCL Institute of Digital
+Health. She has led many research projects on the design of safety-critical systems and of systems to
+help people manage their health. She works closely with healthcare engineers, clinicians and patients,
+exploring new approaches to applying HCI methods to practical health technology projects. Her
+current projects address a range of health and wellbeing challenges; these include helping people
+manage diabetes, sexual health and Long Covid, and supporting clinicians to diagnose eye diseases
+and perform surgery more safely. She has published widely on the design, evaluation and use of
+interactive health technologies, and on how technology can be designed to better support people’s
+needs and values, recognising that people are living complex lives and often managing complex health
+conditions.</p>
+</div>
+
+<h1 id="accepted">Accepted Papers</h1>
+
+
+<div class="publications">
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/cholakoska.pdf" target="_blank">Differentially Private Federated Learning for Anomaly Detection in eHealth Networks</a></p>
+<p class="detail">Ana Cholakoska, Bjarne Pfitzner, Hristijan Gjoreski, Valentin Rakovic, Bert Arnrich, Marija Kalendar</p>
+<p class="detail pub-links">
+[<a href="/downloads/cholakoska.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/rodrigues.pdf" target="_blank">WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild</a></p>
+<p class="detail">André Rodrigues, André Santos, Kyle Montague, Hugo Nicolau, Tiago Guerreiro</p>
+<p class="detail pub-links">
+[<a href="/downloads/rodrigues.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/lukan.pdf" target="_blank">Participants' Experience and Adherence in Repeated Measurement Studies Among Office-Based Workers</a></p>
+<p class="detail">Junoš Lukan, Larissa Bolliger, Els Clays, Oscar Mayora, Venet Osmani, Mitja Luštrek</p>
+<p class="detail pub-links">
+[<a href="/downloads/lukan.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/peltonen.pdf" target="_blank">Challenges on Collecting Smartphone Data in Cold Environments</a></p>
+<p class="detail">Ella Peltonen, Parsa Shamila</p>
+<p class="detail pub-links">
+[<a href="/downloads/peltonen.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/carvalho.pdf" target="_blank">Participatory Action Research and Open Source Hardware Appropriation for Large Scale In-The-Wild Studies</a></p>
+<p class="detail">Luís Carvalho, Dan Jackson, Tiago Guerreiro, Yu Guan, Kyle Montague</p>
+<p class="detail pub-links">
+[<a href="/downloads/carvalho.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/dovgan.pdf" target="_blank">Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities</a></p>
+<p class="detail">Erik Dovgan, Jakob Valic, Gašper Slapničar, Mitja Luštrek</p>
+<p class="detail pub-links">
+[<a href="/downloads/dovgan.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/rainey.pdf" target="_blank">Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research</a></p>
+<p class="detail">Jay Rainey, David Verweij, Colin Dodds, Johanna Graeber, Farzaneh Farhadi, Ridita Ali, Viana Zhang, Christopher Bull, Jan Smeddinck</p>
+<p class="detail pub-links">
+[<a href="/downloads/rainey.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/coulby.pdf" target="_blank">IoT in the Wild: An expedition of discovery for remote monitoring</a></p>
+<p class="detail">Graham Coulby, Adrian Clear, Oliver Jones, Alan Godfrey</p>
+<p class="detail pub-links">
+[<a href="/downloads/coulby.pdf" target="_blank">PDF</a>]
+</p>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<h1 id="schedule">Schedule</h1>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+The workshop will run on Zoom on September 26th, at 06:30-11:00 PDT / 09:30-14:00 EDT / 15:30-20:00 CEST / 22:30-03:00 JST/ 11:30-04:00 AEST. We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speech, a set of panels organized around provocations, and a design fiction group activity. Roughly, the schedule will be as follows:</p>
+
+* [15:30 CEST] Welcome and Introductions
+* [15:45 CEST] Keynote Speech and Q&A: Ann Blandford, UCL
+* [16:45 CEST] Panel I: Tools and Data 
+  * Moderators: Julio Vega, Hristjan Gjoreski, Afsaneh Doryab
+  * Seed position papers and case studies; panel members:
+    1. Recognition of Behaviour Patterns for People with Profound Intellectual and Multiple Disabilities
+    2. WildKey: A Privacy-Aware Keyboard Toolkit for Data Collection In-The-Wild
+    3. Differentially Private Federated Learning for Anomaly Detection in eHealth Networks
+* [17:15 CEST] Panel II: People
+  * Moderators: Alisha Pradhan, Patrick Carrington, Roisin McNaney
+  * Seed position papers and case studies; panel members:
+    1. Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research
+    2. Participatory Action Research and Open Source Hardware Appropriation for Large Scale In-The-Wild Studies
+    3. Participants' experience and adherence in repeated measurement studies among office-based workers
+* [17:45 CEST] Break (breakout rooms available for longer discussions/demonstrations)
+* [18:15 CEST] Panel III: Environments
+  * Moderators: Silvia Del Din, Kyle Montague, Diogo Branco
+  * Seed position papers and case studies; panel members:
+    1. IoT in the Wild: An expedition of discovery for remote monitoring
+    2. Challenges on Collecting Smartphone Data in Cold Environments
+* [18:45 CEST] Group Activity: Design Fiction
+* [19:30 CEST] Town Hall
+* [20:00 CEST] Closing
+
+
 <h1 id="cfp">Call For Papers</h1>
-
-
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 The main goal of this workshop is to bridge cross-disciplinary relationships between researchers and practitioners interested in the design, development, and deployment of ubiquitous technologies for health monitoring. Which major challenges arise in in-the-wild deployments of ubiquitous technology? How can the streams of data be manageable for end-users and health professionals? What are the best practices for engaging and sustainable participation in longitudinal deployments? Which are socio-economic, cultural and individual factors of influence?
@@ -93,7 +252,7 @@ To answer these example questions and others, we hope to bring together the ubiq
 <ul>
     <li>Submission deadline: June 15th, 2021</li>
     <li>Notification: July 15th, 2021</li>
-    <li>Workshop: September 6th, 2021</li>
+    <li>Workshop: September 26th, 2021</li>
 </ul>
 
 
@@ -125,22 +284,7 @@ We invite submissions of case studies, position papers or provocations, and demo
 </div>
 
 
-<h1 id="program">Program</h1>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-Activities of the workshop will start before Ubicomp. We will ask authors to create 5 minute presentations of their submissions, and make them available in a workshop Discord channel (together with the paper and possible links - e.g., in the case of platforms and tools). In there, we will launch discussions on each submission, enabling Q&A long before the workshop. Based on interest, we will create short cross-disciplinary working groups, that will carry on discussions, identify challenges, and ideas and best practices.</p>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-During the day of the workshop, we will dedicate time to discuss individual contributions, but focus most time on summary of group discussions. These groups will focus on creating design fictions of challenging environments informed by the submissions. We are planning the usage of Miro boards as a way to support and document the group activities. After each discussion period, groups will report to everyone. A live document with challenges and best practices will serve as a report and shared output from this town hall activity.
-</p>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-After the workshop, we plan to continue editing the live document, and make it available openly as a white paper. Submissions to the workshop, that are in scope, will be invited to submit extended versions to special issues of MDPI Sensors (on Passive Sensing for Health) and ACM TACCESS (on Inclusive Health Monitoring). Also, we plan to engage participants in the organization of the next Wild by Design edition.
-</p>
-
-<h2>Workshop Schedule</h2>
-
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "> Details TBA</p>
 
 <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 <script src="{{ "/js/bootstrap-accessibility.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>

@@ -21,7 +21,7 @@ description: "In this workshop, we will focus on the challenges of real world he
 authors: "Diogo Branco, Patrick Carrington, Silvia Del Din, Afsaneh Doryab, Hristijan Gjoreski, Tiago Guerreiro, Roisin McNaney, Kyle Montague, Alisha Pradhan, André Rodrigues, Julio Vega "
 
 # link to the pdf
-pdf: "../downloads/wildbydesign.pdf"
+pdf: "../downloads/wild_ws.pdf"
 
 external-links:
 #  - name: DOI

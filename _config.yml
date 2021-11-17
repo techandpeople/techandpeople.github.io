@@ -38,6 +38,8 @@ collections:
     output: true
   proposals:
     output: true
+  videos:
+    output: true
 
 # Markdown Processing
 kramdown:

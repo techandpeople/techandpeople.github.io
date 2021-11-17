@@ -7,6 +7,7 @@ members:
   - hhss
   - saa
   - fsr
+  - msteixeira
   - arbs
   - jchong
 #  - amgmt
@@ -19,7 +20,9 @@ members:
   - mpmoteiro
   - dbarros
   - pmarques
-  - leonin
+  - igoncalves
+  - rnogueira
+  - amorais
   - jjan
 
 friends:
@@ -46,6 +49,7 @@ alumni:
   - aapp
   - gmg
   - gclo
+  - leonin
 
 wildbydesign:
   - djrb
@@ -151,7 +155,7 @@ lrs:
           url: https://www.linkedin.com/in/la%C3%ADza-ribeiro-silva-1b5b60185/
         - name: scholar
           url: https://scholar.google.com/citations?hl=pt-BR&user=gRoepgEAAAAJ
-        - name: lattes
+        - name: cv
           url: http://lattes.cnpq.br/9324969584977927
 
 aapp:
@@ -477,7 +481,7 @@ gclo:
 leonin:
   name: Leon Ingelse
   photo: leonin.jpg
-  info: MSc Fellow
+  info: MSc Fellow (2021)
   links:
       - name: email
         url: leoningelse@gmail.com
@@ -538,6 +542,41 @@ pmarques:
       url: pedro.jam@hotmail.com
 
 
+igoncalves:
+  name: Inês Gonçalves
+  photo: igoncalves.jpeg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc49493@alunos.fc.ul.pt
+
+rnogueira:
+  name: Rodrigo Nogueira
+  photo: rnogueira.png
+  info: MSc Student
+  links:
+    - name: email
+      url: rodrigohn0508@gmail.com
+
+msteixeira:
+  name: Milene Teixeira
+  photo: msteixeira.jpg
+  info: Visiting PhD Student
+  links:
+    - name: email
+      url: msantosteixeira@fbk.eu
+    - name: scholar
+      url: https://scholar.google.com/citations?user=3NrVE-IAAAAJ&hl=en
+
+amorais:
+  name: "Ana Morais"
+  photo: amorais.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: ana.c.morais.g@gmail.com
+
+
 patrick:
     name: "Patrick Carrington"
     photo: patrick.jpg
@@ -548,7 +587,7 @@ deldin:
     name: "Silvia Del Din"
     photo: silvia.png
     institution: "Newcastle University"
-    url: https://www.ncl.ac.uk/caru/staff/profile/silviadel-din.html#background   
+    url: https://www.ncl.ac.uk/caru/staff/profile/silviadel-din.html#background
 
 afsaneh:
     name: "Afsaneh Doryab"
@@ -579,4 +618,3 @@ julio:
     photo: julio.jpg
     institution: "University of Pittsburgh"
     url: https://juliovega.info/
-

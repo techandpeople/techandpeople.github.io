@@ -8,7 +8,7 @@ permalink: /team/
 
 <div class="row" style="margin-bottom: 0">
 <p style="text-align: center; padding-top: 50px">
-<strong>We are  looking for new PhD students, Postdocs, and Master students to join the team!</strong>  (reach [Us](mailto:tjvg@di.fc.ul.pt)) 
+<strong>We are  looking for new PhD students, Postdocs, and Master students to join the team!</strong>  (reach [Us](mailto:tjvg@di.fc.ul.pt))
 </p>
 <p style="text-align: center; padding-bottom: 50px">
  If you want to know more about us see the<a href="https://docs.google.com/document/d/1aDw6lPcFfu1IUTPwS5Nv_vBPUv0JLH0AHETaloUc-AE/edit?usp=sharing" target="_blank"><strong> Lab Memo
@@ -33,15 +33,17 @@ permalink: /team/
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
 <p class="detail">{{ person.info }}</p>
-<p class="detail team-links">
+<div class="detail team-links">
+<ul class="team-links-list">
 {% for link in person.links %}
 {% if link.name contains 'mail' %}
-[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+<li><a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% else %}
-[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
-{%endif%}
+<li><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
+{% endif %}
 {% endfor %}
-</p>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -59,15 +61,17 @@ permalink: /team/
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
 <p class="detail">{{ person.info }}</p>
-<p class="detail team-links">
+<div class="detail team-links">
+<ul class="team-links-list">
 {% for link in person.links %}
 {% if link.name contains 'mail' %}
-[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+<li><a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% else %}
-[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
-{%endif%}
+<li><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
+{% endif %}
 {% endfor %}
-</p>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -85,15 +89,17 @@ permalink: /team/
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
 <p class="detail">{{ person.info }}</p>
-<p class="detail team-links">
+<div class="detail team-links">
+<ul class="team-links-list">
 {% for link in person.links %}
 {% if link.name contains 'mail' %}
-[<a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a>]
+<li><a href="mailto:{{link.url}}" target="_blank">{{link.name}}</a></li>
 {% else %}
-[<a href="{{link.url}}" target="_blank">{{link.name}}</a>]
+<li><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
 {%endif%}
 {% endfor %}
-</p>
+</ul>
+</div>
 </div>
 </div>
 </div>
