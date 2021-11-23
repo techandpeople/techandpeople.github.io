@@ -10,9 +10,9 @@ layout: publication
 title: "Using Games to Practice Screen Reader Gestures"
 
 # publication image
-#image:
-# name: games.png
-# alt-text: "The myView editing web application showing a picture of a supermarket corridor and an editing form" # provide a short description for the image #a11y
+image:
+ name: using_games.png
+ alt-text: "Preview of PDF file page stack" # provide a short description for the image #a11y
 
 # short description of the publication
 description: "We explore the use of games to inconspicuously train gestures. We designed and developed a set of accessible games, enabling users to practice smartphone gestures. We evaluated the games with 8 blind users and conducted remote interviews. Our results show how purposeful accessible games could be important in the process of training and discovering smartphone gestures, as they offer a playful method of learning. This, in turn, increases autonomy and inclusion, as this process becomes easier and more engaging."
