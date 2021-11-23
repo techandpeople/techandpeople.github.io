@@ -11,7 +11,7 @@ title: "Using Games to Practice Screen Reader Gestures"
 
 # publication image
 image:
- name: using_games.png
+ name: games_assets21.png
  alt-text: "Preview of PDF file page stack" # provide a short description for the image #a11y
 
 # short description of the publication
