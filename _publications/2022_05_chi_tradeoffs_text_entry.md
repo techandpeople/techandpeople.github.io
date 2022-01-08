@@ -21,7 +21,7 @@ description: "Typing on mobile devices is a common and complex task. The act of 
 authors: "André Rodrigues, Hugo Nicolau, André Santos, Diogo Branco, Jay Rainey, David Verweij, Jan Smeddinck, Kyle Montague, Tiago Guerreiro"
 
 # link to the pdf
-#pdf: https://arxiv.org/pdf/2101.05703.pdf
+pdf: "./downloads/tradeoffs_chi22.pdf"
 
 external-links:
   - name: website
