@@ -22,6 +22,7 @@ members:
   - igoncalves
   - rnogueira
   - amorais
+  - jonathangehmayr
   - jjan
 
 friends:
@@ -576,6 +577,13 @@ amorais:
     - name: email
       url: ana.c.morais.g@gmail.com
 
+jonathangehmayr:
+  name: Jonathan Gehmayr
+  photo: jonathangehmayr.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: jonathangehmayr@gmail.com
 
 patrick:
     name: "Patrick Carrington"
