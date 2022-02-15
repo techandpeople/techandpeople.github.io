@@ -10,7 +10,7 @@ layout: bio
 code: jjan
 title: João Janeiro
 photo: jjan.png
-info: Undergraduate Student
+info: MSc Student
 links:
     - name: email
       url: jjaneiro1990@gmail.com
