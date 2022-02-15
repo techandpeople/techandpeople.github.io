@@ -7,13 +7,10 @@ members:
   - hhss
   - saa
   - fsr
+  - pgp
   - arbs
   - jchong
-#  - amgmt
-  - lvfa
   - vml
-  - pgp
-  - pmmr
   - mviana
   - smeira
   - mpmoteiro
@@ -51,6 +48,8 @@ alumni:
   - gclo
   - leonin
   - msteixeira
+  - lvfa
+  - pmmr
 
 wildbydesign:
   - djrb
@@ -68,7 +67,7 @@ wildbydesign:
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
-    info: "Assistant Professor, Group Leader"
+    info: "Group Leader"
     institution: "LASIGE, Universidade de Lisboa"
     url: https://tjvguerreiro.github.io
     links:
@@ -82,7 +81,7 @@ tjvg:
 afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
-    info: "PostDoc Researcher, Inclusive Gaming Lead"
+    info: "Inclusive Gaming Lead"
     institution: "LASIGE, Universidade de Lisboa"
     url: https://techandpeople.github.io/team/afpr.html
     links:
@@ -138,7 +137,7 @@ saa:
 lvfa:
     name: "Lúcia Abreu"
     photo: lvfa.jpg
-    info: "MSc Student"
+    info: "MSc Student (2021)"
     links:
         - name: email
           url: fc50702@alunos.fc.ul.pt
@@ -210,7 +209,7 @@ rmnc:
 acp:
   name: Ana Pires
   photo: acp.jpg
-  info: PostDoc Researcher, Inclusive Education Lead
+  info: Inclusive Education Lead
   links:
       - name: orcid
         url: https://orcid.org/0000-0001-7747-7112
@@ -433,7 +432,7 @@ jjan:
 pgp:
   name: Pedro Pais
   photo: pgp.jpg
-  info: MSc Student
+  info: PhD Student
   links:
       - name: email
         url: pg.pais@campus.fct.unl.pt
