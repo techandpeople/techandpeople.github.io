@@ -17,6 +17,4 @@ links:
 
 ---
 
-I am currently a BsC student of Informatics Engineering at Faculty of Science of the University of Lisbon.
-During High School, I have been in small internships in the Electronics field, which sparked my interest in technological investigation.
-The area I have particular interest is human-computer interaction.
+I am currently a MSc student of Informatics Engineering - Specialization in Human Computer Interaction at Faculty of Science of the University of Lisbon. During High School, I have been in small internships in the Electronics field, which sparked my interest in technological investigation. The area I have interest is human-computer interaction, in particular regarding accessibility issues.
