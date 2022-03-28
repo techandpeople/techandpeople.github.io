@@ -26,6 +26,7 @@ pdf: https://tjvguerreiro.github.io/pubs/w4a_scrapbook.pdf
  # people associated with the publication
 people:
   - saa
+  - fbrito
   - tjvg
 
 conference-name: W4A

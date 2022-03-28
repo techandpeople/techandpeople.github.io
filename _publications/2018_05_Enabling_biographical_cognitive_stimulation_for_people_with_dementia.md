@@ -26,6 +26,7 @@ pdf: https://tjvguerreiro.github.io/pubs/chi18_crc_scrapbookv1.pdf
  # people associated with the publication
 people:
   - saa
+  - fbrito
   - tjvg
 
 conference-name: CHI

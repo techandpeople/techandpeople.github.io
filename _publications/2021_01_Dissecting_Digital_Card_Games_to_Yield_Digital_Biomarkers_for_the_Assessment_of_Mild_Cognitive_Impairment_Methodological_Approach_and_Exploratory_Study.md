@@ -1,0 +1,33 @@
+---
+###############
+# DO NOT EDIT
+layout: publication
+###############
+
+###############
+# TO EDIT
+# pub title
+title: "Dissecting Digital Card Games to Yield Digital Biomarkers for the Assessment of Mild Cognitive Impairment: Methodological Approach and Exploratory Study"
+
+# publication image
+
+# short description of the publication
+description: "Mild cognitive impairment (MCI), the intermediate cognitive status between normal cognitive decline and pathological decline, is an important clinical construct for signaling possible prodromes of dementia. However, this condition is underdiagnosed. To assist monitoring and screening, digital biomarkers derived from commercial off-the-shelf video games may be of interest. These games maintain player engagement over a longer period of time and support longitudinal measurements of cognitive performance. This paper aims to explore how the player actions of Klondike Solitaire relate to cognitive functions and to what extent the digital biomarkers derived from these player actions are indicative of MCI. First, 11 experts in the domain of cognitive impairments were asked to correlate 21 player actions to 11 cognitive functions. Expert agreement was verified through intraclass correlation, based on a 2-way, fully crossed design with type consistency. On the basis of these player actions, 23 potential digital biomarkers of performance for Klondike Solitaire were defined. Next, 23 healthy participants and 23 participants living with MCI were asked to play 3 rounds of Klondike Solitaire, which took 17 minutes on average to complete. A generalized linear mixed model analysis was conducted to explore the differences in digital biomarkers between the healthy participants and those living with MCI, while controlling for age, tablet experience, and Klondike Solitaire experience. All intraclass correlations for player actions and cognitive functions scored higher than 0.75, indicating good to excellent reliability. Furthermore, all player actions had, according to the experts, at least one cognitive function that was on average moderately to strongly correlated to a cognitive function. Of the 23 potential digital biomarkers, 12 (52%) were revealed by the generalized linear mixed model analysis to have sizeable effects and significance levels. The analysis indicates sensitivity of the derived digital biomarkers to MCI. Commercial off-the-shelf games such as digital card games show potential as a complementary tool for screening and monitoring cognition."
+
+# nickname of the person set in data/team_members.yml
+authors: "Karsten Gielis, Marie-Elena Vanden Abeele, Robin De Croon, Paul Dierick, Filipa Ferreira-Brito, Lies Van Assche, Katrien Verbert, Jos Tournoy, Vero Vanden Abeele"
+
+# link to the pdf
+pdf: https://games.jmir.org/2021/4/e18359/PDF
+
+ # people associated with the publication
+people:
+  - fbrito
+
+conference-name: JMIR
+venue: "serious games"
+year: 2021
+
+# area for filter purpose
+area: health
+---
