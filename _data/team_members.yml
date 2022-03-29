@@ -10,7 +10,6 @@ members:
   - fsr
   - pgp
   - arbs
-  - jchong
   - vml
   - mviana
   - smeira
@@ -37,6 +36,9 @@ friends:
 #  - seba
 #  - fgp
   - nis
+  - jforlizzi
+  - kgerling
+  - abernardino
 
 alumni:
   - ajbn
@@ -51,6 +53,7 @@ alumni:
   - msteixeira
   - lvfa
   - pmmr
+  - jchong
 
 wildbydesign:
   - djrb
@@ -162,7 +165,7 @@ lrs:
 aapp:
     name: "Angela Purice"
     photo: aapp.jpg
-    info: "MSc Student"
+    info: "MSc Student (2020)"
     links:
         - name: email
           url: angelapurice@gmail.com
@@ -224,7 +227,7 @@ acp:
 fbrito:
   name: Filipa Brito
   photo: fbrito.png
-  info: Research Associate
+  info: Research Assistant
   links:
       - name: email
         url: frbrito@fc.ul.pt
@@ -368,6 +371,34 @@ bestchai:
   links:
     - name: web
       url: https://www.cs.ubc.ca/~bestchai/
+
+jforlizzi:
+  name: Jodi Forlizzi
+  photo: jforlizzi.jpg
+  info: Carnegie Mellon University
+  redirect: https://jodiforlizzi.com/
+  links:
+    - name: web
+      url: https://jodiforlizzi.com/
+
+kgerling: 
+  name: Kathrin Gerling
+  photo: kgerling.jpg
+  info: KU Leuven
+  redirect: https://iiw.kuleuven.be/onderzoek/emedia/people/gerlingkathrin
+  links:
+    - name: web
+      url: https://iiw.kuleuven.be/onderzoek/emedia/people/gerlingkathrin
+
+abernardino:
+  name: Alexandre Bernardino
+  photo: abernardino.jpg
+  info: ISR, ULisboa
+  redirect: https://sites.google.com/view/alexbernardino/home
+  links:
+    - name: web
+      url: https://sites.google.com/view/alexbernardino/home
+
 
 konstantin:
   name: Konstantin Beznosov
@@ -526,7 +557,7 @@ jc:
 jchong:
   name: Joana Chong
   photo: jchong.jpg
-  info: Research Engineer
+  info: Research Engineer (2021)
   links:
     - name: email
       url: joanitachong@gmail.com

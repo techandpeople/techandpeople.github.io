@@ -41,6 +41,8 @@ year: 2022
 projects:
  - WildKey
 
+award: Best Paper Award
+
 # area for filter purpose
 area: health
 ---
