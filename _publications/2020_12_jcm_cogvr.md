@@ -29,6 +29,7 @@ external-links:
 
  # people associated with the publication
 people:
+  - fbrito
   - tjvg
   - saa
   - lmc
