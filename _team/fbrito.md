@@ -12,7 +12,7 @@ photo: fbrito.png
 info: Research Associate
 links:
   - name: email
-    url: filipa.r.brito@gmail.com
+    url: frbrito@fc.ul.pt
   - name: linkedin
     url: https://www.linkedin.com/in/filipabrito1/
 
