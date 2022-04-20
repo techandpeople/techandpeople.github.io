@@ -333,10 +333,18 @@ nav li a:hover {
   margin: 0 10em 2em 10em;
 }
 
-table{
+.metrics-table{
   min-width: 100%;
   border: 0;
   white-space: nowrap;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.privacy-table{
+  min-width: 100%;
+  border: 0;
+  white-space: normal;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -432,6 +440,7 @@ textarea{
 
 .main-container{
   max-width: 900px;
+  margin: auto;
 }
 
 .list-container{
