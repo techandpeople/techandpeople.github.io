@@ -52,6 +52,16 @@ nav li a:hover {
   justify-content: center;
   background-color: #343a40;
 }
+
+.privacy-footer{
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+  background-color: #237fc7;
+  min-height: 47px;
+}
+
 .site-footer > div{
   padding: 3em;
   color: #ffffff;
@@ -380,6 +390,10 @@ th{
   text-align: start;
 }
 
+.right{
+  text-align: end;
+}
+
 .table-cell{
   -webkit-font-smoothing: antialiased;
     font-size: .875rem;
@@ -414,6 +428,14 @@ textarea{
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 1em 0em 1em 0em;
+}
+
+.main-container{
+  max-width: 900px;
+}
+
+.list-container{
+  max-width: 900px;
 }
 
 @media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
