@@ -443,8 +443,9 @@ textarea{
   margin: auto;
 }
 
-.list-container{
-  max-width: 800;
+.privacy-table-container{
+  max-width: 650px;
+  margin: auto;
 }
 
 @media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
