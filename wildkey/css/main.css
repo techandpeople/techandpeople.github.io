@@ -444,7 +444,7 @@ textarea{
 }
 
 .list-container{
-  max-width: 900px;
+  max-width: 800;
 }
 
 @media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
