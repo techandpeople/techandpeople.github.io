@@ -441,6 +441,7 @@ textarea{
 .main-container{
   max-width: 900px;
   margin: auto;
+  padding: 2em;
 }
 
 .privacy-table-container{
