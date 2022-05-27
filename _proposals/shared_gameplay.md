@@ -1,5 +1,10 @@
 ---
 ###############
+# DO NOT EDIT
+layout: proposal
+###############
+
+###############
 # TO EDIT
 # pub title
 title: "Shared Gameplay Loops"
@@ -18,9 +23,9 @@ work: "In our group, we have been exploring leveraging asymmetric roles to creat
 
 # people associated with the publication
 people:
-- afpr
-- jpvg
-- pgp
-- 
+ - afpr
+ - jpvg
+ - pgp
+
 ###
 ---
