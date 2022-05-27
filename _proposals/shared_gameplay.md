@@ -13,7 +13,7 @@ selected: true
 
 # publication image
 image:
-name: asymmetric_gaming.png
+ name: asymmetric_gaming.png
  alt-text: "Two people with different visual abilities playing together and having fun" # provide a short description for the image #a11y
 
 # short description of the publication
