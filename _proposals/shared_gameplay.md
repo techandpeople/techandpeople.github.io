@@ -9,7 +9,7 @@ layout: proposal
 # pub title
 title: "Shared Gameplay Loops"
 
-selected: true
+selected: false
 
 # publication image
 image:
