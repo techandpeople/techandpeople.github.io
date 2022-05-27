@@ -9,7 +9,7 @@ layout: proposal
 # pub title
 title: "Games that Spill and are Fed by Real-World Interactions to Foster Family Bonding"
 
-selected: true
+selected: false
 
 # publication image
 image:
