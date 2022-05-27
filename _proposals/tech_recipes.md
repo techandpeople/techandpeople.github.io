@@ -9,7 +9,7 @@ layout: proposal
 # pub title
 title: "Community Created Voice Tech-Recipes"
 
-selected: true
+selected: false
 
 # publication image
 image:
