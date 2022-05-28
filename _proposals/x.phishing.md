@@ -13,7 +13,7 @@ selected: true
 
 # publication image
 image: 
- name: phis.png
+ name: phish.png
  alt-text: "Email with phishing warning" # provide a short description for the image #a11y
 
 # short description of the publication
