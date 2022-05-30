@@ -299,11 +299,11 @@ gus:
 jpvg:
   name: João Guerreiro
   photo: jpvg.jpg
-  redirect: http://joaoguerreiro.net/
+  redirect: https://www.di.fc.ul.pt/~jguerreiro/
   info: LASIGE, ULisboa
   links:
     - name: web
-      url: http://joaoguerreiro.net/
+      url: https://www.di.fc.ul.pt/~jguerreiro/
 
 kkmm:
   name: Kyle Montague
