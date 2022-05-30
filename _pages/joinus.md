@@ -18,10 +18,10 @@ The pandemic is taking a toll in everyone’s lives. At Tech&People, we regularl
 </p>
 <br>
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-Below, you can find the master thesis <a href="{{ site.url }}{{ site.baseurl }}/joinus/#proposals">proposals</a>  that the group is offering for the year 2021/2022. Also, we present a set of <a href="{{ site.url }}{{ site.baseurl }}/joinus/#stories">stories</a> of what members of the group did in their masters or are doing now, with the goal to provide some background to the proposals and an overall view of the opportunities you can find at <a href="{{ site.url }}{{ site.baseurl }}/">Tech&People</a>. Lastly, you can find a set of Frequently Asked Questions. If you want to know more, get in touch by <a href="mailto:tjvg@di.fc.ul.pt">e-mail</a>, follow us on <a href="https://twitter.com/TechPeopleLab" target="_blank">Twitter</a>, or check our <a href="{{ site.url }}{{ site.baseurl }}/publications/">publications</a>.
+Below, you can find the master thesis <a href="{{ site.url }}{{ site.baseurl }}/joinus/#proposals">proposals</a>  that the group is offering for the year 2022/2023. Also, we present a set of <a href="{{ site.url }}{{ site.baseurl }}/joinus/#stories">stories</a> of what members of the group did in their masters or are doing now, with the goal to provide some background to the proposals and an overall view of the opportunities you can find at <a href="{{ site.url }}{{ site.baseurl }}/">Tech&People</a>. Lastly, you can find a set of Frequently Asked Questions. If you want to know more, get in touch by <a href="mailto:tjvg@di.fc.ul.pt">e-mail</a>, follow us on <a href="https://twitter.com/TechPeopleLab" target="_blank">Twitter</a>, or check our <a href="{{ site.url }}{{ site.baseurl }}/publications/">publications</a>.
 </p>
 <br id="proposals">
-# MSc Proposals 2021/2022
+# MSc Proposals 2022/2023
 <br>
 <div class="proposals">
 {% for proposal in site.proposals %}
