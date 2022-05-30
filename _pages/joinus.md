@@ -98,7 +98,7 @@ The group is currently engaged in four european projects, 2 national projects, a
 </p>
 <p class="card" style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong>What’s the deal with conference travels and internships? Do I have to pay for those?</strong><br><br>
-No. Conference publications are fully supported by the group (travel, hotel, registration, per diem) when submission to the conference is agreed with Tiago. Internships are normally arranged with Tiago and the visited institution, and are also fully covered by funding schemes (e.g., Erasmus+)  or by the visited institution/company.
+No. Conference publications are fully supported by the group (travel, hotel, registration, per diem) when submission to the conference is agreed with your advisor. Internships are normally arranged with your advisors and the visited institution, and are also fully covered by funding schemes (e.g., Erasmus+)  or by the visited institution/company.
 </p>
 <p class="card" style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
 <strong>I want to work in the X project but I will need Y technology and a PC with special hardware. Do you have those?</strong><br><br>
