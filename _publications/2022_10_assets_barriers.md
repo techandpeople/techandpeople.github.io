@@ -22,7 +22,7 @@ To do so, we conducted a user study, with 258 social network users through an on
 authors: Letícia Seixas Pereira, José Coelho, André Rodrigues, João Guerreiro, Tiago Guerreiro, Carlos Duarte
 
 # link to the pdf
-#pdf: ../downloads/assets20a-sub2080-cam-i26.pdf
+pdf: ../downloads/assets22-35.pdf
 
 # external-links:
 #  - name: Presentation Video
