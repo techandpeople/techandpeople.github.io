@@ -21,6 +21,7 @@ members:
   - amorais
   - jonathangehmayr
   - jjan
+  - dreis
 
 friends:
   - ccbb
@@ -625,6 +626,14 @@ jonathangehmayr:
   links:
     - name: email
       url: jonathangehmayr@gmail.com
+
+dreis:
+  name: Daniel Reis
+  photo: dreis.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc57701@alunos.fc.ul.pt
 
 patrick:
     name: "Patrick Carrington"
