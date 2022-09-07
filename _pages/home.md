@@ -243,7 +243,8 @@ window.addEventListener("optimizedResize", function() {
   const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
   if(vw > 1023){
     if(document.getElementById('twitterContainer').style.display === 'none'){
-      document.getElementById('twitterContainer').style.display = "inline-block";
+      // document.getElementById('twitterContainer').style.display = "inline-block";
+      document.getElementById('twitterContainer').style.display = "none";
       setTimeout(resizeTwitterIframe(), 100);
     }
   }else
