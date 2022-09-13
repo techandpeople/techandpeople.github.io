@@ -22,6 +22,7 @@ members:
   - jonathangehmayr
   - jjan
   - dreis
+  - jmorais
 
 friends:
   - ccbb
@@ -634,6 +635,14 @@ dreis:
   links:
     - name: email
       url: fc57701@alunos.fc.ul.pt
+
+jmorais:
+  name: Joãp Morais
+  photo: jmorais.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc52802@alunos.fc.ul.pt
 
 patrick:
     name: "Patrick Carrington"
