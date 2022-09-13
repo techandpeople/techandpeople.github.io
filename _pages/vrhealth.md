@@ -1,6 +1,6 @@
 ---
 title: "Workshop on Virtual Reality for Health and Wellbeing at MUM 2022 (Lisbon, Portugal)"
-layout: external
+layout: vr
 excerpt: "Workshop on Virtual Reality for Health and Wellbeing"
 sitemap: false
 permalink: /vrhealth/
