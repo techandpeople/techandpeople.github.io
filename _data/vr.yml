@@ -1,0 +1,20 @@
+highlights:
+  - Figure1
+  - Figure2
+  - Figure3
+
+
+Figure1:
+    photo: Figure1.jpg
+    alt: "a person sat in a mattress with a VR headset meditating"
+    caption: A person meditating with a VR headset
+
+Figure2:
+    photo: Figure2.jpg
+    alt: "A person in wheelchair with a VR headset doing arm exercises with a therapist "
+    caption: Physical rehabilitation with VR
+
+Figure3:
+    photo: Figure3.jpg
+    alt: "A person holding weights and doing exercise with a VR headset"
+    caption: Exercise in VR

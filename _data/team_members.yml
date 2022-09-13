@@ -70,6 +70,18 @@ wildbydesign:
   - afpr
   - julio
 
+
+vrhealth:
+  - fbrito
+  - hristijan
+  - oscar
+  - mitja
+  - emilija
+  - jpvg
+  - kgerling
+  - sergi
+  - tjvg
+
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
@@ -685,3 +697,27 @@ julio:
     photo: julio.jpg
     institution: "University of Pittsburgh"
     url: https://juliovega.info/
+
+oscar:
+    name: "Oscar Mayora"
+    photo: oscar.jpg
+    institution: Fondazione Bruno Kessler
+    url: https://ict.fbk.eu/people/detail/oscar-arturo-mayora-ibarra/
+
+mitja:
+    name: "Mitja Luštrek"
+    photo: mitja.jpeg
+    institution: Jožef Stefan Institute
+    url: https://dis.ijs.si/mitjal/
+
+emilija:
+    name: "Emilija Kizhevska"
+    photo: emilija.jpeg
+    institution: Jožef Stefan Institute
+    url: https://dis.ijs.si/
+
+sergi:
+    name: "Sergi Bermúdez i Badia"
+    photo: Universidade da Madeira and ARDITI
+    photo: sergi.jpg
+    url: https://neurorehabilitation.m-iti.org/lab/
