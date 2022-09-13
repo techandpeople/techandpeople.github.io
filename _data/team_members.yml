@@ -242,6 +242,8 @@ fbrito:
   name: Filipa Brito
   photo: fbrito.png
   info: Research Assistant
+  institution: LASIGE, Universidade de Lisboa
+  url: https://techandpeople.github.io/team/fbrito.html
   links:
       - name: email
         url: frbrito@fc.ul.pt
@@ -314,6 +316,8 @@ jpvg:
   name: João Guerreiro
   photo: jpvg.jpg
   redirect: https://www.di.fc.ul.pt/~jguerreiro/
+  url: https://www.di.fc.ul.pt/~jguerreiro/
+  institution: LASIGE, Universidade de Lisboa
   info: LASIGE, ULisboa
   links:
     - name: web
@@ -399,6 +403,8 @@ kgerling:
   name: Kathrin Gerling
   photo: kgerling.jpg
   info: KU Leuven
+  institution: KU Leuven
+  url: https://iiw.kuleuven.be/onderzoek/emedia/people/gerlingkathrin
   redirect: https://iiw.kuleuven.be/onderzoek/emedia/people/gerlingkathrin
   links:
     - name: web
@@ -706,18 +712,18 @@ oscar:
 
 mitja:
     name: "Mitja Luštrek"
-    photo: mitja.jpeg
+    photo: mitja.jpg
     institution: Jožef Stefan Institute
     url: https://dis.ijs.si/mitjal/
 
 emilija:
     name: "Emilija Kizhevska"
-    photo: emilija.jpeg
+    photo: emilija.jpg
     institution: Jožef Stefan Institute
     url: https://dis.ijs.si/
 
 sergi:
     name: "Sergi Bermúdez i Badia"
-    photo: Universidade da Madeira and ARDITI
+    institution: Universidade da Madeira and ARDITI
     photo: sergi.jpg
     url: https://neurorehabilitation.m-iti.org/lab/

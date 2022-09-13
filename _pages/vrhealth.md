@@ -69,8 +69,6 @@ This workshop aims to promote the exchange of experiences, knowledge, and know-h
 To achieve these goals and others, we hope to bring together the virtual reality, digital health, ubiquitous computing, sensor development, machine learning, digital health, clinical, HCI and accessibility communities. Through this workshop, participants will be able to share real-life deployment experiences, tools, challenges, and discuss designs and technology goals for future research.
 </p>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 "><a href="https://docs.google.com/document/d/1KfC8B-dKLdyTOZOu-LQfvcyeNHqCfre1Yt5AogmEyVk/edit?usp=sharing">Share the CfP</a></p>
-
 <h2>Topics</h2>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Topics for the workshop include:</p>
