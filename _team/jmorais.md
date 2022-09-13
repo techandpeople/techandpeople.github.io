@@ -6,7 +6,7 @@ layout: bio
 
 ###############
 # TO EDIT
-title: "Joãp Morais"
+title: "João Morais"
 photo: jmorais.jpg
 info: "MSc Student"
 links:
