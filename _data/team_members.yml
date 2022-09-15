@@ -23,6 +23,7 @@ members:
   - jjan
   - dreis
   - jmorais
+  - bnogueira
 
 friends:
   - ccbb
@@ -661,6 +662,14 @@ jmorais:
   links:
     - name: email
       url: fc52802@alunos.fc.ul.pt
+
+bnogueira:
+  name: Beatriz Nogueira
+  photo: bnogueira.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc55845@alunos.fc.ul.pt
 
 patrick:
     name: "Patrick Carrington"
