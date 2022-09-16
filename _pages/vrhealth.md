@@ -88,6 +88,7 @@ To achieve these goals and others, we hope to bring together the virtual reality
     <li>Accessibility in VR</li>
     <li>Ethical implications in clinical research with VR</li>
     <li>Participatory design approaches to VR</li>
+    <li>Position papers on the future of VR in healthcare</li>
 </ul>
 
 <h2>Important Dates</h2>
