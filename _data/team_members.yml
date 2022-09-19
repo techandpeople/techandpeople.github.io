@@ -24,6 +24,8 @@ members:
   - dreis
   - jmorais
   - bnogueira
+  - mvieira
+  - dfurtado
 
 friends:
   - ccbb
@@ -670,6 +672,22 @@ bnogueira:
   links:
     - name: email
       url: fc55845@alunos.fc.ul.pt
+
+mvieira:
+  name: Madalena Vieira
+  photo: mvieira.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: madalenamcd.vieira@gmail.com
+
+dfurtado:
+  name: Diogo Furtado
+  photo: dfurtado.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: fc57668@alunos.fc.ul.pt
 
 patrick:
     name: "Patrick Carrington"
