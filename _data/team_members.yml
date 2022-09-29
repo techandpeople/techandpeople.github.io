@@ -27,6 +27,7 @@ members:
   - mvieira
   - dfurtado
   - rribeiro
+  - jgodinho
 
 friends:
   - ccbb
@@ -697,6 +698,16 @@ rribeiro:
   links:
     - name: email
       url: fc57433@alunos.fc.ul.pt
+
+jgodinho:
+  name: João Godinho
+  photo: jgodinho.jpg
+  info: MSc Student
+  links:
+    - name: email
+      url: jgodinho111@gmail.com
+    - name: linkedin
+      url: https://www.linkedin.com/in/jo%C3%A3o-godinho-6a01b4217
 
 patrick:
     name: "Patrick Carrington"
