@@ -128,6 +128,10 @@ Submissions should use the <a href="https://www.acm.org/publications/proceedings
 </div>
 
 
+<h1 id="support">Support</h1>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+This workshop was partially supported by the EU H2020 <a href="https://widehealth.eu/">WideHealth</a> project (grant agreement No 952279) and FCT through LASIGE funding (ref. UIDB/00408/2020 and ref. UIDP/00408/2020).
+</p>
 
 
 <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
