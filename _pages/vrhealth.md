@@ -94,7 +94,7 @@ To achieve these goals and others, we hope to bring together the virtual reality
 <h2>Important Dates</h2>
 
 <ul>
-    <li>Submission deadline: October 17th, 2022</li>
+    <li>Submission deadline: October 23rd, 2022 (extended)</li>
     <li>Notification: October 27th, 2022</li>
     <li>Workshop: November 27th, 2022</li>
 </ul>
@@ -103,7 +103,7 @@ To achieve these goals and others, we hope to bring together the virtual reality
 <h1 id="submission">Submissions</h1>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-Submissions should use the <a href="https://www.acm.org/publications/proceedings-template">ACM sigconf template</a> and have a maximum of 4 pages, excluding references, and should be submitted via <a href="https://easychair.org/conferences/?conf=vrforhealthwellbeing0">EasyChair</a>. The deadline for paper submission is October 17th, 2022. Authors of accepted papers will be notified on October 27th, 2022.
+Submissions should use the <a href="https://www.acm.org/publications/proceedings-template">ACM sigconf template</a> and have a maximum of 4 pages, excluding references, and should be submitted via <a href="https://easychair.org/conferences/?conf=vrforhealthwellbeing0">EasyChair</a>. The deadline for paper submission is October 23rd, 2022. Authors of accepted papers will be notified on October 27th, 2022.
 </p>
 
 <!-- <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submit your paper at <a href="https://new.precisionconference.com/~sigchi/">Precision Conference</a>. Make a new submission in the SIGCHI, Ubicomp/ISWC 2021, Workshop: Designing Ubi Health Monitoring Tech Track.</p> -->
