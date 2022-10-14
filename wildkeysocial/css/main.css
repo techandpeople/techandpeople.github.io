@@ -45,6 +45,82 @@ nav li a:hover {
   background-color: rgb(28, 46, 66);
 }
 
+.show-video-button{
+  color: #237fc7;
+  padding: 0.5em;
+  max-width: fit-content;
+  margin-left: 1em;
+  border: #237fc7 2px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.toggle-video-1 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 530px;
+  background: white;
+  transition: all 0.2s ease;
+  opacity: 1;
+  margin-top: 1rem;
+  overflow: hidden;
+  align-self: center;
+}
+
+input[type=checkbox].hide-input:checked + .toggle-video-1 {
+  height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.toggle-video-2 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 530px;
+  background: white;
+  transition: all 0.2s ease;
+  opacity: 1;
+  margin-top: 1rem;
+  overflow: hidden;
+  align-self: center;
+}
+
+input[type=checkbox].hide-input:checked + .toggle-video-2 {
+  height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.toggle-video-3 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 530px;
+  background: white;
+  transition: all 0.2s ease;
+  opacity: 1;
+  margin-top: 1rem;
+  overflow: hidden;
+  align-self: center;
+}
+
+input[type=checkbox].hide-input:checked + .toggle-video-3 {
+  height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+input.hide-input {
+  position: absolute;
+  left: -999em;
+}
+
 .site-footer{
   display: flex;
   flex-flow: row;
