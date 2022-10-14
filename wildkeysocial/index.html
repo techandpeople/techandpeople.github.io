@@ -57,6 +57,7 @@
           <div class="inner-card large-inner-card">
             <div class="inner-card-body">
               <div class="inner-card-sub-title">After downloading the apk file, you will need to grant the permission to "Install unkown apps" to your browser. Normaly the phone asks for this when you click on the downloaded file. If you are not prompt to grant this permission, go to settings > applications > your browser name > Install unkown apps</div>
+              <label for="videoInstall" class="toggle show-video-button-special">Show video</label>
             </div>
           </div>
         </div>
@@ -68,6 +69,16 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="card-column">
+        <input type="checkbox" name="videoinstall" id="videoInstall" class="hide-input" checked>
+        <div class="toggle-video-install">
+          <video height="530px" autoplay muted loop controls>
+            <source src="video/install.mp4" type='video/mp4"' codecs="hvc1">
+            <source src="video/install.webm" type="video/webm">
+            Your browser does not support the video.
+          </video>
+        </div>
         </div>
       </div>
     </div>

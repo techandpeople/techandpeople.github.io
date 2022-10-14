@@ -45,6 +45,17 @@ nav li a:hover {
   background-color: rgb(28, 46, 66);
 }
 
+.show-video-button-special{
+  color: #237fc7;
+  padding: 0.5em;
+  max-width: fit-content;
+  margin-top: 1em;
+  border: #237fc7 2px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .show-video-button{
   color: #237fc7;
   padding: 0.5em;
@@ -110,6 +121,26 @@ input[type=checkbox].hide-input:checked + .toggle-video-2 {
 }
 
 input[type=checkbox].hide-input:checked + .toggle-video-3 {
+  height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.toggle-video-install {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 530px;
+  background: white;
+  transition: all 0.2s ease;
+  opacity: 1;
+  margin-top: 1rem;
+  overflow: hidden;
+  align-self: center;
+}
+
+input[type=checkbox].hide-input:checked + .toggle-video-install {
   height: 0;
   opacity: 0;
   padding-top: 0;
