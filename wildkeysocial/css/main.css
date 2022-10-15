@@ -383,7 +383,6 @@ input.hide-input {
 
 .inner-card-title {
   display: flex;
-  justify-content: center;
   font-weight: 500;
   font-size: 1.5em;
   line-height: 1em;
@@ -1246,7 +1245,7 @@ textarea{
   }
   
   .large-inner-card {
-    width: 550px;
+    width: 880px;
   }
   
   .x-large-inner-card {
