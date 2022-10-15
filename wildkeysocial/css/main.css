@@ -129,6 +129,7 @@ input[type=checkbox].hide-input:checked + .toggle-video-3 {
 
 .toggle-video-install {
   display: flex;
+  flex-flow: column;
   align-items: center;
   padding: 2rem;
   height: 530px;
