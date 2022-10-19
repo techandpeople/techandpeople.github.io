@@ -379,6 +379,7 @@ input.hide-input {
   display: flex;
   flex-flow: column;
   align-content: center;
+  align-self: center;
 }
 
 #myImageGray {
@@ -487,7 +488,11 @@ input.hide-input {
   }
 
 }
-@media (min-width:481px) and (max-width: 640px ){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px) and (max-width: 785px ){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+  .card-row{
+    flex-flow: column;
+  }
 
   .card{
     margin: 1em;
@@ -502,7 +507,7 @@ input.hide-input {
   }
 
 }
-@media (min-width:641px) and (max-width: 960px ){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:786px) and (max-width: 960px ){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
   .card{
     margin: 1em;
