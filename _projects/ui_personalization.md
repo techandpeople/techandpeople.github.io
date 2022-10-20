@@ -26,7 +26,7 @@ people:
 code: ui_personalization
 
 # area for filter purpose
-area: access
+area: personalization
 
 ###############
 
