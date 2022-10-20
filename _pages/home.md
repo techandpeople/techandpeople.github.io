@@ -30,6 +30,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 <button type="button" class="btn btn-default filterBtn filter" id="health">Pervasive Healthcare</button>
 <button type="button" class="btn btn-default filterBtn filter" id="usec">Usable Privacy</button>
 <button type="button" class="btn btn-default filterBtn filter" id="inclusive_education">Inclusive Education</button>
+<button type="button" class="btn btn-default filterBtn filter" id="personalization">Personalization</button>
 </div>
 
 <div class="projects">
