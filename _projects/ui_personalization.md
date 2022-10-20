@@ -11,7 +11,7 @@ title: "Personalization of User Interfaces"
 
 # project image
 image:
- name: ui_personalization_1.jpg
+ name: ui_personalization_1.png
  alt-text:  "A browser with the independent newspaper page open. On the right side a window where we can read: change what you wish. It has the options change sizes, change colours, order elements, remove elements and more options."  # provide a short description for the image #a11y
 
 # short description of the project
