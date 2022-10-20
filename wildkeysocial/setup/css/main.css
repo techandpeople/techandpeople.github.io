@@ -431,6 +431,10 @@ input.hide-input {
 
 @media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
 
+  .card-row{
+    flex-flow: column;
+  }
+  
   nav ul{
     max-width: 300px;
   }
@@ -462,6 +466,10 @@ input.hide-input {
 }
 
 @media (min-width:320px) and (max-width: 480px ) { /* smartphones, iPhone, portrait 480x320 phones */
+
+  .card-row{
+    flex-flow: column;
+  }
 
   .img-x-large{
     max-width: 20em;
