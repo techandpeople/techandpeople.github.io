@@ -7,14 +7,12 @@ title: "Sérgio Alves"
 photo: saa.jpg
 info: "PhD Student"
 links:
-    - name: web
-      url: https://openlab.ncl.ac.uk/people/sergio-alves/
+    - name: twitter
+      url: https://twitter.com/sergiobalves
     - name: email
       url: sfalves@fc.ul.pt
     - name: schollar
       url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
-    - name: twitter
-      url: https://twitter.com/sergiobalves
 ---
 
 I completed my Master’s degree in Informatics in 2017 at the <i>Faculty of Sciences of the University of Lisbon</i> and my BSc degree in Information and Communication Technologies in 2015 at the same institution. During my Master’s, I developed <i>Scrapbook</i>, a web application that enables biographical and personalised reminiscence therapy for people with dementia. This project led to further research, as I became a hired researcher at <i>LASIGE</i>. A period in which <i>Scrapbook</i> grew into a cognitive stimulation platform and a bridge between people with dementia, psychologists and caregivers.
