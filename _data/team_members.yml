@@ -23,6 +23,7 @@ members:
   - dfurtado
   - rribeiro
   - jgodinho
+  - jferreira
 
 friends:
   - ccbb
@@ -708,6 +709,14 @@ jgodinho:
       url: jgodinho111@gmail.com
     - name: linkedin
       url: https://www.linkedin.com/in/jo%C3%A3o-godinho-6a01b4217
+
+jferreira:
+  name: João Ferreira
+  photo: jferreira.png
+  info: MSc Student
+  links:
+    - name: email
+      url: jpferreira@lasige.di.fc.ul.pt
 
 patrick:
     name: "Patrick Carrington"
