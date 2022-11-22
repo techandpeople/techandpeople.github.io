@@ -49,6 +49,130 @@ $(".carousel-inner > div:first").addClass("active");
 Virtual Reality has become a mainstream opportunity to develop immersive environments where people are exposed to relevant stimuli in a systematic but safe way. Besides the controlled exposure to stimuli, VR systems enable a more efficient and unbiased gathering of information with practical applications in diagnosis, intervention, and health monitoring processes. Nonetheless, scientific literature has demonstrated that interacting with VR technology and its peripherals can be challenging, especially in populations less familiar with technology (e.g., older adults) or with clinical conditions that are not adequately accommodated by the technology, such as cognitive (e.g., dementia) or physical impairments (e.g., blindness). This workshop will focus on systems, technological approaches, and theoretical frameworks to develop user/patient-centred VR tools for diagnosis, intervention, and monitoring of health and wellbeing outcomes. Moreover, we welcome work focused on accessibility issues, aiming to promote equal access and opportunity to use VR tools by people with diverse abilities. 
 </p>
 
+<h1 id="keynote">Keynote Speakers</h1>
+
+<div class="col-md-4">
+<div class="row">
+<img id="bio-photo" alt="Profile photo of Micaela Fonseca" src="/images/people/micaela_fonseca.jpg" class="img-responsive imgteam" />
+</div>
+<div class="row" style="overflow: hidden;">
+
+
+</div>
+</div>
+<div class="col-md-8">
+<h1>Micaela Fonseca</h1>
+<h3>Designing for Maximized Entertainment. How to contribute to greater ubiquity of immersive digital environments for therapy?</h3>
+<p>Micaela Fonseca holds a PhD in Physics (Universidade Nova de Lisboa [PT], 2011). Micaela is Principal Researcher at HEI-Lab (Digital Human-Environment Interaction Lab) and assistant Professor at the School of Communication, Architecture, Arts and Information Technologies, Lusófona University. Since 2012, she has been an invited Assistant Professor at NOVA FCT for Biomedical Engineering, Physics Engineering and researcher at LIBPhys-UNL
+Micaela has been engaged in several VR-based simulation projects, she is co-founder of VR4NeuroPain and Games for Good. She has published several scientific papers in ehealth and serious games. Micaela also studied Directing Fiction and Ceramics (her works have been exhibited in contemporary galleries).</p>
+
+
+<div class="row">
+<img id="bio-photo" alt="Profile photo of Jun Nishida" src="/images/people/jun_nishida.jpeg" class="img-responsive imgteam" />
+</div>
+<div class="row" style="overflow: hidden;">
+
+
+</div>
+</div>
+<div class="col-md-8">
+<h1>Jun Nishida</h1>
+<h3>Enabling the Communication of Physical Experiences</h3>
+<p><a href="https://junis.sakura.ne.jp/wp/">Jun Nishida</a> is an incoming Assistant Professor at the University of Maryland, College Park at the Department of Computer Science. Previously he was a postdoctoral fellow at the University of Chicago, advised by Prof. Pedro Lopes and has received a Ph.D. in Human Informatics at the University of Tsukuba, Japan in 2019. He is interested in exploring interaction techniques and wearable interfaces where people can communicate their embodied experiences to support each other, with applications in the fields of rehabilitation, education, and design. He has received ACM UIST Best Paper Award, ACM CHI Best Paper Honorable Mention Award, Microsoft Research Asia Fellowship Award, and Forbes 30 Under 30 Award among others.</p>
+</div>
+
+<h1 id="accepted">Accepted Papers</h1>
+
+
+<div class="publications">
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Using VR and Sensors for Anxiety with Children and Adolescents</a></p>
+<p class="detail">João Ferreira, Filipa Ferreira-Brito, João Guerreiro and Tiago Guerreiro</p>
+<p class="detail pub-links">
+<!--[<a href="/downloads/cholakoska.pdf" target="_blank">PDF</a>]-->
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Using Virtual Reality to elicit Empathy: a narrative review</a></p>
+<p class="detail">Emilija Kizhevska, Filipa Ferreira-Brito, Tiago Guerreiro and Mitja Lustrek</p>
+<p class="detail pub-links">
+<!--[<a href="/downloads/rodrigues.pdf" target="_blank">PDF</a>]-->
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Toward scalable VR therapy solutions for individuals with Autism Spectrum Conditions: Challenges and Opportunities</a></p>
+<p class="detail">Elio Salvadori, Giulia Mezzanotte, Silvia Gabrielli, Marco Dianti and Oscar Mayora-Ibarra</p>
+<p class="detail pub-links">
+<!--[<a href="/downloads/lukan.pdf" target="_blank">PDF</a>]-->
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Facial Expression Recognition using Facial Mask with EMG Sensors</a></p>
+<p class="detail">Ivana Kiprijanovska, Borjan Sazdov, Martin Majstoroski, Simon Stankoski, Martin Gjoreski, Charles Nduka and Hristijan Gjoreski</p>
+<p class="detail pub-links">
+<!--[<a href="/downloads/peltonen.pdf" target="_blank">PDF</a>]-->
+</p>
+</div>
+</div>
+</div>
+
+<div class="card-home card" style="padding: 0px 0px 0px 10px;">
+<div class="row row-thumb-home" style="margin-bottom: 0;">
+<div class="col-sm-12">
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Age-related performance decline detected by a virtual reality multidomain cognitive training solution (Enhance VR)</a></p>
+<p class="detail">Victoria Brugada-Ramentol, Maiya Morgan, Hossein Jalali and Amir Bozorgzadeh</p>
+<p class="detail pub-links">
+<!--[<a href="/downloads/carvalho.pdf" target="_blank">PDF</a>]-->
+</p>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<h1 id="schedule">Schedule</h1>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+The workshop will run on room 6.3.27, C6 bulding of Faculdade de Ciências da Universidade de Lisboa (FCUL, Campo Grande, Lisboa). We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speeches, a set of sessios organized around topics, and social acitivities for networking. Roughly, the schedule will be as follows (time in GMT):</p>
+
+* 9:00 - 9:15: Welcoming 
+* 9:15 - 10:15: **Keynote speaker I - Micaela Fonseca**
+* 10:15 - 10:45: Coffee Break 
+* 10:45 - 11:15: Speed Dating 
+* 11:15 - 12:30: **Session I**
+    * 11:15 - 11:30: Oral presentation 1 - Using VR and Sensors for Anxiety with Children and Adolescents
+    * 11:30 - 11:45: Oral presentation 2 - Using Virtual Reality to elicit Empathy: a narrative review
+* 11:45 - 12:30: Roundtable discussion
+* 12:30 - 14:00: Lunch 
+* 14:00 - 15:30: **Session II** 
+    * 14:00 - 14:15: Oral presentation 3 - Facial Expression Recognition using Facial Mask with EMG Sensors
+    * 14:15 - 14:30: Oral presentation 4 - Toward scalable VR therapy solutions for individuals with Autism Spectrum Conditions: Challenges and Opportunities
+    * 14:30 - 14:45: Oral presentation 5 - Age-related performance decline detected by a virtual reality multidomain cognitive training solution (Enhance VR) 
+* 14:45 - 15:30: Roundtable discussion
+* 15:30 - 16:00: Coffee Break 
+* 16:00 - 17h00: **Keynote speaker II - Jun Nishida**
+* 17:00 - 17:30: Town Hall Discussion
+* 17:30 - 17:45: Closing
+* 19:30 - Dinner 
 
 <h1 id="cfp">Call For Papers</h1>
 
