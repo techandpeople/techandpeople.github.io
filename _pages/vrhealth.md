@@ -153,7 +153,7 @@ Micaela has been engaged in several VR-based simulation projects, she is co-foun
 <h1 id="schedule">Schedule</h1>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
-The workshop will run on room 6.3.27, C6 bulding of Faculdade de Ciências da Universidade de Lisboa (FCUL, Campo Grande, Lisboa). We intend to have a discussion-oriented workshop and plan to achieve that with a stimulating keynote speeches, a set of sessios organized around topics, and social acitivities for networking. Roughly, the schedule will be as follows (time in GMT):</p>
+The workshop will run on room 6.3.27, C6 bulding of Faculdade de Ciências da Universidade de Lisboa (FCUL, Campo Grande, Lisboa). We intend to have a discussion-oriented workshop and plan to achieve that with stimulating keynote speeches, a set of sessions organized around submitted topics, and social acitivities for networking. Roughly, the schedule will be as follows (time in GMT):</p>
 
 * 9:00 - 9:15: Welcoming 
 * 9:15 - 10:15: **Keynote speaker I - Micaela Fonseca**
