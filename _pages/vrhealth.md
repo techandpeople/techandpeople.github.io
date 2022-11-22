@@ -65,8 +65,9 @@ Virtual Reality has become a mainstream opportunity to develop immersive environ
 <h3>Designing for Maximized Entertainment. How to contribute to greater ubiquity of immersive digital environments for therapy?</h3>
 <p>Micaela Fonseca holds a PhD in Physics (Universidade Nova de Lisboa [PT], 2011). Micaela is Principal Researcher at HEI-Lab (Digital Human-Environment Interaction Lab) and assistant Professor at the School of Communication, Architecture, Arts and Information Technologies, Lusófona University. Since 2012, she has been an invited Assistant Professor at NOVA FCT for Biomedical Engineering, Physics Engineering and researcher at LIBPhys-UNL
 Micaela has been engaged in several VR-based simulation projects, she is co-founder of VR4NeuroPain and Games for Good. She has published several scientific papers in ehealth and serious games. Micaela also studied Directing Fiction and Ceramics (her works have been exhibited in contemporary galleries).</p>
+</div>
 
-
+<div class="col-md-4">
 <div class="row">
 <img id="bio-photo" alt="Profile photo of Jun Nishida" src="/images/people/jun_nishida.jpeg" class="img-responsive imgteam" />
 </div>
