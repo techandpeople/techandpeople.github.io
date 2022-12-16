@@ -434,7 +434,7 @@ input.hide-input {
   .card-row{
     flex-flow: column;
   }
-  
+
   nav ul{
     max-width: 300px;
   }
