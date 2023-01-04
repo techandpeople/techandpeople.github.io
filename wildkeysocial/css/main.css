@@ -36,13 +36,58 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 8px;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
   background-color: rgb(28, 46, 66);
+}
+
+figcaption {
+  font-size: x-large;
+  padding: 5px;
+  text-align: center;
+}
+
+.width200{
+  max-width: 200px;
+}
+
+.width300{
+  max-width: 300px;
+}
+
+.width400{
+  max-width: 400px;
+}
+
+.flex-start{
+  justify-content: flex-start !important;
+}
+
+.space-evenly{
+  justify-content: space-evenly !important;
+}
+
+.space-between{
+  justify-content: space-between !important;
+}
+
+.margin1{
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+}
+
+.margin2{
+  margin-left: 2em !important;
+  margin-right: 2em !important;
+}
+
+.margin3{
+  margin-left: 3em !important;
+  margin-right: 3em !important;
 }
 
 .arrow{
@@ -337,6 +382,24 @@ input.hide-input {
   font-weight: 500;
   font-size: 2.75em;
   line-height: 3.375em;
+  color: #424242;
+}
+
+.card-subtitle{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 1.75em;
+  line-height: 2.375em;
+  color: #424242;
+}
+
+.card-subsubtitle{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.5em;
   color: #424242;
 }
 
@@ -1248,7 +1311,7 @@ textarea{
   }
   
   .large-inner-card {
-    width: 1000px;
+    width: 550;
   }
   
   .x-large-inner-card {

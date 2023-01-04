@@ -19,13 +19,183 @@
 <nav>
   <ul>
     <li class="float-left non-collapse"><a href="/">Tech & People Lab @ ULisboa</a></li>
+    <li class="float-left non-collapse"><a  href="/wildkey">WildKey</a></li>
     <li class="float-left non-collapse"><a class="nav-title" href="#home">WildKey Social</a></li>
     <li class="float-right collapse"><a href="/wildkeysocial/setup">Setup</a></li>
+    <li class="float-right collapse"><a href="#privacy">Privacy</a></li>
+    <li class="float-right collapse"><a href="#data">Data Collection</a></li>
   </ul>
 </nav>
 <div class="main-content">
-<div class="cards-content">
-  <h1>Page under construction</h1>
+  <div class="start-background">
+    <div id="home" class="start-container">
+      <div class="start-content">
+        <div class="start-title">
+          WildKey Social
+        </div>
+        <div class="start-sub-title">
+          A toolkit for data collection in-the-wild with privacy as a core principle of the design.
+        </div>
+        <div class="start-summary">
+          With this service you will be able to collect location, used app categories, phisycal activity, ambient light, screen states, call and SMS events.
+        </div>
+      </div>
+      <div class="start-image">
+        <img style="width: 270px; height: 480px;" src="images/social_status.png">
+      </div>
+    </div>
+  </div>
+  <div class="cards-content">
+    <section id="data">
+      <div class="card">
+        <div class="card-title">
+          Data Collection
+        </div>
+        <div class="space-evenly card-body">
+          <div class="card-column">
+            <div class="card-subtitle">
+              Communication
+            </div>
+            <div class="card-row space-between margin2">
+              <div class="card-column width400 flex-start">
+                <div class="card-subsubtitle">
+                  Call Events
+                </div>
+                <p>
+                  Wildkey Social collects the type of call event (i.e. incoming, outgoing, answered, missed), an hashed representation of the number and the date of the call.
+                </p>
+              </div>
+              <div class="card-column width400 flex-start">
+                <div class="card-subsubtitle">
+                  SMS Events
+                </div>
+                <p>
+                  Wildkey Social collects the size (in number of chars), an hashed representation of the number and the date of the received SMS.
+                </p>
+              </div>
+            </div>
+            <div class="card-subtitle">
+              Device data
+            </div>
+            <div class="card-row space-between margin2">
+              <div class="card-column width200 flex-start">
+                <div class="card-subsubtitle">
+                  Ambient Light
+                </div>
+                <p>
+                  Wildkey Social collects the ambient light in Lux for 10 seconds each 15 minutes (i.e. as long as the device is not in deep sleep).
+                </p>
+              </div>
+              <div class="card-column width200 flex-start">
+                <div class="card-subsubtitle">
+                  Battery Events
+                </div>
+                <p>
+                  Wildkey Social collects when the battery is low and when is charged.
+                </p>
+              </div>
+              <div class="card-column width200 flex-start">
+                <div class="card-subsubtitle">
+                  Screen States
+                </div>
+                <p>
+                  Wildkey Social collects when the screen is turned on and off.
+                </p>
+              </div>
+              <div class="card-column width200 flex-start">
+                <div class="card-subsubtitle">
+                  Unlock Events
+                </div>
+                <p>
+                  Wildkey Social collects the phone is unlocked.
+                </p>
+              </div>
+            </div>
+            <div class="card-subtitle">
+              User data
+            </div>
+            <div class="card-row space-between margin2">
+              <div class="card-column width400 flex-start">
+                <div class="card-subsubtitle">
+                  App Categories
+                </div>
+                <p>
+                  Wildkey Social collects the Goolge Playstore category of each open app by the user. If the app is not in the store is marcked as unknown.
+                </p>
+              </div>
+              <div class="card-column width400 flex-start">
+                <div class="card-subsubtitle">
+                  Physical Activity
+                </div>
+                <p>
+                  Wildkey Social relies on the Android Activity Recognition API to automatically detect activities (i.e. in vehicle, still, walking, running).
+                </p>
+              </div>
+            </div>
+            <div class="card-subtitle">
+              Location Data
+            </div>
+            <div class="card-row margin2">
+              For location data Wildkey Social store a list of anonymized areas where the user spends more thant 20 minutes. In each, we store how many times (and the exact time) it got a location within the boundaries of that specific area, enter/exit events, and the average accuracy of the points used to create the boundary.
+            </div>
+            <div class="card-row space-evenly">
+              <figure>
+                <figcaption>What you do</figcaption>
+                <img width="500px" src="images/what_you_do.png">
+              </figure>
+              <figure>
+                <figcaption>What we get</figcaption>
+                <img width="500px" src="images/what_we_get.png">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="privacy-aware">
+      <div class="card">
+        <div class="card-title">
+          Privacy-Aware
+        </div>
+        <div class="card-body">
+          <div class="card-row">
+            <div class="card-column">
+              <div class="inner-card large-inner-card">
+                <div class="card-subtitle">
+                  Anonymized Data
+                </div>
+                <div class="inner-card-body">
+                  <div class="inner-card-sub-title">
+                    Smartphones are becoming an extension of oneself and data privacy is of utmost importance. Approaches that seek to collect data can face difficulties recruiting and possibly additional compliance issues. Aware of these challenges, Wildkey Social follows the same paradigm as Wildkey and was developed with privacy as a core principle of the design. Within Wildkey Social all data collected by the application is anonymize and only associated with the Participant ID.
+                  </div>
+                </div>
+              </div>
+              <div class="inner-card large-inner-card">
+                <div class="card-subtitle">
+                  Right to be Forgotten
+                </div>
+                <div class="inner-card-body">
+                  <div class="inner-card-sub-title">To comply with GDPR, WildKey enables researchers to quickly download all data from a specific user, and delete it all if necessary.</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column">
+              <div class="inner-card large-inner-card">
+                <div class="outer-card-images">
+                  <div class="inner-card-images">
+                    <img alt="" class="card-image img-large" class="card-image img-large" src="images/start.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </div>
+<footer class="site-footer">
+  <div>The project was partially supported by  FCT through  LASIGE Research Unit funding, ref. UIDB/00408/2020 and ref. UIDP/00408/2020, and by the IDEA-FAST project which has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No. 853981. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation programme and EFPIA and associated partner.</div>
+</footer>
 </body>
 </html>
