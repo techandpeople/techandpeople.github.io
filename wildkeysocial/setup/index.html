@@ -34,7 +34,10 @@
     <div class="card-body">
       <div class="card-column">
         <p class="inner-card-sub-title">After&nbsp;<a href="files/wildkey-social.apk">downloading</a>&nbsp;the apk file, you will need to grant the permission to "Install unkown apps" to your browser. Normaly the phone asks for this when you click on the downloaded file. If you are not prompted to grant this permission, go to settings > applications > your browser name > Install unkown apps.</p>
-        <label for="videoInstall" class="toggle show-video-button">Video Example</label>
+        <div style="place-content: start;" class="card-row">
+          <label for="videoInstall" class="toggle show-video-button">Video Example</label>
+          <a class="download-button" href="files/wildkey-social.apk">Download App</a>
+        </div>
         <input type="checkbox" name="videoinstall" id="videoInstall" class="hide-input" checked>
         <div class="toggle-video-install">
           <video height="530px" autoplay muted loop controls>
@@ -44,6 +47,7 @@
           </video>
           Example with vivaldi, in your phone it migh be chrome or other browser.
         </div>
+
         <div class="outer-card-images">
           <div class="inner-card-images">
             <img class="card-image img-large" src="images/unkown.png">
