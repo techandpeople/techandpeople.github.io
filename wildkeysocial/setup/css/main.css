@@ -446,6 +446,14 @@ input.hide-input {
   }
 }
 
+@media (max-width: 785px ){
+
+  .download-button{
+    margin-top: 1em;
+    margin-left: 0em;
+  }
+}
+
 @media (max-width: 319px ){ /* smartphones, iPhone, portrait 480x320 phones */
 
   .card-row{
