@@ -1,6 +1,5 @@
 members:
   - tjvg
-  - acp
   - afpr
   - fbrito
   - djrb
@@ -9,12 +8,10 @@ members:
   - saa
   - fsr
   - pgp
+  - igoncalves
   - arbs
   - smeira
   - dbarros
-  - pmarques
-  - igoncalves
-  - rnogueira
   - jjan
   - dreis
   - jmorais
@@ -35,6 +32,7 @@ friends:
   - jpvg
   - jjff
   - smc
+  - acp
 #  - ewe
 #  - seba
 #  - fgp
@@ -62,6 +60,8 @@ alumni:
   - mviana
   - mpmoteiro
   - amorais
+  - pmarques
+  - rnogueira
 
 wildbydesign:
   - djrb
@@ -613,7 +613,7 @@ pmarques:
 igoncalves:
   name: Inês Gonçalves
   photo: igoncalves.jpeg
-  info: MSc Student
+  info: PhD Student
   links:
     - name: email
       url: fc49493@alunos.fc.ul.pt
