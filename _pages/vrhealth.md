@@ -90,10 +90,10 @@ Micaela has been engaged in several VR-based simulation projects, she is co-foun
 <div class="card-home card" style="padding: 0px 0px 0px 10px;">
 <div class="row row-thumb-home" style="margin-bottom: 0;">
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Using VR and Sensors for Anxiety with Children and Adolescents</a></p>
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/vrhealth/p1.pdf" target="_blank">Using VR and Sensors for Anxiety with Children and Adolescents</a></p>
 <p class="detail">João Ferreira, Filipa Ferreira-Brito, João Guerreiro and Tiago Guerreiro</p>
 <p class="detail pub-links">
-<!--[<a href="/downloads/cholakoska.pdf" target="_blank">PDF</a>]-->
+[<a href="/downloads/vrhealth/p1.pdf" target="_blank">PDF</a>]
 </p>
 </div>
 </div>
@@ -102,10 +102,10 @@ Micaela has been engaged in several VR-based simulation projects, she is co-foun
 <div class="card-home card" style="padding: 0px 0px 0px 10px;">
 <div class="row row-thumb-home" style="margin-bottom: 0;">
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Using Virtual Reality to elicit Empathy: a narrative review</a></p>
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/vrhealth/p2.pdf" target="_blank">Using Virtual Reality to elicit Empathy: a narrative review</a></p>
 <p class="detail">Emilija Kizhevska, Filipa Ferreira-Brito, Tiago Guerreiro and Mitja Lustrek</p>
 <p class="detail pub-links">
-<!--[<a href="/downloads/rodrigues.pdf" target="_blank">PDF</a>]-->
+[<a href="/downloads/vrhealth/p2.pdf" target="_blank">PDF</a>]
 </p>
 </div>
 </div>
@@ -114,10 +114,10 @@ Micaela has been engaged in several VR-based simulation projects, she is co-foun
 <div class="card-home card" style="padding: 0px 0px 0px 10px;">
 <div class="row row-thumb-home" style="margin-bottom: 0;">
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Toward scalable VR therapy solutions for individuals with Autism Spectrum Conditions: Challenges and Opportunities</a></p>
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/vrhealth/p3.pdf" target="_blank">Toward scalable VR therapy solutions for individuals with Autism Spectrum Conditions: Challenges and Opportunities</a></p>
 <p class="detail">Elio Salvadori, Giulia Mezzanotte, Silvia Gabrielli, Marco Dianti and Oscar Mayora-Ibarra</p>
 <p class="detail pub-links">
-<!--[<a href="/downloads/lukan.pdf" target="_blank">PDF</a>]-->
+[<a href="/downloads/vrhealth/p3.pdf" target="_blank">PDF</a>]
 </p>
 </div>
 </div>
@@ -126,10 +126,10 @@ Micaela has been engaged in several VR-based simulation projects, she is co-foun
 <div class="card-home card" style="padding: 0px 0px 0px 10px;">
 <div class="row row-thumb-home" style="margin-bottom: 0;">
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Facial Expression Recognition using Facial Mask with EMG Sensors</a></p>
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/vrhealth/p4.pdf" target="_blank">Facial Expression Recognition using Facial Mask with EMG Sensors</a></p>
 <p class="detail">Ivana Kiprijanovska, Borjan Sazdov, Martin Majstoroski, Simon Stankoski, Martin Gjoreski, Charles Nduka and Hristijan Gjoreski</p>
 <p class="detail pub-links">
-<!--[<a href="/downloads/peltonen.pdf" target="_blank">PDF</a>]-->
+[<a href="/downloads/vrhealth/p4.pdf" target="_blank">PDF</a>]
 </p>
 </div>
 </div>
@@ -138,10 +138,10 @@ Micaela has been engaged in several VR-based simulation projects, she is co-foun
 <div class="card-home card" style="padding: 0px 0px 0px 10px;">
 <div class="row row-thumb-home" style="margin-bottom: 0;">
 <div class="col-sm-12">
-<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="" target="_blank">Age-related performance decline detected by a virtual reality multidomain cognitive training solution (Enhance VR)</a></p>
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><a href="/downloads/vrhealth/p5.pdf" target="_blank">Age-related performance decline detected by a virtual reality multidomain cognitive training solution (Enhance VR)</a></p>
 <p class="detail">Victoria Brugada-Ramentol, Maiya Morgan, Hossein Jalali and Amir Bozorgzadeh</p>
 <p class="detail pub-links">
-<!--[<a href="/downloads/carvalho.pdf" target="_blank">PDF</a>]-->
+[<a href="/downloads/vrhealth/p5.pdf" target="_blank">PDF</a>]
 </p>
 </div>
 </div>
