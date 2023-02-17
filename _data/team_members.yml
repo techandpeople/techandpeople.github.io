@@ -151,8 +151,8 @@ saa:
     photo: saa.jpg
     info: "PhD Student"
     links:
-        - name: web
-          url: https://openlab.ncl.ac.uk/people/sergio-alves/
+        - name: twitter
+          url: https://twitter.com/sergiobalves
         - name: email
           url: sfalves@fc.ul.pt
         - name: scholar
@@ -220,7 +220,8 @@ hhss:
       - name: linkedin
         url: https://www.linkedin.com/in/hugo-simão-639594157/
       - name: scholar
-        url: https://scholar.google.com/citations?user=kxhTLLsAAAAJ&hl=pt-PT
+        url: https://scholar.google.com/citations?user=kxhTLL
+        AAJ&hl=pt-PT
 
 rmnc:
   name: Raquel Chora
