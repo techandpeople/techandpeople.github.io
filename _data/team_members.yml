@@ -157,7 +157,7 @@ saa:
           url: sfalves@fc.ul.pt
         - name: scholar
           url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
-          
+
 lvfa:
     name: "Lúcia Abreu"
     photo: lvfa.jpg
@@ -220,8 +220,7 @@ hhss:
       - name: linkedin
         url: https://www.linkedin.com/in/hugo-simão-639594157/
       - name: scholar
-        url: https://scholar.google.com/citations?user=kxhTLL
-        AAJ&hl=pt-PT
+        url: https://scholar.google.com/citations?user=kxhTLLsAAAAJ&hl=pt-PT
 
 rmnc:
   name: Raquel Chora
