@@ -9,6 +9,7 @@ members:
   - fsr
   - pgp
   - igoncalves
+  - mpmp
   - arbs
   - smeira
   - dbarros
@@ -783,3 +784,11 @@ sergi:
     institution: Universidade da Madeira and ARDITI
     photo: sergi.jpg
     url: https://neurorehabilitation.m-iti.org/lab/
+
+mpmp:
+    name: "Manuel Piçarra"
+    photo: mpmp.png
+    info: "PhD Student"
+    links:
+        - name: email
+          url: fc54136@alunos.fc.ul.pt
