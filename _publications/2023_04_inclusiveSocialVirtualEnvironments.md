@@ -11,7 +11,7 @@ title: "Inclusive Social Virtual Environments: Exploring the Acceptability of Di
 
 # publication image
 image:
-  name: virtualEnvironment.png
+  name: virtualEnvironment.jpg
   alt-text: "Montage of 5 screenshots, in a 3 by 2 grid, that illustrate our 2D virtual environment. The image on the upper left corner depicts a group of 4 avatars having a conversation, followed by an image that shows an interaction between 2 avatars, where the user's avatar is receiving audio notifcations with the name of the passerby. The third image from the top depicts the environment of the 'Teleport' and 'Auto-Walk' scenarios, where the user has access to 4 buttons disposed vertically on the top left, which indicates that there are 4 groups in the environment - Group 1, Group 2, Group 3 and Group 4. Here, the user is accessing group 1, which is shown in a popup screen next to the buttons, having 'Group 1' as a title, followed by the names of the 5 participants of that group, a button to hear a conversation preview, and another button to be automatically transported to that group. In the lower-left corner, there is an image with the total view of the room. It is a large rectangular space, with a small adjacent rectangle on the upper left corner of the room. The room is bordered by walls and trees, and it is composed by 2 groups of 3 avatars, 2 groups of 5 avatars, 2 individual avatars, and the main avatar - controlled by the user. The last image illustrates the user's avatar being guided by another avatar toward a group of 3 participants." # provide a short description for the image #a11y
 
 # short description of the publication
