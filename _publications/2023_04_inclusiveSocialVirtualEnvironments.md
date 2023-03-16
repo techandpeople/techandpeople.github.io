@@ -41,7 +41,7 @@ venue: "Extended Abstracts of the ACM Conference on Human Factors in Computing S
 year: 2023
 
 projects:
-
+ - inclusive_gaming
 
 # area for filter purpose
 area: access
