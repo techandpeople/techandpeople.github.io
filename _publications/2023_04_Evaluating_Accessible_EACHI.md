@@ -30,7 +30,9 @@ external-links:
 
  # people associated with the publication
 people:
-  - mpmp, afpr, jpvg
+  - mpmp
+  - afpr
+  - jpvg
 
 conference-name: CHI EA
 venue: "Extended Abstracts of the ACM Conference on Human Factors in Computing Systems, April, 2023"
