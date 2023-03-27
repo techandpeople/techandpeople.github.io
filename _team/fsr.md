@@ -15,4 +15,6 @@ links:
     url: fgrocha@fc.ul.pt
 ---
 
-I completed my BSc degree in 2017 and my MSc degree in 2020 both in Information Systems and Computer Engineering in Instituto Superior Técnico, University of Lisbon. During my MSc thesis, I researched on an accessible tangible programming kit for visually impaired children. I am currently pursuing a Ph.D. in Accessibility at the Faculty of Science of the University of Lisbon.
+Filipa Rocha holds Bachelor's and Master's degrees in Information Systems and Computer Engineering from Instituto Superior Técnico, University of Lisbon. She is now pursuing a Ph.D. at the University of Lisbon with Tiago Guerreiro and Hugo Nicolau as advisors.
+
+Her Ph.D. is focused on improving technology accessibility for children with visual impairments. The work is mainly focused on developing coding environments that promote collaborative work between mixed-visual ability children while training computational thinking skills.
