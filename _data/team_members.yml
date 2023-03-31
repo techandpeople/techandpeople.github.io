@@ -1,27 +1,28 @@
 members:
-  - tjvg
   - afpr
+  - jpvg
+  - tjvg
   - fbrito
+  - arbs
   - djrb
   - dmcg
-  - hhss
-  - saa
   - fsr
-  - pgp
+  - hhss
   - igoncalves
   - mpmp
-  - arbs
-  - smeira
-  - dbarros
-  - jjan
-  - dreis
-  - jmorais
+  - pgp
+  - saa
   - bnogueira
-  - mvieira
+  - dbarros
   - dfurtado
-  - rribeiro
+  - dreis
+  - jferreira  
   - jgodinho
-  - jferreira
+  - jjan
+  - jmorais
+  - mvieira
+  - rribeiro
+  - smeira
 
 friends:
   - ccbb
@@ -30,7 +31,6 @@ friends:
   - lmcarrico
   - cad
   - cpesquita
-  - jpvg
   - jjff
   - smc
   - acp
@@ -92,7 +92,7 @@ vrhealth:
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
-    info: "Group Leader"
+    info: "Ph.D., Associate Professor"
     institution: "LASIGE, Universidade de Lisboa"
     url: https://tjvguerreiro.github.io
     links:
@@ -106,7 +106,7 @@ tjvg:
 afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
-    info: "Inclusive Gaming Lead"
+    info: "Ph.D., Research Associate"
     institution: "LASIGE, Universidade de Lisboa"
     url: https://techandpeople.github.io/team/afpr.html
     links:
@@ -325,7 +325,7 @@ jpvg:
   redirect: https://www.di.fc.ul.pt/~jguerreiro/
   url: https://www.di.fc.ul.pt/~jguerreiro/
   institution: LASIGE, Universidade de Lisboa
-  info: LASIGE, ULisboa
+  info: Ph.D., Assistant Professor
   links:
     - name: web
       url: https://www.di.fc.ul.pt/~jguerreiro/

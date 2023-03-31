@@ -15,4 +15,4 @@ links:
       url: fc49493@alunos.fc.ul.pt
 ---
 
-I completed my BSc degree in Informatics Engineering at the Faculty of Sciences of the University of Lisbon. I am now a MSc student in Informatics Engineering in the specialization curricular grouping of Human-Computer Interaction, in the same institution. My MSc thesis consists of developing virtual environments for inclusive online conferences and meetings.
+I completed my Bachelor's and Master's degrees in Informatics Engineering, both at the Faculty of Sciences of the University of Lisbon. During my master's dissertation project, I investigated and explored the social acceptability of different navigation methods and awareness techniques in social virtual environments for people with visual impairments. I am currently working on a project entitled "Virtual Reality Accessible to Visually Impaired People", that consists in the implementation of a virtual environment accessible to blind people to test various navigation and audio feedback solutions, allowing users to understand their surroundings. It includes performing studies with blind people and analysing such studies.
