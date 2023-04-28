@@ -1,6 +1,5 @@
 ---
 title: "Workshop on Virtual Reality for Health and Wellbeing @ MUM 2022"
-"
 layout: vr
 excerpt: "Workshop on Virtual Reality for Health and Wellbeing"
 sitemap: false
