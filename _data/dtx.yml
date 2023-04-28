@@ -1,0 +1,8 @@
+highlights:
+  - Figure1
+
+
+Figure1:
+    photo: Figure1.jpg
+    alt: "a digital image of DNA and binary code"
+    caption: A digital image of DNA and binary code
