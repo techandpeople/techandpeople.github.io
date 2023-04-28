@@ -1,6 +1,5 @@
 ---
 title: "Workshop on Digital Therapeutics Evolution: What kind of research will make the difference in this area? @ Ubicomp 2023"
-"
 layout: dtx
 excerpt: "Workshop on Digital Therapeutics Evolution. What kind of research will make the difference in this area?"
 sitemap: false
