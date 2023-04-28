@@ -2,7 +2,7 @@
 title: "Workshop on Digital Therapeutics Evolution: What kind of research will make the difference in this area? @ Ubicomp 2023"
 "
 layout: dtx
-excerpt: "Workshop on Digital Therapeutics Evolution - What kind of research will make the difference in this area?"
+excerpt: "Workshop on Digital Therapeutics Evolution. What kind of research will make the difference in this area?"
 sitemap: false
 permalink: /dtx/
 ---
@@ -75,7 +75,7 @@ The objective of this workshop is to address the main challenges for achieving t
 To achieve these goals and others, we hope to bring together the virtual reality, digital health, ubiquitous computing, sensor development, machine learning, digital health, clinical, HCI and accessibility communities. Through this workshop, participants will be able to share real-life deployment experiences, tools, challenges, and discuss designs and technology goals for future research.
 </p>
 
-<h1 id="submission">Submission details:</h2>
+<h1 id="submission">Submission details:</h1>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submitted papers must be no longer than 5 pages of content and 1 page for references. Each submission will be reviewed by a minimum of two workshop PC members or organisers. Successful papers will have the ability to generate discussions, provide insights to other attendees, and highlight open challenges and potential solutions. All accepted publications will be featured on ACM Digital Library. It is required that at least one author of each accepted paper registers for the conference and the workshop. During the workshop, a representative author will briefly present each paper, and there will be ample opportunity for further discussions.</p>
 
@@ -85,9 +85,9 @@ To achieve these goals and others, we hope to bring together the virtual reality
 <h2 id="dates">Important Dates</h2>
 
 <ul>
-    <li>Submission deadline: October 23rd, 2022 (extended)</li>
-    <li>Notification: October 27th, 2022</li>
-    <li>Workshop: November 27th, 2022</li>
+    <li>Submission deadline: May 26th, 2023</li>
+    <li>Notification: June 30th, 2023</li>
+    <li>Workshop: October 8th, 2023</li>
 </ul>
 
 
