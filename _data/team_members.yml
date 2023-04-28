@@ -89,6 +89,14 @@ vrhealth:
   - sergi
   - tjvg
 
+dtx:
+  - oscar
+  - bert
+  - mitja
+  - fbrito
+  - tjvg
+  - hristijan
+
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
@@ -772,6 +780,12 @@ mitja:
     photo: mitja.jpg
     institution: Jožef Stefan Institute
     url: https://dis.ijs.si/mitjal/
+
+bert:
+    name: "Bert Arnrich"
+    photo: bert.jpg
+    institution: Hasso Platter Institute
+    url: https://hpi.de/arnrich/people/prof-dr-bert-arnrich.html
 
 emilija:
     name: "Emilija Kizhevska"
