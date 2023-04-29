@@ -37,8 +37,8 @@ people:
   - jferreira
 
 conference-name: VR4Health
-venue: "Workshop on irtual Reality for Health and Wellbeing at MUM 2022"
-year: 2021
+venue: "Workshop on Virtual Reality for Health and Wellbeing at MUM 2022"
+year: 2022
 
 projects:
  - data_driven_healthcare
