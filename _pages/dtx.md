@@ -6,9 +6,9 @@ sitemap: false
 permalink: /dtx/
 ---
 
-<h1>Workshop on Digital Theurapeutics Evolution: What kind of research will make the difference in this area?</h1>
+<h1>Workshop on Digital Therapeutics Evolution: What kind of research will make the difference in this area?</h1>
 
-<h3>At <a href="https://www.ubicomp.org/ubicomp-iswc-2023/">Ubicomp 2023</a>, October 8th, Cancun, Mexico</h3>
+<h3>At <a href="https://www.ubicomp.org/ubicomp-iswc-2023/">Ubicomp 2023</a>, October 8th or 9th, Cancun, Mexico</h3>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
@@ -76,7 +76,14 @@ To achieve these goals and others, we hope to bring together the virtual reality
 
 <h1 id="submission">Submission details:</h1>
 
-<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submitted papers must be no longer than 5 pages of content and 1 page for references. Each submission will be reviewed by a minimum of two workshop PC members or organisers. Successful papers will have the ability to generate discussions, provide insights to other attendees, and highlight open challenges and potential solutions. All accepted publications will be featured on ACM Digital Library. It is required that at least one author of each accepted paper registers for the conference and the workshop. During the workshop, a representative author will briefly present each paper, and there will be ample opportunity for further discussions.</p>
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">Submitted papers must be no longer than 4 pages of content and 1 page for references in ACM sigconf template with 2 columns. ACM Template can be found here: <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a></p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+Each submission will be reviewed by a minimum of two workshop PC members or organisers. Successful papers will have the ability to generate discussions, provide insights to other attendees, and highlight open challenges and potential solutions.  It is required that at least one author of each accepted paper registers for the conference and the workshop. During the workshop, a representative author will briefly present each paper, and there will be ample opportunity for further discussions.</p>
+
+<p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
+The accepted papers will be published in the UbiComp/ISWC Adjunct Proceedings, which will be included in the ACM Digital Library as part of the UbiComp conference supplemental proceedings.</p>
+
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">All papers need to be anonymised. Submissions and any questions should be mailed to <a href="mailto:dtx.workshop.ubicomp23@gmail.com">dtx.workshop.ubicomp23@gmail.com</a></p>
 
@@ -84,9 +91,9 @@ To achieve these goals and others, we hope to bring together the virtual reality
 <h2 id="dates">Important Dates</h2>
 
 <ul>
-    <li>Submission deadline: May 26th, 2023</li>
+    <li>Submission deadline: June 2nd (AoE), 2023</li>
     <li>Notification: June 30th, 2023</li>
-    <li>Workshop: October 8th, 2023</li>
+    <li>Workshop: October 8th or 9th, 2023</li>
 </ul>
 
 
