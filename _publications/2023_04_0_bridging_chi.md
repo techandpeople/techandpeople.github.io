@@ -22,7 +22,7 @@ description: "In this position paper, we reflect about the challenges of adoptio
 authors: Filipa Ferreira-Brito
 
 # link to the pdf
-pdf: ./downloads/brito_chi_ws.pdf
+pdf: ../downloads/brito_chi_ws.pdf
 
 # external-links:
 #  - name: Presentation Video
