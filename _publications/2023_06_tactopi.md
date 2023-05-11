@@ -12,7 +12,7 @@ title: "TACTOPI: Exploring Play with an Inclusive Multisensory Environment for C
 # publication image
 image:
  name: tactopi.png
- alt-text: "Purple gradient background with Braille inscriptions. On the left, two children using the helm, followed by a drawing of the robot, then a photo of children using TACTOPI during the activity. On the right, a child with a speech balloon "It seems to be a star", a blue 3D printed turtle with a speech balloon "I'm the turtle". On the bottom right, the turtle challenge card." # provide a short description for the image #a11y
+ alt-text: "Purple gradient background with Braille inscriptions. On the left, two children using the helm, followed by a drawing of the robot, then a photo of children using TACTOPI during the activity. On the right, a child with a speech balloon 'It seems to be a star', a blue 3D printed turtle with a speech balloon 'I'm the turtle'. On the bottom right, the turtle challenge card." # provide a short description for the image #a11y
 
 # short description of the publication
 description: "We present TACTOPI, an inclusive and playful multisensory environment that leverages tangible interaction and a robot as the main character. We investigate how TACTOPI supports play in 10 dyads of children with mixed visual abilities. We also contribute with a playful multisensory
