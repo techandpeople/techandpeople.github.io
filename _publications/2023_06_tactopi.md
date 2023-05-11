@@ -19,7 +19,7 @@ description: "We present TACTOPI, an inclusive and playful multisensory environm
 environment, an analysis of the efect of its components on social, cognitive, and inclusive play, and design considerations for inclusive multisensory environments that prioritize play."
 
 # authors of the publication
-authors: Ana Pires, Lúcia Abreu, Filipa Rocha, Hugo Simão, JoÃ£o Guerreiro, Tiago Guerreiro, Hugo Nicolau
+authors: Ana Pires, Lúcia Abreu, Filipa Rocha, Hugo Simão, João Guerreiro, Tiago Guerreiro, Hugo Nicolau
 
 # link to the pdf
 pdf: ../downloads/IDC2023_TACTOPI.pdf
