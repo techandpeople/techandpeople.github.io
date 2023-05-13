@@ -9,7 +9,7 @@ layout: bio
 
 title: "Tiago Guerreiro"
 photo: tjvg.png
-info: "Assistant Professor, Group Leader"
+info: "Associate Professor, Group Coordinator"
 links:
     - name: web
       url: https://tjvguerreiro.github.io
