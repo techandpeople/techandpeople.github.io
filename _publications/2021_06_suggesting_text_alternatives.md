@@ -38,6 +38,7 @@ people:
   - jpvg
   - cad
   - arbs
+  - lsp
 
 
 conference-name: SIGACCESS
