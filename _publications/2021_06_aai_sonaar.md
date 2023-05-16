@@ -37,6 +37,8 @@ people:
   - afpr
   - jpvg
   - arbs
+  - lsp
+  - cad
 
 conference-name: WebSci
 venue: "13th ACM Web Science Conference"
