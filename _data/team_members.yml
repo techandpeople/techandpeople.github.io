@@ -2,6 +2,7 @@ members:
   - afpr
   - jpvg
   - tjvg
+  - lsp
   - fbrito
   - arbs
   - djrb
@@ -806,3 +807,14 @@ mpmp:
     links:
         - name: email
           url: fc54136@alunos.fc.ul.pt
+
+lsp: 
+  name: "Letícia Seixas Pereira"
+  photo: lsp.jpg
+  info: "Ph.D., Assistant Researcher"
+  institution: "LASIGE, Universidade de Lisboa"
+  links:
+        - name: email
+          url: lspereira@ciencias.ul.pt
+        - name: scholar
+          url: https://scholar.google.com/citations?user=ogiKAqwAAAAJ&hl=en
