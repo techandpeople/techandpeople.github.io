@@ -1,9 +1,9 @@
 members:
   - afpr
   - cad
+  - lsp
   - jpvg
   - tjvg
-  - lsp
   - fbrito
   - arbs
   - djrb
@@ -115,7 +115,7 @@ tjvg:
 afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
-    info: "Ph.D., Research Associate"
+    info: "Ph.D., Assistant Professor"
     institution: "LASIGE, Universidade de Lisboa"
     url: https://techandpeople.github.io/team/afpr.html
     links:
@@ -125,6 +125,15 @@ afpr:
           url: afrodrigues@fc.ul.pt
         - name: scholar
           url: https://scholar.google.com/citations?user=zZd_sZYAAAAJ
+          
+cad:
+  name: Carlos Duarte
+  photo: cad.jpeg
+  info: Ph.D., Associate Professor
+  url: https://techandpeople.github.io/team/cad.html
+  links:
+    - name: web
+      url: http://www.di.fc.ul.pt/~cad/
 
 arbs:
     name: "André Santos"
@@ -378,15 +387,6 @@ lmcarrico:
   links:
     - name: web
       url: https://ciencias.ulisboa.pt/en/perfil/lmcarrico
-
-cad:
-  name: Carlos Duarte
-  photo: cad.jpeg
-  info: Associate Professor
-  redirect: http://www.di.fc.ul.pt/~cad/
-  links:
-    - name: web
-      url: http://www.di.fc.ul.pt/~cad/
 
 cpesquita:
   name: Cátia Pesquita
