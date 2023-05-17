@@ -1,5 +1,6 @@
 members:
   - afpr
+  - cad
   - jpvg
   - tjvg
   - lsp
@@ -30,7 +31,6 @@ friends:
   - kkmm
   - hhnn
   - lmcarrico
-  - cad
   - cpesquita
   - jjff
   - smc
@@ -382,7 +382,7 @@ lmcarrico:
 cad:
   name: Carlos Duarte
   photo: cad.jpeg
-  info: LASIGE, ULisboa
+  info: Associate Professor
   redirect: http://www.di.fc.ul.pt/~cad/
   links:
     - name: web
