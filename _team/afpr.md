@@ -9,7 +9,7 @@ layout: bio
 code: "afpr"
 title: "André Rodrigues"
 photo: afpr.jpg
-info: "PostDoc Researcher"
+info: "Assistant Professor"
 links:
    - name: web
      url: https://andrefprodrigues.github.io/
