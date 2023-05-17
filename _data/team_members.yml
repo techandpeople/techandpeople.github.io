@@ -127,13 +127,13 @@ afpr:
           url: https://scholar.google.com/citations?user=zZd_sZYAAAAJ
           
 cad:
-  name: Carlos Duarte
-  photo: cad.jpeg
-  info: Ph.D., Associate Professor
-  url: https://techandpeople.github.io/team/cad.html
-  links:
-    - name: web
-      url: http://www.di.fc.ul.pt/~cad/
+    name: Carlos Duarte
+    photo: cad.jpeg
+    info: Ph.D., Associate Professor
+    url: https://techandpeople.github.io/team/cad.html
+    links:
+      - name: web
+        url: http://www.di.fc.ul.pt/~cad/
 
 arbs:
     name: "André Santos"
