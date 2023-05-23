@@ -347,6 +347,10 @@ jpvg:
   links:
     - name: web
       url: https://www.di.fc.ul.pt/~jguerreiro/
+    - name: email
+      url: jpguerreiro@fc.ul.pt
+    - name: scholar
+      url: https://scholar.google.com/citations?user=Cf5OKPgAAAAJ
 
 kkmm:
   name: Kyle Montague
