@@ -134,6 +134,14 @@ cad:
     links:
       - name: web
         url: http://www.di.fc.ul.pt/~cad/
+      - name: email
+        url: caduarte@campus.ul.pt
+      - name: scholar
+        url: https://scholar.google.com/citations?user=I7hcyJgAAAAJ
+      - name: twitter
+        url: https://twitter.com/carlosapaduarte
+      - name: linkedin
+        url: https://www.linkedin.com/in/carlos-duarte-9951b413/
 
 arbs:
     name: "André Santos"
