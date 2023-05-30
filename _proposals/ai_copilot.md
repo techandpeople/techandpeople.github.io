@@ -7,7 +7,7 @@ layout: proposal
 ###############
 # TO EDIT
 # pub title
-title: "AI Co-Pilot for Authoring Accessible"
+title: "AI Co-Pilot for Authoring Accessible Web Content"
 
 # publication image
 image:
