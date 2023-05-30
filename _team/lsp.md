@@ -12,7 +12,7 @@ photo: lsp.jpg
 info: Assistant Researcher
 links:
   - name: email
-    url: lspereira@ciencias.ul.pt
+    url: lspereira@ciencias.ulisboa.pt
   - name: scholar
     url: https://scholar.google.com/citations?user=ogiKAqwAAAAJ&hl=en
 
