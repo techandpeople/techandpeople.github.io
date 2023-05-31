@@ -21,7 +21,7 @@ description: "Recent technological advances have led to the development of senso
 authors: Raquel Bouça-Machado, Linda Azevedo Kaupilla, Tiago Guerreiro, Joaquim J. Ferreira
 
 # link to the pdf
-pdf: ../downloads/embc2023.pdf
+pdf: https://doi.org/10.1016/bs.irmvd.2023.04.007
 
 # external-links:
 #  - name: Presentation Video
