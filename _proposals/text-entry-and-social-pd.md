@@ -1,3 +1,9 @@
+---
+###############
+# DO NOT EDIT
+layout: proposal
+###############
+
 ###############
 # TO EDIT
 # pub title
@@ -6,8 +12,8 @@ title: "Text-entry and Digital Social Interactions as Digital Endpoints of Neuro
 selected: true
 
 # publication image
-Image: 2015_writtingasset.jpg
-name: 
+Image:
+ name: 2015_writtingasset.jpg
  alt-text: "keyboard scheme with dots representing each of the collected touch points. Each key as dots from a different color. There is a concentration of dots on the most used keys (e.g. a, s and space)." # provide a short description for the image #a11y
 
 
