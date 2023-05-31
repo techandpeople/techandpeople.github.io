@@ -9,7 +9,7 @@ layout: proposal
 # pub title
 title: "Interactive Voice Response Systems for Parkinsons Disease"
 
-selected: true
+
 
 # publication image
 Image:
