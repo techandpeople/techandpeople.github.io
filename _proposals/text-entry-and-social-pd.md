@@ -9,7 +9,7 @@ layout: proposal
 # pub title
 title: "Text-entry and Digital Social Interactions as Digital Endpoints of Neurodegenerative Diseases"
 
-selected: true
+
 
 # publication image
 Image:
