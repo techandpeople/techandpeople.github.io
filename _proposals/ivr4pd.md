@@ -1,7 +1,7 @@
 ###############
 # TO EDIT
 # pub title
-title: "Interactive Voice Response Systems for Parkinson's Disease"
+title: "Interactive Voice Response Systems for Parkinsons Disease"
 
 selected: true
 
