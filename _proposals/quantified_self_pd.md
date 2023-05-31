@@ -1,13 +1,19 @@
+---
+###############
+# DO NOT EDIT
+layout: proposal
+###############
+
 ###############
 # TO EDIT
 # pub title
 title: "Quantified Self and Experimentation in Parkinson’s Disease"
 
-selected: true
+
 
 # publication image
-Image: quantified.jpg
-name: 
+Image: 
+ name: quantified.jpg
  alt-text: "A cartoon of a man with several wearables (head, wrist, waist) indicating several data those devices are collecting" # provide a short description for the image #a11y
 
 
