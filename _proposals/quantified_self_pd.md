@@ -9,7 +9,7 @@ layout: proposal
 # pub title
 title: "Quantified Self and Experimentation in Parkinson’s Disease"
 
-selected: true
+
 
 # publication image
 Image: 
