@@ -6,7 +6,7 @@ title: "Interactive Voice Response Systems for Parkinson’s Disease"
 selected: true
 
 # publication image
-Image: 
+Image:
  name: pd.jpg
  alt-text: "Charts with classifications of on, off, and sleep stages" # provide a short description for the image #a11y
 
