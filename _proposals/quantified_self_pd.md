@@ -1,3 +1,9 @@
+---
+###############
+# DO NOT EDIT
+layout: proposal
+###############
+
 ###############
 # TO EDIT
 # pub title
