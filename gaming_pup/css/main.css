@@ -22,7 +22,12 @@ nav{
   position: sticky;
   top: 0;
   z-index: 999999;
-  padding: 0 150px 0 150px;
+}
+
+@media screen and (min-width: 640px) {
+  nav{
+    padding: 0 150px 0 150px;
+  }
 }
 
 nav ul {
