@@ -36,6 +36,8 @@ work: "In this topic, you will explore how Large Language Models can be used to 
 people:
  - jpvg
  - jc
+ - cad
+ - lsp
 
 ###
 ---

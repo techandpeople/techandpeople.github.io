@@ -91,7 +91,7 @@ The accepted papers will be published in the UbiComp/ISWC Adjunct Proceedings, w
 <h2 id="dates">Important Dates</h2>
 
 <ul>
-    <li>Submission deadline: June 2nd (AoE), 2023</li>
+    <li>Submission deadline: June 15th (AoE), 2023 (EXTENDED)</li>
     <li>Notification: June 30th, 2023</li>
     <li>Workshop: October 8th or 9th, 2023</li>
 </ul>
