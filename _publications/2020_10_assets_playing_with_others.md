@@ -10,9 +10,9 @@ layout: publication
 title: "Playing With Others: Depicting Multiplayer Gaming Experiences of People With Visual Impairments"
 
 # publication image
-#image:
-# name: 
-# alt-text: " " # provide a short description for the image #a11y
+image:
+ name: 2020_playingwithothers.png
+ alt-text: "It shows four colorful bar charts."
 
 # short description of the publication
 description: "We share multiplayer gaming experiences of people with visual impairments collected from interviews with 10 adults and 10 minors, and 140 responses to an online survey. We include the perspectives of 17 sighted people who play with someone who has a visual impairment, collected in a second online survey. Our focus is on group play, particularly on the problems and opportunities that arise from mixed-visual-ability scenarios. These show that people with visual impairments are playing diverse games, but face limitations in playing with others who have different visual abilities."

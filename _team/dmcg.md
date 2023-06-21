@@ -9,7 +9,7 @@ layout: bio
 code: dmcg
 title: "David Gonçalves"
 photo: dmcg.png
-info: MSc Student
+info: PhD Student
 links:
    - name: email
      url: davidslycooper@hotmail.com
@@ -19,4 +19,4 @@ I've finished my BSc in Graphic Design. During three years, I developed several 
 
 Driven by an ambition to create software and, more specifically, video games, I enrolled in a MSc in Informatics, which I completed at the end of 2020. My MSc dissertation focused on designing games for groups with mixed visual abilities, leveraging the design of asymmetric ability-based roles. Working closely with people with visual impairments, I developed games that offered the opportunity for friends and family to share a moment of conviviality, not readily available elsewhere. 
 
-I started my PhD in 2021, inspired by the social relevance of digital play, and potential to open doors to a more inclusive society.
+I started my PhD in 2021, inspired by the social relevance of digital play, and potential to open doors to a more inclusive society. In my PhD thesis, I aim to operationalize asymmetry and modularity in game design to enable radically different styles of play in the same game. I expect to create and promote multiplayer gaming that caters to different player needs and preferences, while maintaining the benefits of a shared experience.
