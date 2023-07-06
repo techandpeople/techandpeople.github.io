@@ -23,9 +23,9 @@ authors: Beatriz Martins, Carlos Duarte
 # link to the pdf
 pdf: ../downloads/largescale_uais2023.pdf
 
-# external-links:
-#  - name: Presentation Video
-#    url: https://www.youtube.com/watch?v=fGqf6sBF4eE&feature=youtu.be
+external-links:
+ - name: DOI
+   url: https://doi.org/10.1007/s10209-023-01010-0
 
  # people associated with the publication
 people:
