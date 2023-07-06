@@ -1,0 +1,112 @@
+---
+# intentionally left blank
+---
+
+<html lang="en">
+  <head>
+  <title>Tech & People Gaming</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
+  <link rel="stylesheet" href="css/main.css"><link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-147082480-1', 'auto');
+    ga('send', 'pageview');
+  </script>  
+</head>
+<body>
+<nav>
+  <ul>
+    <li class="float-left non-collapse"><a href="/">Tech & People Lab @ ULisboa</a></li>
+    <li class="float-left non-collapse"><a class="nav-title" href="#home">Gaming</a></li>
+    <li class="float-left non-collapse"><a href="/gaming_pup">Plug n' Play Project</a></li>
+    <li class="float-right collapse"><a href="#contact">Contact</a></li>
+    <li class="float-right collapse"><a href="#games">Games</a></li>
+    <li class="float-right collapse"><a href="#publications">Publications</a></li>
+  </ul>
+</nav>
+<div class="main-content-gaming">
+  <div class="start-background-gaming">
+    <div id="home" class="start-container-gaming">
+      <div class="start-content-gaming">
+        <div class="start-title-gaming">
+          Inclusive gaming
+        </div>
+        <div class="start-summary-gaming">
+          We frame the act of playing games with others as a way to reinforce social bonds, reduce stigma, enhance social support and inclusion.
+        </div>
+        <div class="start-image">
+          <img alt="Alt desc." class="imgback" src="images/imgback.png">
+          <!-- <video title="Short gif showcasing the different interfaces of wildkey. First a user writting with a standard looking keyboard. Then it goes through the transcription, composition and questionnaire interfaces described also below." width="270" height="480" autoplay muted loop> 
+            <source src="video/demo.webm" type="video/webm">
+            <source src="video/demo.mov" type='video/mp4; codecs="hvc1"'>
+            Your browser does not support the video.
+          </video>
+          -->
+        </div>
+        <!-- <div class="play-store-bt">
+          <img alt="Google Play Demo to be available" id="myImageGray" src="images/google-play-badge.png">
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="cards-content">
+ 
+  <section id="publications">
+    <div class="publications">
+    </div>
+  <div class="card">
+    <div class="card-title">
+      Publications
+    </div>
+    <div class="card-body">
+      {% assign reversed_pubs = site.publications | reverse %}
+      {% for publication in reversed_pubs %}
+        {% if publication.projects contains "inclusive_gaming" %}
+          {% include publication.html pub=publication %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  </section>
+
+  <section id="games">
+    <div class="card">
+      <div class="card-title">
+        Games
+      </div>
+      <div class="card-body">
+        {% assign reversed_games = site.games | reverse %}
+        {% for game in reversed_games %}
+          {% include game.html g=game %}
+        {% endfor %}
+      </div>
+    </div>
+    </section>
+
+    <section id="contact">
+      <div class="card">
+        <div class="card-title">
+          Contact
+        </div>
+        <div class="card-body">
+          Get in touch! Reach out to us at <a style="padding-left: 0.4em;" href="mailto:inclusivegamingtech@googlegroups.com">inclusivegamingtech@googlegroups.com</a>.
+        </div>
+      </div>
+      </section>
+
+</div>
+<footer class="site-footer">
+  <div></div>
+</footer>
+</body>
+</html>

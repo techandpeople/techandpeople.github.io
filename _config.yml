@@ -18,6 +18,7 @@ url: ""
 include:
   - .htaccess
   - _pages
+  - gaming
 
 sass:
   sass_dir: _sass
@@ -33,6 +34,8 @@ collections:
   projects:
     output: true
   publications:
+    output: true
+  games:
     output: true
   team:
     output: true

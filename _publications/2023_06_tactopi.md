@@ -38,7 +38,7 @@ people:
   - tjvg
   - hhnn
 
-conference-name: CHI
+conference-name: IDC
 venue: "ACM Interaction Design and Children, June, 2023"
 year: 2023
 

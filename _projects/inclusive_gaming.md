@@ -12,11 +12,11 @@ title: "Inclusive Gaming"
 
 # project image
 image:
- name: inclusive_gaming.jpg
+ name: inclusive_gaming.png
  alt-text: "A screenshot of the assistive play donor application. On the top side it shows a screenshot of fruit ninja with two traces, of two different swipes. Below a list of options to annotate which actions those traces correspond to. Finally, in the last third of the image, a timeline is shown with the limits of each gestured identified by the app." # provide a short description for the image #a11y
 
 # short description of the project
-description: "Embracing mixed-ability gaming! By acknowledging that different games already require different skills from players we are exploring how games can be designed to leverage this asymmetry based on abilities."
+description: "By acknowledging that players have different needs and preferences, we explore strategies to create gaming experiences that are more engaging and inclusive to everyone!"
 
 # people associated with the project
 people:
@@ -29,6 +29,13 @@ code: inclusive_gaming
 
 # area for filter purpose
 area: access
+
+link: /gaming/
+
+tool: true
+
+color: "#343a40"
+
 ###############
 
 ###############
