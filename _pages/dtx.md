@@ -8,7 +8,7 @@ permalink: /dtx/
 
 <h1>Workshop on Digital Therapeutics Evolution: What kind of research will make the difference in this area?</h1>
 
-<h3>At <a href="https://www.ubicomp.org/ubicomp-iswc-2023/">Ubicomp 2023</a>, October 8th or 9th, Cancun, Mexico</h3>
+<h3>At <a href="https://www.ubicomp.org/ubicomp-iswc-2023/">Ubicomp 2023</a>, October 8th, Cancun, Mexico</h3>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
@@ -117,7 +117,7 @@ The accepted papers will be published in the UbiComp/ISWC Adjunct Proceedings, w
 <ul>
     <li>Submission deadline: June 15th (AoE), 2023 (EXTENDED)</li>
     <li>Notification: June 30th, 2023</li>
-    <li>Workshop: October 8th or 9th, 2023</li>
+    <li>Workshop: October 8th, 2023</li>
 </ul>
 
 
