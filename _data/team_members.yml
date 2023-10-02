@@ -18,7 +18,7 @@ members:
   - dbarros
   - dfurtado
   - dreis
-  - jferreira  
+  - jferreira
   - jgodinho
   - jjan
   - jmorais
@@ -125,7 +125,7 @@ afpr:
           url: afrodrigues@fc.ul.pt
         - name: scholar
           url: https://scholar.google.com/citations?user=zZd_sZYAAAAJ
-          
+
 cad:
     name: Carlos Duarte
     photo: cad.jpeg
@@ -830,3 +830,12 @@ lsp:
           url: lspereira@ciencias.ulisboa.pt
         - name: scholar
           url: https://scholar.google.com/citations?user=ogiKAqwAAAAJ&hl=en
+
+pptt:
+    name: "Pedro Trindade"
+    photo: pptt.jpg
+    info:  PhD Student
+    institution: "LASIGE, Universidade de Lisboa"
+    links:
+        - name: email
+          url: fc51961@alunos.fc.ul.pt
