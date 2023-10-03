@@ -13,7 +13,7 @@ members:
   - igoncalves
   - mpmp
   - pgp
-  - pptt
+  - ptrindade
   - saa
   - bnogueira
   - dbarros
@@ -832,7 +832,7 @@ lsp:
         - name: scholar
           url: https://scholar.google.com/citations?user=ogiKAqwAAAAJ&hl=en
 
-pptt:
+ptrindade:
     name: "Pedro Trindade"
     photo: pptt.jpg
     info:  PhD Student
