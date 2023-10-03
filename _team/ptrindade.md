@@ -5,7 +5,7 @@ layout: bio
 ###############
 ###############
 # TO EDIT
-code: pptt
+code: ptrindade
 title: "Pedro Trindade"
 photo: pptt.jpg
 info: PhD Student
