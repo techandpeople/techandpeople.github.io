@@ -9,7 +9,7 @@ layout: publication
 # pub title
 title: "Promoting Family Play through Asymmetric Game Design"
 
-publication image
+# publication image
 image:
   name: 2023_09_promoting_family_play.jpg
   alt-text: "A montage of two screenshots, one from the desktop version and the other from the mobile version. In the desktop version, you can see the player character in a room with 2D top-down visuals and the controls imprinted on the room's floor. In the mobile version, you can see the unlocks tab of the shop, with multiple unlocks appearing and a visualization of the shop on the bottom part of the screen." # provide a short description for the image #a11y
