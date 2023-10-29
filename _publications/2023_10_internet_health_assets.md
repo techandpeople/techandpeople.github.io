@@ -21,7 +21,7 @@ description: "We investigate the impacts of optimising the page selection proces
 authors: Luís Carvalho, Tiago Guerreiro, Shaun Lawson, Kyle Montague
 
 # link to the pdf
-# pdf: ../downloads/assets22-35.pdf
+pdf: https://drive.google.com/file/d/1VKWyzZ-gQbB3jRhPVBiEOhFEyziWtUdI/view?usp=sharing
 
 # external-links:
 #  - name: Presentation Video
