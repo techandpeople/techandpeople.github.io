@@ -327,6 +327,15 @@ input.hide-input {
   color: #424242;
 }
 
+.inner-card-sub-title {
+  display: flex;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1em;
+  margin: 1em 0 1em 0;
+  color: #424242;
+}
+
 .inner-card-icon{
   display: flex;
   justify-content: center;
