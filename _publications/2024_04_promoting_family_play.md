@@ -37,8 +37,8 @@ people:
   - afpr
 
 conference-name: CSCW
-venue: "Computer-Supported Cooperative Work, September, 2023"
-year: 2023
+venue: "ACM Conference on Computer-Supported Cooperative Work and Social Computing, October, 2024"
+year: 2024
 
 projects:
   - gaming_pup
