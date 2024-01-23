@@ -42,6 +42,7 @@ year: 2024
 
 projects:
   - gaming_pup
+  - inclusive_gaming
 
 # area for filter purpose
 area: access
