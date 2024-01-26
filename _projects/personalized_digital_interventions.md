@@ -23,6 +23,7 @@ people:
  - tjvg
  - hhss
  - djrb
+ - saa
 
 # project code
 code: personalized_digital_interventions

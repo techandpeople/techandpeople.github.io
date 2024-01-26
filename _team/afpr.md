@@ -11,8 +11,6 @@ title: "André Rodrigues"
 photo: afpr.jpg
 info: "Assistant Professor"
 links:
-   - name: web
-     url: https://andrefprodrigues.github.io/
    - name: email
      url: afrodrigues@fc.ul.pt
    - name: scholar
@@ -20,5 +18,5 @@ links:
 
 ---
 
-I received my PhD with distinction and honour in 2020 with the topic Human-Powered Smartphone Assistance for Blind People. The last six years have been dedicated to developing and evaluating mobile services, applications and platforms for a variety of contexts and user groups (e.g. people with visual and/or motor impairments, people experiencing homelessness). I am an HCI researcher with a particular interest in how technology can and is leveraged in accessibility, health and gaming. I currently serve as SIGACCESS Newsletter editor. 
+I received my PhD with distinction and honour in 2020 with the topic of Human-Powered Smartphone Assistance for Blind People. The last six years have been dedicated to developing and evaluating mobile services, applications and platforms for a variety of contexts and user groups (e.g. people with visual and/or motor impairments people experiencing homelessness). I am an HCI researcher interested in how technology can and is leveraged in accessibility, health and gaming.
 

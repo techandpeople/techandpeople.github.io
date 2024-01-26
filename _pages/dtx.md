@@ -8,7 +8,7 @@ permalink: /dtx/
 
 <h1>Workshop on Digital Therapeutics Evolution: What kind of research will make the difference in this area?</h1>
 
-<h3>At <a href="https://www.ubicomp.org/ubicomp-iswc-2023/">Ubicomp 2023</a>, October 8th or 9th, Cancun, Mexico</h3>
+<h3>At <a href="https://www.ubicomp.org/ubicomp-iswc-2023/">Ubicomp 2023</a>, October 8th, Cancun, Mexico</h3>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="false">
@@ -53,6 +53,30 @@ The latest advances in technology and regulatory frameworks on healthcare enable
 Health is one of the main applications areas of ubiquitous technology with a huge potential impact on the society. Medicine can sometimes be conservative, and while consumer devices and applications have long embraced this technology to drive applications for health management and behaviour change, DTx solutions – which can be considered their clinical counterpart – are still in their infancy. With a focus on the development and design of new DTx solutions, the present workshop aims to contribute to the dissemination and discussion of pervasive and ubiquitous computing technologies. In addition, by gathering insights and providing a space for knowledge sharing between researchers, students and other enthusiasts of DTx, we aim to contribute to the identification of practical, large-scale solutions that can be easily implemented in real-world settings. 
 </p>
 
+
+<h1 id="schedule">Schedule</h1>
+
+
+* [09:00] Opening
+* [09:15 - 10:00] Session 1: DTx Methodologies and Techniques
+    1. "<strong>Digital twins in the future design of Digital Therapeutics</strong>", Silvia Gabrielli, Enrico Piras and Oscar Mayora
+    2. "<strong>Digital Therapeutics with Virtual Reality and Sensors</strong>", Filipa Ferreira-Brito, Joao Ferreira, Madalena VIeira, Joao Guerreiro and Tiago Guerreiro 
+    3. <strong>Focused Discussion on Session 1 </strong>
+* [10:00 – 10:45] Session 2: Data capture and monitoring in DTx
+    1. "<strong>Digital Phenotyping of Autoimmune Diseases Using Non-Contact Radio Frequency Sensing: A Longitudinal Study Comparing Systemic Lupus Erythematosus and Healthy Participants", Mehdi Boukhechba, Elena Reynoso, Ioannis Pandis, Kenneth Mosca, Rumen Hristov, Shichao Yue, Yuqing Ai, Hariharan Rahul, Dina Katabi, Mark Marris and Stefan Avey
+    2. "<strong>Privacy-aware Human Activity Recognition with Smart Glasses for Digital Therapeutics</strong>", Borjan Sazdov and Hristijan Gjoreski
+    3. <strong>Focused Discussion on Session 2 </strong>
+* [10:45 – 11:00] Coffee Break
+* [11:00 – 11:45] Session 3: Digital Active Ingredients and Interventions
+    1. "<strong>Towards using Digital Phenotypes in Mobile Tactile Stimulation for Children with ASD</strong>, Luis Miguel Zamudio Fuentes
+    2. "<strong>Designing an Intervention against Occupational Stress Based on Ubiquitous Stress and Context Detection</strong>", Mitja Luštrek, Junoš Lukan, Larissa Bolliger, Emelien Lauwerier and Els Clays
+    3. <strong>Focused Discussion on Session 3 </strong>
+* [11:45 – 12:15] Open Questions on the Future of DTx
+* [12:15 – 12:30] Wrap-Up and Closing
+* [12:30] Workshop End
+
+<p>Each presenter will have 12 minutes to deliver their presentation</p>
+
 <h1 id="cfp">Call For Papers</h1>
 
 <p style="padding-left:20px; padding-right:20px; padding-top: 25px; padding-bottom: 25px; margin-bottom:0 ">
@@ -93,7 +117,7 @@ The accepted papers will be published in the UbiComp/ISWC Adjunct Proceedings, w
 <ul>
     <li>Submission deadline: June 15th (AoE), 2023 (EXTENDED)</li>
     <li>Notification: June 30th, 2023</li>
-    <li>Workshop: October 8th or 9th, 2023</li>
+    <li>Workshop: October 8th, 2023</li>
 </ul>
 
 

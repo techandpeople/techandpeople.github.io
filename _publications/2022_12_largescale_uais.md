@@ -21,7 +21,7 @@ description: "Evaluating the accessibility of web resources is usually done by c
 authors: Beatriz Martins, Carlos Duarte
 
 # link to the pdf
-pdf: ../downloads/largescale_uais2023.pdf
+pdf: ../downloads/largescale_uais2022.pdf
 
 # external-links:
 #  - name: Presentation Video

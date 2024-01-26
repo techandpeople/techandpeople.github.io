@@ -20,6 +20,7 @@ description: "We explore how biographical information can improve cognitive stim
 # people associated with the project
 people:
  - saa
+ - fbrito
  - tjvg
 
 # project code
