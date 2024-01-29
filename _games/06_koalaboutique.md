@@ -16,7 +16,7 @@ image:
 
 # short description of the game
 
-description: "Your shop in the Koala Kingdom is at the brink of bankruptcy, cooperate with your partner to save its future!
+description: "Your shop in the Koala Kingdom is at the brink of bankruptcy. Cooperate with your partner to save its future!
 As the Adventurer, you will explore the dungeons, collecting items and materials. As the Trader, you will manage the loot the Adventurer brings, selling and processing it to unlock more and more content! You will need to work as a team in order to maximize your profit and unlock new powers and abilities."
 
 # links

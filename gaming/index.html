@@ -39,7 +39,7 @@
           Inclusive gaming
         </div>
         <div class="start-summary-gaming">
-          We frame the act of playing games with others as a way to reinforce social bonds, reduce stigma, enhance social support, and inclusion.
+          We frame the act of playing games with others as a way to reinforce social bonds, reduce stigma, enhance social support and inclusion.
         </div>
         <div class="start-image">
           <img alt="Alt desc." class="imgback" src="images/imgback.png">
@@ -92,6 +92,20 @@
       </div>
     </div>
     </section>
+
+    <section id="frameworks">
+      <div class="card">
+        <div class="card-title">
+          Frameworks
+        </div>
+        <div class="card-body">
+          {% assign reversed_frameworks = site.frameworks | reverse %}
+          {% for framework in reversed_frameworks %}
+            {% include framework.html f=framework %}
+          {% endfor %}
+        </div>
+      </div>
+      </section>
 
     <section id="contact">
       <div class="card">

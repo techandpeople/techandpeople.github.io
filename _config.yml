@@ -37,6 +37,8 @@ collections:
     output: true
   games:
     output: true
+  frameworks:
+    output: true
   team:
     output: true
   proposals:

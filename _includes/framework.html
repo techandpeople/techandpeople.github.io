@@ -1,0 +1,35 @@
+<div id="{{ framework.title | downcase | replace: " ", ""}}" class="card">
+
+<div class="row row-thumb" style="margin-bottom: 0; ">
+<div class="col-md-3" style="padding-left: 0;">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/frameworks/{{ framework.image.name }}" alt="{{framework.image.alt-text}}" class="img-publication img-responsive imgpub" style="margin:auto; padding-right:10px; max-height:250px; vertical-align: middle;" />
+
+</div>
+
+<div class="col-sm-12">
+
+<p class="title" style="padding-top: 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ include.f.title }}</p>
+
+<p class="description" style="margin-bottom: 10px;">{{ include.f.description }}</p>
+
+<p class="detail">
+<strong>Date: </strong>{{ include.f.year }}<br>
+<strong>Platform: </strong>{{ include.f.pub }}<br>
+</p>
+
+<div class="detail pub-links">
+
+<ul class="pub-links-list">
+
+{% for link in include.f.links %}
+<li><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
+{% endfor %}
+
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+

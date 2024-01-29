@@ -1,13 +1,13 @@
 ---
 ###############
 # DO NOT EDIT
-layout: game
+layout: framework
 ###############
 
 ###############
 # TO EDIT
 # game name
-title: "Rescue: Mayday"
+title: "LFCG: A Living Framework for Understanding Cooperative Games"
 
 # icon or image for the game
 image:
