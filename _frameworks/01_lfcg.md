@@ -21,7 +21,7 @@ description: "The Living Framework for Cooperative Games (LFCG) is a framework d
 # links
 links:
  - name: Web App
-   url: https://techpeople.itch.io/rescueup
+   url: https://www.lfcooperativegames.com
 
 # other information
 
