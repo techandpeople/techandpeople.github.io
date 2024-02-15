@@ -18,10 +18,6 @@ image:
 
 description: "In this game you are in command of your spaceship and the enemies come against you at any time. You have to listen carefully and sweep to the side in time. Let's see how long you can take it."
 
-# links
-links:
- - name: Download
-   url: https://play.google.com/store/apps/details?id=com.FCUL.SpaceShooter
 
 # release information
 
