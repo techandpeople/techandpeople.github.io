@@ -6,15 +6,12 @@ layout: bio
 
 ###############
 # TO EDIT
-title: "Renato Ribeiro"
+title: "Renato Alexandre Ribeiro"
 photo: rribeiro.png
-info: "MSc Student"
+info: "Research Assistant"
 links:
     - name: email
-      url: fc57433@alunos.fc.ul.pt
+      url: raribeiro@lasige.di.fc.ul.pt
 ---
 
-I began my career in computer science during high school, where I completed a Professional Technical Course in Computer Equipment Management. Seeking to broaden my knowledge in this field, I pursued a Higher Technical Professional Course in Web Programming, Devices, and Mobile Applications at the Escola Superior de Tecnologia de Setúbal within the Instituto Politécnico de Setúbal (IPS/ESTSetúbal). My curiosity about the intersection of computer science and healthcare led me to obtain a Bachelor of Science degree in Biomedical Technology from IPS/ESTSetúbal in 2020.
-
-
-For the past two years, I have worked in the field of Assistive Technology (AT), which has allowed me to gain valuable experience in accessibility and Human-Computer Interaction. Currently, I am in my second year of pursuing a Master's degree in Computer Science, with a focus on locomotion techniques for blind people in virtual reality. I am excited about the opportunity to contribute to this important area of research and development.
+I am a research assistant at LASIGE, Faculdade de Ciências da Universidade de Lisboa (FCUL). I received my MSc in Computer Science in 2023, from FCUL. I have worked for two years in Assistive Technology (AT) at a company specializing in support technologies for Augmentative and Alternative Communication (AAC), which has allowed me to gain valuable experience in accessibility and Human-Computer Interaction (HCI). My main research interests include HCI, developing and testing usable and accessible virtual reality systems. My research focuses on accessible virtual reality for people with visual impairments, in particular in supporting navigation within virtual environments. I hold a BSc in Biomedical Technology from Escola Superior de Tecnologia do Instituto Politécnico de Setúbal.
