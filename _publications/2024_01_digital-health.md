@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: "Digital health and patient adherence: A qualitative study in older adults"
+title: "Digital health and patient adherence: A qualitative study with older adults"
 
 # publication image
 #image:
