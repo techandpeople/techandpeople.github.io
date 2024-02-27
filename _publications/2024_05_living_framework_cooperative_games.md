@@ -25,7 +25,7 @@ pdf: ../downloads/2024_chi_lfcg.pdf
 
 external-links:
   - name: DOI
-     url: https://doi.org/10.1145/3613904.3641953
+    url: https://doi.org/10.1145/3613904.3641953
   # - name: Poster
   #   url: ../downloads/socialgaming_poster.pdf
 
