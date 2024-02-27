@@ -21,7 +21,7 @@ description: "Providing care to individuals with chronic diseases benefits from 
 authors: Diogo Branco, Margarida Móteiro, Raquel Bouça, Rita Miranda, Tiago Reis, ,Élia Decoroso, Rita Cardoso, Joana Ramalho, Filipa Rato, Joana Malheiro, Diana Miranda, Verónica Caniça, Filipa Pona-Ferreira, Daniela Guerreiro, Mariana Leitão, Alexandra Saúde Braz, Joaquim Ferreira, Tiago Guerreiro
 
 # link to the pdf
-pdf: ../downloads/2024_chi_dashboards.pdf
+pdf: ../downloads/2024_chi_dashboardsM.pdf
 
 external-links:
 
