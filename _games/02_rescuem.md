@@ -7,7 +7,7 @@ layout: framework
 ###############
 # TO EDIT
 # game name
-title: "LFCG: A Living Framework for Understanding Cooperative Games"
+title: "Rescue: Mayday"
 
 # icon or image for the game
 image:
