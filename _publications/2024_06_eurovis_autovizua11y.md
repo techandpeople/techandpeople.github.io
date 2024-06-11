@@ -11,7 +11,7 @@ title: "AutoVizuA11y: A Tool to Automate Screen Reader Accessibility in Charts"
 
 # publication image
 image:
-  name: 2024_eurovisautovizua11y.png
+  name: 2024_eurovis_autovizua11y.png
   alt-text: "Presentation of three of AutoVizua11y features. The first chart highlights the description feature. It shows a chart with an overlaid label with the text 'Calories per piece of fruit, bar chart. Automatic description: The data shows that bananas and grapes have the ...'. The second chart highlights the data insights feature. It shows a chart with a label with a Alt plus Shift + K shortcut and the text 'The value is 42.18 above the average'. The third and final chart highlights the navigation feature. It shows a chart with two Right Arrow keyboard symbols and the text 'Bananas: 105 calories'." # provide a short description for the image #a11y
 
 # short description of the publication
