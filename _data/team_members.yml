@@ -3,6 +3,7 @@ members:
   - cad
   - jpvg
   - lsp
+  - rgouveia
   - tjvg
   - fbrito
   - arbs
@@ -839,3 +840,18 @@ ptrindade:
     links:
         - name: email
           url: fc51961@alunos.fc.ul.pt
+
+rgouveia:
+    name: "Ruben Gouveia"
+    photo: RubenGouveia.jpg
+    info: "Ph.D., Assistant Professor"
+    institution: "LASIGE, Universidade de Lisboa"
+    links:
+          - name: web
+            url: https://www.rubengouveia.com/
+          - name: email
+            url: rhgouveia@fc.ul.pt
+          - name: scholar
+            url: https://scholar.google.pt/citations?user=3Of_dqIAAAAJ&hl
+          - name: twitter
+            url: https://x.com/rubahfgouveia
