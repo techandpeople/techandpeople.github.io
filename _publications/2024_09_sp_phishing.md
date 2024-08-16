@@ -32,8 +32,8 @@ people:
   - tjvg
   - saa
 
-conference-name: IEEE Security and Privacy
-venue: "S&P"
+conference-name: S&P
+venue: "IEEE Security and Privacy"
 year: 2024
 
 projects:
