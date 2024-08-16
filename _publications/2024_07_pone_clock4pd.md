@@ -31,8 +31,8 @@ pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305712
 people:
   - tjvg
 
-conference-name: 
-venue: "Plos One 2024"
+conference-name: Plos One
+venue: 
 year: 2024
 
 projects:
