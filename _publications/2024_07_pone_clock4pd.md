@@ -11,7 +11,7 @@ title: "Molecular characterization of the circadian clock in patients with Parki
 
 # publication image
 image:
- name: 2024_pone_clockpd.PNG 
+ name: 2024_pone_clockpd.PNG
  alt-text: "study protocol diagram" # provide a short description for the image #a11y
 
 # short description of the publication
@@ -35,7 +35,7 @@ conference-name:
 venue: "Plos One 2024"
 year: 2024
 
-#projects:
+projects:
   - data_driven_healthcare
 
 # area for filter purpose
