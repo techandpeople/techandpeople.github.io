@@ -7,6 +7,7 @@ members:
   - tjvg
   - fbrito
   - arbs
+  - bnogueira
   - djrb
   - dreis
   - dmcg
@@ -18,13 +19,8 @@ members:
   - pgp
   - ptrindade
   - saa
-  - bnogueira
-  - dbarros
-  - dfurtado
-  - jgodinho
-  - jmorais
-  - mvieira
-  - rribeiro
+
+
 
 friends:
   - ccbb
@@ -35,9 +31,6 @@ friends:
   - jjff
   - smc
   - acp
-#  - ewe
-#  - seba
-#  - fgp
   - nis
   - jforlizzi
   - kgerling
@@ -65,7 +58,13 @@ alumni:
   - amorais
   - pmarques
   - rnogueira
+  - rribeiro
   - smeira
+  - dbarros
+  - dfurtado
+  - jgodinho
+  - jmorais
+  - mvieira
 
 wildbydesign:
   - djrb
@@ -141,8 +140,8 @@ cad:
         url: https://scholar.google.com/citations?user=I7hcyJgAAAAJ
       - name: twitter
         url: https://twitter.com/carlosapaduarte
-      - name: linkedin
-        url: https://www.linkedin.com/in/carlos-duarte-9951b413/
+#      - name: linkedin
+#        url: https://www.linkedin.com/in/carlos-duarte-9951b413/
 
 arbs:
     name: "André Santos"
@@ -275,7 +274,7 @@ acp:
 fbrito:
   name: Filipa Brito
   photo: fbrito.png
-  info: Research Assistant
+  info: Ph.D, Assistant Researcher
   institution: LASIGE, Universidade de Lisboa
   url: https://techandpeople.github.io/team/fbrito.html
   links:
@@ -283,6 +282,18 @@ fbrito:
         url: frbrito@fc.ul.pt
       - name: linkedin
         url: https://www.linkedin.com/in/filipabrito1/
+
+
+vmotti:
+  name: Vivian Genaro Motti
+  photo: vmotti.jpg
+  info: Ph.D, Visiting Researcher
+  institution: George Mason University
+  url: https://sites.google.com/site/vivianmotti/welcome
+  links:
+      - name: email
+        url: vmotti@gmu.edu
+
 
 gdcc:
   name: Gonçalo Cardoso
@@ -694,7 +705,7 @@ jmorais:
 bnogueira:
   name: Beatriz Nogueira
   photo: bnogueira.jpg
-  info: MSc Student
+  info: PhD Student
   links:
     - name: email
       url: fc55845@alunos.fc.ul.pt

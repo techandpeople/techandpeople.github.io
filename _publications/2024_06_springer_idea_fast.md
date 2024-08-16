@@ -32,7 +32,7 @@ people:
   - tjvg
   - djrb
 
-conference-name: BMC Springer Nature
+conference-name: BMC JNR
 venue: "Journal of NeuroEngineering and Rehabilition"
 year: 2024
 
