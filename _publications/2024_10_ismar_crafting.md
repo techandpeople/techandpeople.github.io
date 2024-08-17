@@ -7,8 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: "Crafting Virtual Realities: Designing a VR End-User Authoring Platform
-for Personalised Exposure Therapy"
+title: "Crafting Virtual Realities: Designing a VR End-User Authoring Platform for Personalised Exposure Therapy"
 
 # publication image
 image:
