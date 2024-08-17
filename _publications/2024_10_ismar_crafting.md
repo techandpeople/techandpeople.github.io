@@ -7,7 +7,7 @@ layout: publication
 ###############
 # TO EDIT
 # pub title
-title: "Crafting Virtual Realities- Designing a VR End-User Authoring Platform for Personalised Exposure Therapy"
+title: "Crafting Virtual Realities: Designing a VR End-User Authoring Platform for Personalised Exposure Therapy"
 
 # publication image
 image:
@@ -21,7 +21,7 @@ description: "We used an iterative participatory design approach to develop an a
 authors: João P. Ferreira, Filipa Ferreira-Brito, João Guerreiro, Tiago Guerreiro
 
 # link to the pdf
- pdf: ../downloads/2024_ismar_crafting_vr.pdf
+pdf: ../downloads/2024_ismar_crafting_vr.pdf
 
 # external-links:
 #  - name: Presentation Video
