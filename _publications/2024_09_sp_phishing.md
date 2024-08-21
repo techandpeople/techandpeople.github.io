@@ -21,7 +21,7 @@ description: "Phishing has become a pervasive threat to our society. Current phi
 authors: João Janeiro, Sérgio Alves, Tiago Guerreiro, Florian Alt, Verena Distler
 
 # link to the pdf
-# pdf: 10.1109/MSEC.2024.3430110
+pdf: ../downloads/ieeesp.pdf
 
 # external-links:
 #  - name: Presentation Video
