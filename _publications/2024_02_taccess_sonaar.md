@@ -15,8 +15,7 @@ title: "From Automation to User Empowerment: Investigating the Role of a Semi-au
 # alt-text: " " # provide a short description for the image #a11y
 
 # short description of the publication
-description: "We sought to understand how people are perceiving this type of online content in their networks and how support tools are being used.
-To do so, we conducted a user study, with 258 social network users through an online questionnaire, followed by interviews with 20 of them – 7 blind users and 13 sighted users. Results show how the different approaches being employed by major platforms may not be sufficient to address this issue properly. Our findings reveal that users are not always aware of the possibility and the benefits of adopting accessible practices. From the general perspectives of end-users experiencing accessible practices, concerning barriers encountered, and motivational factors, we also discuss further approaches to create more user engagement and awareness."
+description: "This paper introduces SONAAR, a tool that merges automated techniques with user involvement to improve social media accessibility. SONAAR is designed to assist users in creating accessible content by providing both automated suggestions and manual input options. The study evaluates the tool’s impact through a series of user studies and log analysis, examining how well it supports users in producing accessible content and promotes awareness of accessibility practices. The findings highlight the tool’s potential to enhance accessibility efforts on social media platforms."
 
 # authors of the publication
 authors: Letícia Seixas Pereira, João Guerreiro, André Rodrigues, Tiago Guerreiro, Carlos Duarte
