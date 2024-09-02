@@ -8,6 +8,7 @@ members:
   - tjvg
   - vmotti
   - arbs
+  - bmano
   - bnogueira
   - djrb
   - dreis
@@ -867,3 +868,12 @@ rgouveia:
             url: https://scholar.google.pt/citations?user=3Of_dqIAAAAJ&hl
           - name: twitter
             url: https://x.com/rubahfgouveia
+
+bmano:
+    name: "Beatriz Mano"
+    photo: bmano.jpg
+    info: "PhD Student"
+    institution: "LASIGE, Universidade de Lisboa"
+    links:
+          - name: email
+            url: bmano@fc.ul.pt
