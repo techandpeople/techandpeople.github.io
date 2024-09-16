@@ -21,6 +21,7 @@ members:
   - pgp
   - ptrindade
   - saa
+  - rsilva
 
 
 
@@ -877,3 +878,13 @@ bmano:
     links:
           - name: email
             url: bmano@fc.ul.pt
+
+rsilva:
+    name: "Rúben Silva"
+    photo: rsilva.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: rubkart@gmail.com
+        - name: linkedin
+          url: www.linkedin.com/in/ruben-silva-84321626b
