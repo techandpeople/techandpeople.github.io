@@ -10,9 +10,9 @@ layout: publication
 title: "Ethical Concerns when Working with Mixed-Ability Groups of Children"
 
 # publication image
-image:
- name: 
- alt-text: "" # provide a short description for the image #a11y
+#image:
+# name:
+# alt-text: "" # provide a short description for the image #a11y
 
 # short description of the publication
 description: "Working with children with disabilities in Human-Computer Interaction and Human-Robot Interaction presents a unique set of ethical dilemmas. These young participants often require additional care, support, and accommodations, which can fall off researchers’ resources or expertise. The lack of clear guidance on navigating these challenges further aggravates the problem. To provide a basis on which to address this issue, we adopt a critical reflective approach, evaluating our impact by analyzing two case studies involving children with disabilities in HCI/HRI research. Flowing from these, we call for a shift in our approach to ethics in participatory research contexts to one that is processual, situational, and community-led."
