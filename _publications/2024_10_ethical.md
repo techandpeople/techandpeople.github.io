@@ -33,7 +33,7 @@ people:
   - tjvg
   - hhnn
 
-conference-name: CHI
+conference-name: ASSETS
 venue: "ASSETS, October, 2024"
 year: 2024
 
