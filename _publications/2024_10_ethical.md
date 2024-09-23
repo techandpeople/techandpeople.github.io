@@ -34,7 +34,7 @@ people:
   - hhnn
 
 conference-name: ASSETS
-venue: "ASSETS, October, 2024"
+venue: "26th International ACM SIGACCESS Conference on Computers and Accessibility, October, 2024"
 year: 2024
 
 projects:
