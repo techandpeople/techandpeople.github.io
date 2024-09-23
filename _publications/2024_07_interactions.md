@@ -25,7 +25,7 @@ pdf: ../downloads/2024-07-interactions.pdf
 
 external-links:
  - name: DOI
-    url: https://dl.acm.org/doi/10.1145/3665992
+   url: https://dl.acm.org/doi/10.1145/3665992
 
 # people associated with the publication
 people:
