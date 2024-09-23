@@ -23,9 +23,9 @@ authors: Ana Henriques, Patrícia Piedade, Filipa Rocha, Isabel Neto, Tiago Guer
 # link to the pdf
 pdf: ../downloads/2024-10-ethical.pdf
 
-# external-links:
-#  - name: DOI
-url: https://doi.org/10.1145/3663548.3675648
+external-links:
+  - name: DOI
+      url: https://doi.org/10.1145/3663548.3675648
 
 # people associated with the publication
 people:
