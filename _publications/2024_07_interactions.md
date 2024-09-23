@@ -23,9 +23,9 @@ authors: Ana Pires, Filipa Rocha, Tiago Guerreiro, Hugo Nicolau
 # link to the pdf
 pdf: ../downloads/2024-07-interactions.pdf
 
-# external-links:
-#  - name: DOI
-url: https://dl.acm.org/doi/10.1145/3665992
+external-links:
+ - name: DOI
+    url: https://dl.acm.org/doi/10.1145/3665992
 
 # people associated with the publication
 people:
