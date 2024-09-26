@@ -24,7 +24,10 @@ authors: Diogo Branco, Margarida Móteiro, Raquel Bouça, Rita Miranda, Tiago Re
 pdf: ../downloads/2024_chi_dashboardsM.pdf
 
 external-links:
-
+- name: DOI
+    url: https://doi.org/10.1145/3613904.3642618
+  - name: Poster
+    url: ../downloads/CoDesigningCustomizableClinicalDashboardswithMultidisciplinaryTeamsPoster.pdf
 
   # people associated with the publication
 people:
