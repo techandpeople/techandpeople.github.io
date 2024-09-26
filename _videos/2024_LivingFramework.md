@@ -29,6 +29,8 @@ venue: "CHI 2024"
 external-links:
   - name: Youtube
     url: https://www.youtube.com/watch?v=NJ7NRgSxmNo
+  - name: paper
+    url: https://techandpeople.github.io/downloads/2024_chi_lfcg.pdf
 
 # area for filter purpose
 area: gaming
