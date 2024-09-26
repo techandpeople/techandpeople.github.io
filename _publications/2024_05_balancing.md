@@ -24,7 +24,10 @@ authors: David Gonçalves, Daniel Barros, Pedro Pais, João Guerreiro, Tiago Gue
 pdf: ../downloads/2024_chi_balancing.pdf
 
 external-links:
-
+  - name: DOI
+    url: https://doi.org/10.1145/3613904.3642441
+  - name: Poster
+    url: ../downloads/TheTrickIsToStayBehindPoster.pdf
 
   # people associated with the publication
 people:
