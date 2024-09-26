@@ -26,7 +26,7 @@ pdf: ../downloads/2024_chi_dashboardsM.pdf
 external-links:
 - name: DOI
     url: https://doi.org/10.1145/3613904.3642618
-  - name: Poster
+- name: Poster
     url: ../downloads/CoDesigningCustomizableClinicalDashboardswithMultidisciplinaryTeamsPoster.pdf
 
   # people associated with the publication
