@@ -21,9 +21,8 @@ members:
   - pgp
   - ptrindade
   - saa
+  - igil
   - rsilva
-
-
 
 friends:
   - ccbb
@@ -888,3 +887,11 @@ rsilva:
           url: rubkart@gmail.com
         - name: linkedin
           url: www.linkedin.com/in/ruben-silva-84321626b
+
+igil:
+    name: "Inês Gil"
+    photo: igil.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc62567@alunos.fc.ul.pt
