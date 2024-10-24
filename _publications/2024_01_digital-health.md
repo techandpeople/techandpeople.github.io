@@ -33,7 +33,7 @@ people:
   - saa
   - tjvg
 
-conference-name: DIGITAL HEALTH
+conference-name: Digital Health
 venue: "DH 2024"
 year: 2024
 

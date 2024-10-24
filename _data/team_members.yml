@@ -1,11 +1,15 @@
 members:
   - afpr
   - cad
+  - fbrito
   - jpvg
   - lsp
+  - rgouveia
   - tjvg
-  - fbrito
+  - vmotti
   - arbs
+  - bmano
+  - bnogueira
   - djrb
   - dreis
   - dmcg
@@ -17,13 +21,8 @@ members:
   - pgp
   - ptrindade
   - saa
-  - bnogueira
-  - dbarros
-  - dfurtado
-  - jgodinho
-  - jmorais
-  - mvieira
-  - rribeiro
+  - igil
+  - rsilva
 
 friends:
   - ccbb
@@ -34,9 +33,6 @@ friends:
   - jjff
   - smc
   - acp
-#  - ewe
-#  - seba
-#  - fgp
   - nis
   - jforlizzi
   - kgerling
@@ -64,7 +60,13 @@ alumni:
   - amorais
   - pmarques
   - rnogueira
+  - rribeiro
   - smeira
+  - dbarros
+  - dfurtado
+  - jgodinho
+  - jmorais
+  - mvieira
 
 wildbydesign:
   - djrb
@@ -140,8 +142,8 @@ cad:
         url: https://scholar.google.com/citations?user=I7hcyJgAAAAJ
       - name: twitter
         url: https://twitter.com/carlosapaduarte
-      - name: linkedin
-        url: https://www.linkedin.com/in/carlos-duarte-9951b413/
+#      - name: linkedin
+#        url: https://www.linkedin.com/in/carlos-duarte-9951b413/
 
 arbs:
     name: "André Santos"
@@ -274,7 +276,7 @@ acp:
 fbrito:
   name: Filipa Brito
   photo: fbrito.png
-  info: Research Assistant
+  info: Ph.D, Assistant Researcher
   institution: LASIGE, Universidade de Lisboa
   url: https://techandpeople.github.io/team/fbrito.html
   links:
@@ -282,6 +284,18 @@ fbrito:
         url: frbrito@fc.ul.pt
       - name: linkedin
         url: https://www.linkedin.com/in/filipabrito1/
+
+
+vmotti:
+  name: Vivian Genaro Motti
+  photo: vmotti.jpg
+  info: Ph.D, Visiting Researcher
+  institution: George Mason University
+  url: https://sites.google.com/site/vivianmotti/welcome
+  links:
+      - name: email
+        url: vmotti@gmu.edu
+
 
 gdcc:
   name: Gonçalo Cardoso
@@ -693,7 +707,7 @@ jmorais:
 bnogueira:
   name: Beatriz Nogueira
   photo: bnogueira.jpg
-  info: MSc Student
+  info: PhD Student
   links:
     - name: email
       url: fc55845@alunos.fc.ul.pt
@@ -839,3 +853,45 @@ ptrindade:
     links:
         - name: email
           url: fc51961@alunos.fc.ul.pt
+
+rgouveia:
+    name: "Ruben Gouveia"
+    photo: RubenGouveia.jpg
+    info: "Ph.D., Assistant Professor"
+    institution: "LASIGE, Universidade de Lisboa"
+    links:
+          - name: web
+            url: https://www.rubengouveia.com/
+          - name: email
+            url: rhgouveia@fc.ul.pt
+          - name: scholar
+            url: https://scholar.google.pt/citations?user=3Of_dqIAAAAJ&hl
+          - name: twitter
+            url: https://x.com/rubahfgouveia
+
+bmano:
+    name: "Beatriz Mano"
+    photo: bmano.jpg
+    info: "PhD Student"
+    institution: "LASIGE, Universidade de Lisboa"
+    links:
+          - name: email
+            url: bmano@fc.ul.pt
+
+rsilva:
+    name: "Rúben Silva"
+    photo: rsilva.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: rubkart@gmail.com
+        - name: linkedin
+          url: www.linkedin.com/in/ruben-silva-84321626b
+
+igil:
+    name: "Inês Gil"
+    photo: igil.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc62567@alunos.fc.ul.pt

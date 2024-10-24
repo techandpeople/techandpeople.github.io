@@ -24,7 +24,10 @@ authors: Renato Alexandre Ribeiro, Inês Gonçalves, Manuel Piçarra, Letícia S
 pdf: ../downloads/2024_chi_vr_locomotion.pdf
 
 external-links:
-
+  - name: DOI
+    url: https://dl.acm.org/doi/10.1145/3613904.3642088
+  - name: Poster
+    url: ../downloads/Poster_VR_Blind_Locomotion.pdf
 
   # people associated with the publication
 people:
