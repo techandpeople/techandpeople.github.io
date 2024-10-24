@@ -26,6 +26,6 @@ links:
 # other information
 
 year: 2024
-pub: "Published at CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems" 
+pub: "Published at CHI '24: Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems" 
 ###############
 ---
