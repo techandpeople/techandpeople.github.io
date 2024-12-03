@@ -1,6 +1,7 @@
 members:
   - afpr
   - cad
+  - dpimentel
   - fbrito
   - jpvg
   - lsp
@@ -895,3 +896,12 @@ igil:
     links:
         - name: email
           url: fc62567@alunos.fc.ul.pt
+
+
+dpimentel:
+  name: Diana Pimentel
+  photo: dpimentel.jpeg
+  info: "Ph.D, Assistant Researcher"
+  links:
+      - name: email
+        url: dmpimentel@fc.ul.pt
