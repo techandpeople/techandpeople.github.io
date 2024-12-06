@@ -6,6 +6,7 @@ members:
   - jpvg
   - lsp
   - rgouveia
+  - salarcao
   - tjvg
   - vmotti
   - arbs
@@ -905,3 +906,16 @@ dpimentel:
   links:
       - name: email
         url: dmpimentel@fc.ul.pt
+
+
+salarcao:
+  name: Soraia Meneses Alarcão
+  photo: salarcao.jpg
+  info: "Ph.D., Invited Assistant Professor"
+  links:
+      - name: email
+        url: smalarcao@ciencias.ulisboa.pt
+      - name: scholar
+        url: https://scholar.google.com/citations?user=lyoXM6sAAAAJ&hl
+      - name: linkedin
+        url: https://www.linkedin.com/in/soraiamenesesalarcao/
