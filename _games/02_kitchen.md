@@ -20,14 +20,8 @@ description: "Compete with a friend in a cooking race! Brew potions, craft stave
 
 # links
 links:
- - name: Download - Sighted Version [English]
-   url: https://pedrogt.itch.io/cryptickitchen-sighted
- - name: Download - Blind Version [English]
-   url: https://pedrogt.itch.io/cryptickitchen-blind
- - name: Download - Sighted Version [Portuguese]
-   url: https://pedrogt.itch.io/cryptickitchen-sighted-pt
- - name: Download - Blind Version [Portuguese]
-   url: https://pedrogt.itch.io/cryptickitchen-blind-pt
+ - name: Download
+   url: https://techpeople.itch.io/cryptic-kitchen
 
 
 # release information
