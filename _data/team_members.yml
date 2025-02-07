@@ -117,6 +117,21 @@ tjvg:
         - name: scholar
           url: https://scholar.google.com/citations?user=mo6UPuIAAAAJ
 
+
+ineto:
+    name: "Isabel Neto"
+    photo: ineto.jpg
+    info: "Ph.D., Assistant Professor"
+    institution: "LASIGE, Universidade de Lisboa"
+    url: https://techandpeople.github.io/team/ineto.html
+    links:
+        - name: web
+          url: https://isabelcaniconeto.github.io/site/
+        - name: email
+          url: aineto@fc.ul.pt
+        - name: scholar
+          url: https://scholar.google.com/citations?user=wSKRnWYAAAAJ
+
 afpr:
     name: "André Rodrigues"
     photo: afpr.jpg
