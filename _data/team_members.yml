@@ -3,6 +3,7 @@ members:
   - cad
   - dpimentel
   - fbrito
+  - ineto
   - jpvg
   - lsp
   - rgouveia
@@ -10,14 +11,12 @@ members:
   - tjvg
   - vmotti
   - arbs
-  - bmano
   - bnogueira
   - djrb
   - dreis
   - dmcg
   - fsr
   - hhss
-  - igoncalves
   - jferreira
   - mpmp
   - pgp
@@ -69,6 +68,8 @@ alumni:
   - jgodinho
   - jmorais
   - mvieira
+  - bmano
+  - igoncalves
 
 wildbydesign:
   - djrb
