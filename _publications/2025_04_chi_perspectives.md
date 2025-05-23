@@ -23,6 +23,8 @@ authors: Pedro Trindade, João Guerreiro, André Rodrigues
 # link to the pdf
 pdf: ../downloads/2025_04_chi_perspectives.pdf
 
+award: Honorable Mention
+
 external-links:
    - name: DOI
      url: https://doi.org/10.1145/3706598.3713867
