@@ -11,7 +11,7 @@ title: "Designing A VR-based Accessible Speed Of Light Exergame for People with 
 
 # publication image
 image:
- name: 2024_ismar_speed_of_lightjpeg
+ name: 2024_ismar_speed_of_lightjpg
  alt-text: "Sound scheme representing the target's location in each condition; clock, degree, and sonification. A blue circle represents the user's head and red circles the targets."
 
 # short description of the publication
