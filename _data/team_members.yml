@@ -935,3 +935,14 @@ salarcao:
         url: https://scholar.google.com/citations?user=lyoXM6sAAAAJ&hl
       - name: linkedin
         url: https://www.linkedin.com/in/soraiamenesesalarcao/
+
+
+mborges:
+    name: "Miguel Borges"
+    photo: mborges.png
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc62567@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/miguel-borges-8885202b6/
