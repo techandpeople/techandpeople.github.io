@@ -11,7 +11,7 @@ photo: mborges.png
 info: MSc Student
 links:
   - name: email
-    url: fc62567@alunos.fc.ul.pt
+    url: fc58187@alunos.fc.ul.pt
   - name: linkedin
     url: https://www.linkedin.com/in/miguel-borges-8885202b6/
 ---
