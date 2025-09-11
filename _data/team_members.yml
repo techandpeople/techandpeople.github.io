@@ -23,6 +23,7 @@ members:
   - ptrindade
   - saa
   - igil
+  - ggouveia
   - mborges
   - rsilva
 
@@ -947,3 +948,17 @@ mborges:
           url: fc58187@alunos.fc.ul.pt
         - name: linkedin
           url: https://www.linkedin.com/in/miguel-borges-8885202b6/
+
+
+ggouveia:
+    name: "Guilherme Gouveia"
+    photo: ggouveia.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58176@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/guilherme-gouveia-4142b3246
+        - name: github
+          url: https://github.com/Ugrande/master_degree_projects
+
