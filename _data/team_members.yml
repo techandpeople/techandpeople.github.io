@@ -28,6 +28,7 @@ members:
   - mmartins
   - pcosta
   - rsilva
+  - scanhoto
 
 friends:
   - ccbb
@@ -981,3 +982,11 @@ pcosta:
     links:
         - name: email
           url: fc54954@alunos.fc.ul.pt
+
+scanhoto:
+    name: "Sara Canhoto"
+    photo: scanhoto.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc43177@alunos.fc.ul.pt
