@@ -25,6 +25,8 @@ members:
   - ggouveia
   - igil
   - mborges
+  - mmartins
+  - pcosta
   - rsilva
 
 friends:
@@ -964,3 +966,18 @@ ggouveia:
         - name: github
           url: https://github.com/Ugrande/master_degree_projects
 
+mmartins:
+    name: "Miguel Martins"
+    photo: mmartins.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58661@alunos.fc.ul.pt
+
+pcosta:
+    name: "Pedro Costa"
+    photo: pcosta.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc54954@alunos.fc.ul.pt
