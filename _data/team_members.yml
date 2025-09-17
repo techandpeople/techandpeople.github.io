@@ -24,6 +24,7 @@ members:
   - saa
   - ggouveia
   - igil
+  - memauz
   - mborges
   - mmartins
   - pcosta
@@ -992,3 +993,13 @@ scanhoto:
           url: fc43177@alunos.fc.ul.pt
         - name: linkedin
           url: https://www.linkedin.com/in/sara-canhoto-a32a2799/
+
+memauz:
+    name: "Martim Emauz"
+    photo: memauz.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58668@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/martim-emauz-71666124a/
