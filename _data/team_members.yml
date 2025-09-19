@@ -23,6 +23,7 @@ members:
   - ptrindade
   - saa
   - ggouveia
+  - hferreira
   - igil
   - jpereira
   - memauz
@@ -1013,3 +1014,14 @@ jpereira:
         - name: email
           url: fc64451@alunos.fc.ul.pt
 
+hferreira:
+    name: "Hugo Ferreira"
+    photo: hferreira.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc64459@alunos.fc.ul.pt
+        - name: github
+          url: https://github.com/Hugana
+        - name: linkedin
+          url: https://www.linkedin.com/in/hugo-ferreira-bab142206/
