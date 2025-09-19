@@ -24,6 +24,7 @@ members:
   - saa
   - ggouveia
   - igil
+  - jpereira
   - memauz
   - mborges
   - mmartins
@@ -860,7 +861,7 @@ mpmp:
         - name: email
           url: fc54136@alunos.fc.ul.pt
 
-lsp: 
+lsp:
   name: "Letícia Seixas Pereira"
   photo: lsp.jpg
   info: "Ph.D., Assistant Researcher"
@@ -1003,3 +1004,12 @@ memauz:
           url: fc58668@alunos.fc.ul.pt
         - name: linkedin
           url: https://www.linkedin.com/in/martim-emauz-71666124a/
+
+jpereira:
+    name: "João Pereira"
+    photo: jpereira.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc64451@alunos.fc.ul.pt
+
