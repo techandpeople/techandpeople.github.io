@@ -40,6 +40,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
         {% capture proj_url %}{{ site.base }}{{ project.url }}{% endcapture %}
     {% endif %}
 
+<a href="{{ proj_url }}">
 <div class="col-sm-4 {{ project.area }}">
 
 {% if project.tool %}
@@ -47,8 +48,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 {% else %}
 <div id="{{ site.base }}{{ project.url }}" class="card card-project {{ project.area }}" style=" cursor: pointer;">
 {% endif %}
-<a href="{{ proj_url }}">
-<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/thumbnails/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" /></a>
+<img id="project-image" src="{{ site.url }}{{ site.baseurl }}/images/projects/thumbnails/{{ project.image.name }}" alt="{{project.image.alt-text}}" width="100%" class="img-responsive" style="display:block; margin:auto;" />
 <div class="card-body {{ project.area }}">
 <p class="title" style="overflow: hidden;
    text-overflow: ellipsis;
@@ -72,7 +72,7 @@ We are an interdisciplinary Human-Computer Interaction research lab at <a href="
 </div>
 </div>
 </div>
-
+</a>
 {% endfor %}
 </div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
