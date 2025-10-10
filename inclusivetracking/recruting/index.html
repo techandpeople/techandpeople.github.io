@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech and People - Recrutamento de Participantes</title>
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --font-size: 18px;
+        --background: #ffffff;
+        --foreground: oklch(0.145 0 0);
+        --text-2xl: 4rem;
+        --text-xl: 3rem;
+        --text-lg: 1.25rem;
+        --text-base: 1rem;
+        --font-weight-medium: 500;
+        --font-weight-normal: 400;
+      }
+
+      html {
+        font-size: var(--font-size);
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background: var(--background);
+        color: var(--foreground);
+        line-height: 1.5;
+      }
+
+      /* Typography */
+      h1 {
+        font-size: var(--text-2xl);
+        font-weight: var(--font-weight-medium);
+        line-height: 3rem;
+      }
+
+      h2 {
+        font-size: var(--text-xl);
+        font-weight: var(--font-weight-medium);
+        line-height: 2.5rem;
+      }
+
+      h3 {
+        font-size: var(--text-lg);
+        font-weight: var(--font-weight-medium);
+        line-height: 1.5rem;
+      }
+
+      h4 {
+        font-size: var(--text-base);
+        font-weight: var(--font-weight-medium);
+        line-height: 1.5rem;
+      }
+
+      p {
+        font-size: var(--text-base);
+        font-weight: var(--font-weight-normal);
+        line-height: 1.5rem;
+      }
+
+      button {
+        font-size: var(--text-base);
+        font-weight: var(--font-weight-medium);
+        line-height: 2rem;
+        cursor: pointer;
+        border: none;
+        background: none;
+      }
+
+      .carousel-container {
+        max-width: 800px;
+        width: 90%;
+        position: relative;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      }
+
+      .carousel-slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        overflow: hidden;
+        border-radius: 12px 12px 0 0;
+      }
+
+      .slide {
+        min-width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        text-align: center;
+      }
+
+      .slide h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+
+      .slide div {
+        font-size: 1.2rem;
+        color: #666;
+        max-width: 600px;
+      }
+
+      .slide:nth-child(1) {
+        background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+      }
+
+      .slide:nth-child(2) {
+        background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+      }
+
+      .slide:nth-child(3) {
+        background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+      }
+
+      .slide:nth-child(4) {
+        background: linear-gradient(135deg, #fddb92 0%, #d1fdff 100%);
+      }
+
+      .carousel-controls {
+        top: 200px;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        pointer-events: none;
+      }
+
+      .carousel-btn {
+        pointer-events: all;
+        background: rgba(255, 255, 255, 0.9);
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .carousel-btn:hover {
+        background: white;
+        transform: scale(1.1);
+      }
+
+      .carousel-indicators {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px;
+      }
+
+      .indicator {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #ddd;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .indicator.active {
+        background: #667eea;
+        width: 30px;
+        border-radius: 6px;
+      }
+
+      /* Animations */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes slideInRight {
+        from {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes scaleIn {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+      }
+
+      .animate-fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+
+      .animate-fade-in {
+        animation: fadeIn 1s ease-out forwards;
+      }
+
+      .animate-slide-in-left {
+        animation: slideInLeft 0.8s ease-out forwards;
+      }
+
+      .animate-slide-in-right {
+        animation: slideInRight 0.8s ease-out forwards;
+      }
+
+      .animate-scale-in {
+        animation: scaleIn 0.6s ease-out forwards;
+      }
+
+      .animate-float {
+        animation: float 3s ease-in-out infinite;
+      }
+
+      .animate-pulse {
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      .delay-200 {
+        animation-delay: 0.2s;
+      }
+
+      .delay-300 {
+        animation-delay: 0.3s;
+      }
+
+      .delay-400 {
+        animation-delay: 0.4s;
+      }
+
+      .delay-500 {
+        animation-delay: 0.5s;
+      }
+
+      .animate-on-scroll {
+        opacity: 0;
+      }
+
+      /* Utility classes */
+      .container {
+        max-width: 72rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .container-md {
+        max-width: 56rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Hero Section */
+      #hero {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(
+          to bottom right,
+          #ffffff 0%,
+          rgba(219, 234, 254, 0.3) 50%,
+          rgba(220, 252, 231, 0.3) 100%
+        );
+        padding: 5rem 1.5rem;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        align-items: center;
+      }
+
+      @media (min-width: 768px) {
+        .hero-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .hero-box {
+        background: white;
+        border: 4px solid #8bc53f;
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+      }
+
+      .hero-logo-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .hero-badge {
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+
+      .decorative-circle {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 0.2;
+      }
+
+      .decorative-circle-1 {
+        top: 2.5rem;
+        left: 2.5rem;
+        width: 5rem;
+        height: 5rem;
+        background: #2b9dd1;
+      }
+
+      .decorative-circle-2 {
+        bottom: 2.5rem;
+        right: 2.5rem;
+        width: 8rem;
+        height: 8rem;
+        background: #8bc53f;
+      }
+
+      /* Objective Section */
+      #objective {
+        padding: 5rem 1.5rem;
+        background: white;
+      }
+
+      .objective-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .content-spacing {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      /* Projects Section */
+      #projects {
+        padding: 5rem 1.5rem;
+        background: linear-gradient(
+          to bottom right,
+          rgba(239, 246, 255, 0.4) 0%,
+          rgba(240, 253, 244, 0.4) 100%
+        );
+      }
+
+      .projects-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .projects-badge {
+        display: inline-block;
+        border-radius: 9999px;
+        padding: 0.75rem 2rem;
+        margin-bottom: 1.5rem;
+        background-color: #2b9dd1;
+        color: white;
+      }
+
+      .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      @media (min-width: 768px) {
+        .projects-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      .project-card {
+        background: white;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+
+      .project-card:hover {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        transform: scale(1.05);
+      }
+
+      .project-image-wrapper {
+        aspect-ratio: 4/3;
+        overflow: hidden;
+      }
+
+      .project-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .project-card:hover .project-image {
+        transform: scale(1.1);
+      }
+
+      .project-content {
+        padding: 1.5rem;
+      }
+
+      .project-title {
+        margin-bottom: 0.5rem;
+        color: #2b9dd1;
+      }
+
+      .project-description {
+        font-size: 0.875rem;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+      }
+
+      /* How To Help Section */
+      #how-to-help {
+        padding: 5rem 1.5rem;
+        background: white;
+      }
+
+      .help-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      @media (min-width: 768px) {
+        .help-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .help-box-blue {
+        border-radius: 1rem;
+        padding: 2rem;
+        height: 100%;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        background-color: #2b9dd1;
+        color: white;
+      }
+
+      .help-box-green {
+        border-radius: 1rem;
+        padding: 2rem;
+        height: 100%;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        border: 4px solid #8bc53f;
+        background-color: #f0fdf4;
+      }
+
+      .help-icons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .process-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .process-item {
+        display: flex;
+        align-items: start;
+        gap: 0.75rem;
+      }
+
+      .process-bullet {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        flex-shrink: 0;
+        background-color: #8bc53f;
+      }
+
+      /* Commitment Section */
+      #commitment {
+        padding: 5rem 1.5rem;
+        background: linear-gradient(
+          to bottom right,
+          rgba(239, 246, 255, 0.4) 0%,
+          white 100%
+        );
+      }
+
+      .commitment-box {
+        background: white;
+        border-radius: 1.5rem;
+        padding: 2rem;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        border: 4px solid #8bc53f;
+      }
+
+      .commitment-content {
+        display: flex;
+        align-items: start;
+        gap: 1.5rem;
+      }
+
+      .commitment-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .commitment-footer {
+        padding-top: 1rem;
+        border-top: 2px solid #e5e7eb;
+        font-size: 0.875rem;
+        color: #666;
+      }
+
+      /* Call To Action Section */
+      #cta {
+        padding: 6rem 1.5rem;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, #2b9dd1 0%, #8bc53f 100%);
+      }
+
+      .cta-bg-circles {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+
+      .cta-circle {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .cta-circle-1 {
+        top: 2.5rem;
+        left: 2.5rem;
+        width: 8rem;
+        height: 8rem;
+      }
+
+      .cta-circle-2 {
+        bottom: 5rem;
+        right: 5rem;
+        width: 10rem;
+        height: 10rem;
+      }
+
+      .cta-circle-3 {
+        top: 50%;
+        left: 25%;
+        width: 6rem;
+        height: 6rem;
+      }
+
+      .cta-content {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+      }
+
+      .cta-button {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        background: white;
+        padding: 1.25rem 3rem;
+        border-radius: 9999px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease;
+        font-size: 1.125rem;
+        color: #2b9dd1;
+      }
+
+      .cta-button:hover {
+        transform: scale(1.05);
+      }
+
+      .cta-button::before {
+        content: "";
+        position: absolute;
+        inset: -4px;
+        border-radius: 9999px;
+        padding: 4px;
+        background: linear-gradient(135deg, #2b9dd1, #8bc53f);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .cta-button:hover::before {
+        opacity: 1;
+      }
+
+      .cta-arrow {
+        transition: transform 0.3s ease;
+      }
+
+      .cta-button:hover .cta-arrow {
+        transform: translateX(0.5rem);
+      }
+
+      .cta-contact {
+        margin-top: 3rem;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 0.875rem;
+      }
+
+      .cta-contact a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: underline;
+        font-weight: var(--font-weight-medium);
+        transition: color 0.3s ease;
+      }
+
+      .cta-contact a:hover {
+        color: white;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+
+      .mb-6 {
+        margin-bottom: 1.5rem;
+      }
+
+      .mb-8 {
+        margin-bottom: 2rem;
+      }
+      .mb-10 {
+        margin-bottom: 2.5rem;
+      }
+      .mt-12 {
+        margin-top: 3rem;
+      }
+      .mb-15 {
+        margin-bottom: 3.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left side - Content -->
+          <div class="hero-content">
+            <div class="animate-fade-in-up">
+              <h1 class="mb-4">
+                <span style="color: #2b9dd1">Tech</span>
+                <span style="color: #8bc53f"> and</span>
+                <span style="color: #8bc53f"> People</span>
+              </h1>
+            </div>
+
+            <div class="hero-box animate-fade-in-up delay-200">
+              <p>
+                Somos um grupo de investigação da
+                <strong>Faculdade de Ciências, LASIGE</strong>. Dedicado a criar
+                tecnologias para, e com pessoas e temos muito interesse em
+                colaborar e perceber as vossas necessidades.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right side - Logo badge -->
+          <div class="hero-logo-container">
+            <div class="animate-scale-in delay-300">
+              <div class="hero-badge animate-float">
+                <img src="images/tech_people_logo.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Decorative elements -->
+      <div class="decorative-circle decorative-circle-1 animate-pulse"></div>
+      <div
+        class="decorative-circle decorative-circle-2 animate-pulse delay-500"
+      ></div>
+    </section>
+
+    <!-- Objective Section -->
+    <section id="objective">
+      <div class="container">
+        <div class="animate-on-scroll animate-fade-in-up">
+          <div class="objective-header">
+            <h2 style="color: #2b9dd1">Objetivo</h2>
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+              class="animate-pulse"
+            >
+              <circle
+                cx="24"
+                cy="24"
+                r="22"
+                stroke="#2B9DD1"
+                stroke-width="2"
+              />
+              <circle
+                cx="24"
+                cy="24"
+                r="16"
+                stroke="#2B9DD1"
+                stroke-width="2"
+              />
+              <circle
+                cx="24"
+                cy="24"
+                r="10"
+                stroke="#8BC53F"
+                stroke-width="2"
+              />
+              <circle cx="24" cy="24" r="4" fill="#8BC53F" />
+            </svg>
+          </div>
+        </div>
+
+        <div
+          class="content-spacing animate-on-scroll animate-fade-in-up delay-200"
+        >
+          <p style="font-size: 1.25rem !important; line-height: 1.75rem">
+            O nosso principal objetivo é tornar a tecnologia útil para promover
+            a inclusão de
+            <strong>diversos backgrounds e capacidades</strong> (sensoriais,
+            cognitivas, culturais, nacionalidades) promovendo uma sociedade mais
+            <strong>diversa</strong> e <strong>inclusiva</strong>.
+          </p>
+
+          <p style="font-size: 1.25rem !important; line-height: 1.75rem">
+            Somos um
+            <a
+              style="color: #2b9dd1"
+              href="https://techandpeople.github.io/"
+              target="_blank"
+              ><strong>grupo</strong></a
+            >
+            focado em interação pessoa-máquina para a
+            <strong>inclusão</strong> e <strong>acessibilidade</strong> de
+            pessoas com e sem deficiência ou com diferentes habilidades e
+            oportunidades.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="projects-header animate-on-scroll animate-fade-in-up">
+          <div class="objective-header">
+            <h2 style="color: #8bc53f">Usamos diversas tecnologias</h2>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0s"
+          >
+            <a
+              href="https://techandpeople.github.io/gaming/"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/inclusive_gaming.png"
+                  alt="A screenshot of the assistive play donor application. On the top side it shows a screenshot of fruit ninja with two traces, of two different swipes. Below a list of options to annotate which actions those traces correspond to. Finally, in the last third of the image, a timeline is shown with the limits of each gestured identified by the app."
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Inclusive Gaming</h4>
+                <p class="project-description">
+                  By acknowledging that players have different needs and
+                  preferences, we explore strategies to create gaming
+                  experiences that are more engaging and inclusive to everyone!
+                  We explore solutions to increase the agency of individual
+                  users over the interfaces they use.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.2s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/personalized_digital_interventions.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/doris.jpg"
+                  alt="Photo taken to a 2 years-old girl who is smiling and pointing to the camera."
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">
+                  Personalized Digital Interventions
+                </h4>
+                <p class="project-description">
+                  We seek to tailor and personalize digital interventions to
+                  increase users motivation and adherence to the interventions.
+                  To this end, is crucial to gather a deep understanding of the
+                  intervention, context of use, benefits and difficulties
+                  associated and to accede to the mental models (goals, needs,
+                  motivations, etc) of the users.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.4s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/robotsarefriends.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/baxter.jpg"
+                  alt="The robot Baxter with his arms extended and a blind person feeling its hands"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">HRI for Health and Acessibility</h4>
+                <p class="project-description">
+                  Robots have a very particular set of skills. Skills that have
+                  been acquired over a vast amount of reasearch. Skills that
+                  make them powerful tools to leverage for social inclusion,
+                  accessibility and interaction.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.4s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/ui_personalization.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/ui_personalization_1.png"
+                  alt="A browser with the independent newspaper page open. On the right side a window where we can read: change what you wish. It has the options change sizes, change colours, order elements, remove elements and more options."
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">
+                  Personalization of User Interfaces
+                </h4>
+                <p class="project-description">
+                  We explore solutions to increase the agency of individual
+                  users over the interfaces they use. We envision a digital
+                  world were peole have the power to adjust user interfaces (UI)
+                  to their personal interests and needs.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.4s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/data_driven_healthcare.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/mainParkinsonBlurred.jpg"
+                  alt="Clinical Assessemnt using Datapark"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Data-Driven Healthcare</h4>
+                <p class="project-description">
+                  Our goal is to increase and improve the information clinicians
+                  and patients have access. We explore and develop mechanisms
+                  for collecting, processing, and analyzing the data. We also
+                  have a huge concern on how the information is presented.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.4s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/inclusive_education.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/workshop_crianças_robot.jpg"
+                  alt="Photo taken from the Workshop with children. Two visually impaired children perform a goal-directed programming activity using a map located on the table. The activity consists of moving the robot to reach the duck. The map is made of 4 EVA foam tiles with two different colors. The child on the right is concentrated in arranging the blocks while the children at the left are touching the duck after the robot reached the duck. This child is smiling and has much of his body on the table."
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Inclusive Education</h4>
+                <p class="project-description">
+                  We aim to develop technological solutions to enable an
+                  inclusive education for children with mixed abilities. We have
+                  mainly developed enhanced tangible objects for the acquisition
+                  of abstract concepts, such as mathematics or computational
+                  thinking. Besides the benefit of decreasing cognitive load and
+                  reinforcing understanding, manipulatives also support
+                  collaboration, making children more prone to divide, explore
+                  and share supporting cooperative actions.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.4s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/smartphone_accessibility.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/2019_interact_risa.jpg"
+                  alt="A blind person interacting with his smarptphone using over the ear headphones"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Smartphone Accessibility</h4>
+                <p class="project-description">
+                  From newcomers to experts, we have characterized the
+                  challenges that blind people overcome. We explored how to
+                  provide effective self-contained smartphone assistance with
+                  the ultimate goal of promoting self-efficacy.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            class="animate-on-scroll animate-scale-in"
+            style="animation-delay: 0.4s"
+          >
+            <a
+              href="https://techandpeople.github.io/projects/bio_personalized_cognitive_stimulation.html"
+              class="project-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  src="../../images/projects/thumbnails/2018_CHI_Scrapbook.jpg"
+                  alt="Patient performing a jigsaw puzzle."
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">
+                  Biographical and Cognitive Stimulation
+                </h4>
+                <p class="project-description">
+                  We explore how biographical information can improve cognitive
+                  stimulation and design interactive platforms to support people
+                  with dementia, clinicians, and families.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How To Help Section -->
+    <section id="how-to-help">
+      <div class="container">
+        <div class="animate-on-scroll animate-fade-in-up">
+          <h2 class="mb-8" style="color: #8bc53f">Como nos podem ajudar?</h2>
+        </div>
+
+        <div
+          class="content-spacing animate-on-scroll animate-fade-in-up delay-200"
+        >
+          <p style="font-size: 1.25rem !important; line-height: 1.75rem">
+            O nosso objetivo é
+            <strong>desenvolver tecnologia para problemas reais</strong>, e
+            trabalhar com e para a sociedade. Assim sendo
+            <strong
+              >temos sempre diversos projetos de investigação a decorrer</strong
+            >.
+          </p>
+
+          <p style="font-size: 1.25rem !important; line-height: 1.75rem">
+            Caso tenha interesse
+            <strong>pode ajudar-nos em diversas fases dos projetos</strong>,
+            desde a identificação das vossas necessidades que a tecnologia pode
+            ajudar, até desenhar e testar os protótipos/soluções que a nossa
+            equipa vai desenvolvendo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Commitment Section -->
+    <section id="commitment">
+      <div class="container-md">
+        <div class="animate-on-scroll animate-fade-in-up">
+          <h2 class="mb-8" style="color: #2b9dd1">O que nos comprometemos?</h2>
+        </div>
+
+        <div class="animate-on-scroll animate-scale-in delay-200">
+          <div class="commitment-box">
+            <div class="commitment-content">
+              <div style="flex-shrink: 0">
+                <svg
+                  width="64"
+                  height="64"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  class="animate-pulse"
+                >
+                  <circle
+                    cx="32"
+                    cy="32"
+                    r="28"
+                    stroke="#2B9DD1"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M20 32L28 40L44 24"
+                    stroke="#8BC53F"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="commitment-text">
+                <p>
+                  <strong
+                    >Toda a vossa informação pessoal será tratada de forma
+                    confidencial e não será partilhada com terceiros.</strong
+                  >
+                </p>
+                <p>
+                  Quando forem contactados podem optar por participar ou não na
+                  atividade que vos for proposta.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action Section -->
+    <section id="cta">
+      <!-- Animated background elements -->
+      <div class="cta-bg-circles">
+        <div class="cta-circle cta-circle-1 animate-float"></div>
+        <div class="cta-circle cta-circle-2 animate-float delay-300"></div>
+        <div class="cta-circle cta-circle-3 animate-float delay-500"></div>
+      </div>
+
+      <div class="container-md cta-content">
+        <div class="animate-on-scroll animate-fade-in-up">
+          <h2 class="mb-15" style="color: white">
+            Vem participar nos nossos estudos!
+          </h2>
+        </div>
+
+        <div class="animate-on-scroll animate-scale-in delay-200">
+          <button id="registerButton" class="cta-button">
+            <span>Registar como Participante</span>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="cta-arrow"
+            >
+              <path
+                d="M5 12H19M19 12L12 5M19 12L12 19"
+                stroke="#2B9DD1"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- <div
+          class="cta-contact mt-12 animate-on-scroll animate-fade-in delay-400"
+        >
+          <p>
+            Tem dúvidas? Contacte-nos em
+            <a href="mailto:techandpeople@ciencias.ulisboa.pt"
+              >techandpeople@ciencias.ulisboa.pt</a
+            >
+          </p>
+        </div> -->
+      </div>
+    </section>
+
+    <script>
+      // Scroll animation observer
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerCallback = function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.remove("animate-on-scroll");
+            }
+          });
+        };
+
+        const observerOptions = {
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const observer = new IntersectionObserver(
+          observerCallback,
+          observerOptions
+        );
+
+        const animatedElements =
+          document.querySelectorAll(".animate-on-scroll");
+        animatedElements.forEach(function (el) {
+          observer.observe(el);
+        });
+
+        // Register button click handler
+        const registerButton = document.getElementById("registerButton");
+        if (registerButton) {
+          registerButton.addEventListener("click", function () {
+            // Replace with actual form URL
+            window.location.href = "https://forms.office.com/e/NjYRnjUsuB";
+          });
+        }
+      });
+
+      //Carroussel
+      const slides = document.getElementById("carouselSlides");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const indicatorsContainer = document.getElementById("indicators");
+
+      let currentIndex = 0;
+      const totalSlides = document.querySelectorAll(".slide").length;
+
+      // Create indicators
+      for (let i = 0; i < totalSlides; i++) {
+        const indicator = document.createElement("button");
+        indicator.classList.add("indicator");
+        if (i === 0) indicator.classList.add("active");
+        indicator.addEventListener("click", () => goToSlide(i));
+        indicatorsContainer.appendChild(indicator);
+      }
+
+      const indicators = document.querySelectorAll(".indicator");
+
+      function updateCarousel() {
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        indicators.forEach((indicator, index) => {
+          indicator.classList.toggle("active", index === currentIndex);
+        });
+      }
+
+      function goToSlide(index) {
+        currentIndex = index;
+        updateCarousel();
+      }
+
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateCarousel();
+      }
+
+      function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+      }
+
+      nextBtn.addEventListener("click", nextSlide);
+      prevBtn.addEventListener("click", prevSlide);
+
+      // Auto-play (optional - uncomment to enable)
+      // setInterval(nextSlide, 5000);
+    </script>
+  </body>
+</html>
