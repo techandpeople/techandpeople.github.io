@@ -1025,3 +1025,14 @@ hferreira:
           url: https://www.linkedin.com/in/hugo-ferreira-bab142206/
         - name: github
           url: https://github.com/Hugana
+
+bguerreiro:
+    name: "Beatriz Guerreiro"
+    photo: bguerreiro.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58643@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/beatrizcmguerreiro/
+
