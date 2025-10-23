@@ -17,6 +17,7 @@ members:
   - dmcg
   - fsr
   - hhss
+  - jfarinha
   - jferreira
   - mpmp
   - pgp
@@ -1036,4 +1037,12 @@ bguerreiro:
           url: fc58643@alunos.fc.ul.pt
         - name: linkedin
           url: https://www.linkedin.com/in/beatrizcmguerreiro/
+
+jfarinha:
+    name: "João Farinha"
+    photo: jfarinha.png
+    info:  PhD Student
+    links:
+        - name: email
+          url: jtfarinha@fc.ul.pt
 
