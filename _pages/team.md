@@ -28,7 +28,7 @@ permalink: /team/
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
 <div id="{{member}}" class="card card-team-member">
-{% if person contains 'url' %}
+{% if person.url != nil %}
 <a href="{{ person.url }}">
 {% else %}
 <a href="{{ site.url }}{{ site.baseurl }}/team/{{member}}.html">
