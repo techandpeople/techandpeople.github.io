@@ -28,7 +28,11 @@ permalink: /team/
 {% assign person = site.data.team_members[member] %}
 <div class="col-sm-3">
 <div id="{{member}}" class="card card-team-member">
+{% if person contains 'url' %}
+<a href="{{ person.url }}">
+{% else %}
 <a href="{{ site.url }}{{ site.baseurl }}/team/{{member}}.html">
+{% endif %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ person.photo }}" width="100%" class="img-responsive imgteam" style="margin-top: 0; float: left" /></a>
 <div class="card-body">
 <p class="title">{{ person.name }}</p>
