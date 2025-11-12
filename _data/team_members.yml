@@ -12,9 +12,10 @@ members:
   - vmotti
   - arbs
   - bnogueira
-  - djrb
+  - dfreitas
   - dreis
   - dmcg
+  - djrb
   - fsr
   - hhss
   - jfarinha
@@ -1046,3 +1047,12 @@ jfarinha:
         - name: email
           url: jtfarinha@fc.ul.pt
 
+dfreitas:
+    name: "Daniel Freitas"
+    photo: dfreitas.png
+    info:  PhD Student
+    links:
+        - name: email
+          url: dfreitas@lasige.di.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/daniel-freitas-778b1115/
