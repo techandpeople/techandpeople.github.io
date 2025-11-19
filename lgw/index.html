@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming Studies - Tech and People</title>
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <style>
+      /* Gaming-specific dark theme with vibrant purple, pink, and cyan accents */
+      body {
+        background: #1a0f2e;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+      }
+
+      * {
+        font-family: inherit;
+      }
+
+      .flex-column {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .video-item {
+        background-color: rgba(35, 0, 48, 0.3);
+        height: 20vh;
+        width: 25vw;
+        margin: 1em;
+      }
+
+      /* Navigation Header */
+      .gaming-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background: rgba(26, 15, 46, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 0, 200, 0.3);
+        padding: 1rem 2rem;
+      }
+
+      .gaming-nav .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .gaming-nav .logo {
+        color: #ff0080;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+      }
+
+      .gaming-nav .logo:hover {
+        opacity: 0.8;
+      }
+
+      .gaming-nav .back-link {
+        color: #ff0080;
+        text-decoration: none;
+        padding: 0.5rem 1.5rem;
+        border: 1px solid #ff0080;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+      }
+
+      .gaming-nav .back-link:hover {
+        background: linear-gradient(135deg, #ff0080 0%, #7928ca 100%);
+        color: #ffffff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(255, 0, 128, 0.5);
+      }
+
+      /* Hero Section with scrollable background image */
+      .hero-section {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      .hero-bg {
+        position: absolute;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(
+          135deg,
+          #1a0f2e 0%,
+          #2d1b4e 50%,
+          #1f0a37 100%
+        );
+        z-index: 1;
+      }
+
+      .hero-bg-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        object-fit: cover;
+        opacity: 0.3;
+        z-index: 2;
+      }
+      .hero-bg-image-tint {
+        position: absolute;
+        background-color: rgba(121, 40, 202, 1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.3;
+        z-index: 3;
+      }
+
+      .hero-gradient-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(121, 40, 202, 0.4) 0%,
+          rgba(255, 0, 128, 0.3) 100%
+        );
+        z-index: 3;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 4;
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .hero-title {
+        font-size: 5rem;
+        margin: 0;
+        color: #ff0080;
+        animation: pulse 3s ease-in-out infinite;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-shadow: 0 0 40px rgba(255, 0, 128, 0.5);
+      }
+
+      .hero-subtitle {
+        font-size: 1.5rem;
+        color: #00f0ff;
+        margin-top: 1rem;
+        opacity: 0;
+        animation: fadeInUp 1s ease-out 0.5s forwards;
+      }
+
+      .glitch-circle {
+        position: absolute;
+        border: 2px solid rgba(255, 0, 128, 0.3);
+        border-radius: 50%;
+        animation: circleGlitch 4s ease-in-out infinite;
+        box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+      }
+
+      .circle-1 {
+        width: 300px;
+        height: 300px;
+        top: 20%;
+        left: 10%;
+        border-color: rgba(0, 240, 255, 0.3);
+        box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+      }
+
+      .circle-2 {
+        width: 200px;
+        height: 200px;
+        bottom: 20%;
+        right: 15%;
+        animation-delay: 1s;
+        border-color: rgba(255, 215, 0, 0.3);
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+      }
+
+      .circle-3 {
+        width: 150px;
+        height: 150px;
+        top: 60%;
+        left: 70%;
+        animation-delay: 2s;
+      }
+
+      @keyframes circleGlitch {
+        0%,
+        100% {
+          transform: scale(1) rotate(0deg);
+          opacity: 0.3;
+        }
+        50% {
+          transform: scale(1.1) rotate(180deg);
+          opacity: 0.6;
+        }
+      }
+
+      /* Image Gallery Section */
+      .gallery-section {
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #1a0f2e 0%, #2d1b4e 100%);
+        position: relative;
+      }
+
+      .gallery-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .section-title {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        color: #ff0080;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 4rem;
+      }
+
+      .image-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        aspect-ratio: 16/9;
+        border: 2px solid transparent;
+        transition: all 0.4s ease;
+      }
+
+      .image-card:hover {
+        border-color: #ff0080;
+        transform: scale(1.05) translateY(-10px);
+        box-shadow: 0 20px 40px rgba(255, 0, 128, 0.4);
+      }
+
+      .image-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+
+      .image-card:hover img {
+        transform: scale(1.1);
+      }
+
+      .image-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(
+          to top,
+          rgba(26, 15, 46, 0.95),
+          transparent
+        );
+        padding: 1.5rem;
+        transform: translateY(100%);
+        transition: transform 0.4s ease;
+      }
+
+      .image-card:hover .image-overlay {
+        transform: translateY(0);
+      }
+
+      .overlay-text {
+        color: #00f0ff;
+        font-size: 1.2rem;
+        margin: 0;
+      }
+
+      /* Video Placeholder Section */
+      .video-section {
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #0f0a1f 0%, #1a0f2e 100%);
+      }
+
+      .video-container {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .video-placeholder {
+        position: relative;
+        aspect-ratio: 16/9;
+        background: #000;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 3px solid;
+        border-image: linear-gradient(135deg, #ff0080, #7928ca, #00f0ff) 1;
+        margin-bottom: 2rem;
+        box-shadow: 0 0 50px rgba(255, 0, 128, 0.3);
+      }
+
+      .video-placeholder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.7;
+      }
+
+      .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, #ff0080 0%, #7928ca 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        animation: pulse 2s ease-in-out infinite;
+        box-shadow: 0 0 30px rgba(255, 0, 128, 0.5);
+      }
+
+      .play-button:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        background: linear-gradient(135deg, #00f0ff 0%, #ff0080 100%);
+      }
+
+      .play-icon {
+        width: 0;
+        height: 0;
+        border-left: 25px solid #ffffff;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        margin-left: 5px;
+      }
+
+      /* CTA Section */
+      .cta-section {
+        padding: 6rem 2rem;
+        background: linear-gradient(135deg, #1a0f2e 0%, #2d1b4e 100%);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .cta-container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+      }
+
+      .cta-glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(
+          circle,
+          rgba(255, 0, 128, 0.3) 0%,
+          rgba(121, 40, 202, 0.2) 50%,
+          transparent 70%
+        );
+        animation: glow 3s ease-in-out infinite;
+      }
+
+      @keyframes glow {
+        0%,
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+          opacity: 0.5;
+        }
+        50% {
+          transform: translate(-50%, -50%) scale(1.2);
+          opacity: 0.8;
+        }
+      }
+
+      .cta-title {
+        font-size: 2.5rem;
+        color: #ffd700;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+      }
+
+      .cta-text {
+        font-size: 1.2rem;
+        color: #c8b3e6;
+        margin-bottom: 3rem;
+        line-height: 1.8;
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 1.2rem 3rem;
+        background: #ff0080;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 10px 40px rgba(255, 0, 128, 0.4);
+      }
+
+      .cta-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 50px rgba(255, 0, 128, 0.6);
+        background: #7928ca;
+      }
+
+      .form-link-placeholder {
+        margin-top: 2rem;
+        padding: 1rem;
+        background: rgba(255, 0, 128, 0.1);
+        border: 1px dashed #ff0080;
+        border-radius: 10px;
+        color: #c8b3e6;
+        font-size: 0.9rem;
+      }
+
+      /* Scroll Indicator */
+      .scroll-indicator {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(10px);
+        }
+      }
+
+      @keyframes scrollDot {
+        0% {
+          opacity: 1;
+          top: 10px;
+        }
+        100% {
+          opacity: 0;
+          top: 30px;
+        }
+      }
+
+      /* Stats Section */
+      .stats-section {
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #2d1b4e 0%, #1a0f2e 100%);
+        position: relative;
+        overflow: hidden;
+        min-height: 500px;
+        align-content: center;
+      }
+
+      /* Single large background image for custom game image */
+      .stats-bg-images {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.25;
+        z-index: 1;
+      }
+
+      .stats-bg-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(3px);
+      }
+
+      /* Dark overlay to maintain readability */
+      .stats-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(45, 27, 78, 0.8) 0%,
+          rgba(26, 15, 46, 0.9) 100%
+        );
+        z-index: 2;
+      }
+
+      .stats-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 3rem;
+        position: relative;
+        z-index: 3;
+      }
+
+      .stat-card {
+        text-align: center;
+        padding: 2rem;
+        background: rgba(255, 0, 128, 0.1);
+        border: 1px solid rgba(255, 0, 128, 0.3);
+        border-radius: 15px;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 20px rgba(255, 0, 128, 0.1);
+      }
+
+      .stat-card:hover {
+        background: rgba(255, 0, 128, 0.15);
+        border-color: #ff0080;
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(255, 0, 128, 0.3);
+      }
+
+      .stat-number {
+        font-size: 3rem;
+        color: #ffd700;
+        margin-bottom: 0.5rem;
+      }
+
+      .stat-label {
+        color: #c8b3e6;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        letter-spacing: 0.05em;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 3rem;
+        }
+
+        .hero-subtitle {
+          font-size: 1.2rem;
+        }
+
+        .section-title {
+          font-size: 2rem;
+        }
+
+        .cta-title {
+          font-size: 2rem;
+        }
+
+        .image-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .gaming-nav .container {
+          flex-direction: column;
+          gap: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="gaming-nav">
+      <div class="container">
+        <a href="/index.html" class="logo">
+          <h3 style="margin: 0">TECH & PEOPLE</h3>
+        </a>
+        <!-- <a href="/index.html" class="back-link">← Back to Main Site</a> -->
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-bg">
+        <!-- <div class="flex-column">
+          <div class="flex-row">
+            <div class="video-item"></div>
+            <div class="video-item"></div>
+            <div class="video-item"></div>
+          </div>
+          <div class="flex-row">
+            <div class="video-item"></div>
+            <div class="video-item"></div>
+            <div class="video-item"></div>
+          </div>
+          <div class="flex-row">
+            <div class="video-item"></div>
+            <div class="video-item"></div>
+            <div class="video-item"></div>
+          </div>
+        </div> -->
+      </div>
+      <div class="hero-bg-image-tint"></div>
+
+      <div
+        class="hero-bg-image"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1635372708431-64774de60e20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlc3BvcnRzJTIwZ2FtaW5nfGVufDF8fHx8MTc2MzEzMDY3MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma');
+        "
+      ></div>
+      <div class="hero-content">
+        <h1 class="hero-title">GAMING</h1>
+        <p class="hero-subtitle">Join Our Research Studies</p>
+      </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-glow"></div>
+      <div class="cta-container">
+        <h2 class="cta-title animate-on-scroll animate-fade-in-up">
+          READY TO PARTICIPATE?
+        </h2>
+        <p class="cta-text animate-on-scroll animate-fade-in-up delay-200">
+          Be part of cutting-edge gaming research. Share your experience,
+          contribute to science, and help shape the future of gaming technology.
+        </p>
+        <button
+          class="cta-button animate-on-scroll animate-scale-in delay-400"
+          id="submitButton"
+        >
+          SUBMIT YOUR INTEREST
+        </button>
+      </div>
+    </section>
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stats-bg-images">
+        <img
+          src="https://images.unsplash.com/photo-1635372708431-64774de60e20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlc3BvcnRzJTIwZ2FtaW5nfGVufDF8fHx8MTc2MzEzMDY3MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          alt="Esports Gaming"
+          class="stats-bg-image"
+        />
+      </div>
+      <div class="stats-overlay"></div>
+      <div class="stats-container">
+        <div class="stat-card animate-on-scroll animate-scale-in">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Participants</div>
+        </div>
+        <div class="stat-card animate-on-scroll animate-scale-in delay-200">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">Studies</div>
+        </div>
+        <div class="stat-card animate-on-scroll animate-scale-in delay-400">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Confidential</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="gallery-section">
+      <div class="gallery-container">
+        <h2 class="section-title animate-on-scroll animate-fade-in-up">
+          EXPERIENCE
+        </h2>
+        <div class="image-grid">
+          <a
+            href="https://techandpeople.github.io/gaming/#parallelrealms:asymmetryunited"
+            target="_blank"
+          >
+            <div
+              class="image-card animate-on-scroll animate-scale-in delay-400"
+            >
+              <img
+                src="../images/games/09_parallelrealms.gif"
+                alt="Parallel Realms: Asymmetry United"
+              />
+              <div class="image-overlay">
+                <p class="overlay-text">Parallel Realms: Asymmetry United</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://techandpeople.github.io/gaming/#rescue:underpressure"
+            target="_blank"
+          >
+            <div class="image-card animate-on-scroll animate-scale-in">
+              <img
+                src="../images/games/01_rescueup.gif"
+                alt="Rescue: Under Pressure"
+              />
+              <div class="image-overlay">
+                <p class="overlay-text">Rescue: Under Pressure</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://techandpeople.github.io/gaming/#koalaboutique"
+            target="_blank"
+          >
+            <div
+              class="image-card animate-on-scroll animate-scale-in delay-200"
+            >
+              <img
+                src="../images/games/06_koalaboutique.gif"
+                alt="Koala Boutique"
+              />
+              <div class="image-overlay">
+                <p class="overlay-text">Koala Boutique</p>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-container">
+        <h2 class="section-title animate-on-scroll animate-fade-in-up">
+          DISCOVER MORE
+        </h2>
+        <div
+          class="video-placeholder animate-on-scroll animate-scale-in delay-200"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1759701547393-b505730954dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wZXRpdGl2ZSUyMGdhbWluZ3xlbnwxfHx8fDE3NjMwNTU3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            alt="Gaming Research"
+          />
+          <div class="play-button" id="playButton">
+            <div class="play-icon"></div>
+          </div>
+        </div>
+        <p style="color: #c8b3e6; font-size: 0.9rem">
+          Video: Behind the Scenes of Our Gaming Studies
+        </p>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+      // Scroll animations
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerCallback = function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.remove("animate-on-scroll");
+            }
+          });
+        };
+
+        const observerOptions = {
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const observer = new IntersectionObserver(
+          observerCallback,
+          observerOptions
+        );
+
+        const animatedElements =
+          document.querySelectorAll(".animate-on-scroll");
+        animatedElements.forEach(function (el) {
+          observer.observe(el);
+        });
+
+        // Play button animation
+        const playButton = document.getElementById("playButton");
+        if (playButton) {
+          playButton.addEventListener("click", function () {
+            alert(
+              "Video player will be integrated here when video content is available."
+            );
+          });
+        }
+
+        // CTA button handler
+        const submitButton = document.getElementById("submitButton");
+        if (submitButton) {
+          submitButton.addEventListener("click", function () {
+            window.location.href = "https://forms.office.com/e/NjYRnjUsuB";
+          });
+        }
+
+        // Parallax effect for hero
+        window.addEventListener("scroll", function () {
+          const scrolled = window.pageYOffset;
+          const heroContent = document.querySelector(".hero-content");
+          const heroBgImage = document.querySelector(".hero-bg-image");
+
+          if (heroContent && scrolled < window.innerHeight) {
+            heroContent.style.transform =
+              "translateY(" + scrolled * 0.5 + "px)";
+            heroContent.style.opacity = 1 - scrolled / window.innerHeight;
+          }
+
+          if (heroBgImage && scrolled < window.innerHeight) {
+            heroBgImage.style.transform =
+              "translateY(" + scrolled * 0.3 + "px)";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
