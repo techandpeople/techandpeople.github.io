@@ -34,8 +34,8 @@ people:
   - tjvg
   - afpr
 
-conference-name: CSCW
-venue: "The ACM Conference on Computer-Supported Cooperative Work and Social Computing, October, 2026"
+conference-name: Preprint
+venue: " "
 year: 2026
 
 projects:
