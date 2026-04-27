@@ -7,6 +7,7 @@ members:
   - jpvg
   - lsp
   - rgouveia
+  - saa
   - salarcao
   - tjvg
   - vmotti
@@ -23,7 +24,6 @@ members:
   - mpmp
   - pgp
   - ptrindade
-  - saa
   - bguerreiro
   - ggouveia
   - hferreira
@@ -207,14 +207,16 @@ djrb:
 saa:
     name: "Sérgio Alves"
     photo: saa.jpg
-    info: "PhD Student"
+    info: "Ph.D, Assistant Researcher"
     links:
-        - name: twitter
-          url: https://twitter.com/sergiobalves/
-        - name: email
-          url: sfalves@fc.ul.pt
+        - name: web
+          url: https://sergioalves.eu
         - name: scholar
           url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
+        - name: linkedin
+          url: https://www.linkedin.com/in/sergioaalves/
+        - name: email
+          url: sfalves@ciencias.ulisboa.pt
 
 lvfa:
     name: "Lúcia Abreu"
