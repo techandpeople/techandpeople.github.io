@@ -7,11 +7,13 @@ layout: bio
 # TO EDIT
 code: ptrindade
 title: "Pedro Trindade"
-photo: pptt.jpg
+photo: pptt.png
 info: PhD Student
 links:
   - name: email
     url: pgtrindade@fc.ul.pt
 ---
 
-I completed my Bachelor’s and Master’s degrees in Informatics Engineering at the University of Lisbon. During my master’s studies, I focused on inclusive game design, exploring how to create competitive games for groups with mixed visual abilities, by leveraging asymmetric design principles. I am currently expanding the work of my MSc dissertation, aiming to explore direct and team-based competition scenarios for mixed-visual-abilities groups.
+Pedro Trindade holds a Bachelor’s, Master’s in Informatics Engineering, and is currently pursuing a Ph.D. at the Faculty of Sciences of the University of Lisbon with André Rodrigues and João Guerreiro.
+
+His Ph.D. research focuses on improving gaming accessibility for individuals with visual impairments. The work centers on designing and developing competitive mixed-ability gaming environments that promote engaging, balanced, and fair experiences for all participants, regardless of ability. 
