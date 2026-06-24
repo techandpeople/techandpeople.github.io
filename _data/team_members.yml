@@ -2,28 +2,39 @@ members:
   - afpr
   - cad
   - dpimentel
+  - djrb
   - fbrito
   - ineto
   - jpvg
   - lsp
   - rgouveia
+  - saa
   - salarcao
   - tjvg
   - vmotti
   - arbs
   - bnogueira
-  - djrb
+  - dfreitas
   - dreis
   - dmcg
   - fsr
   - hhss
+  - jfarinha
   - jferreira
   - mpmp
   - pgp
   - ptrindade
-  - saa
+  - bguerreiro
+  - ggouveia
+  - hferreira
   - igil
+  - jpereira
+  - memauz
+  - mborges
+  - mmartins
+  - pcosta
   - rsilva
+  - scanhoto
 
 friends:
   - ccbb
@@ -180,8 +191,8 @@ arbs:
 djrb:
     name: "Diogo Branco"
     photo: djrb.jpg
-    info: "PhD Student"
-    url: https://web.lasige.di.fc.ul.pt/~dbranco/
+    info: "Ph.D., Invited Assistant Professor"
+    url: https://techandpeople.github.io/team/djrb.html
     institution: "LASIGE, Universidade de Lisboa"
     links:
         - name: web
@@ -196,14 +207,16 @@ djrb:
 saa:
     name: "Sérgio Alves"
     photo: saa.jpg
-    info: "PhD Student"
+    info: "Ph.D, Assistant Researcher"
     links:
-        - name: twitter
-          url: https://twitter.com/sergiobalves/
-        - name: email
-          url: sfalves@fc.ul.pt
+        - name: web
+          url: https://sergioalves.eu
         - name: scholar
           url: https://scholar.google.co.uk/citations?user=ksBW-T0AAAAJ
+        - name: linkedin
+          url: https://www.linkedin.com/in/sergioaalves/
+        - name: email
+          url: sfalves@ciencias.ulisboa.pt
 
 lvfa:
     name: "Lúcia Abreu"
@@ -712,7 +725,9 @@ dreis:
   info: PhD Student
   links:
     - name: email
-      url: fc57701@alunos.fc.ul.pt
+      url: dsreis@ciencias.ulisboa.pt
+    - name: scholar
+      url: https://scholar.google.com/citations?user=u6y4NPIAAAAJ&hl
 
 jmorais:
   name: João Morais
@@ -852,7 +867,7 @@ mpmp:
         - name: email
           url: fc54136@alunos.fc.ul.pt
 
-lsp: 
+lsp:
   name: "Letícia Seixas Pereira"
   photo: lsp.jpg
   info: "Ph.D., Assistant Researcher"
@@ -865,7 +880,7 @@ lsp:
 
 ptrindade:
     name: "Pedro Trindade"
-    photo: pptt.jpg
+    photo: pptt.png
     info:  PhD Student
     institution: "LASIGE, Universidade de Lisboa"
     links:
@@ -873,7 +888,7 @@ ptrindade:
           url: fc51961@alunos.fc.ul.pt
 
 rgouveia:
-    name: "Ruben Gouveia"
+    name: "Rúben Gouveia"
     photo: RubenGouveia.jpg
     info: "Ph.D., Assistant Professor"
     institution: "LASIGE, Universidade de Lisboa"
@@ -935,3 +950,111 @@ salarcao:
         url: https://scholar.google.com/citations?user=lyoXM6sAAAAJ&hl
       - name: linkedin
         url: https://www.linkedin.com/in/soraiamenesesalarcao/
+
+
+mborges:
+    name: "Miguel Borges"
+    photo: mborges.png
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58187@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/miguel-borges-8885202b6/
+
+
+ggouveia:
+    name: "Guilherme Gouveia"
+    photo: ggouveia.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58176@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/guilherme-gouveia-4142b3246
+        - name: github
+          url: https://github.com/Ugrande/master_degree_projects
+
+mmartins:
+    name: "Miguel Martins"
+    photo: mmartins.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58661@alunos.fc.ul.pt
+
+pcosta:
+    name: "Pedro Costa"
+    photo: pcosta.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc54954@alunos.fc.ul.pt
+
+scanhoto:
+    name: "Sara Canhoto"
+    photo: scanhoto.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc43177@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/sara-canhoto-a32a2799/
+
+memauz:
+    name: "Martim Emauz"
+    photo: memauz.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58668@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/martim-emauz-71666124a/
+
+jpereira:
+    name: "João Pereira"
+    photo: jpereira.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc64451@alunos.fc.ul.pt
+
+hferreira:
+    name: "Hugo Ferreira"
+    photo: hferreira.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc64459@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/hugo-ferreira-bab142206/
+        - name: github
+          url: https://github.com/Hugana
+
+bguerreiro:
+    name: "Beatriz Guerreiro"
+    photo: bguerreiro.jpg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: fc58643@alunos.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/beatrizcmguerreiro/
+
+jfarinha:
+    name: "João Farinha"
+    photo: jfarinha.jpg
+    info:  PhD Student
+    links:
+        - name: email
+          url: jtfarinha@fc.ul.pt
+
+dfreitas:
+    name: "Daniel Freitas"
+    photo: dfreitas.png
+    info:  PhD Student
+    links:
+        - name: email
+          url: dfreitas@lasige.di.fc.ul.pt
+        - name: linkedin
+          url: https://www.linkedin.com/in/daniel-freitas-778b1115/

@@ -8,10 +8,12 @@ layout: bio
 # TO EDIT
 title: "Daniel Reis"
 photo: dreis.jpg
-info: "MSc Student"
+info: "PhD Student"
 links:
     - name: email
-      url: fc57701@alunos.fc.ul.pt
+      url: dsreis@ciencias.ulisboa.pt
+    - name: scholar
+      url: https://scholar.google.com/citations?user=u6y4NPIAAAAJ&hl
 ---
 
-I completed my BSc degree in Computer Science at the Universidade Lusíada de Lisboa. I am now a MSc student in Computer Science in the specialization curricular grouping of Artificial Intelligence, in the Faculdade de Ciências da Universidade de Lisboa. Although Artificial Intelligence is of great interest to me, Game Design and Development has always been my passion and so my MSc thesis consists of investigating and developing game mechanics for real world interactions.
+I am a PhD candidate in Informatics at the Faculdade de Ciências da Universidade de Lisboa, conducting research at LASIGE on how multiplayer games can be designed to support relationship maintenance within gaming groups. I hold a B.Sc. in Informatics Engineering from Universidade Lusíada de Lisboa and an M.Sc. in Informatics Engineering from Faculdade de Ciências da Universidade de Lisboa, where I explored, also at LASIGE, how games can leverage asymmetry of information to foster communication between players. Passionate about the intersection of game design, development, and research, I am motivated by the potential of games to strengthen social connections and actively contribute to research on socially impactful game experiences.

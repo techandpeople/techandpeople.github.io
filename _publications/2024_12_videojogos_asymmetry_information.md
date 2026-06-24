@@ -31,7 +31,7 @@ external-links:
 
   # people associated with the publication
 people:
-  - daniel
+  - dreis
   - pgp
   - dmcg
   - kathrin
