@@ -18,5 +18,5 @@ links:
 
 ---
 
-I received my PhD with distinction and honour in 2020 with the topic of Human-Powered Smartphone Assistance for Blind People. The last six years have been dedicated to developing and evaluating mobile services, applications and platforms for a variety of contexts and user groups (e.g. people with visual and/or motor impairments people experiencing homelessness). I am an HCI researcher interested in how technology can and is leveraged in accessibility, health and gaming.
+I am a Computer Science researcher focused on Human-Computer Interaction with a particular interest in how technology can be leveraged in gaming. Most of my research centres around inclusive gaming, attempting to maximise the opportunities for play across individuals with disparate requirements/abilities, with the goal of promoting positive social outcomes. For the last ten years, I have dedicated myself to learning, designing, developing and evaluating mobile services, games, applications and platforms for a variety of contexts (e.g. people with visual and/or motor impairments, people experiencing homelessness, people with Parkinson's Disease), always working closely with and/or within the communities I engage with.
 

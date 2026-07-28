@@ -24,9 +24,9 @@ authors: Ana Pires, Lúcia Abreu, Filipa Rocha, Hugo Simão, João Guerreiro, Ti
 # link to the pdf
 pdf: ../downloads/IDC2023_TACTOPI.pdf
 
-# external-links:
-#  - name: DOI
-#    url: https://doi.org/10.1145/3585088.3589389
+external-links:
+   - name: DOI
+     url: https://doi.org/10.1145/3585088.3589389
 
 # people associated with the publication
 people:

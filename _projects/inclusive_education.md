@@ -20,10 +20,11 @@ description: "We aim to develop technological solutions to enable an inclusive e
 # people associated with the project
 people:
  - acp
- - ajbn
+ - ajbn 
+ - fsr
+ - hss
  - tjvg
- - hhss
-#hugo nicolau, filipa rocha
+#hugo nicolau
 
 # project code
 code: inclusive_education
