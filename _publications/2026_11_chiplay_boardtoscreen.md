@@ -32,8 +32,8 @@ people:
   - jpvg
   - afpr
 
-conference-name: Preprint
-venue: " "
+conference-name: CHI PLAY
+venue: "The Annual Symposium on Computer-Human Interaction in Play"
 year: 2026
 
 projects:
