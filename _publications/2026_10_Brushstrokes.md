@@ -11,7 +11,7 @@ title: "Brushstrokes of Autonomy: Exploring Artistic Expression for People with 
 
 # publication image
 image:
- name: ‎brushstrokes_teaser_assets2026.jpg
+ name: brushstrokes_teaser_assets2026.jpg
  alt-text: "A participant with an upper-limb motor impairment uses an augmented reality (AR) head-mounted display (HMD) to draw on a virtual canvas, which is reproduced by the robotic arm on paper using acrylic markers, following the same strokes (left). The resulting pieces (right) reflect participants' personal artistic expression made physically present through the system." # provide a short description for the image #a11y
 
 # short description of the publication
@@ -38,6 +38,7 @@ venue: "ACM SIGACCESS Conference on Computers and Accessibility"
 year: 2026
 
 projects:
+  - robotsarefriends
 #  
 
 # area for filter purpose
