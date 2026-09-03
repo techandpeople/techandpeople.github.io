@@ -1,39 +1,31 @@
 members:
   - afpr
   - cad
-  - dpimentel
   - djrb
-  - fbrito
   - ineto
   - jpvg
-  - lsp
   - rgouveia
-  - saa
   - salarcao
   - tjvg
-  - vmotti
-  - arbs
   - bnogueira
   - dfreitas
   - dreis
   - dmcg
   - fsr
   - hhss
+  - igil
   - jfarinha
   - jferreira
   - mpmp
-  - pgp
   - ptrindade
   - bguerreiro
   - ggouveia
   - hferreira
-  - igil
   - jpereira
   - memauz
   - mborges
   - mmartins
   - pcosta
-  - rsilva
   - scanhoto
 
 friends:
@@ -49,6 +41,8 @@ friends:
   - jforlizzi
   - kgerling
   - abernardino
+  - lsp
+  - vmotti
 
 alumni:
   - ajbn
@@ -81,6 +75,12 @@ alumni:
   - mvieira
   - bmano
   - igoncalves
+  - pgp
+  - dpimentel
+  - fbrito
+  - saa
+  - arbs
+  - rsilva
 
 wildbydesign:
   - djrb
@@ -117,7 +117,7 @@ dtx:
 tjvg:
     name: "Tiago Guerreiro"
     photo: tjvg.png
-    info: "Ph.D., Associate Professor"
+    info: "Ph.D., Full Professor"
     institution: "LASIGE, Universidade de Lisboa"
     url: https://tjvguerreiro.github.io
     links:
@@ -191,7 +191,7 @@ arbs:
 djrb:
     name: "Diogo Branco"
     photo: djrb.jpg
-    info: "Ph.D., Invited Assistant Professor"
+    info: "Ph.D., Assistant Professor"
     url: https://techandpeople.github.io/team/djrb.html
     institution: "LASIGE, Universidade de Lisboa"
     links:
@@ -207,7 +207,7 @@ djrb:
 saa:
     name: "Sérgio Alves"
     photo: saa.jpg
-    info: "Ph.D, Assistant Researcher"
+    info: "Ph.D studen (1st job at UMinho)"
     links:
         - name: web
           url: https://sergioalves.eu
@@ -396,7 +396,7 @@ jpvg:
   redirect: https://www.di.fc.ul.pt/~jguerreiro/
   url: https://www.di.fc.ul.pt/~jguerreiro/
   institution: LASIGE, Universidade de Lisboa
-  info: Ph.D., Assistant Professor
+  info: Ph.D., Associate Professor
   links:
     - name: web
       url: https://www.di.fc.ul.pt/~jguerreiro/
@@ -924,7 +924,7 @@ rsilva:
 igil:
     name: "Inês Gil"
     photo: igil.jpg
-    info: "MSc Student"
+    info: "PhD Student"
     links:
         - name: email
           url: fc62567@alunos.fc.ul.pt
