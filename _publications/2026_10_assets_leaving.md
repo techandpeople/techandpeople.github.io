@@ -25,7 +25,7 @@ pdf: "../downloads/2026_assets_leaving.pdf"
 
  # people associated with the publication
 people:
-  - frocha
+  - fsr
   - bnogueira
   - ineto
   - tjvg
