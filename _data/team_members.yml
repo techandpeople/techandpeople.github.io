@@ -22,6 +22,7 @@ members:
   - ggouveia
   - hferreira
   - jpereira
+  - matomas
   - memauz
   - mborges
   - mmartins
@@ -1058,3 +1059,13 @@ dfreitas:
           url: dfreitas@lasige.di.fc.ul.pt
         - name: linkedin
           url: https://www.linkedin.com/in/daniel-freitas-778b1115/
+
+matomas:
+    name: "Mariana Tomás"
+    photo: matomas.jpeg
+    info: "MSc Student"
+    links:
+        - name: email
+          url: matomas@lasige.di.fc.ul.pt
+        - name: linkedin
+          url: www.linkedin.com/in/mariana-tomás-41b5142b0
