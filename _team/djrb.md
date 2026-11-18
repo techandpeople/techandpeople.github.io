@@ -9,12 +9,10 @@ layout: bio
 code: djrb
 title: "Diogo Branco"
 photo: djrb.jpg
-info: "Ph.D., Invited Assistant Professor"
+info: "Assistant Professor"
 links:
-        - name: web
-          url: https://web.lasige.di.fc.ul.pt/~dbranco/
         - name: email
-          url: djbranco@fc.ul.pt
+          url: djbranco@ciencias.ulisboa.pt
         - name: scholar
           url: https://scholar.google.pt/citations?user=cFuxl7EAAAAJ
         - name: twitter
